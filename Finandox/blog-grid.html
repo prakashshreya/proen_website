@@ -1,568 +1,1104 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Insights - PROEN Consulting Services - Contract Lifecycle Management</title>
-<meta name="description" content="Browse PROEN Consulting Services Insights: CLM strategy, digital transformation, paralegal services, staff augmentation and contract lifecycle management perspectives.">
-<!-- Stylesheets -->
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
-<!-- Responsive File -->
-<link href="assets/css/responsive.css" rel="stylesheet">
-<!-- Color File -->
-<link href="assets/css/color.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <title>PROEN + Icertis | Strategic Partnership</title>
 
-<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- ============================================
+         THEME ASSETS (global site header/footer + nav
+         behavior depend on these — same files already
+         used sitewide, e.g. on index.html / about.html).
+         Paths assumed to match your existing site structure;
+         adjust if your asset folder is named differently.
+    ============================================= -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/owl.css" rel="stylesheet">
+    <link href="assets/css/fancybox.min.css" rel="stylesheet">
 
-<!-- Responsive -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- ============================================
+         PAGE-SPECIFIC CSS
+         Scoped entirely under .proen-announcement so it
+         cannot affect, or be affected by, the theme CSS
+         above (which styles the header/footer only).
+    ============================================= -->
+    <link href="assets/css/proen-announcement.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-<div class="page-wrapper">
     <!-- Preloader -->
     <div class="loader-wrap">
-        <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
+        <div class="preloader">
+            <div class="preloader-close">Preloader Close</div>
+        </div>
         <div class="layer layer-one"><span class="overlay"></span></div>
-        <div class="layer layer-two"><span class="overlay"></span></div>        
-        <div class="layer layer-three"><span class="overlay"></span></div>        
+        <div class="layer layer-two"><span class="overlay"></span></div>
+        <div class="layer layer-three"><span class="overlay"></span></div>
     </div>
 
     <!-- Main Header -->
-<header class="main-header">
-    <!-- Header Top -->
-    <div class="header-top">
-        <div class="auto-container">
-            <div class="inner">
-                <div class="top-left">
-                    <!--Logo-->
-                    <div class="logo-box">
-                        <!-- REPLACE: official PROEN logo (SVG/PNG, transparent bg) -->
-                        <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt="PROEN Consulting Services logo"></a></div>
-                    </div>
-                </div>
-
-                <div class="top-middile">
-                    <div class="contact-info">
-                        <div class="single-info">
-                            <div class="icon-box"><i class="flaticon-call-1"></i></div>
-                            <div class="text">Phone Number</div>
-                            <h4><a href="tel:+917483323205">+91 7483 323 205</a></h4>
-                        </div>
-                        <div class="single-info">
-                            <div class="icon-box"><i class="flaticon-email-4"></i></div>
-                            <div class="text">Email Address</div>
-                            <h4><a href="mailto:contactus@proen.co.in">contactus@proen.co.in</a></h4>
+    <header class="main-header">
+        <!-- Header Top -->
+        <div class="header-top" style="background-color: #f0eeee;">
+            <div class="auto-container">
+                <div class="inner">
+                    <div class="top-left">
+                        <!--Logo-->
+                        <div class="logo-box">
+                            <!-- REPLACE: official PROEN logo (SVG/PNG, transparent bg) -->
+                            <div class="logo"><a href="index.html"><img src="assets/images/proen-logo.png"
+                                        alt="PROEN Consulting Services logo"></a></div>
                         </div>
                     </div>
-                </div>
 
-                <div class="top-right">
-                    <a href="contact.html" class="theme-btn btn-style-two"><span class="btn-title">Get A Consultation</span></a>
+                    <div class="top-middile">
+                        <div class="contact-info">
+                            <div class="single-info">
+                                <div class="icon-box" style="color: rgb(7, 20, 212);"><i class="flaticon-call-1"></i></div>
+                                <div class="text" style="color: rgb(7, 20, 212);">Phone Number</div>
+                                <h4><a href="tel:+917483323205" style="color: rgb(7, 20, 212);">+91 7483 323 205</a></h4>
+                            </div>
+                            <div class="single-info">
+                                <div class="icon-box"><i class="flaticon-email-4" style="color: rgb(7, 20, 212);"></i></div>
+                                <div class="text" style="color: rgb(7, 20, 212);">Email Address</div>
+                                <h4><a href="mailto:contactus@proen.co.in" style="color: rgb(7, 20, 212);">contactus@proen.co.in</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="top-right" >
+                        <a href="contact.html" class="theme-btn btn-style-two" style="color: rgb(7, 20, 212);"><span class="btn-title" >Get A
+                                Consultation</span></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Header Upper -->
-    <div class="header-upper">
-        <div class="auto-container">
-            <div class="inner-container">
-                <!--Nav Box-->
-                <div class="nav-outer clearfix">
-                    <!--Mobile Navigation Toggler-->
-                    <div class="mobile-nav-toggler"><span class="icon fal fa-bars"></span></div>
+        <!-- Header Upper -->
+        <div class="header-upper" style="background-color: #ec8805;">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <!--Nav Box-->
+                    <div class="nav-outer clearfix">
+                        <!--Mobile Navigation Toggler-->
+                        <div class="mobile-nav-toggler"><span class="icon fal fa-bars"></span></div>
 
+                        <!-- Main Menu -->
+                        <nav class="main-menu navbar-expand-md navbar-light">
+                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="dropdown"><a href="services-1.html">Services</a>
+                                        <ul>
+                                            <li><a href="services-details.html">Digital Transformation</a></li>
+                                            <li><a href="services-1.html">Consultation on CLM Implementation</a>
+                                            </li>
+                                            <li><a href="services-2.html">Paralegal Service</a></li>
+                                            <li><a href="services-details.html">Technology Development</a></li>
+                                            <li><a href="services-1.html">Managed Services</a></li>
+                                            <li><a href="services-2.html">Staff Augmentation</a></li>
+                                            <li><a href="services-details.html">Data Extraction as a Service</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="portfolio-1.html">Case Studies</a>
+                                        <ul>
+                                            <li><a href="portfolio-1.html">Client Success Stories</a></li>
+                                            <li><a href="portfolio-2.html">Industries We Serve</a></li>
+                                            <li><a href="portfolio-details.html">Case Study Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="blog-grid.html">Announcement</a>
+                                    </li>
+                                    <li class="dropdown"><a href="about.html">About Us</a>
+                                        <ul>
+                                            <li><a href="about.html">Who We Are</a></li>
+                                            <li><a href="team.html">Leadership Team</a></li>
+                                            <li><a href="faq.html">ISO Certified</a></li>
+                                            <li><a href="careers.html">Careers</a></li>
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- Main Menu End-->
+
+                        <ul class="social-links clearfix">
+                            <li><a href="https://facebook.com/PROEN-108742391902817" target="_blank"
+                                    rel="noopener"><span class="fab fa-facebook-f"></span></a></li>
+                            <li><a href="https://twitter.com/Proen05540198" target="_blank" rel="noopener"><span
+                                        class="fab fa-twitter"></span></a></li>
+                            <li><a href="https://linkedin.com/company/proen-clm" target="_blank" rel="noopener"><span
+                                        class="fab fa-linkedin-in"></span></a></li>
+                            <li><a href="https://instagram.com/proenconsultingservices" target="_blank"
+                                    rel="noopener"><span class="fab fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+
+        <!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="auto-container clearfix">
+                <!--Logo-->
+                <div class="logo pull-left">
+                    <!-- REPLACE: official PROEN logo (light/sticky variant) -->
+                    <a href="index.html" title="PROEN Consulting Services"><img src="assets/images/sticky-logo.png"
+                            alt="PROEN Consulting Services logo" title="PROEN Consulting Services"></a>
+                </div>
+                <!--Right Col-->
+                <div class="pull-right">
                     <!-- Main Menu -->
-                    <nav class="main-menu navbar-expand-md navbar-light">
-                        <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                            <ul class="navigation clearfix">
-                                <li><a href="index.html">Home</a></li>
-                                <li class="dropdown"><a href="about.html">About Us</a>
-                                    <ul>
-                                        <li><a href="about.html">Who We Are</a></li>
-                                        <li><a href="team.html">Leadership Team</a></li>
-                                        <li><a href="faq.html">ISO Certified</a></li>
-                                        <li><a href="careers.html">Careers</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="services-1.html">Services</a>
-                                    <ul>
-                                        <li><a href="services-details.html">Digital Transformation</a></li>
-                                        <li><a href="services-1.html">Consultation on CLM Implementation</a></li>
-                                        <li><a href="services-2.html">Paralegal Service</a></li>
-                                        <li><a href="services-details.html">Technology Development</a></li>
-                                        <li><a href="services-1.html">Managed Services</a></li>
-                                        <li><a href="services-2.html">Staff Augmentation</a></li>
-                                        <li><a href="services-details.html">Data Extraction as a Service</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="product-details.html">Products</a>
-                                    <ul>
-                                        <li><a href="product-details.html">Contract Diligence</a></li>
-                                        <li><a href="shop.html">CLM Resource Library</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="portfolio-1.html">Case Studies</a>
-                                    <ul>
-                                        <li><a href="portfolio-1.html">Client Success Stories</a></li>
-                                        <li><a href="portfolio-2.html">Industries We Serve</a></li>
-                                        <li><a href="portfolio-details.html">Case Study Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="blog-grid.html">Insights</a>
-                                    <ul>
-                                        <li><a href="blog-grid.html">Insights Grid</a></li>
-                                        <li><a href="blog-standard.html">Insights List</a></li>
-                                        <li><a href="blog-details.html">Insight Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                    <!-- Main Menu End-->
+                    <nav class="main-menu clearfix">
+                        <!--Keep This Empty / Menu will come through Javascript-->
+                    </nav><!-- Main Menu End-->
+                </div>
+            </div>
+        </div><!-- End Sticky Menu -->
 
-                    <ul class="social-links clearfix">
-                        <li><a href="https://facebook.com/PROEN-108742391902817" target="_blank" rel="noopener"><span class="fab fa-facebook-f"></span></a></li>
-                        <li><a href="https://twitter.com/Proen05540198" target="_blank" rel="noopener"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="https://linkedin.com/company/proen-clm" target="_blank" rel="noopener"><span class="fab fa-linkedin-in"></span></a></li>
-                        <li><a href="https://instagram.com/proenconsultingservices" target="_blank" rel="noopener"><span class="fab fa-instagram"></span></a></li>
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
+
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png"
+                            alt="PROEN Consulting Services logo" title="PROEN Consulting Services"></a></div>
+                <div class="menu-outer">
+                    <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                </div>
+                <!--Social Links-->
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="https://twitter.com/Proen05540198" target="_blank" rel="noopener"><span
+                                    class="fab fa-twitter"></span></a></li>
+                        <li><a href="https://facebook.com/PROEN-108742391902817" target="_blank" rel="noopener"><span
+                                    class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="https://linkedin.com/company/proen-clm" target="_blank" rel="noopener"><span
+                                    class="fab fa-linkedin-in"></span></a></li>
+                        <li><a href="https://instagram.com/proenconsultingservices" target="_blank" rel="noopener"><span
+                                    class="fab fa-instagram"></span></a></li>
                     </ul>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!--End Header Upper-->
+            </nav>
+        </div><!-- End Mobile Menu -->
+    </header>
+    <!-- End Main Header -->
 
-    <!-- Sticky Header  -->
-    <div class="sticky-header">
-        <div class="auto-container clearfix">
-            <!--Logo-->
-            <div class="logo pull-left">
-                <!-- REPLACE: official PROEN logo (light/sticky variant) -->
-                <a href="index.html" title="PROEN Consulting Services"><img src="assets/images/sticky-logo.png" alt="PROEN Consulting Services logo" title="PROEN Consulting Services"></a>
-            </div>
-            <!--Right Col-->
-            <div class="pull-right">
-                <!-- Main Menu -->
-                <nav class="main-menu clearfix">
-                    <!--Keep This Empty / Menu will come through Javascript-->
-                </nav><!-- Main Menu End-->
-            </div>
-        </div>
-    </div><!-- End Sticky Menu -->
 
-    <!-- Mobile Menu  -->
-    <div class="mobile-menu">
-        <div class="menu-backdrop"></div>
-        <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
-        <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png" alt="PROEN Consulting Services logo" title="PROEN Consulting Services"></a></div>
-            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-            <!--Social Links-->
-            <div class="social-links">
-                <ul class="clearfix">
-                    <li><a href="https://twitter.com/Proen05540198" target="_blank" rel="noopener"><span class="fab fa-twitter"></span></a></li>
-                    <li><a href="https://facebook.com/PROEN-108742391902817" target="_blank" rel="noopener"><span class="fab fa-facebook-square"></span></a></li>
-                    <li><a href="https://linkedin.com/company/proen-clm" target="_blank" rel="noopener"><span class="fab fa-linkedin-in"></span></a></li>
-                    <li><a href="https://instagram.com/proenconsultingservices" target="_blank" rel="noopener"><span class="fab fa-instagram"></span></a></li>
-                </ul>
-            </div>
-        </nav>
-    </div><!-- End Mobile Menu -->
-</header>
-<!-- End Main Header -->
+    <div class="proen-announcement">
 
-<!--Search Popup-->
-<div id="search-popup" class="search-popup">
-    <div class="close-search theme-btn"><span class="flaticon-cancel"></span></div>
-    <div class="popup-inner">
-        <div class="overlay-layer"></div>
-        <div class="search-form">
-            <form method="post" action="index.html">
-                <div class="form-group">
-                    <fieldset>
-                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
-                        <input type="submit" value="Search Now!" class="theme-btn">
-                    </fieldset>
-                </div>
-            </form>
-            <br>
-            <h3>Recent Search Keywords</h3>
-            <ul class="recent-searches">
-                <li><a href="#">CLM</a></li>
-                <li><a href="#">Contract Diligence</a></li>
-                <li><a href="#">Digital Transformation</a></li>
-                <li><a href="#">Managed Services</a></li>
-                <li><a href="#">Careers</a></li>
-            </ul>
-        </div>
+        <!-- ============================
+            HERO SECTION
+    ============================== -->
 
-    </div>
-</div>
+        <section class="banner-section pt-120 pb-80" style="margin-bottom: -20px;">
 
-    <!-- Page Banner Section -->
-    <section class="page-banner">
-        <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
-        <div class="bottom-rotten-curve alternate"></div>
+            <div class="auto-container">
 
-        <div class="auto-container">
-            <h1>Insights</h1>
-            <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
-                <li class="active">Insights</li>
-            </ul>
-        </div>
+                <div class="row align-items-center">
 
-    </section>
-    <!--End Banner Section -->
+                    <!-- LEFT -->
 
-    <!-- NOTE: placeholder Insights content — replace with PROEN's real blog posts when available -->
-    <!-- News Section -->
-    <section class="news-section">
-        <div class="auto-container">
-            <div class="row">
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box">
-                        <!-- suggested cover image, swap for final art -->
-                        <div class="image"><a href="blog-details.html"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-1.jpg" alt="5 Signs Your Organization Needs a CLM Platform"></a></div>
-                        <div class="lower-content">
-                            <div class="category">CLM Strategy</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>12th January 2026</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By PROEN Team</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">5 Signs Your Organization <br>Needs a CLM Platform</a></h3>
-                            <div class="text">From missed renewal deadlines to scattered repositories, here are the signals that you've outgrown manual contract management.</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box">
-                        <!-- suggested cover image, swap for final art -->
-                        <div class="image"><a href="blog-details.html"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-2.jpg" alt="Buy-Side vs Sell-Side Contract Management, Explained"></a></div>
-                        <div class="lower-content">
-                            <div class="category">CLM Strategy</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>24th November 2025</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By PROEN Team</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">Buy-Side vs Sell-Side Contract <br>Management, Explained</a></h3>
-                            <div class="text">Procurement and sales agreements carry different risk profiles. Here's how a platform-agnostic CLM approach handles both.</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box">
-                        <!-- suggested cover image, swap for final art -->
-                        <div class="image"><a href="blog-details.html"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-3.jpg" alt="How AI Is Changing Legacy Contract Data Extraction"></a></div>
-                        <div class="lower-content">
-                            <div class="category">Technology</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>3rd February 2026</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By PROEN Team</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">How AI Is Changing Legacy <br>Contract Data Extraction</a></h3>
-                            <div class="text">AI/ML-assisted abstraction is pushing extraction accuracy past 98% while cutting digitization time for legacy contracts.</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box">
-                        <!-- suggested cover image, swap for final art -->
-                        <div class="image"><a href="blog-details.html"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-12.jpg" alt="What a Good Paralegal Partner Should Do For Your Legal Team"></a></div>
-                        <div class="lower-content">
-                            <div class="category">Paralegal Services</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>18th October 2025</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By PROEN Team</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">What a Good Paralegal Partner <br>Should Do For Your Legal Team</a></h3>
-                            <div class="text">Beyond document review, an effective paralegal partner supports clause creation, redlining and legacy data abstraction.</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box">
-                        <!-- suggested cover image, swap for final art -->
-                        <div class="image"><a href="blog-details.html"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-13.jpg" alt="Staff Augmentation vs Full-Time Hiring for CLM Projects"></a></div>
-                        <div class="lower-content">
-                            <div class="category">Staff Augmentation</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>9th December 2025</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By PROEN Team</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">Staff Augmentation vs Full-Time <br>Hiring for CLM Projects</a></h3>
-                            <div class="text">When a CLM rollout needs specialized skills fast, augmenting your team can be more cost-effective than a full-time hire.</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box">
-                        <!-- suggested cover image, swap for final art -->
-                        <div class="image"><a href="blog-details.html"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-14.jpg" alt="Inside PROEN's 4-Phase Digital Transformation Methodology"></a></div>
-                        <div class="lower-content">
-                            <div class="category">Digital Transformation</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>30th January 2026</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By PROEN Team</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">Inside PROEN's 4-Phase Digital <br>Transformation Methodology</a></h3>
-                            <div class="text">Digital Strategy, Business Model, Digital Enablers, Delivery — how PROEN structures a CLM-focused transformation engagement.</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box">
-                        <!-- suggested cover image, swap for final art -->
-                        <div class="image"><a href="blog-details.html"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-15.jpg" alt="ISO Certification and Why It Matters for Your CLM Vendor"></a></div>
-                        <div class="lower-content">
-                            <div class="category">Governance</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>15th September 2025</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By PROEN Team</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">ISO Certification and Why It <br>Matters for Your CLM Vendor</a></h3>
-                            <div class="text">ISO certification signals a documented, auditable commitment to quality that belongs on your CLM vendor checklist.</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box">
-                        <!-- suggested cover image, swap for final art -->
-                        <div class="image"><a href="blog-details.html"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-16.jpg" alt="Contract Renewals: Building a Repository That Prevents Missed Deadlines"></a></div>
-                        <div class="lower-content">
-                            <div class="category">Managed Services</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>6th March 2026</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By PROEN Team</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">Contract Renewals: Building a <br>Repository That Prevents Missed Deadlines</a></h3>
-                            <div class="text">Milestone tracking, automated alerts and a searchable repository keep renewal dates from slipping through the cracks.</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box">
-                        <!-- suggested cover image, swap for final art -->
-                        <div class="image"><a href="blog-details.html"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-17.jpg" alt="Choosing Between Point Solutions and a Platform-Agnostic CLM Partner"></a></div>
-                        <div class="lower-content">
-                            <div class="category">Consultation</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>20th April 2026</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By PROEN Team</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">Choosing Between Point Solutions <br>and a Platform-Agnostic CLM Partner</a></h3>
-                            <div class="text">Not every CLM engagement needs a full platform swap. Here's how to evaluate the right fit for your maturity stage.</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box">
-                        <!-- suggested cover image, swap for final art -->
-                        <div class="image"><a href="blog-details.html"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-18.jpg" alt="5 Signs Your Organization Needs a CLM Platform"></a></div>
-                        <div class="lower-content">
-                            <div class="category">CLM Strategy</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>5th May 2025</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By PROEN Team</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">5 Signs Your Organization <br>Needs a CLM Platform</a></h3>
-                            <div class="text">From missed renewal deadlines to scattered repositories, here are the signals that you've outgrown manual contract management.</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box">
-                        <!-- suggested cover image, swap for final art -->
-                        <div class="image"><a href="blog-details.html"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-19.jpg" alt="Buy-Side vs Sell-Side Contract Management, Explained"></a></div>
-                        <div class="lower-content">
-                            <div class="category">CLM Strategy</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>14th June 2025</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By PROEN Team</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">Buy-Side vs Sell-Side Contract <br>Management, Explained</a></h3>
-                            <div class="text">Procurement and sales agreements carry different risk profiles. Here's how a platform-agnostic CLM approach handles both.</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box">
-                        <!-- suggested cover image, swap for final art -->
-                        <div class="image"><a href="blog-details.html"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-20.jpg" alt="How AI Is Changing Legacy Contract Data Extraction"></a></div>
-                        <div class="lower-content">
-                            <div class="category">Technology</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>22nd July 2025</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By PROEN Team</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">How AI Is Changing Legacy <br>Contract Data Extraction</a></h3>
-                            <div class="text">AI/ML-assisted abstraction is pushing extraction accuracy past 98% while cutting digitization time for legacy contracts.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <div class="col-lg-6">
 
-	<!-- Main Footer -->
-<footer class="main-footer">
-	<div class="auto-container">
-    	<!--Widgets Section-->
-        <div class="widgets-section">
-        	<div class="row clearfix">
+                        <div class="hero-content">
 
-                <!--Column-->
-                <div class="column col-lg-4">
-					<div class="footer-widget logo-widget">
-                    	<div class="widget-content">
-                            <!-- REPLACE: official PROEN logo (footer/light variant) -->
-                            <div class="footer-logo">
-                                <a href="index.html"><img class="lazy-image" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/footer-logo.png" alt="PROEN Consulting Services logo" /></a>
+                            <span class="sub-title">
+
+                                <i class="fas fa-handshake"></i>
+
+                                Strategic Partnership
+
+                            </span>
+
+                            <h1 class="mb-4">
+
+                                Maximize the Value of
+                                <span>Icertis Contract Intelligence</span>
+                                with PROEN
+
+                            </h1>
+
+                            <p class="mb-4">
+
+                                PROEN is a strategic partner of Icertis,
+                                delivering end-to-end Contract Lifecycle
+                                Management consulting, implementation,
+                                integration, migration and managed services.
+
+                                We help organizations modernize contract
+                                management, improve compliance, reduce
+                                risk and unlock greater business value.
+
+                            </p>
+
+
+
+                        </div>
+
+                    </div>
+
+                    <!-- RIGHT -->
+
+                    <div class="col-lg-6">
+
+                        <div class="proen-hero-image-wrapper">
+
+                            <div class="proen-image-glow"></div>
+
+                            <div class="proen-image-card">
+
+                                <img src="assets/images/announcement/proen-icertis-banner.jpg" class="proen-hero-image"
+                                    alt="PROEN + Icertis Partnership">
+
                             </div>
-                            <div class="text">PROEN Consulting Services delivers platform-agnostic Contract Lifecycle Management — from digital transformation and implementation consulting to managed services, staff augmentation and legacy data extraction.</div>
-                            <ul class="social-links clearfix">
-                                <li><a href="https://facebook.com/PROEN-108742391902817" target="_blank" rel="noopener"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="https://twitter.com/Proen05540198" target="_blank" rel="noopener"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="https://linkedin.com/company/proen-clm" target="_blank" rel="noopener"><span class="fab fa-linkedin-in"></span></a></li>
-                                <li><a href="https://instagram.com/proenconsultingservices" target="_blank" rel="noopener"><span class="fab fa-instagram"></span></a></li>
-                            </ul>
-                        </div>
-					</div>
-				</div>
 
-				<!--Column-->
-                <div class="column col-lg-4">
-					<div class="footer-widget links-widget">
-						<div class="widget-content">
-							<h3>Links</h3>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="services-1.html">Services</a></li>
-                                        <li><a href="portfolio-1.html">Case Studies</a></li>
-                                        <li><a href="team.html">Leadership Team</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul>
-                                        <li><a href="blog-grid.html">Insights</a></li>
-                                        <li><a href="careers.html">Careers</a></li>
-                                        <li><a href="product-details.html">Contract Diligence</a></li>
-                                        <li><a href="faq.html">FAQs</a></li>
-                                    </ul>
+
+                            <div class="proen-floating-badge">
+
+                                <i class="fas fa-handshake"></i>
+
+                                Strategic CLM Partnership
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================
+          PARTNERSHIP OVERVIEW
+    ============================== -->
+
+        <section id="overview" class="about-section">
+
+            <div class="auto-container">
+
+                <div class="sec-title text-center">
+
+                    <div class="sub-title">PROEN + Icertis</div>
+
+                    <h2>Enabling Smarter Contracting Through Contract Intelligence</h2>
+
+                </div>
+
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6">
+
+                        <img src="assets/images/announcement/clm-overview.png" class="img-fluid rounded shadow"
+                            alt="CLM">
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="content">
+
+                            <p>
+
+                                Our partnership combines the power of the
+                                <strong>Icertis Contract Intelligence Platform</strong>
+                                with PROEN's functional consulting,
+                                technical consulting, solution architecture,
+                                and Contract Lifecycle Management expertise.
+
+                            </p>
+
+                            <p>
+
+                                Whether you're beginning your CLM journey
+                                or optimizing an existing Icertis
+                                implementation, PROEN delivers
+                                end-to-end services that accelerate
+                                user adoption and maximize business value.
+
+                            </p>
+
+                            <p>
+
+                                We help organizations transform contracts
+                                into strategic business assets by
+                                improving governance, reducing risks,
+                                enabling AI-driven insights and
+                                streamlining business operations.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+         WHY CUSTOMERS CHOOSE PROEN
+    ========================================== -->
+        <section class="services-section">
+            <div class="auto-container">
+
+                <div class="sec-title text-center">
+                    <div class="sub-title" style="text-align: center;">Why Customers Choose PROEN</div>
+                    <h2 style="color: white;">Delivering More Than Technology</h2>
+                    <div class="text" style="color: white;">
+                        We combine deep Contract Lifecycle Management expertise with
+                        business consulting, implementation excellence, and continuous
+                        customer success.
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-block-one">
+                            <div class="inner-box">
+                                <div class="icon"><i class="fas fa-award"></i></div>
+                                <h4>Boutique CLM Expertise</h4>
+                                <div class="text">
+                                    Specialized Contract Lifecycle Management consultants
+                                    delivering personalized engagement and tailored
+                                    business solutions.
                                 </div>
                             </div>
-						</div>
-					</div>
-				</div>
-
-				<!--Column-->
-                <div class="column col-lg-4">
-					<!-- REPLACE: real Instagram feed / office photos -->
-					<div class="footer-widget instagram-widget">
-                        <h3>Follow @proenconsultingservices</h3>
-						<div class="inner-box">
-                            <!-- REPLACE: all 9 tiles below with real Instagram/office photos -->
-                            <div class="wrapper-box">
-                                <div class="image">
-                                    <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-1.jpg" alt="">
-                                    <div class="overlay-link"><a href="assets/images/gallery/gallery-1.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                                </div>
-                                <div class="image">
-                                    <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-2.jpg" alt="">
-                                    <div class="overlay-link"><a href="assets/images/gallery/gallery-2.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                                </div>
-                                <div class="image">
-                                    <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-3.jpg" alt="">
-                                    <div class="overlay-link"><a href="assets/images/gallery/gallery-3.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                                </div>
-                                <div class="image">
-                                    <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-4.jpg" alt="">
-                                    <div class="overlay-link"><a href="assets/images/gallery/gallery-4.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                                </div>
-                                <div class="image">
-                                    <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-5.jpg" alt="">
-                                    <div class="overlay-link"><a href="assets/images/gallery/gallery-5.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                                </div>
-                                <div class="image">
-                                    <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-6.jpg" alt="">
-                                    <div class="overlay-link"><a href="assets/images/gallery/gallery-6.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                                </div>
-                                <div class="image">
-                                    <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-7.jpg" alt="">
-                                    <div class="overlay-link"><a href="assets/images/gallery/gallery-7.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                                </div>
-                                <div class="image">
-                                    <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-8.jpg" alt="">
-                                    <div class="overlay-link"><a href="assets/images/gallery/gallery-8.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                                </div>
-                                <div class="image">
-                                    <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-9.jpg" alt="">
-                                    <div class="overlay-link"><a href="assets/images/gallery/gallery-9.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                                </div>
-                            </div><!-- /.gallery-wrapper -->
                         </div>
-					</div>
-				</div>
+                    </div>
 
-			</div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-block-one">
+                            <div class="inner-box">
+                                <div class="icon"><i class="fas fa-layer-group"></i></div>
+                                <h4>End-to-End Services</h4>
+                                <div class="text">
+                                    Consulting, implementation, integration,
+                                    migration, support, optimization,
+                                    and managed services under one roof.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-		</div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-block-one">
+                            <div class="inner-box">
+                                <div class="icon"><i class="fas fa-briefcase"></i></div>
+                                <h4>Business First Approach</h4>
+                                <div class="text">
+                                    We align technology with your
+                                    business objectives to improve
+                                    efficiency, governance and adoption.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-		<!-- Footer Bottom -->
-		<div class="auto-container">
-        <div class="footer-bottom">
-        	<div class="copyright">&copy; 2026 <a href="index.html">PROEN Consulting Services Pvt. Ltd</a>. All Rights Reserved.</div>
-		</div>
-	</div>
-</footer>
-	
-</div>
-<!--End pagewrapper-->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-block-one">
+                            <div class="inner-box">
+                                <div class="icon"><i class="fas fa-network-wired"></i></div>
+                                <h4>Platform Agnostic</h4>
+                                <div class="text">
+                                    Broad Contract Lifecycle Management expertise
+                                    with specialized Icertis implementation
+                                    capabilities.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fal fa-arrow-circle-up"></span></div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-block-one">
+                            <div class="inner-box">
+                                <div class="icon"><i class="fas fa-users"></i></div>
+                                <h4>Customer Centric Delivery</h4>
+                                <div class="text">
+                                    Collaborative engagement focused on
+                                    measurable business outcomes,
+                                    governance and long-term success.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/bootstrap-select.min.js"></script>
-<script src="assets/js/jquery.fancybox.js"></script>
-<script src="assets/js/isotope.js"></script>
-<script src="assets/js/owl.js"></script>
-<script src="assets/js/appear.js"></script>
-<script src="assets/js/wow.js"></script>
-<script src="assets/js/lazyload.js"></script>
-<script src="assets/js/scrollbar.js"></script>
-<script src="assets/js/TweenMax.min.js"></script>
-<script src="assets/js/script.js"></script>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-block-one">
+                            <div class="inner-box">
+                                <div class="icon"><i class="fas fa-chart-line"></i></div>
+                                <h4>Scalable Delivery</h4>
+                                <div class="text">
+                                    Supporting organizations from
+                                    implementation through continuous
+                                    enhancement and managed services.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================================
+          END TO END SERVICES
+    ========================================== -->
+
+        <section id="services" class="feature-section">
+            <div class="auto-container">
+
+                <div class="sec-title text-center">
+                    <div class="sub-title">Our Services</div>
+                    <h2>End-to-End Icertis Contract Intelligence Services</h2>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature-block">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Consulting</h4>
+                            <p>Business assessment, CLM roadmap and advisory services.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature-block">
+                            <i class="fas fa-cogs"></i>
+                            <h4>Implementation</h4>
+                            <p>Configure Icertis based on your business requirements.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature-block">
+                            <i class="fas fa-plug"></i>
+                            <h4>Integration</h4>
+                            <p>Connect ERP, CRM, HRMS, Procurement and Finance platforms.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature-block">
+                            <i class="fas fa-database"></i>
+                            <h4>Migration</h4>
+                            <p>Secure migration of legacy contracts into Icertis.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature-block">
+                            <i class="fas fa-life-ring"></i>
+                            <h4>Support</h4>
+                            <p>Application support, incident resolution and enhancements.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature-block">
+                            <i class="fas fa-chart-bar"></i>
+                            <h4>Optimization</h4>
+                            <p>Improve adoption, reporting and operational efficiency.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature-block">
+                            <i class="fas fa-user-graduate"></i>
+                            <h4>Training</h4>
+                            <p>Role-based user training and adoption programs.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature-block">
+                            <i class="fas fa-server"></i>
+                            <h4>Managed Services</h4>
+                            <p>Continuous monitoring, maintenance and platform support.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================================
+            BUSINESS OUTCOMES
+    ========================================== -->
+
+        <section class="case-section bg-light">
+            <div class="auto-container">
+
+                <div class="sec-title text-center">
+                    <div class="sub-title">Business Outcomes</div>
+                    <h2>What Organizations Achieve with PROEN</h2>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="icon-box">
+                            <i class="fas fa-bolt"></i>
+                            <h4>Accelerate Contract Lifecycle</h4>
+                            <p>Reduce contract turnaround through automation.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="icon-box">
+                            <i class="fas fa-eye"></i>
+                            <h4>Improve Visibility</h4>
+                            <p>Centralized repository with enterprise-wide visibility.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="icon-box">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Reduce Risk</h4>
+                            <p>Improve compliance and governance across contracts.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="icon-box">
+                            <i class="fas fa-cogs"></i>
+                            <h4>Increase Efficiency</h4>
+                            <p>Automate repetitive business processes.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="icon-box">
+                            <i class="fas fa-users"></i>
+                            <h4>Better Collaboration</h4>
+                            <p>Connect Legal, Procurement, Finance and Sales teams.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="icon-box">
+                            <i class="fas fa-brain"></i>
+                            <h4>AI Powered Insights</h4>
+                            <p>Unlock valuable intelligence from every contract.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================================
+           ICERTIS PLATFORM
+    ========================================== -->
+
+        <section class="about-section">
+            <div class="auto-container">
+
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6">
+
+                        <img src="assets/images/announcement/icertis-dashboard.png" class="img-fluid rounded shadow"
+                            alt="Icertis Dashboard">
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="content">
+
+                            <div class="sec-title">
+
+                                <div class="sub-title">Why Icertis</div>
+
+                                <h2>Contract Intelligence That Powers Enterprise Growth</h2>
+
+                            </div>
+
+                            <p>
+                                Icertis enables organizations to manage every stage
+                                of the contract lifecycle while improving governance,
+                                reducing risk and delivering AI-powered business insights.
+                            </p>
+
+                            <ul class="list-style-one">
+
+                                <li>AI Contract Intelligence</li>
+                                <li>Clause & Template Management</li>
+                                <li>Workflow Automation</li>
+                                <li>Compliance Monitoring</li>
+                                <li>ERP & CRM Integration</li>
+                                <li>Electronic Signature Support</li>
+                                <li>Executive Dashboards</li>
+                                <li>Analytics & Reporting</li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================================
+            INDUSTRIES WE SERVE
+    ========================================== -->
+        <section id="industries" class="services-section bg-light">
+            <div class="auto-container">
+
+                <div class="sec-title text-center">
+                    <div class="sub-title">Industries We Serve</div>
+                    <h2>Helping Organizations Across Every Industry</h2>
+                    <div class="text">
+                        Our Contract Lifecycle Management expertise enables organizations
+                        across industries to simplify contracting, reduce risk, and
+                        accelerate business performance.
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="industry-card">
+                            <i class="fas fa-industry"></i>
+                            <h5>Manufacturing</h5>
+                            <p>Supplier and vendor contract governance at scale.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="industry-card">
+                            <i class="fas fa-heartbeat"></i>
+                            <h5>Healthcare</h5>
+                            <p>Compliance-first agreements across providers and payers.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="industry-card">
+                            <i class="fas fa-university"></i>
+                            <h5>Banking & Finance</h5>
+                            <p>Regulatory-ready contracting and risk management.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="industry-card">
+                            <i class="fas fa-shopping-cart"></i>
+                            <h5>Retail</h5>
+                            <p>Faster vendor onboarding and category agreements.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="industry-card">
+                            <i class="fas fa-laptop-code"></i>
+                            <h5>Technology</h5>
+                            <p>Scalable SaaS, licensing and partner contracts.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="industry-card">
+                            <i class="fas fa-gavel"></i>
+                            <h5>Legal Services</h5>
+                            <p>Clause libraries and playbooks built for counsel.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="industry-card">
+                            <i class="fas fa-building"></i>
+                            <h5>Government</h5>
+                            <p>Transparent, auditable public sector contracting.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="industry-card">
+                            <i class="fas fa-globe"></i>
+                            <h5>Global Enterprises</h5>
+                            <p>Multi-entity, multi-region contract standardization.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================================
+           IMPLEMENTATION JOURNEY
+    ========================================== -->
+
+        <section class="about-section">
+            <div class="auto-container">
+
+                <div class="sec-title text-center">
+                    <div class="sub-title">Our Delivery Approach</div>
+                    <h2>Your CLM Transformation Journey</h2>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="timeline-item">
+                            <i class="fas fa-search"></i>
+                            <h5>Discover</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="timeline-item">
+                            <i class="fas fa-clipboard-list"></i>
+                            <h5>Assess</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="timeline-item">
+                            <i class="fas fa-pencil-ruler"></i>
+                            <h5>Design</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="timeline-item">
+                            <i class="fas fa-cogs"></i>
+                            <h5>Implement</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="timeline-item">
+                            <i class="fas fa-link"></i>
+                            <h5>Integrate</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="timeline-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h5>Optimize</h5>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================================
+           CONTACT
+    ========================================== -->
+
+        <section id="contact" class="contact-section">
+
+            <div class="auto-container">
+
+                <div class="sec-title text-center">
+
+                    <div class="sub-title">Get Started Today</div>
+
+                    <h2>Connect With Our CLM Specialists</h2>
+
+                    <div class="text">
+
+                        Discover how PROEN can help maximize the value
+                        of your Icertis investment.
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4">
+
+                        <div class="contact-card">
+
+                            <i class="fas fa-phone-alt"></i>
+
+                            <h4>Call Us</h4>
+
+                            <p>+91 74833 23205</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4">
+
+                        <div class="contact-card">
+
+                            <i class="fas fa-envelope"></i>
+
+                            <h4>Email</h4>
+
+                            <p>contactus@proen.co.in</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4">
+
+                        <div class="contact-card">
+
+                            <i class="fas fa-comments"></i>
+
+                            <h4>Talk to an Expert</h4>
+
+                            <p>Schedule a personalized CLM consultation.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </div><!-- /.proen-announcement -->
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+        <div class="auto-container">
+            <!--Widgets Section-->
+            <div class="widgets-section">
+                <div class="row clearfix">
+
+                    <!--Column-->
+                    <div class="column col-lg-4">
+                        <div class="footer-widget logo-widget">
+                            <div class="widget-content">
+                                <!-- REPLACE: official PROEN logo (footer/light variant) -->
+                                <div class="footer-logo">
+                                    <a href="index.html"><img class="lazy-image" src="assets/images/proen-logo.png"
+                                            data-src="assets/images/proen-logo.png"
+                                            alt="PROEN Consulting Services logo" /></a>
+                                </div>
+                                <div class="text">PROEN Consulting Services delivers platform-agnostic Contract
+                                    Lifecycle Management — from digital transformation and implementation consulting
+                                    to managed services, staff augmentation and legacy data extraction.</div>
+                                <ul class="social-links clearfix">
+                                    <li><a href="https://facebook.com/PROEN-108742391902817" target="_blank"
+                                            rel="noopener"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://twitter.com/Proen05540198" target="_blank" rel="noopener"><span
+                                                class="fab fa-twitter"></span></a></li>
+                                    <li><a href="https://linkedin.com/company/proen-clm" target="_blank"
+                                            rel="noopener"><span class="fab fa-linkedin-in"></span></a></li>
+                                    <li><a href="https://instagram.com/proenconsultingservices" target="_blank"
+                                            rel="noopener"><span class="fab fa-instagram"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Column-->
+                    <div class="column col-lg-4">
+                        <div class="footer-widget links-widget">
+                            <div class="widget-content">
+                                <h3>Links</h3>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="services-1.html">Services</a></li>
+                                            <li><a href="portfolio-1.html">Case Studies</a></li>
+                                            <li><a href="team.html">Leadership Team</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li><a href="blog-grid.html">Insights</a></li>
+                                            <li><a href="careers.html">Careers</a></li>
+                                            <li><a href="product-details.html">Contract Diligence</a></li>
+                                            <li><a href="faq.html">FAQs</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Column-->
+                    <div class="column col-lg-4">
+                        <!-- REPLACE: real Instagram feed / office photos -->
+                        <div class="footer-widget instagram-widget">
+                            <h3>Follow @proenconsultingservices</h3>
+                            <div class="inner-box">
+                                <!-- REPLACE: all 9 tiles below with real Instagram/office photos -->
+                                <div class="wrapper-box">
+                                    <div class="image">
+                                        <img class="lazy-image owl-lazy"
+                                            src="assets/images/resource/image-spacer-for-validation.png"
+                                            data-src="assets/images/gallery/gallery-1.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-1.jpg"
+                                                class="lightbox-image" data-fancybox="gallery"><span
+                                                    class="fa fa-plus"></span></a></div>
+                                    </div>
+                                    <div class="image">
+                                        <img class="lazy-image owl-lazy"
+                                            src="assets/images/resource/image-spacer-for-validation.png"
+                                            data-src="assets/images/gallery/gallery-2.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-2.jpg"
+                                                class="lightbox-image" data-fancybox="gallery"><span
+                                                    class="fa fa-plus"></span></a></div>
+                                    </div>
+                                    <div class="image">
+                                        <img class="lazy-image owl-lazy"
+                                            src="assets/images/resource/image-spacer-for-validation.png"
+                                            data-src="assets/images/gallery/gallery-3.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-3.jpg"
+                                                class="lightbox-image" data-fancybox="gallery"><span
+                                                    class="fa fa-plus"></span></a></div>
+                                    </div>
+                                    <div class="image">
+                                        <img class="lazy-image owl-lazy"
+                                            src="assets/images/resource/image-spacer-for-validation.png"
+                                            data-src="assets/images/gallery/gallery-4.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-4.jpg"
+                                                class="lightbox-image" data-fancybox="gallery"><span
+                                                    class="fa fa-plus"></span></a></div>
+                                    </div>
+                                    <div class="image">
+                                        <img class="lazy-image owl-lazy"
+                                            src="assets/images/resource/image-spacer-for-validation.png"
+                                            data-src="assets/images/gallery/gallery-5.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-5.jpg"
+                                                class="lightbox-image" data-fancybox="gallery"><span
+                                                    class="fa fa-plus"></span></a></div>
+                                    </div>
+                                    <div class="image">
+                                        <img class="lazy-image owl-lazy"
+                                            src="assets/images/resource/image-spacer-for-validation.png"
+                                            data-src="assets/images/gallery/gallery-6.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-6.jpg"
+                                                class="lightbox-image" data-fancybox="gallery"><span
+                                                    class="fa fa-plus"></span></a></div>
+                                    </div>
+                                    <div class="image">
+                                        <img class="lazy-image owl-lazy"
+                                            src="assets/images/resource/image-spacer-for-validation.png"
+                                            data-src="assets/images/gallery/gallery-7.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-7.jpg"
+                                                class="lightbox-image" data-fancybox="gallery"><span
+                                                    class="fa fa-plus"></span></a></div>
+                                    </div>
+                                    <div class="image">
+                                        <img class="lazy-image owl-lazy"
+                                            src="assets/images/resource/image-spacer-for-validation.png"
+                                            data-src="assets/images/gallery/gallery-8.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-8.jpg"
+                                                class="lightbox-image" data-fancybox="gallery"><span
+                                                    class="fa fa-plus"></span></a></div>
+                                    </div>
+                                    <div class="image">
+                                        <img class="lazy-image owl-lazy"
+                                            src="assets/images/resource/image-spacer-for-validation.png"
+                                            data-src="assets/images/gallery/gallery-9.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-9.jpg"
+                                                class="lightbox-image" data-fancybox="gallery"><span
+                                                    class="fa fa-plus"></span></a></div>
+                                    </div>
+                                </div><!-- /.gallery-wrapper -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="auto-container">
+            <div class="footer-bottom">
+                <div class="copyright">&copy; 2026 <a href="index.html">PROEN Consulting Services Pvt. Ltd</a>. All
+                    Rights Reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================
+         THEME JS (required for header nav, sticky
+         header, mobile menu, preloader, and the footer's
+         Instagram gallery lightbox to function).
+         Same script set already used sitewide.
+    ============================================= -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <!-- ============================================
+         SAFETY NET: force-hide the preloader.
+         Your theme's script.js normally does this on
+         window 'load'. This guarantees the page never
+         stays stuck on the loading screen even if any
+         of the JS files above 404 or load slowly —
+         remove this block once you've confirmed the
+         real script.js path above is correct and working.
+    ============================================= -->
+    <script>
+        (function () {
+            function hidePreloader() {
+                var loader = document.querySelector('.loader-wrap');
+                if (loader) { loader.style.display = 'none'; }
+            }
+            window.addEventListener('load', hidePreloader);
+            setTimeout(hidePreloader, 2500); // fallback if 'load' never fires cleanly
+        })();
+    </script>
 
 </body>
+
 </html>

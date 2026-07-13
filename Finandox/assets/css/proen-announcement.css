@@ -1,0 +1,1334 @@
+/*==================================================
+    PROEN + ICERTIS ANNOUNCEMENT PAGE
+    Scoped Enterprise Theme CSS
+    Fully isolated under .proen-announcement
+    so nothing here leaks onto — or gets overridden by —
+    the rest of the site.
+====================================================*/
+
+
+/*==================================================
+ROOT VARIABLES (scoped to the page wrapper only)
+====================================================*/
+
+.proen-announcement{
+
+    --proen-primary:#005BAC;
+    --proen-primary-dark:#00458B;
+    --proen-secondary:#0078D7;
+    --proen-accent:#F7941D;
+
+    --proen-dark:#0F172A;
+    --proen-dark-light:#334155;
+
+    --proen-light:#F8FAFC;
+    --proen-white:#FFFFFF;
+
+    --proen-text:#64748B;
+
+    --proen-border:#E2E8F0;
+
+    --proen-shadow-sm: 0 8px 20px rgba(0,0,0,.05);
+    --proen-shadow-md: 0 18px 45px rgba(0,0,0,.08);
+    --proen-shadow-lg: 0 30px 60px rgba(0,0,0,.12);
+
+    --proen-radius:20px;
+    --proen-transition:.35s ease;
+
+    /* section rhythm — single source of truth so gaps stay consistent */
+    --proen-section-gap:80px;
+    --proen-section-gap-mobile:60px;
+
+    /* reset in case the host page's globals bleed in */
+    all: initial;
+    display:block;
+    width:100%;
+}
+
+
+/*==================================================
+ANNOUNCEMENT WRAPPER
+====================================================*/
+
+.proen-announcement,
+.proen-announcement *,
+.proen-announcement *:before,
+.proen-announcement *:after{
+
+    box-sizing:border-box;
+
+}
+
+.proen-announcement{
+
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    font-family:'Poppins',sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    color:var(--proen-text);
+    background:var(--proen-white);
+
+}
+
+.proen-announcement ul,
+.proen-announcement li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.proen-announcement a{
+
+    transition:.35s ease;
+    text-decoration:none;
+    color:inherit;
+    cursor:pointer;
+
+}
+
+.proen-announcement img{
+
+    max-width:100%;
+    display:block;
+
+}
+
+.proen-announcement h1,
+.proen-announcement h2,
+.proen-announcement h3,
+.proen-announcement h4,
+.proen-announcement h5,
+.proen-announcement h6,
+.proen-announcement p{
+
+    margin:0;
+
+}
+
+/*==================================================
+LAYOUT / GRID
+====================================================*/
+
+.proen-announcement .auto-container{
+
+    max-width:1250px;
+    margin:0 auto;
+    padding:0 20px;
+    position:relative;
+
+}
+
+.proen-announcement .row{
+
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 -15px;
+
+}
+
+.proen-announcement [class*="col-"]{
+
+    padding:0 15px;
+    width:100%;
+
+}
+
+.proen-announcement .col-lg-2{ width:16.6667%; }
+.proen-announcement .col-lg-3{ width:25%; }
+.proen-announcement .col-lg-4{ width:33.3333%; }
+.proen-announcement .col-lg-6{ width:50%; }
+.proen-announcement .col-lg-8{ width:66.6667%; }
+
+.proen-announcement .align-items-center{ align-items:center; }
+.proen-announcement .d-flex{ display:flex; }
+.proen-announcement .flex-wrap{ flex-wrap:wrap; }
+.proen-announcement .text-center{ text-align:center; }
+.proen-announcement .text-lg-right{ text-align:right; }
+
+.proen-announcement .mb-4{ margin-bottom:1.5rem; }
+.proen-announcement .mb-3{ margin-bottom:1rem; }
+.proen-announcement .mr-3{ margin-right:1rem; }
+
+.proen-announcement .pt-120{ padding-top:120px; }
+.proen-announcement .pb-80{ padding-bottom:80px; }
+
+/* Spacing utilities for tightening the gap between two
+   thematically-linked sections (e.g. a title block that
+   leads straight into its supporting content). Using
+   !important is intentional here — these are meant to be
+   the final word on that one edge, same as the inline
+   style they replace. */
+.proen-announcement .pt-0{ padding-top:0!important; }
+.proen-announcement .pb-0{ padding-bottom:0!important; }
+
+.proen-announcement .bg-light{ background:var(--proen-light); }
+.proen-announcement .rounded{ border-radius:var(--proen-radius); }
+.proen-announcement .shadow{ box-shadow:var(--proen-shadow-md); }
+.proen-announcement .img-fluid{ max-width:100%; height:auto; }
+
+
+/*==================================================
+SECTION SPACING
+   NOTE: these are the ONLY rules that set top/bottom
+   padding on sections. Do not add a second padding
+   declaration for the same selector elsewhere in this
+   file (that was the previous bug — a later rule with
+   equal specificity silently overwrote the pt-120/pb-80
+   utility classes on the hero). Use .pt-0 / .pb-0 to
+   adjust an individual edge instead.
+====================================================*/
+
+.proen-announcement .banner-section{
+
+    padding:var(--proen-section-gap) 0;
+    position:relative;
+
+}
+
+.proen-announcement .about-section,
+.proen-announcement .services-section,
+.proen-announcement .feature-section,
+.proen-announcement .case-section,
+.proen-announcement .funfacts-section,
+.proen-announcement .contact-section,
+.proen-announcement .call-to-action{
+
+    padding:var(--proen-section-gap) 0;
+    position:relative;
+
+}
+
+
+/*==================================================
+HERO SECTION
+====================================================*/
+
+.proen-announcement .banner-section{
+
+    background:linear-gradient(135deg,#F8FBFF 0%,#EEF6FD 45%,#FFFFFF 100%);
+    overflow:hidden;
+
+}
+
+.proen-announcement .banner-section::before{
+
+    position:absolute;
+    content:"";
+    right:-120px;
+    top:-120px;
+    width:420px;
+    height:420px;
+    border-radius:50%;
+    background:rgba(0,91,172,.05);
+
+}
+
+.proen-announcement .banner-section::after{
+
+    position:absolute;
+    content:"";
+    left:-100px;
+    bottom:-120px;
+    width:320px;
+    height:320px;
+    border-radius:50%;
+    background:rgba(247,148,29,.06);
+
+}
+
+
+/*==================================================
+HERO CONTENT
+====================================================*/
+
+.proen-announcement .hero-content{
+
+    position:relative;
+    z-index:2;
+
+}
+
+.proen-announcement .hero-content h1{
+
+    font-size:52px;
+    line-height:66px;
+    font-weight:700;
+    color:var(--proen-dark);
+    margin-bottom:26px;
+
+}
+
+.proen-announcement .hero-content h1 span{
+
+    color:var(--proen-primary);
+
+}
+
+.proen-announcement .hero-content p{
+
+    font-size:18px;
+    color:var(--proen-dark-light);
+    line-height:32px;
+    margin-bottom:36px;
+
+}
+
+
+/*==================================================
+SUB TITLE / EYEBROW
+====================================================*/
+
+.proen-announcement .sub-title{
+
+    display:inline-block;
+    padding:10px 22px;
+    border-radius:40px;
+    background:#EAF5FF;
+    color:var(--proen-primary);
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:.02em;
+    margin-bottom:22px;
+
+}
+
+.proen-announcement .sub-title i{
+
+    margin-right:8px;
+
+}
+
+.top-right{
+    display: inline-block;
+    border: 2px solid rgb(109, 106, 106);
+    border-radius: 40px;
+    padding: 2px 2px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.35s ease;
+}
+
+.top-right:hover{
+    background: #F7941D;   /* Orange */
+    border-color: #F7941D;
+    color: #005BAC;        /* Blue text */
+}
+
+.top-right:hover a,
+.top-right:hover span,
+.top-right:hover i{
+    color: #005BAC;
+}
+
+
+/*==================================================
+BUTTONS
+====================================================*/
+
+.proen-announcement .theme-btn{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:16px 34px;
+    border-radius:50px;
+    font-weight:600;
+    font-size:15px;
+    border:none;
+    transition:var(--proen-transition);
+
+}
+
+.proen-announcement .btn-style-one{
+
+    background:var(--proen-primary);
+    color:var(--proen-white);
+    box-shadow:0 18px 40px rgba(0,91,172,.30);
+
+}
+
+.proen-announcement .btn-style-one:hover{
+
+    background:var(--proen-primary-dark);
+    color:var(--proen-white);
+    transform:translateY(-4px);
+
+}
+
+.proen-announcement .btn-style-two{
+
+    background:var(--proen-white);
+    border:2px solid var(--proen-primary);
+    color:var(--proen-primary);
+
+}
+
+.proen-announcement .btn-style-two:hover{
+
+    background:var(--proen-primary);
+    color:var(--proen-white);
+    transform:translateY(-4px);
+
+}
+
+
+/*==================================================
+ HERO IMAGE PREMIUM DESIGN
+====================================================*/
+
+
+.proen-hero-image-wrapper{
+
+    position:relative;
+
+    padding:25px;
+
+    z-index:2;
+
+}
+
+
+/* Background Glow */
+
+.proen-image-glow{
+
+    position:absolute;
+
+    width:320px;
+
+    height:320px;
+
+    right:-40px;
+
+    top:-40px;
+
+    border-radius:50%;
+
+    background:rgba(0,91,172,.12);
+
+    filter:blur(40px);
+
+    z-index:-1;
+
+}
+
+
+/* Image Container */
+
+.proen-image-card{
+
+    position:relative;
+
+    background:#ffffff;
+
+    padding:15px;
+
+    border-radius:30px;
+
+    box-shadow:
+
+    0 30px 70px rgba(0,91,172,.18);
+
+    overflow:hidden;
+
+    transition:.5s ease;
+
+}
+
+
+/* Gradient Border Effect */
+
+.proen-image-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    padding:2px;
+
+    border-radius:30px;
+
+    background:
+
+    linear-gradient(
+
+        135deg,
+
+        #005BAC,
+
+        #0078D7,
+
+        #F7941D
+
+    );
+
+
+    -webkit-mask:
+
+    linear-gradient(#fff 0 0) content-box,
+
+    linear-gradient(#fff 0 0);
+
+
+    -webkit-mask-composite:xor;
+
+    mask-composite:exclude;
+
+}
+
+
+
+/* Image */
+
+.proen-hero-image{
+
+
+    width:100%;
+
+    height:520px;
+
+    object-fit:cover;
+
+    border-radius:22px;
+
+    transition:.5s ease;
+
+
+}
+
+
+
+/* Hover Effect */
+
+.proen-image-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:
+
+    0 45px 90px rgba(0,91,172,.25);
+
+}
+
+
+.proen-image-card:hover .proen-hero-image{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* Floating Badge */
+
+.proen-floating-badge{
+
+
+    position:absolute;
+
+
+    bottom:0;
+
+    left:0;
+
+
+    background:#ffffff;
+
+
+    padding:18px 25px;
+
+
+    border-radius:50px;
+
+
+    box-shadow:
+
+    0 15px 40px rgba(0,0,0,.12);
+
+
+    display:flex;
+
+    align-items:center;
+
+
+    gap:12px;
+
+
+    color:#005BAC;
+
+
+    font-weight:600;
+
+
+    font-size:15px;
+
+
+    animation:proenFloat 3s ease-in-out infinite;
+
+
+}
+
+
+
+.proen-floating-badge i{
+
+    width:38px;
+
+    height:38px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+
+    border-radius:50%;
+
+
+    background:#EAF5FF;
+
+
+    color:#005BAC;
+
+
+}
+
+
+
+/* Floating Animation */
+
+@keyframes proenFloat{
+
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+
+    50%{
+
+        transform:translateY(-10px);
+
+    }
+
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width:991px){
+
+
+    .proen-hero-image{
+
+        height:400px;
+
+    }
+
+
+    .proen-floating-badge{
+
+        position:relative;
+
+        margin-top:20px;
+
+    }
+
+}
+
+
+/*==================================================
+SECTION TITLE
+====================================================*/
+
+.proen-announcement .sec-title{
+
+    margin-bottom:60px;
+
+}
+
+.proen-announcement .sec-title .sub-title{
+
+    margin-bottom:18px;
+
+}
+
+.proen-announcement .sec-title h2{
+
+    font-size:40px;
+    line-height:52px;
+    color:var(--proen-dark);
+    font-weight:700;
+    margin-bottom:22px;
+
+}
+
+.proen-announcement .sec-title .text{
+
+    max-width:780px;
+    margin:0 auto;
+    color:var(--proen-text);
+    font-size:17px;
+    line-height:32px;
+
+}
+
+/* When a title-only section sits directly above its
+   supporting content (pb-0 on this section, pt-0 on the
+   next), the title's own bottom margin still creates a
+   healthy gap — but with a full section padding removed
+   on both sides, tighten it slightly so it doesn't read
+   as two unrelated blocks glued together. */
+.proen-announcement .pb-0 .sec-title{
+    margin-bottom:40px;
+}
+
+
+/*==================================================
+CONTENT TEXT
+====================================================*/
+
+.proen-announcement .content p{
+
+    margin-bottom:20px;
+    font-size:17px;
+    line-height:32px;
+    color:var(--proen-text);
+
+}
+
+
+/*==================================================
+ABOUT IMAGES
+====================================================*/
+
+.proen-announcement .about-section img{
+
+    border-radius:22px;
+    box-shadow:var(--proen-shadow-md);
+    transition:var(--proen-transition);
+
+}
+
+.proen-announcement .about-section img:hover{
+
+    transform:scale(1.03);
+
+}
+
+
+/*==================================================
+CHECK LIST (Icertis feature list)
+====================================================*/
+
+.proen-announcement .list-style-one{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:16px 24px;
+    margin-top:28px;
+
+}
+
+.proen-announcement .list-style-one li{
+
+    position:relative;
+    padding-left:32px;
+    font-size:16px;
+    color:var(--proen-dark-light);
+    font-weight:500;
+
+}
+
+.proen-announcement .list-style-one li:before{
+
+    content:"\f00c";
+    font-family:"Font Awesome 6 Free";
+    font-weight:900;
+    position:absolute;
+    left:0;
+    top:1px;
+    color:#16A34A;
+    font-size:14px;
+
+}
+
+
+/*==================================================
+PREMIUM SERVICE CARDS
+==================================================*/
+
+.proen-announcement .service-block-one{
+    margin-bottom:30px;
+    display:flex;
+}
+
+.proen-announcement .service-block-one .inner-box{
+
+    position:relative;
+    background:var(--proen-white);
+    border-radius:24px;
+    padding:45px 35px;
+    overflow:hidden;
+    border:1px solid var(--proen-border);
+    box-shadow:var(--proen-shadow-sm);
+    transition:all .4s ease;
+
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:flex-start;
+
+    width:100%;
+    min-height:380px;      /* Change to 400px if you want taller cards */
+}
+
+.proen-announcement .service-block-one .icon{
+    width:85px;
+    height:85px;
+    margin-bottom:28px;
+}
+
+.proen-announcement .service-block-one h4{
+    font-size:24px;
+    line-height:34px;
+    margin-bottom:18px;
+}
+
+.proen-announcement .service-block-one .text{
+    font-size:16px;
+    line-height:30px;
+    flex-grow:1;
+}
+
+/*==================================================
+FEATURE CARDS
+==================================================*/
+
+.proen-announcement .feature-block{
+
+    background:var(--proen-white);
+    border-radius:20px;
+    padding:38px 28px;
+    text-align:center;
+    border:1px solid var(--proen-border);
+    box-shadow:var(--proen-shadow-sm);
+    margin-bottom:30px;
+    transition:.35s;
+    height:100%;
+
+}
+
+.proen-announcement .feature-block:hover{
+
+    transform:translateY(-10px);
+    box-shadow:var(--proen-shadow-lg);
+
+}
+
+.proen-announcement .feature-block i{
+
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 26px;
+    font-size:32px;
+    color:var(--proen-white);
+    background:linear-gradient(135deg,var(--proen-primary),var(--proen-secondary));
+
+}
+
+.proen-announcement .feature-block h4{
+
+    font-size:21px;
+    line-height:30px;
+    color:var(--proen-dark);
+    margin-bottom:14px;
+    font-weight:600;
+
+}
+
+.proen-announcement .feature-block h5{
+
+    font-size:17px;
+    color:var(--proen-dark);
+    font-weight:600;
+    margin-bottom:0;
+
+}
+
+.proen-announcement .feature-block p{
+
+    color:var(--proen-text);
+    line-height:28px;
+    font-size:15px;
+
+}
+
+.proen-announcement .feature-block .fa-2x{
+    font-size:1.7em;
+    color:var(--proen-primary);
+}
+
+
+/*==================================================
+COUNTER BLOCKS
+==================================================*/
+
+.proen-announcement .counter-block{
+
+    position:relative;
+    background:var(--proen-white);
+    border-radius:24px;
+    padding:42px 22px;
+    text-align:center;
+    border:1px solid var(--proen-border);
+    box-shadow:var(--proen-shadow-sm);
+    overflow:hidden;
+    transition:.35s;
+
+}
+
+.proen-announcement .counter-block:before{
+
+    position:absolute;
+    content:"";
+    top:0;
+    left:0;
+    width:100%;
+    height:6px;
+    background:linear-gradient(90deg,var(--proen-primary),var(--proen-accent));
+
+}
+
+.proen-announcement .counter-block:hover{
+
+    transform:translateY(-10px);
+    box-shadow:var(--proen-shadow-lg);
+
+}
+
+.proen-announcement .count-box{
+
+    font-size:56px;
+    line-height:1;
+    font-weight:700;
+    color:var(--proen-primary);
+    margin-bottom:18px;
+
+}
+
+.proen-announcement .counter-block h4{
+
+    font-size:19px;
+    line-height:28px;
+    color:var(--proen-dark);
+    font-weight:600;
+
+}
+
+
+/*==================================================
+BUSINESS OUTCOME / GENERIC ICON BOX (case-section only)
+==================================================*/
+
+.proen-announcement .case-section .icon-box{
+
+    padding:42px 28px;
+    background:var(--proen-white);
+    border-radius:20px;
+    text-align:center;
+    border:1px solid var(--proen-border);
+    box-shadow:var(--proen-shadow-sm);
+    transition:.35s;
+    height:100%;
+
+}
+
+.proen-announcement .case-section .icon-box:hover{
+
+    transform:translateY(-10px);
+    box-shadow:var(--proen-shadow-lg);
+
+}
+
+.proen-announcement .case-section .icon-box i{
+
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto 22px;
+    background:#EEF7FF;
+    color:var(--proen-primary);
+    font-size:32px;
+    transition:.35s;
+
+}
+
+.proen-announcement .case-section .icon-box:hover i{
+
+    background:var(--proen-primary);
+    color:var(--proen-white);
+
+}
+
+.proen-announcement .case-section .icon-box h4{
+
+    font-size:22px;
+    line-height:32px;
+    color:var(--proen-dark);
+    margin-bottom:14px;
+    font-weight:600;
+
+}
+
+.proen-announcement .case-section .icon-box p{
+
+    font-size:15px;
+    line-height:28px;
+    color:var(--proen-text);
+
+}
+
+
+/*==================================================
+INDUSTRY CARDS
+==================================================*/
+
+.proen-announcement .industry-card{
+
+    background:var(--proen-white);
+    padding:34px 24px;
+    text-align:center;
+    border-radius:18px;
+    border:1px solid var(--proen-border);
+    box-shadow:var(--proen-shadow-sm);
+    transition:.35s;
+    margin-bottom:30px;
+    height:calc(100% - 30px);
+
+}
+
+.proen-announcement .industry-card:hover{
+
+    transform:translateY(-10px);
+    box-shadow:var(--proen-shadow-md);
+    border-color:rgba(0,91,172,.20);
+
+}
+
+.proen-announcement .industry-card i{
+
+    width:64px;
+    height:64px;
+    border-radius:16px;
+    background:#EEF7FF;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:26px;
+    color:var(--proen-primary);
+    margin:0 auto 20px;
+    transition:.35s;
+
+}
+
+.proen-announcement .industry-card:hover i{
+
+    background:var(--proen-primary);
+    color:var(--proen-white);
+
+}
+
+.proen-announcement .industry-card h5{
+
+    font-size:18px;
+    color:var(--proen-dark);
+    margin-bottom:8px;
+    font-weight:600;
+
+}
+
+.proen-announcement .industry-card p{
+
+    color:var(--proen-text);
+    line-height:24px;
+    font-size:14px;
+
+}
+
+
+/*==================================================
+TIMELINE / DELIVERY APPROACH STEPS
+==================================================*/
+
+.proen-announcement .timeline-item{
+
+    text-align:center;
+    padding:0 8px;
+    margin-bottom:30px;
+
+}
+
+.proen-announcement .timeline-item i{
+
+    width:74px;
+    height:74px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 20px;
+    background:linear-gradient(135deg,var(--proen-primary),var(--proen-secondary));
+    color:var(--proen-white);
+    font-size:1.4em;
+    box-shadow:0 15px 35px rgba(0,91,172,.25);
+
+}
+
+
+/*==================================================
+CALL TO ACTION SECTION
+==================================================*/
+
+.proen-announcement .call-to-action{
+
+    position:relative;
+    overflow:hidden;
+    background:linear-gradient(135deg,var(--proen-primary),var(--proen-secondary));
+
+}
+
+.proen-announcement .call-to-action:before{
+
+    position:absolute;
+    content:"";
+    width:450px;
+    height:450px;
+    border-radius:50%;
+    right:-150px;
+    top:-150px;
+    background:rgba(255,255,255,.08);
+
+}
+
+.proen-announcement .call-to-action:after{
+
+    position:absolute;
+    content:"";
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    left:-120px;
+    bottom:-100px;
+    background:rgba(255,255,255,.06);
+
+}
+
+.proen-announcement .call-to-action h2{
+
+    color:var(--proen-white);
+    font-size:42px;
+    line-height:54px;
+    font-weight:700;
+    margin-bottom:20px;
+    position:relative;
+    z-index:2;
+
+}
+
+.proen-announcement .call-to-action p{
+
+    color:var(--proen-white);
+    opacity:.92;
+    font-size:17px;
+    line-height:32px;
+    position:relative;
+    z-index:2;
+
+}
+
+.proen-announcement .call-to-action .theme-btn{
+
+    position:relative;
+    z-index:2;
+
+}
+
+.proen-announcement .call-to-action .btn-style-two{
+
+    background:transparent;
+    border:2px solid var(--proen-white);
+    color:var(--proen-white);
+
+}
+
+.proen-announcement .call-to-action .btn-style-two:hover{
+
+    background:var(--proen-white);
+    color:var(--proen-primary);
+
+}
+
+
+/*==================================================
+CONTACT SECTION
+==================================================*/
+
+.proen-announcement .contact-section{
+
+    background:var(--proen-light);
+
+}
+
+.proen-announcement .contact-card{
+
+    background:var(--proen-white);
+    border-radius:22px;
+    padding:42px 32px;
+    text-align:center;
+    border:1px solid var(--proen-border);
+    box-shadow:var(--proen-shadow-sm);
+    transition:.35s;
+    height:100%;
+
+}
+
+.proen-announcement .contact-card:hover{
+
+    transform:translateY(-10px);
+    box-shadow:var(--proen-shadow-lg);
+
+}
+
+.proen-announcement .contact-card i{
+
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:#EEF7FF;
+    color:var(--proen-primary);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 22px;
+    font-size:30px;
+
+}
+
+.proen-announcement .contact-card h4{
+
+    font-size:21px;
+    color:var(--proen-dark);
+    margin-bottom:12px;
+    font-weight:600;
+
+}
+
+.proen-announcement .contact-card p{
+
+    color:var(--proen-text);
+    line-height:28px;
+
+}
+
+
+/*==================================================
+RESPONSIVE DESIGN
+==================================================*/
+
+@media only screen and (max-width:1199px){
+
+    .proen-announcement .hero-content h1{ font-size:42px; line-height:54px; }
+    .proen-announcement .sec-title h2{ font-size:34px; line-height:46px; }
+    .proen-announcement .col-lg-2{ width:33.3333%; margin-bottom:30px; }
+
+}
+
+@media only screen and (max-width:991px){
+
+    .proen-announcement .col-lg-3,
+    .proen-announcement .col-lg-4,
+    .proen-announcement .col-lg-6{ width:50%; margin-bottom:20px; }
+
+    .proen-announcement .banner-section .row{ text-align:center; }
+    .proen-announcement .banner-section .col-lg-6:first-child{ margin-bottom:40px; }
+    .proen-announcement .hero-content h1{ font-size:36px; line-height:46px; }
+
+    .proen-announcement .hero-content .d-flex.flex-wrap{ justify-content:center; }
+
+    .proen-announcement .list-style-one{ grid-template-columns:1fr; }
+    .proen-announcement .call-to-action .col-lg-8,
+    .proen-announcement .call-to-action .col-lg-4{ width:100%; text-align:center; }
+    .proen-announcement .call-to-action .text-lg-right{ text-align:center; margin-top:20px; }
+
+}
+
+@media only screen and (max-width:767px){
+
+    .proen-announcement section{ padding:var(--proen-section-gap-mobile) 0!important; }
+    .proen-announcement .banner-section{ padding:40px 0 60px!important; }
+
+    .proen-announcement .hero-content h1{ font-size:30px; line-height:40px; }
+    .proen-announcement .hero-content p{ font-size:16px; line-height:28px; }
+    .proen-announcement .sec-title h2{ font-size:26px; line-height:36px; }
+    .proen-announcement .sec-title{ margin-bottom:40px; }
+
+    .proen-announcement [class*="col-"]{ width:100%; }
+    .proen-announcement .col-lg-2{ margin-bottom:24px; }
+
+    .proen-announcement .theme-btn{ width:100%; margin-bottom:14px; margin-right:0!important; }
+    .proen-announcement .d-flex.flex-wrap{ flex-direction:column; }
+
+}
+
+
+/*==================================================
+FOCUS STATES / ACCESSIBILITY
+==================================================*/
+
+.proen-announcement button:focus-visible,
+.proen-announcement a:focus-visible,
+.proen-announcement input:focus-visible{
+
+    outline:none;
+    box-shadow:0 0 0 4px rgba(0,91,172,.25);
+    border-radius:4px;
+
+}
+
+@media (prefers-reduced-motion: reduce){
+
+    .proen-announcement *{
+        animation:none!important;
+        transition:none!important;
+    }
+
+}
+
+
+/*==================================================
+END OF PROEN ANNOUNCEMENT CSS
+==================================================*/
