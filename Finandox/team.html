@@ -42,7 +42,7 @@
         <!-- Main Header -->
         <header class="main-header">
             <!-- Header Top -->
-            <div class="header-top">
+            <div class="header-top" style="background-color: #FFFFFF; border-bottom: 1px solid #E5E5E5;">
                 <div class="auto-container">
                     <div class="inner">
                         <div class="top-left">
@@ -57,28 +57,36 @@
                         <div class="top-middile">
                             <div class="contact-info">
                                 <div class="single-info">
-                                    <div class="icon-box"><i class="flaticon-call-1"></i></div>
-                                    <div class="text">Phone Number</div>
-                                    <h4><a href="tel:+917483323205">+91 7483 323 205</a></h4>
+                                    <div class="icon-box"><i class="flaticon-call-1" style="color: #1B5EB8;"></i></div>
+                                    <div class="text" style="color: #1B5EB8;">Phone Number</div>
+                                    <h4><a href="tel:+917483323205" style="color: #1B5EB8;">+91 7483 323 205</a></h4>
                                 </div>
                                 <div class="single-info">
-                                    <div class="icon-box"><i class="flaticon-email-4"></i></div>
-                                    <div class="text">Email Address</div>
-                                    <h4><a href="mailto:contactus@proen.co.in">contactus@proen.co.in</a></h4>
+                                    <div class="icon-box" style="color: #1B5EB8;"><i class="flaticon-email-4"></i></div>
+                                    <div class="text" style="color: #1B5EB8;">Email Address</div>
+                                    <h4><a href="mailto:contactus@proen.co.in"
+                                            style="color: #1B5EB8;">contactus@proen.co.in</a></h4>
                                 </div>
                             </div>
                         </div>
 
                         <div class="top-right">
-                            <a href="contact.html" class="theme-btn btn-style-two"><span class="btn-title">Get A
-                                    Consultation</span></a>
+                            <a href="contact.html" class="theme-btn btn-style-two" style="
+          background-color: transparent;
+          color: #1B5EB8;
+          border: 1px solid #808080;
+          transition: all 0.3s ease;
+       " onmouseover="this.style.backgroundColor='#F69323'; this.style.color='#FFFFFF'; this.style.borderColor='#F69323';"
+                                onmouseout="this.style.backgroundColor='transparent'; this.style.color='#1B5EB8'; this.style.borderColor='#808080';">
+                                <span class="btn-title">Contact US</span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Header Upper -->
-            <div class="header-upper">
+            <div class="header-upper" style="background-color: #F69323;">
                 <div class="auto-container">
                     <div class="inner-container">
                         <!--Nav Box-->
@@ -93,23 +101,19 @@
                                         <li><a href="index.html">Home</a></li>
                                         <li class="dropdown"><a href="services-1.html">Services</a>
                                             <ul>
-                                                <li><a href="services-details.html">Digital Transformation</a></li>
+                                                <li><a href="digital-transformation-service.html">Digital
+                                                        Transformation</a></li>
                                                 <li><a href="services-1.html">Consultation on CLM Implementation</a>
                                                 </li>
                                                 <li><a href="services-2.html">Paralegal Service</a></li>
                                                 <li><a href="services-details.html">Technology Development</a></li>
                                                 <li><a href="services-1.html">Managed Services</a></li>
                                                 <li><a href="services-2.html">Staff Augmentation</a></li>
-                                                <li><a href="services-details.html">Data Extraction as a Service</a>
+                                                <li><a href="data-extraction-service.html">Data Extraction as a
+                                                        Service</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <!-- <li class="dropdown"><a href="product-details.html">Products</a>
-                                            <ul>
-                                                <li><a href="product-details.html">Contract Diligence</a></li>
-                                                <li><a href="shop.html">CLM Resource Library</a></li>
-                                            </ul>
-                                        </li> -->
                                         <li class="dropdown"><a href="portfolio-1.html">Case Studies</a>
                                             <ul>
                                                 <li><a href="portfolio-1.html">Client Success Stories</a></li>
@@ -117,6 +121,7 @@
                                                 <li><a href="portfolio-details.html">Case Study Details</a></li>
                                             </ul>
                                         </li>
+                                        <!-- MOVED: Announcement now comes before About Us, to match the reference layout -->
                                         <li class="dropdown"><a href="blog-grid.html">Announcement</a>
                                         </li>
                                         <li class="dropdown"><a href="about.html">About Us</a>
@@ -125,15 +130,15 @@
                                                 <li><a href="team.html">Leadership Team</a></li>
                                                 <li><a href="faq.html">ISO Certified</a></li>
                                                 <li><a href="careers.html">Careers</a></li>
-                                                <li><a href="team.html">Team</a></li>
+
                                                 <li><a href="contact.html">Contact</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </div>
                             </nav>
-                            <!-- Main Menu End-->
 
+                            <!-- NEW: desktop social icon strip, right-aligned in the nav bar -->
                             <ul class="social-links clearfix">
                                 <li><a href="https://facebook.com/PROEN-108742391902817" target="_blank"
                                         rel="noopener"><span class="fab fa-facebook-f"></span></a></li>
@@ -150,23 +155,73 @@
             </div>
             <!--End Header Upper-->
 
-            <!-- Sticky Header  -->
-            <div class="sticky-header">
-                <div class="auto-container clearfix">
-                    <!--Logo-->
-                    <div class="logo pull-left">
-                        <!-- REPLACE: official PROEN logo (light/sticky variant) -->
-                        <a href="index.html" title="PROEN Consulting Services"><img src="assets/images/proen-logo.png" alt="PROEN Consulting Services logo" title="PROEN Consulting Services"></a>
+            <!-- Sticky Header -->
+            <div class="sticky-header" style="
+        background:#ffffff;
+        width:100%;
+        box-shadow:0 3px 15px rgba(0,0,0,0.08);
+     ">
+
+                <div class="auto-container" style="
+            max-width:1400px;
+            margin:0 auto;
+            padding:15px 40px;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+        ">
+
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html" title="PROEN Consulting Services">
+                            <img src="assets/images/proen-logo.png" alt="PROEN Consulting Services"
+                                style="height:48px;width:auto;">
+                        </a>
                     </div>
-                    <!--Right Col-->
-                    <div class="pull-right">
-                        <!-- Main Menu -->
+
+                    <!-- Menu -->
+                    <div style="
+                flex:1;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                margin:0 40px;
+            ">
+
                         <nav class="main-menu clearfix">
-                            <!--Keep This Empty / Menu will come through Javascript-->
-                        </nav><!-- Main Menu End-->
+                            <!-- Menu will come automatically through Javascript -->
+                        </nav>
+
                     </div>
+
+                    <!-- Contact Button -->
+                    <div>
+
+                        <a href="contact.html" style="
+                    background:#F69323;
+                    color:#ffffff;
+                    text-decoration:none;
+                    padding:12px 30px;
+                    border-radius:30px;
+                    font-size:15px;
+                    font-weight:600;
+                    transition:.3s;
+               " onmouseover="
+                    this.style.background='#17375E';
+               " onmouseout="
+                    this.style.background='#F69323';
+               ">
+
+                            Contact Us
+
+                        </a>
+
+                    </div>
+
                 </div>
-            </div><!-- End Sticky Menu -->
+
+            </div>
+            <!-- End Sticky Menu -->
 
             <!-- Mobile Menu  -->
             <div class="mobile-menu">
@@ -174,10 +229,11 @@
                 <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
                 <nav class="menu-box">
-                    <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png"
+                    <div class="nav-logo"><a href="index.html"><img src="assets/images/proen-logo.png"
                                 alt="PROEN Consulting Services logo" title="PROEN Consulting Services"></a></div>
                     <div class="menu-outer">
-                        <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                        <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                    </div>
                     <!--Social Links-->
                     <div class="social-links">
                         <ul class="clearfix">
@@ -195,6 +251,7 @@
             </div><!-- End Mobile Menu -->
         </header>
         <!-- End Main Header -->
+
 
         <!--Search Popup-->
         <div id="search-popup" class="search-popup">
@@ -285,8 +342,8 @@
        <section class="team-section gray-bg" id="team-grid">
     <div class="auto-container">
         <div class="sec-title text-center">
-            <div class="sub-title">Our Team</div>
-            <h2 style="font-size: 50px; text-align: left;">Leadership Team</h2>
+            <div class="sub-title">Management</div>
+            <h2 style="font-size: 50px; text-align: left;">Management Team</h2>
         </div>
         <div class="row">
             <!-- Team Block One -->
@@ -302,10 +359,10 @@
                             <a href="team-details.html">Veeresh Vastrad</a>
                             <span class="designation">– Chief Executive Officer</span>
                         </h3>
-                        <p class="text">A technically adept professional with 17+ years in building innovative solutions in the financial and retail industries. He has been a part of several solutions using the latest Microsoft and Open-source Technologies. Has been a part of the core team in building Financial, Retail, and Process driven products in Oracle India, Target India, and Carvewing Solutions. He has been responsible for providing architecture guidance and implementing solutions in AgriTech, Industrial IoT, Process Automation, and Engineering Services to develop Scalable Solutions.</p>
-                        <ul class="social-links">
+                        <p class="text">A technically adept professional with 25+ years in building innovative solutions in the financial and retail industries. He has been a part of several solutions using the latest Microsoft and Open-source Technologies. Has been a part of the core team in building Financial, Retail, and Process driven products in Oracle India, Target India, and Carvewing Solutions. He has been responsible for providing architecture guidance and implementing solutions in AgriTech, Industrial IoT, Process Automation, and Engineering Services to develop Scalable Solutions.</p>
+                        <!-- <ul class="social-links">
                             <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
@@ -322,10 +379,10 @@
                             <a href="team-details.html">Vishwanatha Swamy K M</a>
                             <span class="designation">– Chief Technology Officer</span>
                         </h3>
-                        <p class="text">A technically adept professional with 17+ years in building innovative solutions in the financial and retail industries. He has been a part of several solutions using the latest Microsoft and Open-source Technologies. Has been a part of the core team in building Financial, Retail, and Process driven products in Oracle India, Target India, and Carvewing Solutions. He has been responsible for providing architecture guidance and implementing solutions in AgriTech, Industrial IoT, Process Automation, and Engineering Services to develop Scalable Solutions.</p>
-                        <ul class="social-links">
+                        <p class="text">A technically adept professional with 19+ years in building innovative solutions in the financial and retail industries. He has been a part of several solutions using the latest Microsoft and Open-source Technologies. Has been a part of the core team in building Financial, Retail, and Process driven products in Oracle India, Target India, and Carvewing Solutions. He has been responsible for providing architecture guidance and implementing solutions in AgriTech, Industrial IoT, Process Automation, and Engineering Services to develop Scalable Solutions.</p>
+                        <!-- <ul class="social-links">
                             <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
@@ -346,9 +403,9 @@
                         <p class="text">
                             Mukund Kagatikar serves as an ‘Advisor’ in setting and scaling the CLM (Contract Lifecycle Management) practice arm. With two decades of experience in e-commerce and CLM spaces, he has overseen client-facing roles related to value delivery and organizational development initiatives. As part of the CLM journey, he has led multiple global implementation tracks for small, medium, and large-scale companies. Additionally, he played a pivotal role in establishing the 'Partner Enablement' service area for CLM firms and creating a practice area for it. Mukund understands and provides the solution to the client on setting up the right objective for CLM implementation, building best practices for the approach, setting the right composition team to carry out the work, and finally ensuring the business value is achieved by providing needed basis support.
                         </p>
-                        <ul class="social-links">
+                        <!-- <ul class="social-links">
                             <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
@@ -374,9 +431,9 @@
                             <p class="text">
                                 Kedar Vaidya is a strategic leader with more than 25 years of consulting and technology experience across SAP and Contract Lifecycle Management (CLM). He brings over 17 years of expertise in delivering SAP programs and 6+ years leading enterprise CLM transformations using Icertis Contract Intelligence (ICI). He has worked across India, the Middle East, Europe, Australia, and North America in program management, functional consulting, and leadership roles. Kedar has extensive expertise in solution design, governance frameworks, digital contracting programs, and AI-enabled contract intelligence solutions. He has successfully led ICI implementations, integrations, and transformation initiatives across Industrial, Enterprise, and Healthcare sectors.
                             </p>
-                            <ul class="social-links">
+                            <!-- <ul class="social-links">
                                 <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -396,9 +453,9 @@
                             <p class="text">
                                 Nilesh Ambadkar is a technology professional with strong expertise in software design, solution architecture, and product development. He has extensive experience in building modern business applications and supporting organizations through pre-sales, solution design, and customer engagement initiatives across multiple industries, including Healthcare, Logistics, Insurance, E-learning, and Contract Lifecycle Management (CLM). As an Integration Architect, Nilesh has successfully designed and delivered secure, scalable, and cloud-ready integrations involving platforms such as Salesforce, SAP Ariba, MSCRM, Workday, e-signature solutions, and Single Sign-On for major CLM systems. He holds industry certifications, including Icertis CLM and Microsoft technology credentials, and is recognized for his practical problem-solving approach and ability to guide teams toward successful technology outcomes.
                             </p>
-                            <ul class="social-links">
+                            <!-- <ul class="social-links">
                                 <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -418,9 +475,9 @@
                             <p class="text">
                                 Yanka Pandey is a seasoned IT professional with 11 years of experience specializing in Contract Lifecycle Management (CLM), Matter Management, and IT Service Management, including Incident, Problem, and Change Management. She is recognized as a Functional SME and Solution Architect within the CLM domain, with extensive hands-on expertise in implementing and delivering enterprise solutions. She brings a strong combination of business acumen, technical vision, and people management capabilities, enabling her to successfully lead multiple complex projects simultaneously. Yanka is known for her consultative approach, innovative problem-solving mindset, and results-driven execution, along with a strong commitment to continuous learning and improvement.
                             </p>
-                            <ul class="social-links">
+                            <!-- <ul class="social-links">
                                 <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -440,9 +497,9 @@
                             <p class="text">
                                 Swarnendu Sarkar has extensive experience working on Contract Lifecycle Management (CLM) support and implementation projects, along with telecom domain initiatives across multiple organizations and diverse customer environments. He has worked closely with global clients in delivering project implementations, support services, and business solutions across various domains. He has strong expertise in team leadership and currently serves in principal consulting roles for customers across the globe. Swarnendu has hands-on experience in project delivery, stakeholder communication, and team management, enabling organizations to successfully deliver fixes, solutions, and business outcomes within defined timelines while maintaining close collaboration with customers.
                             </p>
-                            <ul class="social-links">
+                            <!-- <ul class="social-links">
                                 <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -451,757 +508,185 @@
     </div>
 </section>
 
-        <!-- Case Studies -->
-        <section class="cases-section">
+        
+       <!-- Main Footer -->
+        <footer class="main-footer proen-footer">
 
-            <!--case Tabs-->
-            <div class="case-tabs">
-                <div class="auto-container">
-                    <div class="sec-title text-center">
-                        <div class="sub-title">Case Studies</div>
-                        <h2>Where We've Delivered</h2>
-                    </div>
-                    <!--Tabs Header-->
-                    <div class="tabs-header">
-                        <ul class="case-tab-btns flex-box">
-                            <li class="case-tab-btn active-btn" data-tab="#case-tab-1"><span>All</span></li>
-                            <li class="case-tab-btn" data-tab="#case-tab-2"><span>Retail</span></li>
-                            <li class="case-tab-btn" data-tab="#case-tab-3"><span>Financial Services</span></li>
-                            <li class="case-tab-btn" data-tab="#case-tab-4"><span>Mobility</span></li>
-                            <li class="case-tab-btn" data-tab="#case-tab-5"><span>Technology</span></li>
-                        </ul>
-                    </div>
-                    <div class="case-tab-wrapper">
-                        <!--Tabs Content-->
-                        <div class="case-tabs-content">
-                            <!--case Tab / Active Tab-->
-                            <div class="case-tab active-tab" id="case-tab-1">
-                                <div class="theme_carousel owl-theme owl-carousel"
-                                    data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--case Tab-->
-                            <div class="case-tab" id="case-tab-2">
-                                <div class="theme_carousel owl-theme owl-carousel"
-                                    data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--case Tab-->
-                            <div class="case-tab" id="case-tab-3">
-                                <div class="theme_carousel owl-theme owl-carousel"
-                                    data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt="">
-                                            </div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/gallery-24.jpg"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--case Tab-->
-                            <div class="case-tab" id="case-tab-4">
-                                <div class="theme_carousel owl-theme owl-carousel"
-                                    data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/case1.png" alt=""></div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/case1.png"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/case2.png" alt=""></div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/case2.png"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/case3.png" alt=""></div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/case3.png"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/case4.png" alt=""></div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/case4.png"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/case5.png" alt=""></div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/case5.png"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/case6.png" alt=""></div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/case6.png"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--case Tab-->
-                            <div class="case-tab" id="case-tab-5">
-                                <div class="theme_carousel owl-theme owl-carousel"
-                                    data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/case7.png" alt=""></div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/case7.png"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/case8.png" alt=""></div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/case8.png"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/case9.png" alt=""></div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/case9.png"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/case10.png" alt=""></div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/case10.png"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/case11.png" alt=""></div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/case11.png"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- case Blokc One -->
-                                    <div class="case-block-one">
-                                        <div class="inner-box">
-                                            <div class="image"><img src="assets/images/gallery/case12.png" alt=""></div>
-                                            <div class="overlay">
-                                                <div>
-                                                    <h5>CLM Engagement</h5>
-                                                    <h2>Enterprise Contract Lifecycle Management</h2>
-                                                    <div class="link-btn flex-box">
-                                                        <a href="assets/images/gallery/case12.png"
-                                                            data-fancybox="gallery-1" data-caption=""
-                                                            class="theme-btn"><i>+</i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Main Footer -->
-        <footer class="main-footer">
             <div class="auto-container">
-                <!--Widgets Section-->
+
                 <div class="widgets-section">
                     <div class="row clearfix">
 
-                        <!--Column-->
-                        <div class="column col-lg-4">
-                            <div class="footer-widget logo-widget">
-                                <div class="widget-content">
-                                    <!-- REPLACE: official PROEN logo (footer/light variant) -->
-                                    <div class="footer-logo">
-                                        <a href="index.html"><img class="lazy-image" src="assets/images/proen-logo.png"
-                                                data-src="assets/images/proen-logo.png"
-                                                alt="PROEN Consulting Services logo" /></a>
-                                    </div>
-                                    <div class="text">PROEN Consulting Services delivers platform-agnostic Contract
-                                        Lifecycle Management — from digital transformation and implementation consulting
-                                        to managed services, staff augmentation and legacy data extraction.</div>
-                                    <ul class="social-links clearfix">
-                                        <li><a href="https://facebook.com/PROEN-108742391902817" target="_blank"
-                                                rel="noopener"><span class="fab fa-facebook-f"></span></a></li>
-                                        <li><a href="https://twitter.com/Proen05540198" target="_blank"
-                                                rel="noopener"><span class="fab fa-twitter"></span></a></li>
-                                        <li><a href="https://linkedin.com/company/proen-clm" target="_blank"
-                                                rel="noopener"><span class="fab fa-linkedin-in"></span></a></li>
-                                        <li><a href="https://instagram.com/proenconsultingservices" target="_blank"
-                                                rel="noopener"><span class="fab fa-instagram"></span></a></li>
-                                    </ul>
+                        <!-- Company -->
+                        <div class="column col-lg-4 col-md-6">
+                            <div class="footer-widget about-widget">
+
+                                <div class="footer-logo">
+                                    <a href="index.html">
+                                        <img src="assets/images/proen-logo.png" alt="PROEN Consulting Services">
+                                    </a>
                                 </div>
+
+                                <p>
+                                    PROEN Consulting Services is a leading AI-driven Contract Lifecycle
+                                    Management (CLM) consulting company helping enterprises accelerate
+                                    digital transformation through implementation consulting, managed
+                                    services, staff augmentation and intelligent legacy contract digitization.
+                                </p>
+
+                                <div class="footer-social">
+
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+
+                                </div>
+
                             </div>
                         </div>
 
-                        <!--Column-->
-                        <div class="column col-lg-4">
-                            <div class="footer-widget links-widget">
-                                <div class="widget-content">
-                                    <h3>Links</h3>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <ul>
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="services-1.html">Services</a></li>
-                                                <li><a href="portfolio-1.html">Case Studies</a></li>
-                                                <li><a href="team.html">Leadership Team</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <ul>
-                                                <li><a href="blog-grid.html">Insights</a></li>
-                                                <li><a href="careers.html">Careers</a></li>
-                                                <li><a href="product-details.html">Contract Diligence</a></li>
-                                                <li><a href="faq.html">FAQs</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                        <!-- Quick Links -->
+                        <div class="column col-lg-2 col-md-6">
+                            <div class="footer-widget">
+
+                                <h3>Quick Links</h3>
+
+                                <ul class="footer-links">
+
+                                    <li><a href="index.html">Home</a></li>
+
+                                    <li><a href="about.html">About Us</a></li>
+
+                                    <li><a href="services-1.html">Services</a></li>
+
+                                    <li><a href="portfolio-1.html">Case Studies</a></li>
+
+                                    <li><a href="announcement.html">Announcements</a></li>
+
+                                    <li><a href="contact.html">Contact</a></li>
+
+                                </ul>
+
                             </div>
                         </div>
 
-                        <!--Column-->
-                        <div class="column col-lg-4">
-                            <!-- REPLACE: real Instagram feed / office photos -->
-                            <div class="footer-widget instagram-widget">
-                                <h3>Follow @proenconsultingservices</h3>
-                                <div class="inner-box">
-                                    <div class="wrapper-box">
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-1.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-1.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-2.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-2.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-3.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-3.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-4.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-4.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-5.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-5.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-6.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-6.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-7.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-7.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-8.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-8.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-9.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-9.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                    </div><!-- /.gallery-wrapper -->
-                                </div>
+                        <!-- Services -->
+                        <div class="column col-lg-3 col-md-6">
+                            <div class="footer-widget">
+
+                                <h3>Our Services</h3>
+
+                                <ul class="footer-links">
+
+                                    <li><a href="#">CLM Consulting</a></li>
+
+                                    <li><a href="#">CLM Implementation</a></li>
+
+                                    <li><a href="#">Managed Services</a></li>
+
+                                    <li><a href="#">Legacy Data Extraction</a></li>
+
+                                    <li><a href="#">AI Contract Intelligence</a></li>
+
+                                    <li><a href="#">Staff Augmentation</a></li>
+
+                                </ul>
+
                             </div>
+                        </div>
+
+                        <!-- Contact -->
+                        <div class="column col-lg-3 col-md-6">
+                            <div class="footer-widget">
+
+                                <h3>Contact Info</h3>
+
+                                <div class="footer-contact">
+
+                                    <div class="contact-item">
+
+                                        <i class="flaticon-email-6"></i>
+
+                                        <div>
+                                            <a href="mailto:contactus@proen.co.in">
+                                                contactus@proen.co.in
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="contact-item">
+
+                                        <i class="flaticon-call-1"></i>
+
+                                        <div>
+
+                                            <a href="tel:+917483323205">
+                                                +91 7483 323 205
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="contact-item">
+
+                                        <i class="flaticon-location"></i>
+
+                                        <div>
+
+                                            Bengaluru, Belagavi,
+                                            Davanagere (India)
+                                            <br>
+                                            Dover, Delaware (USA)
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <div class="auto-container">
+
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+
+                            <p>
+                                © 2026 PROEN Consulting Services Pvt. Ltd.
+                                All Rights Reserved.
+                            </p>
+
+                        </div>
+
+                        <div class="col-lg-6 text-lg-right">
+
+                            <a href="#">Privacy Policy</a>
+
+                            <span>|</span>
+
+                            <a href="#">Terms & Conditions</a>
+
                         </div>
 
                     </div>
 
                 </div>
+
             </div>
 
-            <!-- Footer Bottom -->
-            <div class="auto-container">
-                <div class="footer-bottom">
-                    <div class="copyright">&copy; 2026 <a href="index.html">PROEN Consulting Services Pvt. Ltd</a>. All
-                        Rights Reserved.</div>
-                </div>
-            </div>
         </footer>
 
     </div>

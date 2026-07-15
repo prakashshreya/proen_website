@@ -1,0 +1,1318 @@
+/*=========================================================
+    PROEN HEADER
+    Part 1 - Base Layout
+    For Finandox Template
+==========================================================*/
+
+/*==============================
+    Brand Colors
+==============================*/
+
+:root{
+
+    --proen-orange:#F69323;
+    --proen-blue:#1B5EB8;
+    --proen-dark:#17375E;
+    --proen-light:#F8FAFC;
+    --proen-white:#FFFFFF;
+    --proen-border:#E6ECF2;
+
+}
+
+/*==============================
+    Main Header
+==============================*/
+
+.main-header{
+
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    z-index:999;
+
+}
+
+/*==============================
+    Desktop Header
+==============================*/
+
+.proen-header{
+
+    background:#fff;
+    border-bottom:1px solid var(--proen-border);
+    transition:all .35s ease;
+
+}
+
+/*==============================
+    Container
+==============================*/
+
+.proen-header .auto-container{
+
+    max-width:1320px;
+    margin:auto;
+
+}
+
+/*==============================
+    Flex Layout
+==============================*/
+
+.proen-header .header-inner{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    min-height:90px;
+
+}
+
+/*==============================
+    Logo
+==============================*/
+
+.proen-header .logo-box{
+
+    flex:0 0 auto;
+    display:flex;
+    align-items:center;
+
+}
+
+.proen-header .logo img{
+
+    height:58px;
+    width:auto;
+    display:block;
+    transition:.35s;
+
+}
+
+/*==============================
+    Navigation Wrapper
+==============================*/
+
+.proen-header .nav-outer{
+
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+/*==============================
+    Main Navigation
+==============================*/
+
+.proen-header .navigation{
+
+    display:flex;
+    align-items:center;
+    margin:0;
+    padding:0;
+
+}
+
+.proen-header .navigation>li{
+
+    position:relative;
+    margin:0 18px;
+
+}
+
+.proen-header .navigation>li>a{
+
+    position:relative;
+    display:block;
+    padding:34px 0;
+
+    color:var(--proen-dark);
+
+    font-size:16px;
+    font-weight:600;
+    font-family:inherit;
+
+    transition:all .35s ease;
+
+}
+
+/*==============================
+    Hover Color
+==============================*/
+
+.proen-header .navigation>li:hover>a{
+
+    color:var(--proen-blue);
+
+}
+
+.proen-header .navigation>li.current>a{
+
+    color:var(--proen-blue);
+
+}
+
+/*==============================
+    Animated Underline
+==============================*/
+
+.proen-header .navigation>li>a::after{
+
+    content:'';
+
+    position:absolute;
+
+    left:0;
+
+    bottom:22px;
+
+    width:0;
+
+    height:3px;
+
+    border-radius:20px;
+
+    background:var(--proen-orange);
+
+    transition:.35s;
+
+}
+
+.proen-header .navigation>li:hover>a::after{
+
+    width:100%;
+
+}
+
+.proen-header .navigation>li.current>a::after{
+
+    width:100%;
+
+}
+
+/*==============================
+    Contact Button
+==============================*/
+
+.header-btn{
+
+    flex:0 0 auto;
+
+    margin-left:35px;
+
+}
+
+.proen-btn{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:12px 32px;
+
+    border-radius:50px;
+
+    background:var(--proen-blue);
+
+    color:#fff;
+
+    font-size:15px;
+    font-weight:600;
+
+    text-decoration:none;
+
+    transition:.35s ease;
+
+    box-shadow:0 10px 30px rgba(27,94,184,.18);
+
+}
+
+.proen-btn:hover{
+
+    background:var(--proen-orange);
+
+    color:#fff;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 12px 35px rgba(246,147,35,.30);
+
+}
+
+/*==============================
+    Remove Template Colors
+==============================*/
+
+.proen-header .theme-btn{
+
+    border:none;
+
+}
+
+.proen-header .btn-style-two{
+
+    background:none;
+
+}
+
+/*==============================
+    Desktop Only
+==============================*/
+
+@media (min-width:992px){
+
+.mobile-nav-toggler{
+
+display:none;
+
+}
+
+}
+
+/*==============================
+    Tablet
+==============================*/
+
+@media (max-width:1199px){
+
+.proen-header .navigation>li{
+
+margin:0 12px;
+
+}
+
+.proen-header .navigation>li>a{
+
+font-size:15px;
+
+}
+
+.proen-btn{
+
+padding:12px 28px;
+
+}
+
+}
+
+/*==============================
+    Mobile
+==============================*/
+
+@media (max-width:991px){
+
+.proen-header .header-inner{
+
+min-height:80px;
+
+}
+
+.header-btn{
+
+display:none;
+
+}
+
+.proen-header .logo img{
+
+height:50px;
+
+}
+
+}
+
+/*=========================================================
+    PROEN HEADER
+    Part 2 - Dropdown Menu
+==========================================================*/
+
+/*==============================
+    Dropdown Container
+==============================*/
+
+.proen-header .navigation > li.dropdown{
+    position:relative;
+}
+
+.proen-header .navigation > li > ul{
+
+    position:absolute;
+
+    left:0;
+    top:100%;
+
+    width:290px;
+
+    padding:12px 0;
+
+    background:#ffffff;
+
+    border:none;
+
+    border-radius:14px;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.10);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(20px);
+
+    transition:all .35s ease;
+
+    z-index:9999;
+
+}
+
+/*==============================
+    Show Dropdown
+==============================*/
+
+.proen-header .navigation > li:hover > ul{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+
+}
+
+/*==============================
+    Dropdown List
+==============================*/
+
+.proen-header .navigation > li > ul > li{
+
+    position:relative;
+
+    width:100%;
+
+    border-bottom:1px solid #EEF2F6;
+
+}
+
+.proen-header .navigation > li > ul > li:last-child{
+
+    border-bottom:none;
+
+}
+
+/*==============================
+    Dropdown Links
+==============================*/
+
+.proen-header .navigation > li > ul > li > a{
+
+    display:block;
+
+    padding:14px 24px;
+
+    color:var(--proen-dark);
+
+    font-size:15px;
+
+    font-weight:500;
+
+    line-height:26px;
+
+    transition:all .30s ease;
+
+    background:#fff;
+
+}
+
+/*==============================
+    Hover Effect
+==============================*/
+
+.proen-header .navigation > li > ul > li:hover > a{
+
+    background:var(--proen-light);
+
+    color:var(--proen-blue);
+
+    padding-left:32px;
+
+}
+
+/*==============================
+    Orange Indicator
+==============================*/
+
+.proen-header .navigation > li > ul > li > a:before{
+
+    content:"";
+
+    position:absolute;
+
+    left:14px;
+
+    top:50%;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--proen-orange);
+
+    transform:translateY(-50%);
+
+    transition:.3s;
+
+}
+
+.proen-header .navigation > li > ul > li:hover > a:before{
+
+    width:10px;
+
+}
+
+/*==============================
+    Parent Menu Arrow
+==============================*/
+
+.proen-header .navigation > li.dropdown > a{
+
+    padding-right:18px;
+
+}
+
+.proen-header .navigation > li.dropdown > a:before{
+
+    font-family:"Font Awesome 5 Free";
+
+    content:"\f107";
+
+    font-weight:900;
+
+    position:absolute;
+
+    right:0;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    font-size:12px;
+
+    color:#8a8a8a;
+
+    transition:.3s;
+
+}
+
+.proen-header .navigation > li.dropdown:hover > a:before{
+
+    transform:translateY(-50%) rotate(180deg);
+
+    color:var(--proen-orange);
+
+}
+
+/*==============================
+    Nested Dropdown
+==============================*/
+
+.proen-header .navigation li ul li ul{
+
+    left:100%;
+
+    top:0;
+
+    margin-left:8px;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(15px);
+
+}
+
+.proen-header .navigation li ul li:hover > ul{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+
+}
+
+/*==============================
+    Nested Arrow
+==============================*/
+
+.proen-header .navigation li ul li.dropdown > a:after{
+
+    font-family:"Font Awesome 5 Free";
+
+    content:"\f105";
+
+    font-weight:900;
+
+    float:right;
+
+    color:#999;
+
+}
+
+/*==============================
+    Active Dropdown Item
+==============================*/
+
+.proen-header .navigation li ul li.current > a{
+
+    color:var(--proen-blue);
+
+    background:var(--proen-light);
+
+}
+
+/*==============================
+    Hover Shadow
+==============================*/
+
+.proen-header .navigation > li:hover > ul{
+
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+}
+
+/*==============================
+    Smooth Animation
+==============================*/
+
+.proen-header .navigation li,
+.proen-header .navigation li a,
+.proen-header .navigation li ul{
+
+    transition:all .3s ease;
+
+}
+
+/*==============================
+    Dropdown Radius
+==============================*/
+
+.proen-header .navigation > li > ul > li:first-child a{
+
+    border-radius:12px 12px 0 0;
+
+}
+
+.proen-header .navigation > li > ul > li:last-child a{
+
+    border-radius:0 0 12px 12px;
+
+}
+
+/*==============================
+    Prevent Template Override
+==============================*/
+
+.proen-header .navigation > li > ul{
+
+    display:block !important;
+
+}
+
+.proen-header .navigation > li > ul{
+
+    pointer-events:none;
+
+}
+
+.proen-header .navigation > li:hover > ul{
+
+    pointer-events:auto;
+
+}
+
+/*=========================================================
+    PROEN HEADER
+    Part 3 - Sticky Header & Responsive
+==========================================================*/
+
+/*==============================
+    Sticky Header
+==============================*/
+
+.sticky-header{
+
+    background:#ffffff;
+    border-bottom:1px solid #E6ECF2;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+.sticky-header.fixed-header{
+
+    animation:fadeDown .35s ease;
+
+}
+
+@keyframes fadeDown{
+
+    from{
+        transform:translateY(-100%);
+        opacity:0;
+    }
+
+    to{
+        transform:translateY(0);
+        opacity:1;
+    }
+
+}
+
+/*==============================
+    Sticky Container
+==============================*/
+
+.sticky-header .auto-container{
+
+    max-width:1320px;
+
+}
+
+.sticky-header .logo{
+
+    padding:12px 0;
+
+}
+
+.sticky-header .logo img{
+
+    height:50px;
+    width:auto;
+
+}
+
+/*==============================
+    Sticky Navigation
+==============================*/
+
+.sticky-header .main-menu{
+
+    float:none;
+
+}
+
+.sticky-header .navigation{
+
+    display:flex;
+    align-items:center;
+
+}
+
+.sticky-header .navigation>li{
+
+    margin:0 16px;
+
+}
+
+.sticky-header .navigation>li>a{
+
+    color:var(--proen-dark);
+
+    font-size:15px;
+
+    font-weight:600;
+
+    padding:28px 0;
+
+    transition:.3s;
+
+}
+
+.sticky-header .navigation>li:hover>a{
+
+    color:var(--proen-blue);
+
+}
+
+.sticky-header .navigation>li.current>a{
+
+    color:var(--proen-blue);
+
+}
+
+/*==============================
+    Sticky Underline
+==============================*/
+
+.sticky-header .navigation>li>a:after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:18px;
+
+    width:0;
+
+    height:3px;
+
+    border-radius:30px;
+
+    background:var(--proen-orange);
+
+    transition:.35s;
+
+}
+
+.sticky-header .navigation>li:hover>a:after{
+
+    width:100%;
+
+}
+
+.sticky-header .navigation>li.current>a:after{
+
+    width:100%;
+
+}
+
+/*==============================
+    Mobile Menu Logo
+==============================*/
+
+.mobile-menu .nav-logo{
+
+    padding:30px;
+
+    text-align:center;
+
+}
+
+.mobile-menu .nav-logo img{
+
+    max-width:180px;
+
+}
+
+/*==============================
+    Mobile Menu Background
+==============================*/
+
+.mobile-menu .menu-box{
+
+    background:#ffffff;
+
+}
+
+.mobile-menu .navigation li a{
+
+    color:var(--proen-dark);
+
+    font-weight:600;
+
+}
+
+.mobile-menu .navigation li.current>a{
+
+    color:var(--proen-blue);
+
+}
+
+.mobile-menu .navigation li a:hover{
+
+    color:var(--proen-orange);
+
+}
+
+/*==============================
+    Mobile Dropdown
+==============================*/
+
+.mobile-menu .navigation li.dropdown .dropdown-btn{
+
+    color:var(--proen-dark);
+
+}
+
+.mobile-menu .navigation li.dropdown .dropdown-btn:hover{
+
+    background:var(--proen-blue);
+
+    color:#fff;
+
+}
+
+/*==============================
+    Mobile Toggle
+==============================*/
+
+.mobile-nav-toggler{
+
+    color:var(--proen-dark);
+
+    font-size:28px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.mobile-nav-toggler:hover{
+
+    color:var(--proen-orange);
+
+}
+
+/*==============================
+    Large Tablet
+==============================*/
+
+@media only screen and (max-width:1199px){
+
+    .proen-header .navigation>li{
+
+        margin:0 10px;
+
+    }
+
+    .proen-header .navigation>li>a{
+
+        font-size:15px;
+
+    }
+
+    .proen-btn{
+
+        padding:12px 24px;
+
+    }
+
+}
+
+/*==============================
+    Tablet
+==============================*/
+
+@media only screen and (max-width:991px){
+
+    .header-btn{
+
+        display:none;
+
+    }
+
+    .nav-outer{
+
+        justify-content:flex-end;
+
+    }
+
+    .logo-box img{
+
+        height:48px;
+
+    }
+
+    .header-inner{
+
+        min-height:80px;
+
+    }
+
+    .mobile-nav-toggler{
+
+        display:block;
+
+    }
+
+}
+
+/*==============================
+    Mobile
+==============================*/
+
+@media only screen and (max-width:767px){
+
+    .header-inner{
+
+        min-height:72px;
+
+    }
+
+    .logo-box img{
+
+        height:44px;
+
+    }
+
+    .mobile-nav-toggler{
+
+        font-size:24px;
+
+    }
+
+}
+
+/*==============================
+    Small Mobile
+==============================*/
+
+@media only screen and (max-width:480px){
+
+    .logo-box img{
+
+        height:40px;
+
+    }
+
+}
+
+/*=========================================================
+    PROEN HEADER
+    Part 4 - Final Finandox Fixes & Polish
+==========================================================*/
+
+
+/*=========================================================
+    REMOVE TEMPLATE HEADER COLORS
+==========================================================*/
+
+.main-header .header-upper,
+.main-header .sticky-header{
+
+    background:#ffffff !important;
+
+}
+
+
+.main-header .navigation li a{
+
+    text-decoration:none;
+
+}
+
+
+/*=========================================================
+    HEADER OVERFLOW FIX
+==========================================================*/
+
+.main-header,
+.proen-header,
+.sticky-header{
+
+    overflow:visible;
+
+}
+
+
+/*=========================================================
+    MENU ALIGNMENT FIX
+==========================================================*/
+
+.proen-header .nav-outer .main-menu{
+
+    width:auto;
+
+}
+
+
+.proen-header .navbar-collapse{
+
+    padding:0;
+
+}
+
+
+.proen-header .navbar-collapse.show{
+
+    display:block;
+
+}
+
+
+/*=========================================================
+    REMOVE FINANDOX DEFAULT FLOATS
+==========================================================*/
+
+.proen-header .main-menu{
+
+    float:none;
+
+}
+
+
+.proen-header .nav-outer{
+
+    float:none;
+
+}
+
+
+/*=========================================================
+    PERFECT HEADER SPACING
+==========================================================*/
+
+.proen-header .header-inner{
+
+    padding-left:0;
+
+    padding-right:0;
+
+}
+
+
+/*=========================================================
+    LOGO HOVER
+==========================================================*/
+
+.proen-header .logo img{
+
+    transition:all .4s ease;
+
+}
+
+
+.proen-header .logo:hover img{
+
+    transform:scale(1.03);
+
+}
+
+
+/*=========================================================
+    BUTTON PREMIUM EFFECT
+==========================================================*/
+
+.proen-btn{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+
+.proen-btn::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:0;
+
+    height:100%;
+
+    background:var(--proen-orange);
+
+    transition:.4s;
+
+    z-index:0;
+
+}
+
+
+.proen-btn:hover::before{
+
+    width:100%;
+
+}
+
+
+.proen-btn{
+
+    isolation:isolate;
+
+}
+
+
+.proen-btn span,
+.proen-btn{
+
+    z-index:1;
+
+}
+
+
+.proen-btn:hover{
+
+    color:#ffffff;
+
+}
+
+
+/*=========================================================
+    DROPDOWN PERFORMANCE FIX
+==========================================================*/
+
+.proen-header .navigation li ul{
+
+    will-change:transform,opacity;
+
+}
+
+
+/*=========================================================
+    REMOVE DEFAULT RED COLOR
+==========================================================*/
+
+.main-menu .navigation > li:hover > a,
+.main-menu .navigation > li.current > a{
+
+    color:var(--proen-blue) !important;
+
+}
+
+
+.main-menu .navigation > li > ul > li:hover > a{
+
+    color:var(--proen-blue);
+
+}
+
+
+/*=========================================================
+    MOBILE MENU COLOR FIX
+==========================================================*/
+
+.mobile-menu{
+
+    background:#ffffff;
+
+}
+
+
+.mobile-menu .menu-box{
+
+    background:#ffffff;
+
+}
+
+
+.mobile-menu .close-btn{
+
+    color:var(--proen-dark);
+
+}
+
+
+.mobile-menu .close-btn:hover{
+
+    color:var(--proen-orange);
+
+}
+
+
+/*=========================================================
+    MOBILE MENU LINK STYLE
+==========================================================*/
+
+.mobile-menu .navigation li a{
+
+    font-size:16px;
+
+    padding:15px 20px;
+
+}
+
+
+.mobile-menu .navigation li a:hover{
+
+    background:var(--proen-light);
+
+}
+
+
+/*=========================================================
+    ACCESSIBILITY
+==========================================================*/
+
+.proen-header a:focus{
+
+    outline:2px solid var(--proen-orange);
+
+    outline-offset:3px;
+
+}
+
+
+/*=========================================================
+    REMOVE UNWANTED ANIMATIONS
+==========================================================*/
+
+.proen-header *,
+.sticky-header *{
+
+    animation-duration:.35s;
+
+}
+
+
+/*=========================================================
+    FINAL RESPONSIVE FIX
+==========================================================*/
+
+@media(max-width:991px){
+
+
+    .proen-header .nav-outer{
+
+        margin-left:auto;
+
+    }
+
+
+    .proen-header .mobile-nav-toggler{
+
+        display:block;
+
+    }
+
+
+    .proen-header .main-menu{
+
+        display:none;
+
+    }
+
+
+}
+
+
+@media(min-width:992px){
+
+
+    .mobile-menu{
+
+        display:none;
+
+    }
+
+
+}
+
+
+/*=========================================================
+    VERY SMALL DEVICES
+==========================================================*/
+
+@media(max-width:360px){
+
+
+    .logo-box img{
+
+        max-width:150px;
+
+    }
+
+
+}

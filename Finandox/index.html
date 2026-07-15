@@ -42,7 +42,7 @@
         </div>
 
         <!-- Main Header -->
-        <header class="main-header" style="background-color: #233D4D;">
+        <header class="main-header">
             <!-- Header Top -->
             <div class="header-top">
                 <div class="auto-container">
@@ -59,28 +59,36 @@
                         <div class="top-middile">
                             <div class="contact-info">
                                 <div class="single-info">
-                                    <div class="icon-box"><i class="flaticon-call-1"></i></div>
-                                    <div class="text">Phone Number</div>
-                                    <h4><a href="tel:+917483323205">+91 7483 323 205</a></h4>
+                                    <div class="icon-box"><i class="flaticon-call-1" style="color: #1B5EB8;"></i></div>
+                                    <div class="text" style="color: #1B5EB8;">Phone Number</div>
+                                    <h4><a href="tel:+917483323205" style="color: #1B5EB8;">+91 7483 323 205</a></h4>
                                 </div>
                                 <div class="single-info">
-                                    <div class="icon-box"><i class="flaticon-email-4"></i></div>
-                                    <div class="text">Email Address</div>
-                                    <h4><a href="mailto:contactus@proen.co.in">contactus@proen.co.in</a></h4>
+                                    <div class="icon-box" style="color: #1B5EB8;"><i class="flaticon-email-4"></i></div>
+                                    <div class="text" style="color: #1B5EB8;">Email Address</div>
+                                    <h4><a href="mailto:contactus@proen.co.in"
+                                            style="color: #1B5EB8;">contactus@proen.co.in</a></h4>
                                 </div>
                             </div>
                         </div>
 
                         <div class="top-right">
-                            <a href="contact.html" class="theme-btn btn-style-two"><span class="btn-title">Get A
-                                    Consultation</span></a>
+                            <a href="contact.html" class="theme-btn btn-style-two" style="
+          background-color: transparent;
+          color: #1B5EB8;
+          border: 1px solid #808080;
+          transition: all 0.3s ease;
+       " onmouseover="this.style.backgroundColor='#F69323'; this.style.color='#FFFFFF'; this.style.borderColor='#F69323';"
+                                onmouseout="this.style.backgroundColor='transparent'; this.style.color='#1B5EB8'; this.style.borderColor='#808080';">
+                                <span class="btn-title">Contact US</span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Header Upper -->
-            <div class="header-upper">
+            <div class="header-upper" style="background-color: #F69323;">
                 <div class="auto-container">
                     <div class="inner-container">
                         <!--Nav Box-->
@@ -95,14 +103,16 @@
                                         <li><a href="index.html">Home</a></li>
                                         <li class="dropdown"><a href="services-1.html">Services</a>
                                             <ul>
-                                                <li><a href="digital-transformation-service.html">Digital Transformation</a></li>
+                                                <li><a href="digital-transformation-service.html">Digital
+                                                        Transformation</a></li>
                                                 <li><a href="services-1.html">Consultation on CLM Implementation</a>
                                                 </li>
                                                 <li><a href="services-2.html">Paralegal Service</a></li>
                                                 <li><a href="services-details.html">Technology Development</a></li>
                                                 <li><a href="services-1.html">Managed Services</a></li>
                                                 <li><a href="services-2.html">Staff Augmentation</a></li>
-                                                <li><a href="data-extraction-service.html">Data Extraction as a Service</a>
+                                                <li><a href="data-extraction-service.html">Data Extraction as a
+                                                        Service</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -147,24 +157,73 @@
             </div>
             <!--End Header Upper-->
 
-            <!-- Sticky Header  -->
-            <div class="sticky-header">
-                <div class="auto-container clearfix">
-                    <!--Logo-->
-                    <div class="logo pull-left">
-                        <!-- REPLACE: official PROEN logo (light/sticky variant) -->
-                        <a href="index.html" title="PROEN Consulting Services"><img src="assets/images/proen-logo.png"
-                                alt="PROEN Consulting Services logo" title="PROEN Consulting Services"></a>
+            <!-- Sticky Header -->
+            <div class="sticky-header" style="
+        background:#ffffff;
+        width:100%;
+        box-shadow:0 3px 15px rgba(0,0,0,0.08);
+     ">
+
+                <div class="auto-container" style="
+            max-width:1400px;
+            margin:0 auto;
+            padding:15px 40px;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+        ">
+
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html" title="PROEN Consulting Services">
+                            <img src="assets/images/proen-logo.png" alt="PROEN Consulting Services"
+                                style="height:48px;width:auto;">
+                        </a>
                     </div>
-                    <!--Right Col-->
-                    <div class="pull-right">
-                        <!-- Main Menu -->
+
+                    <!-- Menu -->
+                    <div style="
+                flex:1;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                margin:0 40px;
+            ">
+
                         <nav class="main-menu clearfix">
-                            <!--Keep This Empty / Menu will come through Javascript-->
-                        </nav><!-- Main Menu End-->
+                            <!-- Menu will come automatically through Javascript -->
+                        </nav>
+
                     </div>
+
+                    <!-- Contact Button -->
+                    <div>
+
+                        <a href="contact.html" style="
+                    background:#F69323;
+                    color:#ffffff;
+                    text-decoration:none;
+                    padding:12px 30px;
+                    border-radius:30px;
+                    font-size:15px;
+                    font-weight:600;
+                    transition:.3s;
+               " onmouseover="
+                    this.style.background='#17375E';
+               " onmouseout="
+                    this.style.background='#F69323';
+               ">
+
+                            Contact Us
+
+                        </a>
+
+                    </div>
+
                 </div>
-            </div><!-- End Sticky Menu -->
+
+            </div>
+            <!-- End Sticky Menu -->
 
             <!-- Mobile Menu  -->
             <div class="mobile-menu">
@@ -357,7 +416,7 @@
                             data-wow-duration="1200ms">
                             <div class="inner-box">
                                 <div class="icon-box"><span class="flaticon-analysis"></span></div>
-                                <h2>Digital Transformation</h2>
+                                <h2>Digital Transformation On CLM</h2>
                                 <div class="text">Comprehensive digital transformation solutions tailored to optimize
                                     your contract lifecycle management processes. </div>
                                 <div class="read-more"><a href="services-details.html">Read More</a></div>
@@ -574,211 +633,42 @@
 
                             </div>
                         </div>
-                       <!-- About PROEN -->
-<div class="author-box" style="background-image: url(assets/images/background/image-1.jpg);">
+                        <!-- About PROEN -->
+                        <div class="author-box" style="background-image: url(assets/images/background/image-1.jpg);">
 
-    <div class="author-info">
+                            <div class="author-info">
 
-        <div class="sub-title">About PROEN</div>
+                                <div class="sub-title">About PROEN</div>
 
-        <h2>PROEN Consulting Services</h2>
+                                <h2>PROEN Consulting Services</h2>
 
-        <div class="designation">
-            Opportunities Enabler
-        </div>
-
-        <div class="text">
-            PROEN Consulting Services is a specialized Contract Lifecycle
-            Management (CLM) consulting company helping organizations
-            streamline, automate, and optimize the complete contract lifecycle.
-            We deliver platform-agnostic consulting, implementation, managed
-            services, staff augmentation, and contract operations support across
-            multiple industries.
-        </div>
-
-        <div class="text" style="margin-top:20px;">
-            As a subsidiary of <strong>Carvewing Solutions</strong>, PROEN combines
-            deep CLM domain expertise with modern technology to help businesses
-            reduce risk, improve compliance, accelerate contract execution, and
-            maximize business value.
-        </div>
-
-        <a href="about.html" class="theme-btn btn-style-one" style="margin-top:25px;">
-            Learn More About Us
-        </a>
-
-    </div>
-
-</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Gallery Section -->
-        <section class="gallery-section">
-            <div class="sortable-masonry">
-
-                <div class="auto-container">
-                    <div class="row m-0 justify-content-md-between align-items-center">
-                        <div class="sec-title">
-                            <div class="sub-title">Case Studies</div>
-                            <h2>Our Work</h2>
-                        </div>
-                        <!--Filter-->
-                        <div class="filters text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                            <ul class="filter-tabs filter-btns">
-                                <li class="active filter" data-role="button" data-filter=".all"><span>All</span></li>
-                                <li class="filter" data-role="button" data-filter=".category-1"><span>Retail</span></li>
-                                <li class="filter" data-role="button" data-filter=".category-2"><span>Financial
-                                        Services</span></li>
-                                <li class="filter" data-role="button" data-filter=".category-3"><span>Mobility</span>
-                                </li>
-                                <li class="filter" data-role="button" data-filter=".category-4"><span>Technology</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="auto-container">
-                    <div class="items-container row">
-                        <!-- Gallery Block One -->
-                        <div class="col-lg-3 col-md-6 gallery-block-one all">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <!-- REPLACE: real case-study image --><img
-                                        src="assets/images/gallery/gallery-10.jpg"
-                                        alt="Global retailer CLM rollout case study">
+                                <div class="designation">
+                                    Opportunities Enabler
                                 </div>
-                                <div class="caption-title">
-                                    <h5>Retail</h5>
-                                    <h3><a href="portfolio-details.html">Global Retailer CLM Rollout</a></h3>
-                                    <div class="view-project"><a data-fancybox="example gallery"
-                                            href="assets/images/gallery/gallery-10.jpg"
-                                            class="zoom-btn"><span>+</span></a></div>
+
+                                <div class="text">
+                                    PROEN Consulting Services is a specialized Contract Lifecycle
+                                    Management (CLM) consulting company helping organizations
+                                    streamline, automate, and optimize the complete contract lifecycle.
+                                    We deliver platform-agnostic consulting, implementation, managed
+                                    services, staff augmentation, and contract operations support across
+                                    multiple industries.
                                 </div>
+
+                                <div class="text" style="margin-top:20px;">
+                                    As a subsidiary of <strong>Carvewing Solutions</strong>, PROEN combines
+                                    deep CLM domain expertise with modern technology to help businesses
+                                    reduce risk, improve compliance, accelerate contract execution, and
+                                    maximize business value.
+                                </div>
+
+                                <a href="about.html" class="theme-btn btn-style-one" style="margin-top:25px;">
+                                    Learn More About Us
+                                </a>
+
                             </div>
+
                         </div>
-                        <!-- Gallery Block One -->
-                        <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-4">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <!-- REPLACE: real case-study image -->
-                                    <img src="assets/images/gallery/gallery-11.jpg"
-                                        alt="Mobility provider contract governance case study">
-                                </div>
-                                <div class="caption-title">
-                                    <h5>Mobility</h5>
-                                    <h3><a href="portfolio-details.html">Spectrum Mobility Contract Governance</a></h3>
-                                    <div class="view-project"><a data-fancybox="example gallery"
-                                            href="assets/images/gallery/gallery-11.jpg"
-                                            class="zoom-btn"><span>+</span></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Gallery Block One -->
-                        <div class="col-lg-3 col-md-6 gallery-block-one all category-1 category-4">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <!-- REPLACE: real case-study image -->
-                                    <img src="assets/images/gallery/gallery-12.jpg"
-                                        alt="Retail chain legacy contract digitization case study">
-                                </div>
-                                <div class="caption-title">
-                                    <h5>Retail</h5>
-                                    <h3><a href="portfolio-details.html">Legacy Contract Digitization</a></h3>
-                                    <div class="view-project"><a data-fancybox="example gallery"
-                                            href="assets/images/gallery/gallery-12.jpg"
-                                            class="zoom-btn"><span>+</span></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Gallery Block One -->
-                        <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <!-- REPLACE: real case-study image -->
-                                    <img src="assets/images/gallery/gallery-13.jpg"
-                                        alt="Financial services CLM implementation case study">
-                                </div>
-                                <div class="caption-title">
-                                    <h5>Financial Services</h5>
-                                    <h3><a href="portfolio-details.html">Enterprise CLM Implementation</a></h3>
-                                    <div class="view-project"><a data-fancybox="example gallery"
-                                            href="assets/images/gallery/gallery-13.jpg"
-                                            class="zoom-btn"><span>+</span></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Gallery Block One -->
-                        <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2 category-5">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <!-- REPLACE: real case-study image -->
-                                    <img src="assets/images/gallery/gallery-14.jpg"
-                                        alt="Technology company managed services case study">
-                                </div>
-                                <div class="caption-title">
-                                    <h5>Technology</h5>
-                                    <h3><a href="portfolio-details.html">Managed Services for a SaaS Provider</a></h3>
-                                    <div class="view-project"><a data-fancybox="example gallery"
-                                            href="assets/images/gallery/gallery-14.jpg"
-                                            class="zoom-btn"><span>+</span></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Gallery Block One -->
-                        <div class="col-lg-3 col-md-6 gallery-block-one all category-1 category-4">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <!-- REPLACE: real case-study image -->
-                                    <img src="assets/images/gallery/gallery-15.jpg"
-                                        alt="Staff augmentation program case study">
-                                </div>
-                                <div class="caption-title">
-                                    <h5>Retail</h5>
-                                    <h3><a href="portfolio-details.html">Staff Augmentation at Scale</a></h3>
-                                    <div class="view-project"><a data-fancybox="example gallery"
-                                            href="assets/images/gallery/gallery-15.jpg"
-                                            class="zoom-btn"><span>+</span></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Gallery Block One -->
-                        <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <!-- REPLACE: real case-study image -->
-                                    <img src="assets/images/gallery/gallery-16.jpg"
-                                        alt="Financial services contract diligence rollout case study">
-                                </div>
-                                <div class="caption-title">
-                                    <h5>Financial Services</h5>
-                                    <h3><a href="portfolio-details.html">Contract Diligence Rollout</a></h3>
-                                    <div class="view-project"><a data-fancybox="example gallery"
-                                            href="assets/images/gallery/gallery-16.jpg"
-                                            class="zoom-btn"><span>+</span></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Gallery Block One -->
-                        <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2 category-5">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <!-- REPLACE: real case-study image -->
-                                    <img src="assets/images/gallery/gallery-17.jpg"
-                                        alt="Technology sector data extraction case study">
-                                </div>
-                                <div class="caption-title">
-                                    <h5>Technology</h5>
-                                    <h3><a href="portfolio-details.html">Legacy Data Extraction at Scale</a></h3>
-                                    <div class="view-project"><a data-fancybox="example gallery"
-                                            href="assets/images/gallery/gallery-17.jpg"
-                                            class="zoom-btn"><span>+</span></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End block -->
                     </div>
                 </div>
             </div>
@@ -841,12 +731,6 @@
                                         Our Vision
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="tab-three-area" data-toggle="tab" href="#tab-three"
-                                        role="tab" aria-selected="false">
-                                        Our Values
-                                    </a>
-                                </li>
                             </ul>
 
                             <!-- Tab Content -->
@@ -872,15 +756,6 @@
                                         paralegal experts.</p>
                                 </div>
 
-                                <div class="tab-pane" id="tab-three" role="tabpanel" aria-labelledby="tab-three-area">
-                                    <p>Every engagement is guided by six core values: consistency, time-saving,
-                                        standardization, compliance, automation, and scalability.</p>
-                                    <p>Those values show up as pre-approved clause libraries instead of one-off
-                                        drafting, automated milestone tracking instead of manual reminders, and
-                                        platform-agnostic recommendations instead of vendor lock-in — so your
-                                        contracting process gets simpler as it grows, not more complex.</p>
-                                </div>
-
                             </div>
                         </div>
                     </div>
@@ -888,165 +763,54 @@
                     <!-- Right Image -->
                     <div class="col-lg-6">
                         <div class="image">
-                            <img class="lazy-image owl-lazy" src="assets/images/resource/about4.png"
-                                data-src="assets/images/resource/about4.png" alt="PROEN Consulting Services team">
+                            <img class="lazy-image owl-lazy" src="assets/images/resource/proen-mission-vission.png"
+                                data-src="assets/images/resource/proen-mission-vission.png" alt="PROEN Consulting Services team" style="border: 2px solid transparent; border-radius: 20px;">
                         </div>
                     </div>
 
                 </div>
             </div>
-        </section>
+        </section> we have two images for both misson and visson update this html and give full code
 
-        <!-- Contact Section -->
-        <section class="contact-section" style="background-color: whitesmoke;">
-            <div class="auto-container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="sec-title">
-                            <div class="sub-title">Write Here</div>
-                            <h2>Get In Touch</h2>
-                        </div>
-                        <!-- Contact Form-->
-                        <div class="contact-form">
-                            <form method="post" action="sendemail.php" id="contact-form">
-                                <div class="row clearfix">
-                                    <div class="col-md-12 form-group">
-                                        <label for="name">Enter your name</label>
-                                        <input type="text" name="username" id="name" placeholder="Enter name here......"
-                                            required="">
-                                        <i class="fas fa-user"></i>
-                                    </div>
-
-                                    <div class="col-md-12 form-group">
-                                        <label for="email">Enter your email</label>
-                                        <input type="email" name="email" id="email" placeholder="Enter email here......"
-                                            required="">
-                                        <i class="fas fa-envelope"></i>
-                                    </div>
-
-                                    <div class="col-md-12 form-group">
-                                        <label for="message">Enter your message</label>
-                                        <textarea name="message" id="message"
-                                            placeholder="Enter message here......"></textarea>
-                                        <i class="fas fa-edit"></i>
-                                    </div>
-
-                                    <div class="col-md-12 form-group">
-                                        <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span
-                                                class="btn-title">Get In Touch</span></button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="sec-title">
-                            <div class="sub-title">Get Us Here</div>
-                            <h2>Contact Us</h2>
-                        </div>
-                        <div class="contact-info">
-                            <div class="border-box">
-                                <div class="border_top"></div>
-                                <div class="border_middile"></div>
-                            </div>
-                            <div class="row">
-                                <div class="info-column col-md-6">
-                                    <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-email-6"></span></div>
-                                        <h3>Email Address</h3>
-                                        <ul>
-                                            <li><a href="mailto:contactus@proen.co.in">contactus@proen.co.in</a></li>
-                                            <li><a href="mailto:info@proen.co.in">info@proen.co.in</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="info-column col-md-6">
-                                    <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-call-1"></span></div>
-                                        <h3>Phone Number</h3>
-                                        <ul>
-                                            <li><a href="tel:+917483323205">+91 7483 323 205</a></li>
-                                            <li><a href="https://wa.me/917483323205" target="_blank"
-                                                    rel="noopener">WhatsApp Us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="info-column col-md-6">
-                                    <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-location"></span></div>
-                                        <h3>Office Address</h3>
-                                        <ul>
-                                            <li>#878, 1st Stage, 5th Block, HBR Layout <br>Bengaluru 560043, Karnataka,
-                                                India</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="info-column col-md-6">
-                                    <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-worldwide"></span></div>
-                                        <h3>USA Office</h3>
-                                        <ul>
-                                            <li>1151 Walker Road, Suite 535 <br>Dover, Delaware 19904, USA</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Certifications Section -->
-        <section class="award-section pt-0" style="margin-top: 50px;">
-            <div class="year">ISO</div>
-            <div class="auto-container">
-                <div class="sec-title text-center">
-                    <div class="sub-title">Recognition</div>
-                    <h2>Certified &amp; Trusted</h2>
-                </div>
-                <div class="award-image">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4">
-                            <!-- REPLACE: official ISO certification badge -->
-                            <div class="image wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms"><img
-                                    src="assets/images/resource/award1.png" alt="ISO certification badge"></div>
-                            <!-- REPLACE: PROEN partner/vendor logo -->
-                            <div class="image wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms"><img
-                                    src="assets/images/resource/award2.png" alt="PROEN technology partner logo"></div>
-                        </div>
-                        <div class="col-lg-4 order-lg-2">
-                            <!-- REPLACE: PROEN partner/vendor logo -->
-                            <div class="image wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms"><img
-                                    src="assets/images/resource/award3.png" alt="PROEN technology partner logo"></div>
-                            <!-- REPLACE: PROEN partner/vendor logo -->
-                            <div class="image wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms"><img
-                                    src="assets/images/resource/award5.png" alt="PROEN technology partner logo"></div>
-                        </div>
-                        <div class="col-lg-4 wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
-                            <!-- REPLACE: PROEN partner/vendor logo -->
-                            <div class="image"><img src="assets/images/resource/award4.png"
-                                    alt="PROEN technology partner logo"></div>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- REPLACE: office / team photos
-                <div class="feature-image">
-                    <div class="image-one"><img src="assets/images/resource/award6.png"
-                            alt="PROEN Consulting Services office"></div>
-                    <div class="image-two"><img src="assets/images/resource/image-8.jpg"
-                            alt="PROEN Consulting Services team"></div>
-                    <div class="image-three"><img src="assets/images/resource/image-9.jpg"
-                            alt="PROEN Consulting Services at work"></div>
-                </div> -->
-            </div>
-        </section>
 
         <!-- Sponsors Section -->
-        <section class="sponsors-section" style="margin-top: -120px;">
+        <section class="sponsors-section" style="margin-top: -30px;">
             <div class="auto-container">
+
+                <!-- Heading -->
+                <div style="text-align:center; margin-bottom:45px;">
+
+                    <span style="
+                display:inline-block;
+                color:#F69323;
+                font-size:14px;
+                font-weight:700;
+                letter-spacing:2px;
+                text-transform:uppercase;
+                margin-bottom:10px;
+            ">
+                        TRUSTED WORLDWIDE
+                    </span>
+
+                    <h2 style="
+                font-size:42px;
+                font-weight:700;
+                color:#17375E;
+                margin:0;
+            ">
+                        Partners &amp; Customers
+                    </h2>
+
+                    <div style="
+                width:70px;
+                height:4px;
+                background:#F69323;
+                margin:18px auto 0;
+                border-radius:20px;
+            "></div>
+
+                </div>
+
                 <!-- REPLACE: real client/partner logos (currently generic placeholder marks) -->
                 <!--Sponsors Carousel-->
                 <div class="theme_carousel owl-theme owl-carousel"
@@ -1106,165 +870,183 @@
         </section>
 
         <!-- Main Footer -->
-        <footer class="main-footer">
+        <footer class="main-footer proen-footer">
+
             <div class="auto-container">
-                <!--Widgets Section-->
+
                 <div class="widgets-section">
                     <div class="row clearfix">
 
-                        <!--Column-->
-                        <div class="column col-lg-4">
-                            <div class="footer-widget logo-widget">
-                                <div class="widget-content">
-                                    <!-- REPLACE: official PROEN logo (footer/light variant) -->
-                                    <div class="footer-logo">
-                                        <a href="index.html"><img class="lazy-image" src="assets/images/proen-logo.png"
-                                                data-src="assets/images/proen-logo.png"
-                                                alt="PROEN Consulting Services logo" /></a>
-                                    </div>
-                                    <div class="text">PROEN Consulting Services delivers platform-agnostic Contract
-                                        Lifecycle Management — from digital transformation and implementation consulting
-                                        to managed services, staff augmentation and legacy data extraction.</div>
-                                    <ul class="social-links clearfix">
-                                        <li><a href="https://facebook.com/PROEN-108742391902817" target="_blank"
-                                                rel="noopener"><span class="fab fa-facebook-f"></span></a></li>
-                                        <li><a href="https://twitter.com/Proen05540198" target="_blank"
-                                                rel="noopener"><span class="fab fa-twitter"></span></a></li>
-                                        <li><a href="https://linkedin.com/company/proen-clm" target="_blank"
-                                                rel="noopener"><span class="fab fa-linkedin-in"></span></a></li>
-                                        <li><a href="https://instagram.com/proenconsultingservices" target="_blank"
-                                                rel="noopener"><span class="fab fa-instagram"></span></a></li>
-                                    </ul>
+                        <!-- Company -->
+                        <div class="column col-lg-4 col-md-6">
+                            <div class="footer-widget about-widget">
+
+                                <div class="footer-logo">
+                                    <a href="index.html">
+                                        <img src="assets/images/proen-logo.png" alt="PROEN Consulting Services">
+                                    </a>
                                 </div>
+
+                                <p>
+                                    PROEN Consulting Services is a leading AI-driven Contract Lifecycle
+                                    Management (CLM) consulting company helping enterprises accelerate
+                                    digital transformation through implementation consulting, managed
+                                    services, staff augmentation and intelligent legacy contract digitization.
+                                </p>
+
+                                <div class="footer-social">
+
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+
+                                </div>
+
                             </div>
                         </div>
 
-                        <!--Column-->
-                        <div class="column col-lg-4">
-                            <div class="footer-widget links-widget">
-                                <div class="widget-content">
-                                    <h3>Links</h3>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <ul>
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="services-1.html">Services</a></li>
-                                                <li><a href="portfolio-1.html">Case Studies</a></li>
-                                                <li><a href="team.html">Leadership Team</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <ul>
-                                                <li><a href="blog-grid.html">Insights</a></li>
-                                                <li><a href="careers.html">Careers</a></li>
-                                                <li><a href="product-details.html">Contract Diligence</a></li>
-                                                <li><a href="faq.html">FAQs</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                        <!-- Quick Links -->
+                        <div class="column col-lg-2 col-md-6">
+                            <div class="footer-widget">
+
+                                <h3>Quick Links</h3>
+
+                                <ul class="footer-links">
+
+                                    <li><a href="index.html">Home</a></li>
+
+                                    <li><a href="about.html">About Us</a></li>
+
+                                    <li><a href="services-1.html">Services</a></li>
+
+                                    <li><a href="portfolio-1.html">Case Studies</a></li>
+
+                                    <li><a href="announcement.html">Announcements</a></li>
+
+                                    <li><a href="contact.html">Contact</a></li>
+
+                                </ul>
+
                             </div>
                         </div>
 
-                        <!--Column-->
-                        <div class="column col-lg-4">
-                            <!-- REPLACE: real Instagram feed / office photos -->
-                            <div class="footer-widget instagram-widget">
-                                <h3>Follow @proenconsultingservices</h3>
-                                <div class="inner-box">
-                                    <!-- REPLACE: all 9 tiles below with real Instagram/office photos -->
-                                    <div class="wrapper-box">
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-1.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-1.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-2.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-2.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-3.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-3.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-4.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-4.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-5.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-5.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-6.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-6.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-7.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-7.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-8.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-8.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-9.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-9.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                    </div><!-- /.gallery-wrapper -->
-                                </div>
+                        <!-- Services -->
+                        <div class="column col-lg-3 col-md-6">
+                            <div class="footer-widget">
+
+                                <h3>Our Services</h3>
+
+                                <ul class="footer-links">
+
+                                    <li><a href="#">CLM Consulting</a></li>
+
+                                    <li><a href="#">CLM Implementation</a></li>
+
+                                    <li><a href="#">Managed Services</a></li>
+
+                                    <li><a href="#">Legacy Data Extraction</a></li>
+
+                                    <li><a href="#">AI Contract Intelligence</a></li>
+
+                                    <li><a href="#">Staff Augmentation</a></li>
+
+                                </ul>
+
                             </div>
+                        </div>
+
+                        <!-- Contact -->
+                        <div class="column col-lg-3 col-md-6">
+                            <div class="footer-widget">
+
+                                <h3>Contact Info</h3>
+
+                                <div class="footer-contact">
+
+                                    <div class="contact-item">
+
+                                        <i class="flaticon-email-6"></i>
+
+                                        <div>
+                                            <a href="mailto:contactus@proen.co.in">
+                                                contactus@proen.co.in
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="contact-item">
+
+                                        <i class="flaticon-call-1"></i>
+
+                                        <div>
+
+                                            <a href="tel:+917483323205">
+                                                +91 7483 323 205
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="contact-item">
+
+                                        <i class="flaticon-location"></i>
+
+                                        <div>
+
+                                            Bengaluru, Belagavi,
+                                            Davanagere (India)
+                                            <br>
+                                            Dover, Delaware (USA)
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <div class="auto-container">
+
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+
+                            <p>
+                                © 2026 PROEN Consulting Services Pvt. Ltd.
+                                All Rights Reserved.
+                            </p>
+
+                        </div>
+
+                        <div class="col-lg-6 text-lg-right">
+
+                            <a href="#">Privacy Policy</a>
+
+                            <span>|</span>
+
+                            <a href="#">Terms & Conditions</a>
+
                         </div>
 
                     </div>
 
                 </div>
+
             </div>
 
-            <!-- Footer Bottom -->
-            <div class="auto-container">
-                <div class="footer-bottom">
-                    <div class="copyright">&copy; 2026 <a href="index.html">PROEN Consulting Services Pvt. Ltd</a>. All
-                        Rights Reserved.</div>
-                </div>
-            </div>
         </footer>
 
     </div>
