@@ -2256,7 +2256,7 @@ img {
 }
 
 .banner-section .slide-item {
-	height: 725px;
+	height: 600px;
 
 }
 
@@ -2322,7 +2322,7 @@ img {
 
 .banner-carousel .slide-item .image-layer {
 	position: absolute;
-	filter: brightness(70%);
+	filter: brightness(55%);
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -2336,14 +2336,14 @@ img {
 	transform: scale(1);
 }
 
-/* .banner-carousel .active .slide-item .image-layer {
+.banner-carousel .active .slide-item .image-layer {
 	-webkit-transform: scale(1.15);
 	-ms-transform: scale(1.15);
 	transform: scale(1.15);
 	-webkit-transition: all 7000ms linear;
 	-o-transition: all 7000ms linear;
 	transition: all 7000ms linear;
-} */
+}
 
 .banner-carousel .slide-item:before {
 	position: absolute;
@@ -9545,388 +9545,6 @@ ISO CERTIFICATION
 }
 
 
-/*=========================================================
-DATA EXTRACTION AS A SERVICE
-=========================================================*/
-
-.data-extraction-intro {
-	padding: 100px 0;
-}
-
-.data-extraction-intro .image-box {
-	position: relative;
-	overflow: hidden;
-	border-radius: 20px;
-	box-shadow: 0 20px 60px rgba(0, 0, 0, .12);
-}
-
-.data-extraction-intro .image-box img {
-	width: 100%;
-	display: block;
-	border-radius: 20px;
-	transition: .5s;
-}
-
-.data-extraction-intro .image-box:hover img {
-	transform: scale(1.05);
-}
-
-.data-extraction-intro .content-box {
-	padding-left: 40px;
-}
-
-.data-extraction-intro .content-box p {
-	margin-bottom: 20px;
-	font-size: 17px;
-	line-height: 32px;
-	color: #666;
-}
-
-.data-extraction-intro strong {
-	color: #005BAC;
-}
-
-
-
-/*=========================================================
-FEATURES
-=========================================================*/
-
-.data-features {
-	padding: 80px 0;
-	background: #f8fbff;
-}
-
-.data-features .sec-title {
-	text-align: center;
-	margin-bottom: 50px;
-}
-
-/* Feature Card */
-.feature-card {
-	background: #fff;
-	padding: 28px 25px;
-	margin: 15px;
-	border-radius: 16px;
-	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-	border-top: 4px solid transparent;
-	transition: all .35s ease;
-	height: 300px;
-}
-
-
-/* Icon */
-.feature-card i {
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	background: #eef5ff;
-	color: #005BAC;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 24px;
-	margin-bottom: 18px;
-	transition: .35s;
-}
-
-.feature-card:hover i {
-	background: #005BAC;
-	color: #fff;
-}
-
-/* Heading */
-.feature-card h3 {
-	font-size: 22px;
-	font-weight: 600;
-	color: #222;
-	margin-bottom: 12px;
-}
-
-/* Text */
-.feature-card p {
-	font-size: 15px;
-	line-height: 1.8;
-	color: #666;
-	margin-bottom: 0;
-}
-
-
-/*=========================================================
-HOW IT WORKS
-=========================================================*/
-
-.how-it-works {
-
-	padding: 100px 0;
-
-}
-
-.how-it-works img {
-
-	width: 100%;
-
-	border-radius: 20px;
-
-	box-shadow: 0 20px 60px rgba(0, 0, 0, .12);
-
-}
-
-.step-item {
-
-	display: flex;
-
-	align-items: flex-start;
-
-	margin-bottom: 35px;
-
-}
-
-.step-item span {
-
-	width: 65px;
-
-	height: 65px;
-
-	min-width: 65px;
-
-	border-radius: 50%;
-
-	background: #005BAC;
-
-	color: #fff;
-
-	display: flex;
-
-	align-items: center;
-
-	justify-content: center;
-
-	font-size: 24px;
-
-	font-weight: 700;
-
-	margin-right: 25px;
-
-}
-
-.step-item h4 {
-
-	margin-bottom: 8px;
-
-	font-size: 22px;
-
-}
-
-.step-item p {
-
-	color: #666;
-
-	line-height: 28px;
-
-}
-
-
-
-/*=========================================================
-BUSINESS BENEFITS
-=========================================================*/
-
-.benefits-section {
-
-	padding: 100px 0;
-
-	background: #f9fbfd;
-
-}
-
-.benefits-section img {
-
-	width: 100%;
-
-	border-radius: 20px;
-
-	box-shadow: 0 20px 60px rgba(0, 0, 0, .12);
-
-}
-
-.benefit-list {
-
-	margin-top: 35px;
-
-	padding: 0;
-
-	list-style: none;
-
-}
-
-.benefit-list li {
-
-	position: relative;
-
-	padding-left: 38px;
-
-	margin-bottom: 18px;
-
-	font-size: 17px;
-
-	color: #555;
-
-	line-height: 30px;
-
-}
-
-.benefit-list li:before {
-
-	content: "✓";
-
-	position: absolute;
-
-	left: 0;
-
-	top: 0;
-
-	color: #28a745;
-
-	font-size: 22px;
-
-	font-weight: 700;
-
-}
-
-
-/*=========================================================
-SECTION TITLE
-=========================================================*/
-
-.data-features .sub-title,
-.data-extraction-intro .sub-title,
-.how-it-works .sub-title,
-.benefits-section .sub-title {
-
-	color: #005BAC;
-
-	font-weight: 700;
-
-	text-transform: uppercase;
-
-	letter-spacing: 1px;
-
-	margin-bottom: 12px;
-
-}
-
-.data-features h2,
-.data-extraction-intro h2,
-.how-it-works h2,
-.benefits-section h2 {
-
-	font-size: 42px;
-
-	line-height: 54px;
-
-	margin-bottom: 25px;
-
-	color: #222;
-
-}
-
-
-
-/*=========================================================
-RESPONSIVE
-=========================================================*/
-
-@media(max-width:991px) {
-
-	.data-extraction-intro {
-
-		padding: 70px 0;
-
-	}
-
-	.data-extraction-intro .content-box {
-
-		padding-left: 0;
-
-		margin-top: 40px;
-
-	}
-
-	.data-features {
-
-		padding: 70px 0;
-
-	}
-
-	.how-it-works {
-
-		padding: 70px 0;
-
-	}
-
-	.benefits-section {
-
-		padding: 70px 0;
-
-	}
-
-	.benefits-section img {
-
-		margin-top: 40px;
-
-	}
-
-	.cta-section {
-
-		padding: 70px 20px;
-
-	}
-
-	.data-features h2,
-	.data-extraction-intro h2,
-	.how-it-works h2,
-	.benefits-section h2 {
-
-		font-size: 34px;
-
-		line-height: 44px;
-
-	}
-
-}
-
-@media(max-width:767px) {
-
-	.feature-card {
-
-		padding: 30px;
-
-	}
-
-	.step-item {
-
-		flex-direction: column;
-
-	}
-
-	.step-item span {
-
-		margin-bottom: 15px;
-
-	}
-
-	.cta-section h2 {
-
-		font-size: 30px;
-
-		line-height: 40px;
-
-	}
-
-}
-
-
 
 /*=========================================================
     DIGITAL TRANSFORMATION PAGE
@@ -11250,3 +10868,5854 @@ RESPONSIVE
     opacity:1 !important;
 }
 
+
+
+/*=========================================================
+Technology Development - Alternating Sections
+=========================================================*/
+
+.technology-development-section-one,
+.technology-development-section-two,
+.technology-development-section-three{
+    padding:100px 0;
+}
+
+.technology-development-section-one{
+    background:#ffffff;
+}
+
+.technology-development-section-two{
+    background:#F8FAFC;
+}
+
+.technology-development-section-three{
+    background:#ffffff;
+}
+
+
+/*=========================================================
+Content
+=========================================================*/
+
+.technology-development-content{
+    padding:0 40px;
+}
+
+.technology-development-subtitle{
+    display:inline-block;
+    color:#F69323;
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+}
+
+.technology-development-content h2{
+    color:#17375E;
+    font-size:40px;
+    font-weight:700;
+    line-height:54px;
+    margin-bottom:25px;
+}
+
+.technology-development-content p{
+    color:#666666;
+    font-size:17px;
+    line-height:32px;
+    margin-bottom:0;
+}
+
+
+/*=========================================================
+Images
+=========================================================*/
+
+.technology-development-image{
+    position:relative;
+    overflow:hidden;
+    border-radius:20px;
+    box-shadow:0 20px 50px rgba(0,0,0,.08);
+}
+
+.technology-development-image img{
+    width:100%;
+    display:block;
+    transition:all .4s ease;
+}
+
+.technology-development-image:hover img{
+    transform:scale(1.05);
+}
+
+
+/*=========================================================
+Spacing
+=========================================================*/
+
+.technology-development-section-one .row,
+.technology-development-section-two .row,
+.technology-development-section-three .row{
+    align-items:center;
+}
+
+
+/*=========================================================
+Responsive
+=========================================================*/
+
+@media(max-width:991px){
+
+    .technology-development-section-one,
+    .technology-development-section-two,
+    .technology-development-section-three{
+        padding:80px 0;
+    }
+
+    .technology-development-content{
+        padding:0;
+        margin-bottom:40px;
+    }
+
+    .technology-development-content h2{
+        font-size:34px;
+        line-height:46px;
+    }
+
+    .technology-development-image{
+        margin-top:20px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .technology-development-section-one,
+    .technology-development-section-two,
+    .technology-development-section-three{
+        padding:60px 0;
+    }
+
+    .technology-development-content h2{
+        font-size:28px;
+        line-height:40px;
+    }
+
+    .technology-development-content p{
+        font-size:16px;
+        line-height:28px;
+    }
+
+}
+
+
+/*=========================================================
+Technology Development - Overview Section
+=========================================================*/
+
+.technology-development-overview{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.technology-development-overview-content{
+    padding-left:40px;
+}
+
+.technology-development-overview-subtitle{
+    display:inline-block;
+    color:#F69323;
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+}
+
+.technology-development-overview-content h2{
+    color:#17375E;
+    font-size:42px;
+    font-weight:700;
+    line-height:56px;
+    margin-bottom:25px;
+}
+
+.technology-development-overview-content p{
+    color:#666666;
+    font-size:17px;
+    line-height:32px;
+    margin-bottom:0;
+}
+
+.technology-development-overview-image{
+    position:relative;
+    overflow:hidden;
+    border-radius:20px;
+    box-shadow:0 15px 45px rgba(0,0,0,.08);
+}
+
+.technology-development-overview-image img{
+    width:100%;
+    transition:.4s ease;
+}
+
+.technology-development-overview-image:hover img{
+    transform:scale(1.05);
+}
+
+
+
+/*=========================================================
+Technology Development Features
+=========================================================*/
+
+.technology-development-features{
+    padding:100px 0;
+    background:#F8FAFC;
+}
+
+.technology-development-features-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.technology-development-features-subtitle{
+    display:inline-block;
+    color:#F69323;
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+}
+
+.technology-development-features-header h2{
+    color:#17375E;
+    font-size:40px;
+    font-weight:700;
+    line-height:56px;
+    max-width:900px;
+    margin:0 auto;
+}
+
+
+
+/*=========================================================
+Feature Card
+=========================================================*/
+
+.technology-development-feature-card{
+    background:#ffffff;
+    border-radius:20px;
+    padding:40px 30px;
+    text-align:center;
+    height:100%;
+    margin-bottom:30px;
+    border-top:4px solid #F69323;
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+    transition:all .35s ease;
+}
+
+.technology-development-feature-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+}
+
+.technology-development-feature-icon{
+    width:85px;
+    height:85px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:#F69323;
+    color:#ffffff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:32px;
+    transition:all .35s ease;
+}
+
+.technology-development-feature-card:hover
+.technology-development-feature-icon{
+    background:#17375E;
+    transform:rotateY(180deg);
+}
+
+.technology-development-feature-content h3{
+    color:#17375E;
+    font-size:24px;
+    font-weight:700;
+    line-height:34px;
+    margin-bottom:18px;
+}
+
+.technology-development-feature-content p{
+    color:#666666;
+    font-size:16px;
+    line-height:30px;
+    margin-bottom:0;
+}
+
+
+
+/*=========================================================
+Responsive
+=========================================================*/
+
+@media (max-width:991px){
+
+    .technology-development-overview{
+        padding:80px 0;
+    }
+
+    .technology-development-overview-content{
+        padding-left:0;
+        margin-top:40px;
+    }
+
+    .technology-development-overview-content h2{
+        font-size:34px;
+        line-height:46px;
+    }
+
+    .technology-development-features{
+        padding:80px 0;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .technology-development-overview-content h2,
+    .technology-development-features-header h2{
+        font-size:28px;
+        line-height:40px;
+    }
+
+    .technology-development-feature-card{
+        padding:30px 25px;
+    }
+
+    .technology-development-feature-icon{
+        width:75px;
+        height:75px;
+        font-size:28px;
+    }
+
+    .technology-development-feature-content h3{
+        font-size:22px;
+        line-height:32px;
+    }
+
+}
+
+/*=========================================================
+Technology Development - Why Choose Section
+=========================================================*/
+
+.technology-development-why-choose{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.technology-development-why-choose-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.technology-development-why-choose-subtitle{
+    display:inline-block;
+    color:#F69323;
+    font-size:15px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:15px;
+}
+
+.technology-development-why-choose-header h2{
+    color:#17375E;
+    font-size:42px;
+    font-weight:700;
+    line-height:56px;
+}
+
+
+
+/*=========================================================
+Why Choose Cards
+=========================================================*/
+
+.technology-development-why-card{
+    background:#ffffff;
+    border:1px solid #e9eef5;
+    border-radius:20px;
+    padding:35px 30px;
+    text-align:center;
+    height:100%;
+    margin-bottom:30px;
+    transition:all .35s ease;
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+}
+
+.technology-development-why-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+    border-color:#F69323;
+}
+
+.technology-development-why-card-icon{
+    width:80px;
+    height:80px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:#F69323;
+    color:#ffffff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
+    transition:.35s ease;
+}
+
+.technology-development-why-card:hover
+.technology-development-why-card-icon{
+    background:#17375E;
+    transform:rotateY(180deg);
+}
+
+.technology-development-why-card-content h3{
+    color:#17375E;
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:18px;
+    line-height:34px;
+}
+
+.technology-development-why-card-content p{
+    color:#666666;
+    font-size:16px;
+    line-height:30px;
+    margin-bottom:0;
+}
+
+
+/*=========================================================
+Call To Action
+=========================================================*/
+
+.technology-development-cta{
+    padding:100px 0;
+    background:#F8FAFC;
+}
+
+.technology-development-cta-box{
+    background:linear-gradient(135deg,#17375E,#1B5EB8);
+    border-radius:20px;
+    padding:60px;
+    overflow:hidden;
+    position:relative;
+}
+
+.technology-development-cta-content{
+    color:#ffffff;
+}
+
+.technology-development-cta-subtitle{
+    display:inline-block;
+    color:#F69323;
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+}
+
+.technology-development-cta-content h2{
+    color:#ffffff;
+    font-size:34px;
+    font-weight:700;
+    line-height:48px;
+    margin-bottom:0;
+}
+
+.technology-development-cta-button{
+    display:inline-block;
+    padding:16px 40px;
+    background:#F69323;
+    color:#ffffff;
+    font-size:16px;
+    font-weight:600;
+    border-radius:50px;
+    text-decoration:none;
+    transition:.35s ease;
+}
+
+.technology-development-cta-button:hover{
+    background:#ffffff;
+    color:#17375E;
+    text-decoration:none;
+}
+
+
+
+/*=========================================================
+Responsive
+=========================================================*/
+
+@media (max-width:991px){
+
+    .technology-development-why-choose{
+        padding:80px 0;
+    }
+
+    .technology-development-cta{
+        padding:80px 0;
+    }
+
+    .technology-development-cta-box{
+        padding:45px 35px;
+        text-align:center;
+    }
+
+    .technology-development-cta-content{
+        margin-bottom:30px;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .technology-development-why-choose-header h2{
+        font-size:30px;
+        line-height:40px;
+    }
+
+    .technology-development-why-card{
+        padding:30px 25px;
+    }
+
+    .technology-development-why-card-content h3{
+        font-size:22px;
+        line-height:30px;
+    }
+
+    .technology-development-cta-content h2{
+        font-size:28px;
+        line-height:40px;
+    }
+
+    .technology-development-cta-box{
+        padding:35px 25px;
+    }
+
+    .technology-development-cta-button{
+        width:100%;
+        text-align:center;
+    }
+
+}
+
+
+/*=========================================================
+Managed Services - Introduction
+CSS Part 1
+=========================================================*/
+
+.managed-services-introduction-section{
+    padding:60px 0;
+    background:#FFFFFF;
+}
+
+.managed-services-introduction-content{
+    padding-right:50px;
+}
+
+.managed-services-introduction-heading{
+    margin-bottom:35px;
+}
+
+.managed-services-introduction-heading h2{
+    font-size:42px;
+    line-height:58px;
+    font-weight:700;
+    color:#17375E;
+    margin:0;
+}
+
+.managed-services-introduction-description p{
+    position:relative;
+    padding-left:32px;
+    margin-bottom:22px;
+    font-size:17px;
+    line-height:30px;
+    color:#555555;
+}
+
+.managed-services-introduction-description p:last-child{
+    margin-bottom:0;
+}
+
+.managed-services-introduction-description p:before{
+    content:"\f058";
+    font-family:"Font Awesome 5 Free";
+    font-weight:900;
+    position:absolute;
+    left:0;
+    top:3px;
+    color:#F69323;
+    font-size:18px;
+}
+
+.managed-services-introduction-image{
+    text-align:center;
+}
+
+.managed-services-introduction-image img{
+    width:100%;
+    max-width:560px;
+    border-radius:24px;
+    box-shadow:0 20px 60px rgba(0,0,0,.10);
+}
+
+/*=========================================================
+Managed Services Features
+=========================================================*/
+
+.managed-services-feature-section{
+    padding:40px 0 70px;
+    background:#F8FAFC;
+}
+
+.managed-services-feature-header{
+    margin-bottom:60px;
+}
+
+.managed-services-feature-header h2{
+    max-width:900px;
+    margin:auto;
+    font-size:40px;
+    line-height:56px;
+    font-weight:700;
+    color:#17375E;
+}
+
+.managed-services-feature-card{
+    background:#FFFFFF;
+    border:1px solid #E7EDF5;
+    border-radius:20px;
+    padding:40px 30px;
+    margin-bottom:30px;
+    height:100%;
+    text-align:center;
+    transition:all .35s ease;
+    box-shadow:0 10px 35px rgba(0,0,0,.05);
+}
+
+.managed-services-feature-card:hover{
+    transform:translateY(-10px);
+    border-color:#F69323;
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
+}
+
+.managed-services-feature-icon{
+    width:82px;
+    height:82px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    /* background:#FFF5E9; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    transition:all .35s ease;
+    padding:16px;
+}
+
+
+
+.managed-services-feature-icon img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    transition:all .35s ease;
+}
+
+.managed-services-feature-card:hover .managed-services-feature-icon img{
+    transform:scale(1.08);
+}
+
+.managed-services-feature-card h4{
+    color:#17375E;
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:18px;
+}
+
+.managed-services-feature-card p{
+    color:#666666;
+    font-size:16px;
+    line-height:29px;
+    margin:0;
+}
+
+/*=========================================================
+Responsive
+=========================================================*/
+
+@media only screen and (max-width:991px){
+
+    .managed-services-introduction-section{
+        padding:80px 0;
+    }
+
+    .managed-services-introduction-content{
+        padding-right:0;
+        margin-bottom:50px;
+    }
+
+    .managed-services-introduction-heading h2{
+        font-size:34px;
+        line-height:48px;
+    }
+
+    .managed-services-feature-header h2{
+        font-size:32px;
+        line-height:46px;
+    }
+
+}
+
+@media only screen and (max-width:767px){
+
+    .managed-services-introduction-section{
+        padding:60px 0;
+    }
+
+    .managed-services-feature-section{
+        padding:20px 0 40px;
+    }
+
+    .managed-services-introduction-heading h2{
+        font-size:28px;
+        line-height:40px;
+    }
+
+    .managed-services-feature-header{
+        margin-bottom:40px;
+    }
+
+    .managed-services-feature-header h2{
+        font-size:26px;
+        line-height:38px;
+    }
+
+    .managed-services-feature-card{
+        padding:30px 22px;
+    }
+
+}
+
+/*=========================================================
+Managed Services - Feature Section Bottom
+CSS Part 2
+=========================================================*/
+
+.managed-services-feature-section-bottom{
+    padding:0 0 100px;
+    background:#F8FAFC;
+}
+
+/*=========================================================
+Experience Section
+=========================================================*/
+
+.managed-services-experience-section{
+    padding:100px 0;
+    background:#FFFFFF;
+}
+
+.managed-services-experience-image{
+    text-align:center;
+}
+
+.managed-services-experience-image img{
+    width:100%;
+    max-width:560px;
+    border-radius:24px;
+    box-shadow:0 20px 60px rgba(0,0,0,.10);
+}
+
+.managed-services-experience-content{
+    padding-left:40px;
+}
+
+.managed-services-experience-content h2{
+    font-size:42px;
+    font-weight:700;
+    line-height:56px;
+    color:#17375E;
+    margin-bottom:25px;
+}
+
+.managed-services-experience-content p{
+    font-size:17px;
+    line-height:30px;
+    color:#666666;
+    margin-bottom:35px;
+}
+
+.managed-services-experience-action{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.managed-services-experience-info{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.managed-services-experience-info-icon{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:#FFF5E9;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+    transition:.35s;
+}
+
+.managed-services-experience-info:hover .managed-services-experience-info-icon{
+    background:#F69323;
+}
+
+.managed-services-experience-info-icon i{
+    font-size:28px;
+    color:#F69323;
+    transition:.35s;
+}
+
+.managed-services-experience-info:hover .managed-services-experience-info-icon i{
+    color:#FFFFFF;
+}
+
+.managed-services-experience-info-content h5{
+    margin:0;
+    color:#17375E;
+    font-size:22px;
+    font-weight:700;
+    line-height:32px;
+}
+
+.managed-services-experience-button .theme-btn{
+    border-radius:50px;
+    padding:16px 36px;
+    background:#F69323;
+    border:2px solid #F69323;
+    transition:.35s;
+}
+
+.managed-services-experience-button .theme-btn:hover{
+    background:#17375E;
+    border-color:#17375E;
+}
+
+/*=========================================================
+Responsive
+=========================================================*/
+
+@media only screen and (max-width:991px){
+
+    .managed-services-feature-section-bottom{
+        padding:0 0 80px;
+    }
+
+    .managed-services-experience-section{
+        padding:80px 0;
+    }
+
+    .managed-services-experience-content{
+        padding-left:0;
+        margin-top:50px;
+    }
+
+    .managed-services-experience-content h2{
+        font-size:34px;
+        line-height:46px;
+    }
+
+}
+
+@media only screen and (max-width:767px){
+
+    .managed-services-feature-section-bottom{
+        padding:0 0 60px;
+    }
+
+    .managed-services-experience-section{
+        padding:60px 0;
+    }
+
+    .managed-services-experience-content h2{
+        font-size:28px;
+        line-height:40px;
+    }
+
+    .managed-services-experience-content p{
+        font-size:16px;
+        line-height:28px;
+    }
+
+    .managed-services-experience-action{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .managed-services-experience-button{
+        width:100%;
+    }
+
+    .managed-services-experience-button .theme-btn{
+        width:100%;
+        text-align:center;
+    }
+
+    .managed-services-experience-info-content h5{
+        font-size:20px;
+        line-height:30px;
+    }
+
+}
+
+/*=========================================================
+Managed Services - Why Choose Us
+CSS Part 3
+=========================================================*/
+
+.managed-services-why-section{
+    padding:60px 0;
+    background:#F8FAFC;
+}
+
+.managed-services-why-header{
+    margin-bottom:60px;
+}
+
+.managed-services-why-header h2{
+    color:#17375E;
+    font-size:42px;
+    font-weight:700;
+    line-height:56px;
+    margin:0;
+}
+
+.managed-services-why-content{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.managed-services-why-card{
+    display:flex;
+    align-items:flex-start;
+    gap:20px;
+    background:#FFFFFF;
+    border:1px solid #E8EDF5;
+    border-radius:18px;
+    padding:28px;
+    box-shadow:0 10px 35px rgba(0,0,0,.06);
+    transition:all .35s ease;
+}
+
+.managed-services-why-card:hover{
+    transform:translateY(-8px);
+    border-color:#F69323;
+    box-shadow:0 18px 45px rgba(0,0,0,.12);
+}
+
+.managed-services-why-icon{
+    width:72px;
+    height:72px;
+    min-width:72px;
+    border-radius:50%;
+    background:#FFF4E7;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:all .35s ease;
+}
+
+.managed-services-why-card:hover .managed-services-why-icon{
+    background:#F69323;
+}
+
+.managed-services-why-icon i{
+    font-size:30px;
+    color:#F69323;
+    transition:.35s;
+}
+
+.managed-services-why-card:hover .managed-services-why-icon i{
+    color:#FFFFFF;
+}
+
+.managed-services-why-details h4{
+    color:#17375E;
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:12px;
+}
+
+.managed-services-why-details p{
+    color:#666666;
+    font-size:16px;
+    line-height:29px;
+    margin:0;
+}
+
+.managed-services-why-image{
+    text-align:center;
+}
+
+.managed-services-why-image img{
+    width:100%;
+    max-width:560px;
+    border-radius:22px;
+}
+
+/*=========================================================
+Managed Services CTA
+=========================================================*/
+
+.managed-services-cta-section{
+    padding:60px 0;
+    background:#FFFFFF;
+}
+
+.managed-services-cta-wrapper{
+    background:linear-gradient(135deg,#17375E,#1B5EB8);
+    border-radius:24px;
+    padding:60px;
+    overflow:hidden;
+}
+
+.managed-services-cta-content h2{
+    color:#FFFFFF;
+    font-size:42px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.managed-services-cta-content p{
+    color:#FFFFFF;
+    font-size:18px;
+    line-height:32px;
+    margin:0;
+    opacity:.95;
+}
+
+.managed-services-cta-button{
+    text-align:right;
+}
+
+.managed-services-cta-button .theme-btn{
+    background:#F69323;
+    border:2px solid #F69323;
+    color:#FFFFFF;
+    border-radius:50px;
+    padding:18px 38px;
+    transition:.35s;
+}
+
+.managed-services-cta-button .theme-btn:hover{
+    background:#FFFFFF;
+    color:#17375E;
+    border-color:#FFFFFF;
+}
+
+/*=========================================================
+Responsive
+=========================================================*/
+
+@media only screen and (max-width:991px){
+
+    .managed-services-why-section,
+    .managed-services-cta-section{
+        padding:80px 0;
+    }
+
+    .managed-services-why-image{
+        margin-top:50px;
+    }
+
+    .managed-services-cta-wrapper{
+        padding:45px 35px;
+        text-align:center;
+    }
+
+    .managed-services-cta-content h2{
+        font-size:34px;
+    }
+
+    .managed-services-cta-button{
+        text-align:center;
+        margin-top:30px;
+    }
+
+}
+
+@media only screen and (max-width:767px){
+
+    .managed-services-why-section,
+    .managed-services-cta-section{
+        padding:60px 0;
+    }
+
+    .managed-services-why-header{
+        margin-bottom:40px;
+    }
+
+    .managed-services-why-header h2,
+    .managed-services-cta-content h2{
+        font-size:30px;
+        line-height:40px;
+    }
+
+    .managed-services-why-card{
+        flex-direction:column;
+        text-align:center;
+        align-items:center;
+        padding:25px;
+    }
+
+    .managed-services-cta-wrapper{
+        padding:35px 25px;
+    }
+
+    .managed-services-cta-content p{
+        font-size:16px;
+        line-height:28px;
+    }
+
+    .managed-services-cta-button .theme-btn{
+        width:100%;
+        text-align:center;
+    }
+
+}
+
+/*=========================================================
+Staff Augmentation - Introduction Sections
+=========================================================*/
+
+.staff-augmentation-introduction,
+.staff-augmentation-section-one,
+.staff-augmentation-section-two,
+.staff-augmentation-section-three{
+    padding:60px 0;
+}
+
+
+.staff-augmentation-introduction{
+    background:#ffffff;
+}
+
+
+.staff-augmentation-section-one{
+    background:#F8FAFC;
+}
+
+
+.staff-augmentation-section-two{
+    background:#ffffff;
+}
+
+
+.staff-augmentation-section-three{
+    background:#F8FAFC;
+}
+
+
+
+/*=========================================================
+Content
+=========================================================*/
+
+.staff-augmentation-content{
+    padding:0 40px;
+}
+
+
+.staff-augmentation-subtitle{
+    display:inline-block;
+    color:#F69323;
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+}
+
+
+.staff-augmentation-content h2{
+    color:#17375E;
+    font-size:40px;
+    font-weight:700;
+    line-height:54px;
+    margin-bottom:25px;
+}
+
+
+.staff-augmentation-content p{
+    color:#666666;
+    font-size:17px;
+    line-height:32px;
+    margin-bottom:0;
+}
+
+
+
+/*=========================================================
+Images
+=========================================================*/
+
+.staff-augmentation-image{
+    overflow:hidden;
+    border-radius:20px;
+    box-shadow:0 20px 50px rgba(0,0,0,.08);
+}
+
+
+.staff-augmentation-image img{
+    width:100%;
+    display:block;
+    transition:.4s ease;
+}
+
+
+.staff-augmentation-image:hover img{
+    transform:scale(1.05);
+}
+
+
+
+/*=========================================================
+Responsive
+=========================================================*/
+
+@media(max-width:991px){
+
+    .staff-augmentation-introduction,
+    .staff-augmentation-section-one,
+    .staff-augmentation-section-two,
+    .staff-augmentation-section-three{
+        padding:80px 0;
+    }
+
+
+    .staff-augmentation-content{
+        padding:0;
+        margin-bottom:40px;
+    }
+
+
+    .staff-augmentation-content h2{
+        font-size:34px;
+        line-height:46px;
+    }
+
+}
+
+
+
+@media(max-width:767px){
+
+    .staff-augmentation-introduction,
+    .staff-augmentation-section-one,
+    .staff-augmentation-section-two,
+    .staff-augmentation-section-three{
+        padding:60px 0;
+    }
+
+
+    .staff-augmentation-content h2{
+        font-size:28px;
+        line-height:40px;
+    }
+
+
+    .staff-augmentation-content p{
+        font-size:16px;
+        line-height:28px;
+    }
+
+}
+
+/*=========================================================
+Staff Augmentation - Features Section
+=========================================================*/
+
+.staff-augmentation-features{
+    padding:60px 0;
+    background:#ffffff;
+}
+
+
+.staff-augmentation-features-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+
+.staff-augmentation-features-subtitle{
+    display:inline-block;
+    color:#F69323;
+    font-size:15px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:15px;
+}
+
+
+.staff-augmentation-features-header h2{
+    color:#17375E;
+    font-size:42px;
+    font-weight:700;
+    line-height:56px;
+    max-width:900px;
+    margin:0 auto;
+}
+
+
+
+/*=========================================================
+Feature Cards
+=========================================================*/
+
+.staff-augmentation-feature-card{
+
+    background:#ffffff;
+    border-radius:20px;
+    padding:40px 30px;
+    height:100%;
+    margin-bottom:30px;
+    text-align:center;
+
+    border-top:4px solid #F69323;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+
+    transition:all .35s ease;
+}
+
+
+
+.staff-augmentation-feature-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+
+
+/*=========================================================
+Feature Icons
+=========================================================*/
+
+.staff-augmentation-feature-icon{
+
+    width:85px;
+    height:85px;
+
+    margin:0 auto 25px;
+
+    border-radius:50%;
+
+    background:#F69323;
+
+    color:#ffffff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:32px;
+
+    transition:.35s ease;
+
+}
+
+
+
+.staff-augmentation-feature-card:hover 
+.staff-augmentation-feature-icon{
+
+    background:#17375E;
+
+    transform:rotateY(180deg);
+
+}
+
+
+
+/*=========================================================
+Feature Content
+=========================================================*/
+
+.staff-augmentation-feature-content h3{
+
+    color:#17375E;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    line-height:34px;
+
+    margin-bottom:18px;
+
+}
+
+
+
+.staff-augmentation-feature-content p{
+
+    color:#666666;
+
+    font-size:16px;
+
+    line-height:30px;
+
+    margin-bottom:0;
+
+}
+
+
+
+/*=========================================================
+Consultation Section
+=========================================================*/
+
+.staff-augmentation-consultation{
+
+    padding:60px 0;
+
+    background:#F8FAFC;
+
+}
+
+
+
+.staff-augmentation-consultation-image{
+
+    overflow:hidden;
+
+    border-radius:20px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+
+}
+
+
+
+.staff-augmentation-consultation-image img{
+
+    width:100%;
+
+    display:block;
+
+    transition:.4s ease;
+
+}
+
+
+
+.staff-augmentation-consultation-image:hover img{
+
+    transform:scale(1.05);
+
+}
+
+
+
+.staff-augmentation-consultation-content{
+
+    padding-left:40px;
+
+}
+
+
+
+.staff-augmentation-consultation-content h2{
+
+    color:#17375E;
+
+    font-size:40px;
+
+    font-weight:700;
+
+    line-height:54px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.staff-augmentation-consultation-content p{
+
+    color:#666666;
+
+    font-size:17px;
+
+    line-height:32px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+/*=========================================================
+Button
+=========================================================*/
+
+.staff-augmentation-primary-button{
+
+    display:inline-block;
+
+    padding:15px 35px;
+
+    background:#F69323;
+
+    color:#ffffff;
+
+    border-radius:50px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+    transition:.35s ease;
+
+}
+
+
+
+.staff-augmentation-primary-button:hover{
+
+    background:#17375E;
+
+    color:#ffffff;
+
+    text-decoration:none;
+
+}
+
+
+
+/*=========================================================
+Responsive
+=========================================================*/
+
+@media(max-width:991px){
+
+
+    .staff-augmentation-features,
+    .staff-augmentation-consultation{
+
+        padding:80px 0;
+
+    }
+
+
+    .staff-augmentation-features-header h2{
+
+        font-size:34px;
+
+        line-height:46px;
+
+    }
+
+
+    .staff-augmentation-consultation-content{
+
+        padding-left:0;
+
+        margin-top:40px;
+
+    }
+
+
+    .staff-augmentation-consultation-content h2{
+
+        font-size:34px;
+
+        line-height:46px;
+
+    }
+
+
+}
+
+
+
+@media(max-width:767px){
+
+
+    .staff-augmentation-features-header h2{
+
+        font-size:28px;
+
+        line-height:40px;
+
+    }
+
+
+    .staff-augmentation-feature-card{
+
+        padding:30px 25px;
+
+    }
+
+
+    .staff-augmentation-feature-icon{
+
+        width:75px;
+
+        height:75px;
+
+        font-size:28px;
+
+    }
+
+
+    .staff-augmentation-consultation-content h2{
+
+        font-size:28px;
+
+        line-height:40px;
+
+    }
+
+
+    .staff-augmentation-primary-button{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+}
+
+/*=========================================================
+Staff Augmentation - Why Choose Section
+=========================================================*/
+
+.staff-augmentation-why-choose{
+
+    padding:60px 0;
+
+    background:#ffffff;
+
+}
+
+
+
+.staff-augmentation-why-header{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+
+
+.staff-augmentation-why-header h2{
+
+    color:#17375E;
+
+    font-size:42px;
+
+    font-weight:700;
+
+    line-height:56px;
+
+}
+
+
+
+/*=========================================================
+Why Choose Cards
+=========================================================*/
+
+.staff-augmentation-why-card{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    height:100%;
+
+    margin-bottom:30px;
+
+    border-top:4px solid #F69323;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+
+    transition:.35s ease;
+
+}
+
+
+
+.staff-augmentation-why-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+
+
+/*=========================================================
+Why Icons
+=========================================================*/
+
+.staff-augmentation-why-icon{
+
+    width:85px;
+
+    height:85px;
+
+    margin:0 auto 25px;
+
+    border-radius:50%;
+
+    background:#F69323;
+
+    color:#ffffff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:32px;
+
+    transition:.35s ease;
+
+}
+
+
+
+.staff-augmentation-why-card:hover 
+.staff-augmentation-why-icon{
+
+    background:#17375E;
+
+    transform:rotateY(180deg);
+
+}
+
+
+
+/*=========================================================
+Why Content
+=========================================================*/
+
+.staff-augmentation-why-content h3{
+
+    color:#17375E;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    line-height:34px;
+
+    margin-bottom:18px;
+
+}
+
+
+
+.staff-augmentation-why-content p{
+
+    color:#666666;
+
+    font-size:16px;
+
+    line-height:30px;
+
+    margin-bottom:0;
+
+}
+
+
+
+/*=========================================================
+FAQ Accordion Section
+=========================================================*/
+
+.staff-augmentation-faq{
+
+    padding:100px 0;
+
+    background:#F8FAFC;
+
+}
+
+
+.staff-augmentation-faq-header{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+
+.staff-augmentation-faq-header h2{
+
+    color:#17375E;
+
+    font-size:42px;
+
+    font-weight:700;
+
+    line-height:56px;
+
+}
+
+
+
+.staff-augmentation-faq-wrapper{
+
+    max-width:950px;
+
+    margin:auto;
+
+}
+
+
+
+.staff-augmentation-faq-item{
+
+    background:#ffffff;
+
+    border-radius:15px;
+
+    margin-bottom:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+
+    border-left:4px solid #F69323;
+
+}
+
+
+
+/* Question Button */
+
+.staff-augmentation-faq-question{
+
+    width:100%;
+
+    background:none;
+
+    border:none;
+
+    padding:25px 35px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    text-align:left;
+
+    color:#17375E;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+}
+
+
+
+.staff-augmentation-faq-question span{
+
+    font-size:30px;
+
+    color:#F69323;
+
+    transition:.3s ease;
+
+}
+
+
+
+/* Answer */
+
+.staff-augmentation-faq-answer{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:max-height .4s ease;
+
+}
+
+
+
+.staff-augmentation-faq-answer p{
+
+    padding:0 35px 30px;
+
+    color:#666666;
+
+    font-size:16px;
+
+    line-height:30px;
+
+    margin:0;
+
+}
+
+
+
+/* Active */
+
+.staff-augmentation-faq-item.active 
+.staff-augmentation-faq-answer{
+
+    max-height:300px;
+
+}
+
+
+
+.staff-augmentation-faq-item.active 
+.staff-augmentation-faq-question span{
+
+    transform:rotate(45deg);
+
+}
+
+
+
+/* Mobile */
+
+@media(max-width:767px){
+
+    .staff-augmentation-faq-header h2{
+
+        font-size:28px;
+
+        line-height:40px;
+
+    }
+
+
+    .staff-augmentation-faq-question{
+
+        padding:20px;
+
+        font-size:17px;
+
+    }
+
+
+    .staff-augmentation-faq-answer p{
+
+        padding:0 20px 25px;
+
+    }
+
+}
+
+/*=========================================================
+CTA Section
+=========================================================*/
+
+.staff-augmentation-cta{
+
+    padding:100px 0;
+
+    background:#ffffff;
+
+}
+
+
+
+.staff-augmentation-cta-box{
+
+    background:linear-gradient(
+        135deg,
+        #17375E,
+        #1B5EB8
+    );
+
+    border-radius:25px;
+
+    padding:60px;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
+
+}
+
+
+
+.staff-augmentation-cta-subtitle{
+
+    display:inline-block;
+
+    color:#F69323;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.staff-augmentation-cta-content h2{
+
+    color:#ffffff;
+
+    font-size:34px;
+
+    font-weight:700;
+
+    line-height:48px;
+
+    margin-bottom:0;
+
+}
+
+
+
+.staff-augmentation-cta-button{
+
+    display:inline-block;
+
+    padding:16px 38px;
+
+    background:#F69323;
+
+    color:#ffffff;
+
+    border-radius:50px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+    transition:.35s ease;
+
+}
+
+
+
+.staff-augmentation-cta-button:hover{
+
+    background:#ffffff;
+
+    color:#17375E;
+
+    text-decoration:none;
+
+}
+
+
+
+/*=========================================================
+Responsive
+=========================================================*/
+
+@media(max-width:991px){
+
+
+    .staff-augmentation-why-choose,
+    .staff-augmentation-faq,
+    .staff-augmentation-cta{
+
+        padding:80px 0;
+
+    }
+
+
+    .staff-augmentation-why-header h2,
+    .staff-augmentation-faq-header h2{
+
+        font-size:34px;
+
+        line-height:46px;
+
+    }
+
+
+    .staff-augmentation-cta-box{
+
+        padding:45px 35px;
+
+        text-align:center;
+
+    }
+
+
+    .staff-augmentation-cta-content h2{
+
+        font-size:30px;
+
+        line-height:42px;
+
+        margin-bottom:30px;
+
+    }
+
+}
+
+
+
+@media(max-width:767px){
+
+
+    .staff-augmentation-why-header h2,
+    .staff-augmentation-faq-header h2{
+
+        font-size:28px;
+
+        line-height:40px;
+
+    }
+
+
+    .staff-augmentation-why-card{
+
+        padding:30px 25px;
+
+    }
+
+
+    .staff-augmentation-faq-item{
+
+        padding:25px 20px;
+
+    }
+
+
+    .staff-augmentation-cta-box{
+
+        padding:35px 25px;
+
+    }
+
+
+    .staff-augmentation-cta-content h2{
+
+        font-size:26px;
+
+        line-height:38px;
+
+    }
+
+
+    .staff-augmentation-cta-button{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+}
+
+
+
+/*=========================================================
+PARALEGAL SERVICE - INTRODUCTION
+=========================================================*/
+
+.paralegal-service-introduction{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.paralegal-service-header{
+    text-align:center;
+    max-width:850px;
+    margin:0 auto 70px;
+}
+
+.paralegal-service-subtitle{
+    display:inline-block;
+    padding:8px 22px;
+    background:rgba(246,147,35,0.10);
+    color:#F69323;
+    font-size:14px;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    border-radius:50px;
+    margin-bottom:18px;
+}
+
+.paralegal-service-header h2{
+    color:#17375E;
+    font-size:42px;
+    font-weight:700;
+    line-height:56px;
+    margin-bottom:20px;
+}
+
+.paralegal-service-header p{
+    color:#6B7280;
+    font-size:18px;
+    line-height:32px;
+    margin:0;
+}
+
+.paralegal-service-row{
+    margin-bottom:100px;
+    align-items:center;
+}
+
+.paralegal-service-row:last-child{
+    margin-bottom:0;
+}
+
+/*=========================================================
+IMAGE
+=========================================================*/
+
+.paralegal-service-image{
+    position:relative;
+    overflow:hidden;
+    border-radius:20px;
+    box-shadow:0 20px 60px rgba(0,0,0,.08);
+}
+
+.paralegal-service-image img{
+    width:100%;
+    display:block;
+    border-radius:20px;
+    transition:.5s;
+}
+
+.paralegal-service-image:hover img{
+    transform:scale(1.05);
+}
+
+/*=========================================================
+CONTENT
+=========================================================*/
+
+.paralegal-service-content{
+    padding-left:40px;
+}
+
+.paralegal-service-label{
+    display:inline-block;
+    color:#F69323;
+    font-size:15px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:15px;
+}
+
+.paralegal-service-content h3{
+    color:#17375E;
+    font-size:34px;
+    font-weight:700;
+    line-height:46px;
+    margin-bottom:20px;
+}
+
+.paralegal-service-content p{
+    color:#6B7280;
+    font-size:17px;
+    line-height:32px;
+    margin:0;
+}
+
+.flex-lg-row-reverse .paralegal-service-content{
+    padding-left:0;
+    padding-right:40px;
+}
+
+/*=========================================================
+CONTRACT CREATION
+=========================================================*/
+
+.paralegal-contract-creation{
+    padding:100px 0;
+    background:#F8FAFC;
+}
+
+.paralegal-contract-header{
+    text-align:center;
+    max-width:900px;
+    margin:0 auto 70px;
+}
+
+.paralegal-contract-header h2{
+    color:#17375E;
+    font-size:40px;
+    font-weight:700;
+    line-height:56px;
+    margin:0;
+}
+
+.paralegal-contract-card{
+    background:#ffffff;
+    padding:45px 35px;
+    border-radius:18px;
+    height:100%;
+    text-align:center;
+    transition:.4s;
+    border:1px solid #E8EEF5;
+    box-shadow:0 10px 35px rgba(0,0,0,.05);
+    margin-bottom:30px;
+}
+
+.paralegal-contract-card:hover{
+    transform:translateY(-10px);
+    border-color:#F69323;
+    box-shadow:0 18px 45px rgba(0,0,0,.12);
+}
+
+.paralegal-contract-icon{
+    width:80px;
+    height:80px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:#17375E;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:.4s;
+}
+
+.paralegal-contract-card:hover .paralegal-contract-icon{
+    background:#F69323;
+}
+
+.paralegal-contract-icon i{
+    color:#ffffff;
+    font-size:32px;
+}
+
+.paralegal-contract-card span{
+    display:block;
+    color:#F69323;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:15px;
+}
+
+.paralegal-contract-card h3{
+    color:#17375E;
+    font-size:24px;
+    font-weight:700;
+    line-height:34px;
+    margin-bottom:18px;
+}
+
+.paralegal-contract-card p{
+    color:#6B7280;
+    font-size:16px;
+    line-height:30px;
+    margin:0;
+}
+
+/*=========================================================
+PARALEGAL SERVICE - OUR OFFERINGS
+=========================================================*/
+
+.paralegal-offerings-section{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.paralegal-offerings-header{
+    text-align:center;
+    max-width:850px;
+    margin:0 auto 70px;
+}
+
+.paralegal-offerings-subtitle{
+    display:inline-block;
+    padding:8px 22px;
+    background:rgba(246,147,35,.10);
+    color:#F69323;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:18px;
+}
+
+.paralegal-offerings-header h2{
+    color:#17375E;
+    font-size:42px;
+    font-weight:700;
+    line-height:56px;
+    margin:0;
+}
+
+.paralegal-offering-card{
+    position:relative;
+    background:#ffffff;
+    padding:45px 40px;
+    border-radius:18px;
+    border:1px solid #E8EEF5;
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
+    transition:.4s;
+    height:100%;
+    margin-bottom:30px;
+}
+
+.paralegal-offering-card:hover{
+    transform:translateY(-8px);
+    border-color:#F69323;
+    box-shadow:0 18px 45px rgba(0,0,0,.10);
+}
+
+.paralegal-offering-icon{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:#17375E;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:25px;
+    transition:.4s;
+}
+
+.paralegal-offering-card:hover .paralegal-offering-icon{
+    background:#F69323;
+}
+
+.paralegal-offering-icon i{
+    color:#ffffff;
+    font-size:28px;
+}
+
+.paralegal-offering-content h3{
+    color:#17375E;
+    font-size:28px;
+    font-weight:700;
+    line-height:40px;
+    margin-bottom:25px;
+}
+
+.paralegal-offering-content p{
+    color:#6B7280;
+    font-size:16px;
+    line-height:30px;
+    margin-bottom:18px;
+}
+
+.paralegal-offering-content p:last-child{
+    margin-bottom:0;
+}
+
+.paralegal-offering-content strong{
+    color:#17375E;
+    font-weight:700;
+}
+
+/*=========================================================
+CTA SECTION
+=========================================================*/
+
+.paralegal-cta-section{
+    padding:80px 0;
+    background:#F8FAFC;
+}
+
+.paralegal-cta-box{
+    background:linear-gradient(135deg,#17375E,#1B5EB8);
+    border-radius:20px;
+    padding:70px 60px;
+    text-align:center;
+    overflow:hidden;
+    position:relative;
+}
+
+.paralegal-cta-box::before{
+    content:"";
+    position:absolute;
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    background:rgba(255,255,255,.08);
+    top:-80px;
+    right:-80px;
+}
+
+.paralegal-cta-box::after{
+    content:"";
+    position:absolute;
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background:rgba(255,255,255,.05);
+    left:-60px;
+    bottom:-60px;
+}
+
+.paralegal-cta-box h2{
+    position:relative;
+    z-index:2;
+    color:#ffffff;
+    font-size:38px;
+    font-weight:700;
+    line-height:56px;
+    margin:0;
+}
+
+/*=========================================================
+PROEN FAQ SECTION
+=========================================================*/
+
+.proen-faq-section{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.proen-faq-header{
+    text-align:center;
+    max-width:800px;
+    margin:0 auto 60px;
+}
+
+.proen-faq-subtitle{
+    display:inline-block;
+    padding:8px 22px;
+    background:rgba(246,147,35,.10);
+    color:#F69323;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:18px;
+}
+
+.proen-faq-header h2{
+    color:#17375E;
+    font-size:42px;
+    font-weight:700;
+    line-height:56px;
+    margin:0;
+}
+
+.proen-faq-container{
+    max-width:900px;
+    margin:0 auto;
+}
+
+.proen-faq-item{
+    background:#ffffff;
+    border:1px solid #E5EAF1;
+    border-radius:16px;
+    overflow:hidden;
+    margin-bottom:20px;
+    transition:.35s;
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+}
+
+.proen-faq-item:hover{
+    border-color:#F69323;
+}
+
+.proen-faq-item.active{
+    border-color:#F69323;
+    box-shadow:0 18px 45px rgba(0,0,0,.08);
+}
+
+.proen-faq-question{
+    width:100%;
+    background:none;
+    border:none;
+    outline:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:left;
+    padding:28px 30px;
+    cursor:pointer;
+    color:#17375E;
+    font-size:22px;
+    font-weight:700;
+}
+
+.proen-faq-icon{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:#17375E;
+    color:#ffffff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:.35s;
+    flex-shrink:0;
+}
+
+.proen-faq-item.active .proen-faq-icon{
+    background:#F69323;
+    transform:rotate(45deg);
+}
+
+.proen-faq-answer{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height .45s ease;
+}
+
+.proen-faq-item.active .proen-faq-answer{
+    max-height:500px;
+}
+
+.proen-faq-answer-content{
+    padding:0 30px 30px;
+}
+
+.proen-faq-answer-content p{
+    color:#6B7280;
+    font-size:16px;
+    line-height:30px;
+    margin-bottom:18px;
+}
+
+.proen-faq-answer-content p:last-child{
+    margin-bottom:0;
+}
+
+.proen-faq-answer-content strong{
+    color:#17375E;
+    font-weight:700;
+}
+
+/*=========================================================
+RESPONSIVE
+=========================================================*/
+
+@media (max-width:991px){
+
+    .paralegal-service-header h2,
+    .paralegal-contract-header h2,
+    .paralegal-offerings-header h2,
+    .proen-faq-header h2{
+        font-size:34px;
+        line-height:46px;
+    }
+
+    .paralegal-service-content,
+    .flex-lg-row-reverse .paralegal-service-content{
+        padding:40px 0 0;
+    }
+
+    .paralegal-service-row{
+        margin-bottom:70px;
+    }
+
+    .paralegal-cta-box{
+        padding:50px 35px;
+    }
+
+    .paralegal-cta-box h2{
+        font-size:30px;
+        line-height:44px;
+    }
+
+    .proen-faq-question{
+        font-size:20px;
+        padding:24px;
+    }
+
+    .proen-faq-answer-content{
+        padding:0 24px 24px;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .paralegal-service-introduction,
+    .paralegal-contract-creation,
+    .paralegal-offerings-section,
+    .paralegal-cta-section,
+    .proen-faq-section{
+        padding:70px 0;
+    }
+
+    .paralegal-service-header h2,
+    .paralegal-contract-header h2,
+    .paralegal-offerings-header h2,
+    .proen-faq-header h2{
+        font-size:28px;
+        line-height:40px;
+    }
+
+    .paralegal-service-content h3,
+    .paralegal-offering-content h3{
+        font-size:24px;
+        line-height:34px;
+    }
+
+    .paralegal-contract-card,
+    .paralegal-offering-card{
+        padding:30px 25px;
+    }
+
+    .proen-faq-question{
+        font-size:18px;
+        padding:20px;
+    }
+
+    .proen-faq-icon{
+        width:38px;
+        height:38px;
+    }
+
+}
+
+
+/*=========================================================
+DATA EXTRACTION - INTRODUCTION
+=========================================================*/
+
+.data-extraction-introduction{
+    padding:100px 0 40px;
+    background:#ffffff;
+}
+
+.data-extraction-header{
+    max-width:900px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.data-extraction-subtitle{
+    display:inline-block;
+    padding:8px 24px;
+    background:rgba(246,147,35,.10);
+    color:#F69323;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:18px;
+}
+
+.data-extraction-header h2{
+    color:#17375E;
+    font-size:42px;
+    font-weight:700;
+    line-height:56px;
+    margin-bottom:22px;
+}
+
+.data-extraction-header p{
+    color:#6B7280;
+    font-size:18px;
+    line-height:32px;
+    margin:0;
+}
+
+/*=========================================================
+KEY FEATURES & BENEFITS
+=========================================================*/
+
+.data-extraction-features{
+    padding:80px 0 100px;
+    background:#F8FAFC;
+}
+
+.data-extraction-section-title{
+    text-align:center;
+    max-width:900px;
+    margin:0 auto 70px;
+}
+
+.data-extraction-section-title h2{
+    color:#17375E;
+    font-size:42px;
+    font-weight:700;
+    line-height:56px;
+    margin:0;
+}
+
+/*=========================================================
+FEATURE CARD
+=========================================================*/
+
+.data-extraction-feature-row{
+    margin-bottom:30px;
+}
+
+.data-extraction-card{
+    background:#ffffff;
+    border:1px solid #E6ECF5;
+    border-radius:22px;
+    padding:35px;
+    height:100%;
+    transition:.35s;
+    box-shadow:0 10px 35px rgba(0,0,0,.06);
+}
+
+.data-extraction-card:hover{
+    transform:translateY(-8px);
+    border-color:#F69323;
+    box-shadow:0 20px 45px rgba(0,0,0,.10);
+}
+
+/*=========================================================
+ICON
+=========================================================*/
+
+.data-extraction-image{
+    margin-bottom:28px;
+}
+
+.data-extraction-image img{
+    width:72px;
+    height:72px;
+    object-fit:contain;
+    transition:.35s;
+}
+
+.data-extraction-card:hover .data-extraction-image img{
+    transform:scale(1.08);
+}
+
+/*=========================================================
+CONTENT
+=========================================================*/
+
+.data-extraction-content{
+    padding:0;
+}
+
+.data-extraction-label{
+    display:inline-block;
+    color:#F69323;
+    font-size:13px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:12px;
+}
+
+.data-extraction-content h3{
+    color:#555555;
+    font-size:22px;
+    font-weight:700;
+    line-height:34px;
+    margin-bottom:18px;
+}
+
+.data-extraction-content p{
+    color:#6B7280;
+    font-size:17px;
+    line-height:32px;
+    margin:0;
+}
+
+/*=========================================================
+3 CARDS PER ROW
+=========================================================*/
+
+.data-extraction-features .col-lg-4{
+    margin-bottom:30px;
+}
+
+/*=========================================================
+RESPONSIVE
+=========================================================*/
+
+@media (max-width:991px){
+
+    .data-extraction-header h2,
+    .data-extraction-section-title h2{
+        font-size:34px;
+        line-height:46px;
+    }
+
+    .data-extraction-card{
+        padding:30px;
+    }
+
+    .data-extraction-image img{
+        width:64px;
+        height:64px;
+    }
+
+    .data-extraction-content h3{
+        font-size:20px;
+        line-height:30px;
+    }
+
+    .data-extraction-content p{
+        font-size:16px;
+        line-height:30px;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .data-extraction-introduction,
+    .data-extraction-features{
+        padding:70px 0;
+    }
+
+    .data-extraction-header h2,
+    .data-extraction-section-title h2{
+        font-size:28px;
+        line-height:40px;
+    }
+
+    .data-extraction-card{
+        padding:25px;
+    }
+
+    .data-extraction-image img{
+        width:58px;
+        height:58px;
+    }
+
+    .data-extraction-content h3{
+        font-size:18px;
+        line-height:28px;
+    }
+
+    .data-extraction-content p{
+        font-size:15px;
+        line-height:28px;
+    }
+
+}
+
+/*=========================================================
+DATA EXTRACTION - HOW IT WORKS
+=========================================================*/
+
+.data-extraction-how-it-works{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.data-extraction-how-header{
+    max-width:900px;
+    margin:0 auto 60px;
+    text-align:center;
+}
+
+.data-extraction-how-subtitle{
+    display:inline-block;
+    padding:8px 22px;
+    background:rgba(27,94,184,.10);
+    color:#1B5EB8;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:18px;
+}
+
+.data-extraction-how-header h2{
+    color:#17375E;
+    font-size:42px;
+    font-weight:700;
+    line-height:56px;
+    margin-bottom:0;
+}
+
+/*=========================================================
+PROCESS IMAGE
+=========================================================*/
+
+.data-extraction-process-image{
+    max-width:1100px;
+    margin:0 auto 60px;
+    text-align:center;
+}
+
+.data-extraction-process-image img{
+    width:100%;
+    max-width:950px;
+    height:auto;
+    display:block;
+    margin:auto;
+	border-radius: 20px;
+}
+
+/*=========================================================
+CONTENT
+=========================================================*/
+
+.data-extraction-how-content{
+    max-width:900px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.data-extraction-how-content p{
+    color:#6B7280;
+    font-size:18px;
+    line-height:32px;
+    margin-bottom:20px;
+}
+
+.data-extraction-how-content p:last-child{
+    margin-bottom:0;
+}
+
+/*=========================================================
+LET'S TALK
+=========================================================*/
+
+.data-extraction-cta-section{
+    padding:100px 0;
+    background:#F8FAFC;
+}
+
+.data-extraction-cta-box{
+    background:linear-gradient(135deg,#17375E,#1B5EB8);
+    border-radius:24px;
+    padding:70px 60px;
+    position:relative;
+    overflow:hidden;
+    box-shadow:0 20px 50px rgba(23,55,94,.20);
+}
+
+.data-extraction-cta-box::before{
+    content:"";
+    position:absolute;
+    width:260px;
+    height:260px;
+    border-radius:50%;
+    background:rgba(255,255,255,.06);
+    top:-120px;
+    right:-100px;
+}
+
+.data-extraction-cta-box::after{
+    content:"";
+    position:absolute;
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background:rgba(255,255,255,.05);
+    left:-60px;
+    bottom:-60px;
+}
+
+.data-extraction-cta-content{
+    position:relative;
+    z-index:2;
+}
+
+.data-extraction-cta-subtitle{
+    display:inline-block;
+    color:#F69323;
+    font-size:15px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:18px;
+}
+
+.data-extraction-cta-content p{
+    color:#ffffff;
+    font-size:20px;
+    line-height:34px;
+    margin:0;
+}
+
+.data-extraction-cta-button{
+    position:relative;
+    z-index:2;
+    text-align:right;
+}
+
+.data-extraction-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:16px 38px;
+    background:#F69323;
+    color:#ffffff;
+    border:2px solid #F69323;
+    border-radius:50px;
+    font-size:16px;
+    font-weight:600;
+    text-decoration:none;
+    transition:.35s;
+}
+
+.data-extraction-btn:hover{
+    background:#ffffff;
+    color:#17375E;
+    border-color:#ffffff;
+}
+
+/*=========================================================
+RESPONSIVE
+=========================================================*/
+
+@media (max-width:1199px){
+
+    .data-extraction-header h2,
+    .data-extraction-section-title h2,
+    .data-extraction-how-header h2{
+        font-size:38px;
+        line-height:50px;
+    }
+
+    .data-extraction-card{
+        padding:30px;
+    }
+
+    .data-extraction-content h3{
+        font-size:21px;
+        line-height:32px;
+    }
+
+    .data-extraction-process-image img{
+        max-width:850px;
+    }
+
+    .data-extraction-cta-box{
+        padding:60px 45px;
+    }
+
+}
+
+@media (max-width:991px){
+
+    .data-extraction-introduction,
+    .data-extraction-features,
+    .data-extraction-how-it-works,
+    .data-extraction-cta-section{
+        padding:80px 0;
+    }
+
+    .data-extraction-header h2,
+    .data-extraction-section-title h2,
+    .data-extraction-how-header h2{
+        font-size:34px;
+        line-height:46px;
+    }
+
+    .data-extraction-header p,
+    .data-extraction-how-content p{
+        font-size:17px;
+        line-height:30px;
+    }
+
+    .data-extraction-card{
+        padding:28px;
+        text-align:center;
+    }
+
+    .data-extraction-image{
+        text-align:center;
+        margin-bottom:22px;
+    }
+
+    .data-extraction-image img{
+        width:64px;
+        height:64px;
+    }
+
+    .data-extraction-content h3{
+        font-size:20px;
+        line-height:30px;
+    }
+
+    .data-extraction-process-image{
+        margin-bottom:45px;
+    }
+
+    .data-extraction-process-image img{
+        max-width:100%;
+    }
+
+    .data-extraction-cta-box{
+        padding:50px 35px;
+        text-align:center;
+    }
+
+    .data-extraction-cta-content{
+        margin-bottom:30px;
+    }
+
+    .data-extraction-cta-button{
+        text-align:center;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .data-extraction-introduction,
+    .data-extraction-features,
+    .data-extraction-how-it-works,
+    .data-extraction-cta-section{
+        padding:70px 0;
+    }
+
+    .data-extraction-header h2,
+    .data-extraction-section-title h2,
+    .data-extraction-how-header h2{
+        font-size:28px;
+        line-height:40px;
+    }
+
+    .data-extraction-header p,
+    .data-extraction-how-content p{
+        font-size:16px;
+        line-height:28px;
+    }
+
+    .data-extraction-card{
+        padding:24px;
+        border-radius:18px;
+    }
+
+    .data-extraction-image img{
+        width:56px;
+        height:56px;
+    }
+
+    .data-extraction-label,
+    .data-extraction-subtitle,
+    .data-extraction-how-subtitle,
+    .data-extraction-cta-subtitle{
+        font-size:12px;
+        padding:7px 18px;
+    }
+
+    .data-extraction-content h3{
+        font-size:18px;
+        line-height:28px;
+    }
+
+    .data-extraction-content p{
+        font-size:15px;
+        line-height:26px;
+    }
+
+    .data-extraction-process-image{
+        margin-bottom:35px;
+    }
+
+    .data-extraction-cta-box{
+        padding:35px 25px;
+        border-radius:18px;
+    }
+
+    .data-extraction-cta-content p{
+        font-size:16px;
+        line-height:28px;
+    }
+
+    .data-extraction-btn{
+        width:100%;
+        justify-content:center;
+    }
+
+}
+
+
+
+/*=========================================================
+DIGITAL TRANSFORMATION - INTRODUCTION
+=========================================================*/
+
+.digital-transformation-introduction{
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.digital-transformation-header{
+    max-width:560px;
+}
+
+.digital-transformation-subtitle{
+    display:inline-block;
+    padding:8px 24px;
+    background:rgba(246,147,35,.12);
+    color:#F69323;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    margin-bottom:22px;
+}
+
+.digital-transformation-header h2{
+    color:#17375E;
+    font-size:44px;
+    font-weight:700;
+    line-height:58px;
+    margin-bottom:22px;
+}
+
+.digital-transformation-header p{
+    color:#6B7280;
+    font-size:18px;
+    line-height:32px;
+    margin-bottom:12px;
+}
+
+.digital-transformation-description{
+    margin-bottom:0 !important;
+}
+
+.digital-transformation-main-image{
+    text-align:right;
+}
+
+.digital-transformation-main-image img{
+    width:100%;
+    max-width:520px;
+    height:auto;
+	border-radius: 20px;
+}
+
+/*=========================================================
+DIGITAL TRANSFORMATION FEATURES
+=========================================================*/
+
+.digital-transformation-benefits{
+    padding:20px 0 100px;
+    background:#F8FAFC;
+}
+
+.digital-transformation-card{
+    background:#ffffff;
+    border:1px solid #E7EDF5;
+    border-radius:18px;
+    padding:35px 30px;
+    margin-bottom:30px;
+    height:calc(100% - 30px);
+    transition:.35s;
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
+}
+
+.digital-transformation-card:hover{
+    transform:translateY(-8px);
+    border-color:#F69323;
+    box-shadow:0 18px 45px rgba(23,55,94,.15);
+}
+
+.digital-transformation-card-icon{
+    width:72px;
+    height:72px;
+    border-radius:18px;
+    background:#F8FAFC;
+    border:1px solid #E8EDF5;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:20px;
+    transition:.35s;
+}
+
+.digital-transformation-card:hover .digital-transformation-card-icon{
+    background:#F69323;
+    border-color:#F69323;
+}
+
+.digital-transformation-card-icon img{
+    width:42px;
+    height:42px;
+    object-fit:contain;
+}
+
+.digital-transformation-label{
+    display:inline-block;
+    color:#F69323;
+    font-size:12px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:15px;
+}
+
+.digital-transformation-card h3{
+    color:#17375E;
+    font-size:24px;
+    font-weight:700;
+    line-height:34px;
+    margin-bottom:18px;
+}
+
+.digital-transformation-card p{
+    color:#6B7280;
+    font-size:16px;
+    line-height:30px;
+    margin:0;
+}
+
+/*=========================================================
+OUR CONSULTING SERVICES
+=========================================================*/
+
+.digital-transformation-consulting{
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.digital-transformation-section-title{
+    max-width:900px;
+    margin:0 auto 70px;
+    text-align:center;
+}
+
+.digital-transformation-subtitle-small{
+    display:inline-block;
+    padding:8px 24px;
+    background:rgba(246,147,35,.12);
+    color:#F69323;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    margin-bottom:18px;
+}
+
+.digital-transformation-section-title h2{
+    color:#17375E;
+    font-size:42px;
+    font-weight:700;
+    line-height:56px;
+    margin:0;
+}
+
+.digital-transformation-consulting-image{
+    text-align:center;
+}
+
+.digital-transformation-consulting-image img{
+    width:100%;
+    max-width:500px;
+    height:auto;
+	border-radius: 20px;
+}
+
+.digital-transformation-service-card{
+    background:#ffffff;
+    border:1px solid #E7EDF5;
+    border-radius:18px;
+    padding:35px 30px;
+    margin-bottom:30px;
+    height:calc(100% - 30px);
+    transition:.35s;
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
+}
+
+.digital-transformation-service-card:hover{
+    transform:translateY(-8px);
+    border-color:#F69323;
+    box-shadow:0 18px 45px rgba(23,55,94,.15);
+}
+
+.digital-transformation-service-card:hover .digital-transformation-card-icon{
+    background:#F69323;
+    border-color:#F69323;
+}
+
+.digital-transformation-service-card h3{
+    color:#17375E;
+    font-size:22px;
+    font-weight:700;
+    line-height:32px;
+    margin:0 0 18px;
+}
+
+.digital-transformation-service-card p{
+    color:#6B7280;
+    font-size:16px;
+    line-height:30px;
+    margin:0;
+}
+
+/*=========================================================
+OUR APPROACH
+=========================================================*/
+
+.digital-transformation-approach{
+    padding:60px 0;
+    background:#F8FAFC;
+}
+
+.digital-transformation-approach-card{
+    background:#ffffff;
+    border:1px solid #E7EDF5;
+    border-radius:18px;
+    padding:35px 28px;
+    text-align:left;
+    height:100%;
+    transition:.35s;
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
+}
+
+.digital-transformation-approach-card:hover{
+    transform:translateY(-8px);
+    border-color:#F69323;
+    box-shadow:0 18px 45px rgba(23,55,94,.15);
+}
+
+.digital-transformation-approach-card:hover .digital-transformation-card-icon{
+    background:#F69323;
+    border-color:#F69323;
+}
+
+.digital-transformation-approach-card h3{
+    color:#17375E;
+    font-size:22px;
+    font-weight:700;
+    line-height:32px;
+    margin:0 0 18px;
+}
+
+.digital-transformation-approach-card p{
+    color:#6B7280;
+    font-size:16px;
+    line-height:30px;
+    margin:0;
+}
+
+.digital-transformation-approach .col-lg-3,
+.digital-transformation-approach .col-md-6{
+    margin-bottom:30px;
+}
+
+/*=========================================================
+LET'S TALK
+=========================================================*/
+
+.digital-transformation-cta-section{
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.digital-transformation-cta-box{
+    position:relative;
+    overflow:hidden;
+    padding:65px 60px;
+    border-radius:24px;
+    background:linear-gradient(135deg,#17375E,#1B5EB8);
+    box-shadow:0 20px 50px rgba(23,55,94,.20);
+}
+
+.digital-transformation-cta-box::before{
+    content:"";
+    position:absolute;
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    background:rgba(255,255,255,.06);
+    top:-120px;
+    right:-90px;
+}
+
+.digital-transformation-cta-box::after{
+    content:"";
+    position:absolute;
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background:rgba(255,255,255,.05);
+    left:-60px;
+    bottom:-60px;
+}
+
+.digital-transformation-cta-content{
+    position:relative;
+    z-index:2;
+}
+
+.digital-transformation-cta-subtitle{
+    display:inline-block;
+    color:#F69323;
+    font-size:15px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:18px;
+}
+
+.digital-transformation-cta-content p{
+    color:#ffffff;
+    font-size:20px;
+    line-height:34px;
+    margin:0;
+}
+
+.digital-transformation-cta-button{
+    position:relative;
+    z-index:2;
+    text-align:right;
+}
+
+.digital-transformation-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:16px 40px;
+    background:#F69323;
+    border:2px solid #F69323;
+    border-radius:50px;
+    color:#ffffff;
+    font-size:16px;
+    font-weight:600;
+    text-decoration:none;
+    transition:.35s;
+}
+
+.digital-transformation-btn:hover{
+    background:#ffffff;
+    color:#17375E;
+    border-color:#ffffff;
+}
+
+/*=========================================================
+RESPONSIVE
+=========================================================*/
+
+@media (max-width:1199px){
+
+    .digital-transformation-header h2,
+    .digital-transformation-section-title h2{
+        font-size:38px;
+        line-height:50px;
+    }
+
+    .digital-transformation-card,
+    .digital-transformation-service-card,
+    .digital-transformation-approach-card{
+        padding:30px 25px;
+    }
+
+}
+
+@media (max-width:991px){
+
+    .digital-transformation-introduction,
+    .digital-transformation-benefits,
+    .digital-transformation-consulting,
+    .digital-transformation-approach,
+    .digital-transformation-cta-section{
+        padding:80px 0;
+    }
+
+    .digital-transformation-header{
+        max-width:100%;
+        text-align:center;
+        margin-bottom:50px;
+    }
+
+    .digital-transformation-main-image,
+    .digital-transformation-consulting-image{
+        text-align:center;
+        margin-bottom:45px;
+    }
+
+    .digital-transformation-header h2,
+    .digital-transformation-section-title h2{
+        font-size:34px;
+        line-height:46px;
+    }
+
+    .digital-transformation-cta-box{
+        padding:50px 35px;
+        text-align:center;
+    }
+
+    .digital-transformation-cta-content{
+        margin-bottom:30px;
+    }
+
+    .digital-transformation-cta-button{
+        text-align:center;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .digital-transformation-introduction,
+    .digital-transformation-benefits,
+    .digital-transformation-consulting,
+    .digital-transformation-approach,
+    .digital-transformation-cta-section{
+        padding:70px 0;
+    }
+
+    .digital-transformation-header h2,
+    .digital-transformation-section-title h2{
+        font-size:28px;
+        line-height:40px;
+    }
+
+    .digital-transformation-header p,
+    .digital-transformation-card p,
+    .digital-transformation-service-card p,
+    .digital-transformation-approach-card p{
+        font-size:15px;
+        line-height:28px;
+    }
+
+    .digital-transformation-card,
+    .digital-transformation-service-card,
+    .digital-transformation-approach-card{
+        padding:25px;
+    }
+
+    .digital-transformation-card-icon{
+        width:64px;
+        height:64px;
+    }
+
+    .digital-transformation-card-icon img{
+        width:36px;
+        height:36px;
+    }
+
+    .digital-transformation-cta-box{
+        padding:35px 25px;
+    }
+
+    .digital-transformation-cta-content p{
+        font-size:16px;
+        line-height:28px;
+    }
+
+    .digital-transformation-btn{
+        width:100%;
+        justify-content:center;
+    }
+
+}
+
+
+
+
+/*=========================================================
+CLM CONSULTATION - INTRODUCTION
+=========================================================*/
+
+.clm-consultation-introduction{
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.clm-consultation-header{
+    max-width:560px;
+}
+
+.clm-consultation-subtitle{
+    display:inline-block;
+    padding:8px 24px;
+    background:rgba(246,147,35,.12);
+    color:#F69323;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:20px;
+}
+
+.clm-consultation-header h2{
+    color:#17375E;
+    font-size:44px;
+    font-weight:700;
+    line-height:58px;
+    margin-bottom:22px;
+}
+
+.clm-consultation-header p{
+    color:#6B7280;
+    font-size:17px;
+    line-height:30px;
+    margin-bottom:15px;
+}
+
+.clm-consultation-description{
+    margin-bottom:15px;
+}
+
+.clm-consultation-main-image{
+    text-align:right;
+}
+
+.clm-consultation-main-image img{
+    width:100%;
+    max-width:520px;
+    height:auto;
+	border-radius: 20px;
+}
+
+/*=========================================================
+CLM CONSULTATION FEATURES
+=========================================================*/
+
+.clm-consultation-features{
+    padding:60px 0;
+    background:#F8FAFC;
+}
+
+.clm-consultation-section-title{
+    max-width:850px;
+    margin:0 auto 60px;
+    text-align:center;
+}
+
+.clm-consultation-section-title h2{
+    color:#17375E;
+    font-size:40px;
+    font-weight:700;
+    line-height:54px;
+    margin:0;
+}
+
+.clm-consultation-card{
+    background:#ffffff;
+    border:1px solid #E7EDF5;
+    border-radius:18px;
+    padding:35px 30px;
+    margin-bottom:30px;
+    height:calc(100% - 30px);
+    transition:.35s;
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
+}
+
+.clm-consultation-card:hover{
+    transform:translateY(-8px);
+    border-color:#F69323;
+    box-shadow:0 18px 45px rgba(23,55,94,.15);
+}
+
+.clm-consultation-card-icon{
+    width:72px;
+    height:72px;
+    border-radius:18px;
+    background:#F8FAFC;
+    border:1px solid #E8EDF5;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:20px;
+    transition:.35s;
+}
+
+.clm-consultation-card:hover .clm-consultation-card-icon{
+    background:#F69323;
+    border-color:#F69323;
+}
+
+.clm-consultation-card-icon img{
+    width:42px;
+    height:42px;
+    object-fit:contain;
+}
+
+.clm-consultation-label{
+    display:inline-block;
+    color:#F69323;
+    font-size:12px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:15px;
+}
+
+.clm-consultation-card h3{
+    color:#17375E;
+    font-size:22px;
+    font-weight:700;
+    line-height:32px;
+    margin-bottom:18px;
+}
+
+.clm-consultation-card p{
+    color:#6B7280;
+    font-size:16px;
+    line-height:30px;
+    margin:0;
+}
+
+/*=========================================================
+WHY CHOOSE OUR CONSULTATION
+=========================================================*/
+
+.clm-consultation-why{
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.clm-consultation-why .clm-consultation-section-title{
+    margin-bottom:60px;
+}
+
+.clm-consultation-why .clm-consultation-card{
+    background:#ffffff;
+    border:1px solid #E7EDF5;
+    border-radius:18px;
+    padding:35px 30px;
+    margin-bottom:30px;
+    height:calc(100% - 30px);
+    transition:all .35s ease;
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
+}
+
+.clm-consultation-why .clm-consultation-card:hover{
+    transform:translateY(-8px);
+    border-color:#F69323;
+    box-shadow:0 20px 45px rgba(23,55,94,.15);
+}
+
+.clm-consultation-why .clm-consultation-card:hover .clm-consultation-card-icon{
+    background:#F69323;
+    border-color:#F69323;
+}
+
+/*=========================================================
+CONSULTATION HIGHLIGHT
+=========================================================*/
+
+.clm-consultation-highlight{
+    padding:60px 0;
+    background:#F8FAFC;
+}
+
+.clm-consultation-highlight-box{
+    background:linear-gradient(135deg,#17375E,#1B5EB8);
+    border-radius:24px;
+    padding:70px 60px;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+}
+
+.clm-consultation-highlight-box::before{
+    content:"";
+    position:absolute;
+    width:220px;
+    height:220px;
+    background:rgba(255,255,255,.06);
+    border-radius:50%;
+    top:-80px;
+    right:-80px;
+}
+
+.clm-consultation-highlight-box::after{
+    content:"";
+    position:absolute;
+    width:180px;
+    height:180px;
+    background:rgba(255,255,255,.05);
+    border-radius:50%;
+    left:-60px;
+    bottom:-60px;
+}
+
+.clm-consultation-highlight-box .clm-consultation-label{
+    display:inline-block;
+    color:#F69323;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:18px;
+}
+
+.clm-consultation-highlight-box h2{
+    color:#ffffff;
+    font-size:38px;
+    font-weight:700;
+    line-height:52px;
+    margin-bottom:20px;
+}
+
+.clm-consultation-highlight-box p{
+    color:#E5E7EB;
+    font-size:18px;
+    line-height:32px;
+    margin:0;
+}
+
+/*=========================================================
+FAQ SECTION
+=========================================================*/
+
+.clm-consultation-faq{
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.clm-consultation-faq .clm-consultation-section-title{
+    margin-bottom:60px;
+}
+
+.clm-consultation-faq .proen-faq-container{
+    max-width:900px;
+    margin:0 auto;
+}
+
+/*=========================================================
+FAQ ANSWER - LARGER LAYOUT
+=========================================================*/
+
+.proen-faq-answer{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height .45s ease, padding .35s ease;
+    padding:0 35px;
+}
+
+.proen-faq-item.active .proen-faq-answer{
+    max-height:600px;
+    padding:0 35px 30px;
+}
+
+.proen-faq-answer p{
+    font-size:17px;
+    line-height:32px;
+    color:#6B7280;
+    margin:0;
+}
+
+.proen-faq-question{
+    padding:28px 35px;
+    font-size:20px;
+    font-weight:600;
+    line-height:32px;
+}
+
+.proen-faq-icon{
+    width:42px;
+    height:42px;
+    font-size:26px;
+    flex-shrink:0;
+}
+
+/* Mobile */
+
+@media (max-width:767px){
+
+    .proen-faq-question{
+        padding:22px 20px;
+        font-size:18px;
+        line-height:28px;
+    }
+
+    .proen-faq-answer{
+        padding:0 20px;
+    }
+
+    .proen-faq-item.active .proen-faq-answer{
+        padding:0 20px 25px;
+    }
+
+    .proen-faq-answer p{
+        font-size:16px;
+        line-height:28px;
+    }
+
+}
+
+/*=========================================================
+ABOUT CLM IMPLEMENTATION
+=========================================================*/
+
+.clm-consultation-about{
+    padding:60px 0;
+    background:#F8FAFC;
+}
+
+.clm-consultation-about-content{
+    max-width:1000px;
+    margin:0 auto;
+    background:#ffffff;
+    border:1px solid #E7EDF5;
+    border-radius:20px;
+    padding:50px;
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
+}
+
+.clm-consultation-about-content p{
+    color:#6B7280;
+    font-size:17px;
+    line-height:32px;
+    margin-bottom:20px;
+}
+
+.clm-consultation-about-content p:last-child{
+    margin-bottom:0;
+}
+
+.clm-consultation-about-content a{
+    color:#1B5EB8;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.clm-consultation-about-content a:hover{
+    color:#F69323;
+}
+
+/*=========================================================
+LET'S TALK
+=========================================================*/
+
+.clm-consultation-cta-section{
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.clm-consultation-cta-box{
+    position:relative;
+    overflow:hidden;
+    padding:65px 60px;
+    border-radius:24px;
+    background:linear-gradient(135deg,#17375E,#1B5EB8);
+    box-shadow:0 20px 50px rgba(23,55,94,.20);
+}
+
+.clm-consultation-cta-box::before{
+    content:"";
+    position:absolute;
+    width:240px;
+    height:240px;
+    border-radius:50%;
+    background:rgba(255,255,255,.06);
+    top:-100px;
+    right:-80px;
+}
+
+.clm-consultation-cta-box::after{
+    content:"";
+    position:absolute;
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background:rgba(255,255,255,.05);
+    bottom:-70px;
+    left:-50px;
+}
+
+.clm-consultation-cta-content,
+.clm-consultation-cta-button{
+    position:relative;
+    z-index:2;
+}
+
+.clm-consultation-cta-subtitle{
+    display:inline-block;
+    color:#F69323;
+    font-size:15px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:18px;
+}
+
+.clm-consultation-cta-content p{
+    color:#ffffff;
+    font-size:20px;
+    line-height:34px;
+    margin:0;
+}
+
+.clm-consultation-cta-button{
+    text-align:right;
+}
+
+.clm-consultation-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:16px 40px;
+    border-radius:50px;
+    background:#F69323;
+    border:2px solid #F69323;
+    color:#ffffff;
+    font-size:16px;
+    font-weight:600;
+    text-decoration:none;
+    transition:.35s;
+}
+
+.clm-consultation-btn:hover{
+    background:#ffffff;
+    color:#17375E;
+    border-color:#ffffff;
+}
+
+/*=========================================================
+RESPONSIVE
+=========================================================*/
+
+@media (max-width:991px){
+
+    .clm-consultation-highlight-box,
+    .clm-consultation-about-content,
+    .clm-consultation-cta-box{
+        padding:45px 35px;
+    }
+
+    .clm-consultation-highlight-box h2{
+        font-size:30px;
+        line-height:42px;
+    }
+
+    .clm-consultation-cta-content{
+        margin-bottom:30px;
+        text-align:center;
+    }
+
+    .clm-consultation-cta-button{
+        text-align:center;
+    }
+}
+
+@media (max-width:767px){
+
+    .clm-consultation-about,
+    .clm-consultation-highlight,
+    .clm-consultation-faq,
+    .clm-consultation-cta-section{
+        padding:70px 0;
+    }
+
+    .clm-consultation-highlight-box,
+    .clm-consultation-about-content,
+    .clm-consultation-cta-box{
+        padding:30px 25px;
+    }
+
+    .clm-consultation-highlight-box h2{
+        font-size:26px;
+        line-height:36px;
+    }
+
+    .clm-consultation-about-content p,
+    .clm-consultation-highlight-box p,
+    .clm-consultation-cta-content p{
+        font-size:16px;
+        line-height:28px;
+    }
+
+    .clm-consultation-btn{
+        width:100%;
+        justify-content:center;
+    }
+}
+
+
+/*==================================================
+AI CLM Hero Section
+==================================================*/
+
+.ai-clm-hero-section{
+    position:relative;
+    padding:60px 0;
+    background:#ffffff;
+    overflow:hidden;
+}
+
+.ai-clm-hero-content{
+    padding-right:40px;
+}
+
+.ai-clm-subtitle{
+    display:inline-block;
+    font-size:15px;
+    font-weight:700;
+    color:#F69323;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:15px;
+}
+
+.ai-clm-hero-content h1{
+    font-size:48px;
+    line-height:1.2;
+    font-weight:700;
+    color:#17375E;
+    margin-bottom:25px;
+}
+
+.ai-clm-hero-content p{
+    font-size:17px;
+    line-height:1.9;
+    color:#666666;
+    margin-bottom:20px;
+}
+
+.ai-clm-hero-btn{
+    margin-top:35px;
+}
+
+.ai-clm-hero-image{
+    text-align:center;
+}
+
+.ai-clm-hero-image img{
+    width:100%;
+    max-width:650px;
+    height:auto;
+	border-radius: 20px;
+}
+
+
+
+/*==================================================
+AI Capabilities
+==================================================*/
+
+/*==================================================
+AI Capabilities
+==================================================*/
+
+.ai-clm-capabilities-section{
+    padding:110px 0;
+    background:#ffffff;
+}
+
+.ai-clm-capabilities-section .sec-title{
+    margin-bottom:70px;
+}
+
+.ai-clm-capabilities-section .sec-title h2{
+    font-size:42px;
+    font-weight:700;
+    color:#17375E;
+    margin-bottom:15px;
+}
+
+.ai-clm-capabilities-section .sec-title p{
+    max-width:750px;
+    margin:0 auto;
+    color:#666666;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.ai-clm-capabilities-section .row{
+    row-gap:30px;
+}
+
+/* Premium Card */
+
+.ai-clm-capability-card{
+    position:relative;
+    background:#ffffff;
+    border-radius:22px;
+    padding:45px 35px;
+    text-align:center;
+    height:100%;
+    overflow:hidden;
+    border:1px solid #E8EEF5;
+    box-shadow:0 15px 45px rgba(17,34,68,.08);
+    transition:all .35s ease;
+}
+
+/* Top Gradient */
+
+.ai-clm-capability-card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:5px;
+    background:#F69323;
+}
+
+.ai-clm-capability-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 60px rgba(17,34,68,.18);
+}
+
+/* Icon */
+
+.ai-clm-icon{
+    width:90px;
+    height:90px;
+    margin:0 auto 30px;
+    border-radius:50%;
+    background:#EEF4FD;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:34px;
+    color:#1B5EB8;
+    transition:.35s;
+}
+
+.ai-clm-capability-card:hover .ai-clm-icon{
+    background:#1B5EB8;
+    color:#ffffff;
+    transform:rotate(-8deg) scale(1.08);
+}
+
+/* Heading */
+
+.ai-clm-capability-card h3{
+    font-size:24px;
+    font-weight:700;
+    line-height:1.5;
+    color:#17375E;
+    margin:0;
+}
+
+/* Responsive */
+
+@media(max-width:991px){
+
+    .ai-clm-capabilities-section{
+        padding:80px 0;
+    }
+
+    .ai-clm-capability-card{
+        padding:40px 30px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .ai-clm-capabilities-section{
+        padding:60px 0;
+    }
+
+    .ai-clm-capabilities-section .sec-title{
+        margin-bottom:45px;
+    }
+
+    .ai-clm-capabilities-section .sec-title h2{
+        font-size:32px;
+    }
+
+    .ai-clm-capability-card{
+        padding:35px 25px;
+    }
+
+    .ai-clm-icon{
+        width:75px;
+        height:75px;
+        font-size:28px;
+        margin-bottom:25px;
+    }
+
+    .ai-clm-capability-card h3{
+        font-size:20px;
+    }
+
+}
+
+
+
+/*==================================================
+Responsive
+==================================================*/
+
+@media (max-width:991px){
+
+    .ai-clm-hero-section{
+        padding:70px 0;
+    }
+
+    .ai-clm-hero-content{
+        padding-right:0;
+        margin-bottom:50px;
+        text-align:center;
+    }
+
+    .ai-clm-hero-content h1{
+        font-size:38px;
+    }
+
+    .ai-clm-capabilities-section{
+        padding:70px 0;
+    }
+
+    .ai-clm-capabilities-section .sec-title h2{
+        font-size:34px;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .ai-clm-hero-content h1{
+        font-size:30px;
+    }
+
+    .ai-clm-hero-content p{
+        font-size:16px;
+    }
+
+    .ai-clm-capabilities-section .sec-title h2{
+        font-size:28px;
+    }
+
+    .ai-clm-capability-card{
+        padding:30px 20px;
+    }
+
+    .ai-clm-icon{
+        width:70px;
+        height:70px;
+        font-size:28px;
+    }
+
+    .ai-clm-capability-card h3{
+        font-size:20px;
+    }
+
+}
+
+/*==================================================
+AI Across Leading CLM Platforms
+==================================================*/
+
+.ai-clm-platform-section{
+    position:relative;
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.ai-clm-platform-content{
+    padding-right:40px;
+}
+
+.ai-clm-platform-content h2{
+    font-size:42px;
+    font-weight:700;
+    color:#17375E;
+    line-height:1.3;
+    margin-bottom:25px;
+}
+
+.ai-clm-platform-content p{
+    font-size:17px;
+    color:#666666;
+    line-height:1.9;
+    margin-bottom:20px;
+}
+
+.ai-clm-platform-image{
+    text-align:center;
+}
+
+.ai-clm-platform-image img{
+    width:100%;
+    max-width:650px;
+    height:auto;
+	border-radius: 20px;
+}
+
+
+
+/*==================================================
+Business Outcomes
+==================================================*/
+
+/*==================================================
+Business Outcomes
+==================================================*/
+
+.ai-clm-business-outcomes{
+    padding:110px 0;
+    background:#F8FAFC;
+}
+
+.ai-clm-business-outcomes .sec-title{
+    margin-bottom:70px;
+}
+
+.ai-clm-business-outcomes .sec-title h2{
+    font-size:42px;
+    font-weight:700;
+    color:#17375E;
+    margin-bottom:15px;
+}
+
+.ai-clm-business-outcomes .sec-title p{
+    font-size:18px;
+    color:#666;
+    max-width:700px;
+    margin:0 auto;
+}
+
+.ai-clm-business-outcomes .row{
+    row-gap:30px;
+}
+
+/* Card */
+
+.ai-clm-outcome-card{
+    position:relative;
+    background:#ffffff;
+    border-radius:22px;
+    padding:45px 35px;
+    text-align:center;
+    height:100%;
+    overflow:hidden;
+    border:1px solid #E8EEF5;
+    box-shadow:0 15px 45px rgba(17,34,68,.08);
+    transition:all .35s ease;
+}
+
+/* Top Accent */
+
+.ai-clm-outcome-card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:5px;
+    background: #F69323;
+}
+
+/* Hover */
+
+.ai-clm-outcome-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 60px rgba(17,34,68,.18);
+}
+
+/* Icon */
+
+.ai-clm-outcome-icon{
+    width:90px;
+    height:90px;
+    margin:0 auto 30px;
+    border-radius:50%;
+    background:#EEF4FD;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:34px;
+    color:#1B5EB8;
+    transition:.35s;
+}
+
+.ai-clm-outcome-card:hover .ai-clm-outcome-icon{
+    background:#1B5EB8;
+    color:#ffffff;
+    transform:rotate(-8deg) scale(1.08);
+}
+
+/* Heading */
+
+.ai-clm-outcome-card h3{
+    font-size:24px;
+    line-height:1.5;
+    font-weight:700;
+    color:#17375E;
+    margin:0;
+}
+
+/* Responsive */
+
+@media(max-width:991px){
+
+    .ai-clm-business-outcomes{
+        padding:80px 0;
+    }
+
+    .ai-clm-outcome-card{
+        padding:40px 30px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .ai-clm-business-outcomes{
+        padding:60px 0;
+    }
+
+    .ai-clm-business-outcomes .sec-title{
+        margin-bottom:45px;
+    }
+
+    .ai-clm-business-outcomes .sec-title h2{
+        font-size:32px;
+    }
+
+    .ai-clm-outcome-card{
+        padding:35px 25px;
+    }
+
+    .ai-clm-outcome-icon{
+        width:75px;
+        height:75px;
+        font-size:28px;
+        margin-bottom:25px;
+    }
+
+    .ai-clm-outcome-card h3{
+        font-size:20px;
+    }
+
+}
+
+
+/*==================================================
+Why AI + PROEN
+==================================================*/
+
+.ai-clm-why-section{
+    position:relative;
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.ai-clm-why-image{
+    text-align:center;
+}
+
+.ai-clm-why-image img{
+    width:100%;
+    max-width:620px;
+    height:auto;
+	border-radius: 20px;
+}
+
+.ai-clm-why-content{
+    padding-left:40px;
+}
+
+.ai-clm-why-content h2{
+    font-size:42px;
+    font-weight:700;
+    color:#17375E;
+    line-height:1.3;
+    margin-bottom:25px;
+}
+
+.ai-clm-why-content p{
+    font-size:17px;
+    color:#666666;
+    line-height:1.9;
+    margin-bottom:20px;
+}
+
+
+
+/*==================================================
+Responsive
+==================================================*/
+
+@media (max-width:991px){
+
+    .ai-clm-platform-section,
+    .ai-clm-business-outcomes,
+    .ai-clm-why-section{
+        padding:70px 0;
+    }
+
+    .ai-clm-platform-content,
+    .ai-clm-why-content{
+        padding:0;
+        text-align:center;
+        margin-bottom:40px;
+    }
+
+    .ai-clm-platform-content h2,
+    .ai-clm-business-outcomes .sec-title h2,
+    .ai-clm-why-content h2{
+        font-size:34px;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .ai-clm-platform-content h2,
+    .ai-clm-business-outcomes .sec-title h2,
+    .ai-clm-why-content h2{
+        font-size:28px;
+    }
+
+    .ai-clm-platform-content p,
+    .ai-clm-why-content p{
+        font-size:16px;
+    }
+
+    .ai-clm-outcome-card{
+        padding:30px 20px;
+    }
+
+    .ai-clm-outcome-icon{
+        width:70px;
+        height:70px;
+        font-size:28px;
+    }
+
+    .ai-clm-outcome-card h3{
+        font-size:20px;
+    }
+
+}
+
+/*==================================================
+AI Features Section
+==================================================*/
+
+.ai-clm-features-section{
+    position:relative;
+    padding:60px 0;
+    background:#F8FAFC;
+}
+
+.ai-clm-features-section .sec-title{
+    margin-bottom:60px;
+}
+
+.ai-clm-features-section .sec-title h2{
+    font-size:42px;
+    font-weight:700;
+    color:#17375E;
+    margin-bottom:15px;
+}
+
+.ai-clm-feature-table{
+    width:100%;
+    background:#ffffff;
+    border-radius:16px;
+    overflow:hidden;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+    border-collapse:separate;
+    border-spacing:0;
+}
+
+.ai-clm-feature-table thead{
+    background:#1B5EB8;
+}
+
+.ai-clm-feature-table thead th{
+    color:#ffffff;
+    font-size:20px;
+    font-weight:700;
+    padding:22px 25px;
+    border:none;
+}
+
+.ai-clm-feature-table tbody td{
+    padding:18px 25px;
+    font-size:16px;
+    color:#555555;
+    border-top:1px solid #edf2f7;
+    vertical-align:middle;
+}
+
+.ai-clm-feature-table tbody tr:nth-child(even){
+    background:#F8FAFC;
+}
+
+.ai-clm-feature-table tbody tr:hover{
+    background:#EEF4FD;
+    transition:.3s ease;
+}
+
+.ai-clm-feature-table tbody td:first-child{
+    font-weight:600;
+    color:#17375E;
+}
+
+
+
+/*==================================================
+CTA Section
+==================================================*/
+
+/*=========================================
+AI CLM CTA Section
+=========================================*/
+
+.ai-clm-cta-section{
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.ai-clm-cta-wrapper{
+    background:linear-gradient(135deg,#17375E 0%,#1B5EB8 100%);
+    border-radius:24px;
+    padding:60px 70px;
+    box-shadow:0 20px 60px rgba(23,55,94,0.20);
+    position:relative;
+    overflow:hidden;
+}
+
+.ai-clm-cta-wrapper::before{
+    content:"";
+    position:absolute;
+    top:-80px;
+    right:-80px;
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    background:rgba(255,255,255,0.08);
+}
+
+.ai-clm-cta-wrapper::after{
+    content:"";
+    position:absolute;
+    bottom:-60px;
+    left:-60px;
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    background:rgba(255,255,255,0.05);
+}
+
+.ai-clm-cta-content,
+.ai-clm-cta-btn{
+    position:relative;
+    z-index:2;
+}
+
+.ai-clm-cta-content h2{
+    color:#ffffff;
+    font-size:42px;
+    font-weight:700;
+    line-height:1.3;
+    margin-bottom:20px;
+}
+
+.ai-clm-cta-content p{
+    color:rgba(255,255,255,.90);
+    font-size:17px;
+    line-height:1.9;
+    margin-bottom:0;
+}
+
+.ai-clm-cta-section .ai-clm-subtitle{
+    color:#F69323;
+}
+
+.ai-clm-cta-btn{
+    text-align:right;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    height:100%;
+}
+
+/* Premium Button */
+
+.ai-clm-cta-btn .theme-btn{
+    background:#F69323;
+    color:#ffffff;
+    padding:16px 40px;
+    border-radius:50px;
+    font-size:16px;
+    font-weight:600;
+    transition:all .3s ease;
+    border:2px solid #F69323;
+}
+
+.ai-clm-cta-btn .theme-btn:hover{
+    background:#ffffff;
+    color:#17375E;
+    border-color:#ffffff;
+}
+
+@media(max-width:991px){
+
+    .ai-clm-cta-wrapper{
+        padding:45px 35px;
+        text-align:center;
+    }
+
+    .ai-clm-cta-content h2{
+        font-size:34px;
+    }
+
+    .ai-clm-cta-btn{
+        justify-content:center;
+        margin-top:30px;
+    }
+
+}
+
+
+
+/*==================================================
+Responsive
+==================================================*/
+
+@media (max-width:991px){
+
+    .ai-clm-features-section,
+    .ai-clm-cta-section{
+        padding:70px 0;
+    }
+
+    .ai-clm-features-section .sec-title h2,
+    .ai-clm-cta-content h2{
+        font-size:34px;
+    }
+
+    .ai-clm-cta-content{
+        text-align:center;
+        margin-bottom:30px;
+    }
+
+    .ai-clm-cta-btn{
+        text-align:center;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .ai-clm-features-section .sec-title h2,
+    .ai-clm-cta-content h2{
+        font-size:28px;
+    }
+
+    .ai-clm-feature-table thead th{
+        font-size:17px;
+        padding:16px;
+    }
+
+    .ai-clm-feature-table tbody td{
+        font-size:15px;
+        padding:14px 16px;
+    }
+
+    .ai-clm-cta-content p{
+        font-size:16px;
+    }
+
+}
+
+
+/*==================================================
+Hero Section
+==================================================*/
+
+.icertis-announcement-hero-section{
+    position:relative;
+    padding:60px 0;
+    background:#ffffff;
+    overflow:hidden;
+}
+
+.icertis-announcement-subtitle{
+    display:inline-block;
+    color:#F69323;
+    font-size:15px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:15px;
+}
+
+.icertis-announcement-hero-content{
+    padding-right:40px;
+}
+
+.icertis-announcement-hero-content h1{
+    font-size:50px;
+    line-height:1.2;
+    font-weight:700;
+    color:#17375E;
+    margin-bottom:25px;
+}
+
+.icertis-announcement-hero-content p{
+    font-size:17px;
+    color:#666666;
+    line-height:1.9;
+    margin-bottom:20px;
+}
+
+.icertis-announcement-hero-image{
+    text-align:center;
+}
+
+.icertis-announcement-hero-image img{
+    width:100%;
+    max-width:650px;
+    height:auto;
+}
+
+
+
+/*==================================================
+PROEN + Icertis
+==================================================*/
+
+.icertis-announcement-partnership-section{
+    position:relative;
+    padding:60px 0;
+    background:#F8FAFC;
+}
+
+.icertis-announcement-partnership-content{
+    padding-left:40px;
+}
+
+.icertis-announcement-partnership-content h2{
+    font-size:42px;
+    line-height:1.3;
+    font-weight:700;
+    color:#17375E;
+    margin-bottom:25px;
+}
+
+.icertis-announcement-partnership-content p{
+    font-size:17px;
+    color:#666666;
+    line-height:1.9;
+    margin-bottom:20px;
+}
+
+.icertis-announcement-partnership-image{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.icertis-announcement-partnership-image::before{
+    content:"";
+    position:absolute;
+    width:450px;
+    height:450px;
+    border-radius:50%;
+    background:radial-gradient(circle,
+        rgba(27,94,184,.12),
+        rgba(246,147,35,.08),
+        transparent 70%);
+    filter:blur(15px);
+}
+
+.icertis-announcement-partnership-image img{
+    position:relative;
+    z-index:2;
+    max-width:560px;
+    width:100%;
+	border-radius: 20px;
+    filter:drop-shadow(0 30px 60px rgba(0,0,0,.15));
+}
+
+/* Floating Pills */
+
+.icertis-announcement-tag{
+    position:absolute;
+    z-index:3;
+    padding:12px 22px;
+    border-radius:50px;
+
+    background:rgba(255,255,255,.70);
+    backdrop-filter:blur(14px);
+
+    border:1px solid rgba(255,255,255,.45);
+
+    font-size:15px;
+    font-weight:600;
+    color:#17375E;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    animation:float 5s ease-in-out infinite;
+}
+
+.icertis-announcement-tag i{
+    color:#F69323;
+}
+
+.tag-one{
+    top:12%;
+    left:0;
+}
+
+.tag-two{
+    top:55%;
+    right:-15px;
+    animation-delay:1s;
+}
+
+.tag-three{
+    bottom:8%;
+    left:12%;
+    animation-delay:2s;
+}
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+
+
+
+/*==================================================
+Responsive
+==================================================*/
+
+@media (max-width:991px){
+
+    .icertis-announcement-hero-section,
+    .icertis-announcement-partnership-section{
+        padding:70px 0;
+    }
+
+    .icertis-announcement-hero-content,
+    .icertis-announcement-partnership-content{
+        padding:0;
+        text-align:center;
+        margin-bottom:40px;
+    }
+
+    .icertis-announcement-hero-content h1{
+        font-size:38px;
+    }
+
+    .icertis-announcement-partnership-content h2{
+        font-size:34px;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .icertis-announcement-hero-content h1{
+        font-size:30px;
+    }
+
+    .icertis-announcement-partnership-content h2{
+        font-size:28px;
+    }
+
+    .icertis-announcement-hero-content p,
+    .icertis-announcement-partnership-content p{
+        font-size:16px;
+    }
+
+    .icertis-announcement-hero-image img,
+    .icertis-announcement-partnership-image img{
+        max-width:100%;
+    }
+
+}
+
+/*==================================================
+Why PROEN for Your Icertis Journey
+==================================================*/
+
+.icertis-announcement-why-section{
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.icertis-announcement-why-content{
+    padding-right:40px;
+}
+
+.icertis-announcement-why-content h2{
+    font-size:42px;
+    font-weight:700;
+    line-height:1.3;
+    color:#17375E;
+    margin-bottom:25px;
+}
+
+.icertis-announcement-why-content p{
+    font-size:17px;
+    line-height:1.9;
+    color:#666666;
+    margin-bottom:20px;
+}
+
+.icertis-announcement-why-image{
+    text-align:center;
+}
+
+.icertis-announcement-why-image img{
+    width:100%;
+    max-width:620px;
+    height:auto;
+	border-radius: 20px;
+}
+
+
+
+/*==================================================
+PROEN at a Glance
+==================================================*/
+
+.icertis-announcement-glance-section{
+    padding:60px 0;
+    background:#F8FAFC;
+}
+
+.icertis-announcement-glance-section .sec-title{
+    margin-bottom:60px;
+}
+
+.icertis-announcement-glance-section .sec-title h2{
+    font-size:42px;
+    font-weight:700;
+    color:#17375E;
+}
+
+.icertis-announcement-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.icertis-announcement-list li{
+    position:relative;
+    padding:18px 18px 18px 60px;
+    margin-bottom:20px;
+    background:#ffffff;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(17,34,68,.08);
+    border:1px solid #E8EEF5;
+    color:#555555;
+    line-height:1.8;
+    transition:.35s;
+}
+
+.icertis-announcement-list li:hover{
+    transform:translateY(-6px);
+    box-shadow:0 20px 45px rgba(17,34,68,.15);
+}
+
+.icertis-announcement-list li::before{
+    content:"✓";
+    position:absolute;
+    left:20px;
+    top:18px;
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    background:#1B5EB8;
+    color:#ffffff;
+    font-weight:700;
+    text-align:center;
+    line-height:28px;
+    font-size:14px;
+}
+
+
+
+/*==================================================
+Service Cards
+==================================================*/
+
+.icertis-announcement-services-section{
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.icertis-announcement-services-section .row{
+    row-gap:30px;
+}
+
+.icertis-announcement-service-card{
+    position:relative;
+    background:#ffffff;
+    border-radius:22px;
+    padding:45px 35px;
+    text-align:center;
+    height:100%;
+    overflow:hidden;
+    border:1px solid #E8EEF5;
+    box-shadow:0 15px 45px rgba(17,34,68,.08);
+    transition:all .35s ease;
+}
+
+.icertis-announcement-service-card::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:5px;
+    background:#F69323;
+}
+
+.icertis-announcement-service-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 60px rgba(17,34,68,.18);
+}
+
+.icertis-announcement-service-icon{
+    width:90px;
+    height:90px;
+    margin:0 auto 30px;
+    border-radius:50%;
+    background:#EEF4FD;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#1B5EB8;
+    font-size:34px;
+    transition:.35s;
+}
+
+.icertis-announcement-service-card:hover .icertis-announcement-service-icon{
+    background:#1B5EB8;
+    color:#ffffff;
+    transform:rotate(-8deg) scale(1.08);
+}
+
+.icertis-announcement-service-card h3{
+    font-size:24px;
+    font-weight:700;
+    color:#17375E;
+    line-height:1.4;
+    margin-bottom:20px;
+}
+
+.icertis-announcement-service-card p{
+    font-size:16px;
+    color:#666666;
+    line-height:1.9;
+    margin:0;
+}
+
+
+
+/*==================================================
+Responsive
+==================================================*/
+
+@media(max-width:991px){
+
+    .icertis-announcement-why-section,
+    .icertis-announcement-glance-section,
+    .icertis-announcement-services-section{
+        padding:80px 0;
+    }
+
+    .icertis-announcement-why-content{
+        padding-right:0;
+        margin-bottom:40px;
+        text-align:center;
+    }
+
+    .icertis-announcement-why-content h2,
+    .icertis-announcement-glance-section .sec-title h2{
+        font-size:34px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .icertis-announcement-why-content h2,
+    .icertis-announcement-glance-section .sec-title h2{
+        font-size:28px;
+    }
+
+    .icertis-announcement-why-content p{
+        font-size:16px;
+    }
+
+    .icertis-announcement-service-card{
+        padding:35px 25px;
+    }
+
+    .icertis-announcement-service-icon{
+        width:75px;
+        height:75px;
+        font-size:28px;
+        margin-bottom:25px;
+    }
+
+    .icertis-announcement-service-card h3{
+        font-size:21px;
+    }
+
+    .icertis-announcement-list li{
+        padding:16px 16px 16px 55px;
+    }
+
+}
+
+/*==================================================
+Business Outcomes
+==================================================*/
+
+.icertis-announcement-outcomes-section{
+    padding:60px 0;
+    background:#F8FAFC;
+}
+
+.icertis-announcement-outcomes-section .sec-title{
+    margin-bottom:70px;
+}
+
+.icertis-announcement-outcomes-section .sec-title h2{
+    font-size:42px;
+    font-weight:700;
+    color:#17375E;
+    line-height:1.3;
+    margin-bottom:15px;
+}
+
+.icertis-announcement-outcomes-section .sec-title p{
+    font-size:18px;
+    color:#666666;
+}
+
+.icertis-announcement-outcomes-section .row{
+    row-gap:30px;
+}
+
+.icertis-announcement-outcome-card{
+    position:relative;
+    background:#ffffff;
+    border-radius:22px;
+    padding:40px 30px;
+    text-align:center;
+    height:100%;
+    border:1px solid #E8EEF5;
+    box-shadow:0 15px 45px rgba(17,34,68,.08);
+    transition:.35s;
+    overflow:hidden;
+}
+
+.icertis-announcement-outcome-card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:5px;
+    background: #F69323;
+}
+
+.icertis-announcement-outcome-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 60px rgba(17,34,68,.18);
+}
+
+.icertis-announcement-outcome-card i{
+    width:85px;
+    height:85px;
+    border-radius:50%;
+    background:#EEF4FD;
+    color:#1B5EB8;
+    font-size:32px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 25px;
+    transition:.35s;
+}
+
+.icertis-announcement-outcome-card:hover i{
+    background:#1B5EB8;
+    color:#ffffff;
+    transform:rotate(-8deg) scale(1.08);
+}
+
+.icertis-announcement-outcome-card h3{
+    font-size:22px;
+    color:#17375E;
+    font-weight:700;
+    line-height:1.5;
+    margin:0;
+}
+
+
+
+/*==================================================
+Transform Section
+==================================================*/
+
+.icertis-announcement-transform-section{
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.icertis-announcement-transform-content{
+    padding-right:40px;
+}
+
+.icertis-announcement-transform-content h2{
+    font-size:42px;
+    font-weight:700;
+    line-height:1.3;
+    color:#17375E;
+    margin-bottom:25px;
+}
+
+.icertis-announcement-transform-content p{
+    font-size:17px;
+    color:#666666;
+    line-height:1.9;
+    margin-bottom:20px;
+}
+
+.icertis-announcement-transform-image{
+    text-align:center;
+}
+
+.icertis-announcement-transform-image img{
+    width:100%;
+    max-width:620px;
+    height:auto;
+	border-radius: 20px;
+}
+
+
+
+/*==================================================
+CTA
+==================================================*/
+
+.icertis-announcement-cta-section{
+    padding:70px 0;
+    background:#ffffff;
+}
+
+.icertis-announcement-cta-box{
+    padding:60px;
+    border-radius:24px;
+    background:linear-gradient(135deg,#17375E 0%,#1B5EB8 100%);
+    box-shadow:0 20px 50px rgba(23,55,94,.18);
+}
+
+.icertis-announcement-cta-content h2{
+    color:#ffffff;
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:18px;
+}
+
+.icertis-announcement-cta-content p{
+    color:rgba(255,255,255,.92);
+    font-size:17px;
+    line-height:1.9;
+    margin:0;
+}
+
+/* Button */
+
+.icertis-announcement-cta-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-width:240px;
+    height:60px;
+    padding:0 35px;
+
+    background:#F69323;
+    color:#ffffff;
+
+    font-size:16px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.5px;
+
+    border-radius:50px;
+
+    transition:.35s;
+}
+
+.icertis-announcement-cta-btn:hover{
+    background:#ffffff;
+    color:#17375E;
+    transform:translateY(-4px);
+}
+
+/* Responsive */
+
+@media(max-width:991px){
+
+    .icertis-announcement-cta-box{
+        padding:45px 35px;
+        text-align:center;
+    }
+
+    .icertis-announcement-cta-content{
+        margin-bottom:30px;
+    }
+
+    .icertis-announcement-cta-content h2{
+        font-size:32px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .icertis-announcement-cta-content h2{
+        font-size:28px;
+    }
+
+    .icertis-announcement-cta-btn{
+        width:100%;
+        min-width:auto;
+    }
+
+}
+
+
+/*==================================================
+Responsive
+==================================================*/
+
+@media(max-width:991px){
+
+    .icertis-announcement-outcomes-section,
+    .icertis-announcement-transform-section,
+    .icertis-announcement-comparison-section{
+        padding:80px 0;
+    }
+
+    .icertis-announcement-transform-content{
+        padding-right:0;
+        text-align:center;
+        margin-bottom:40px;
+    }
+
+    .icertis-announcement-cta-box{
+        padding:50px 35px;
+    }
+
+    .icertis-announcement-outcomes-section .sec-title h2,
+    .icertis-announcement-transform-content h2,
+    .icertis-announcement-cta-box h2,
+    .icertis-announcement-comparison-section .sec-title h2{
+        font-size:34px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .icertis-announcement-outcomes-section .sec-title h2,
+    .icertis-announcement-transform-content h2,
+    .icertis-announcement-cta-box h2,
+    .icertis-announcement-comparison-section .sec-title h2{
+        font-size:28px;
+    }
+
+    .icertis-announcement-cta-box{
+        padding:40px 25px;
+    }
+
+    .icertis-announcement-outcome-card,
+    .icertis-announcement-contact-card{
+        padding:35px 25px;
+    }
+
+    .icertis-announcement-outcome-card i{
+        width:70px;
+        height:70px;
+        font-size:28px;
+    }
+
+    .icertis-announcement-comparison-section table{
+        font-size:14px;
+    }
+
+    .icertis-announcement-comparison-section thead th,
+    .icertis-announcement-comparison-section tbody td{
+        padding:14px;
+    }
+
+}
+
+
+.icertis-announcement-hero-section .container,
+.icertis-announcement-partnership-section .container,
+.icertis-announcement-why-section .container,
+.icertis-announcement-glance-section .container,
+.icertis-announcement-services-section .container,
+.icertis-announcement-outcomes-section .container,
+.icertis-announcement-transform-section .container,
+.icertis-announcement-cta-section .container,
+.icertis-announcement-contact-section .container,
+.icertis-announcement-comparison-section .container{
+    max-width:1300px;
+}

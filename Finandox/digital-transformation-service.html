@@ -39,10 +39,10 @@
             <div class="layer layer-three"><span class="overlay"></span></div>
         </div>
 
-        <!-- Main Header -->
+      <!-- Main Header -->
         <header class="main-header">
             <!-- Header Top -->
-            <div class="header-top">
+            <div class="header-top" style="background-color: #FFFFFF; border-bottom: 1px solid #E5E5E5;">
                 <div class="auto-container">
                     <div class="inner">
                         <div class="top-left">
@@ -57,28 +57,36 @@
                         <div class="top-middile">
                             <div class="contact-info">
                                 <div class="single-info">
-                                    <div class="icon-box"><i class="flaticon-call-1"></i></div>
-                                    <div class="text">Phone Number</div>
-                                    <h4><a href="tel:+917483323205">+91 7483 323 205</a></h4>
+                                    <div class="icon-box"><i class="flaticon-call-1" style="color: #1B5EB8;"></i></div>
+                                    <div class="text" style="color: #1B5EB8;">Phone Number</div>
+                                    <h4><a href="tel:+917483323205" style="color: #1B5EB8;">+91 7483 323 205</a></h4>
                                 </div>
                                 <div class="single-info">
-                                    <div class="icon-box"><i class="flaticon-email-4"></i></div>
-                                    <div class="text">Email Address</div>
-                                    <h4><a href="mailto:contactus@proen.co.in">contactus@proen.co.in</a></h4>
+                                    <div class="icon-box" style="color: #1B5EB8;"><i class="flaticon-email-4"></i></div>
+                                    <div class="text" style="color: #1B5EB8;">Email Address</div>
+                                    <h4><a href="mailto:contactus@proen.co.in"
+                                            style="color: #1B5EB8;">contactus@proen.co.in</a></h4>
                                 </div>
                             </div>
                         </div>
 
                         <div class="top-right">
-                            <a href="contact.html" class="theme-btn btn-style-two"><span class="btn-title">Get A
-                                    Consultation</span></a>
+                            <a href="contact.html" class="theme-btn btn-style-two" style="
+          background-color: transparent;
+          color: #1B5EB8;
+          border: 1px solid #808080;
+          transition: all 0.3s ease;
+       " onmouseover="this.style.backgroundColor='#F69323'; this.style.color='#FFFFFF'; this.style.borderColor='#F69323';"
+                                onmouseout="this.style.backgroundColor='transparent'; this.style.color='#1B5EB8'; this.style.borderColor='#808080';">
+                                <span class="btn-title">Contact US</span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Header Upper -->
-            <div class="header-upper">
+            <div class="header-upper" style="background-color: #F69323;">
                 <div class="auto-container">
                     <div class="inner-container">
                         <!--Nav Box-->
@@ -93,23 +101,22 @@
                                         <li><a href="index.html">Home</a></li>
                                         <li class="dropdown"><a href="services-1.html">Services</a>
                                             <ul>
-                                                <li><a href="services-details.html">Digital Transformation</a></li>
-                                                <li><a href="services-1.html">Consultation on CLM Implementation</a>
+                                                <li><a href="ai-enabled-clm.html">AI-Enabled CLM</a></li>
+                                                <li><a href="digital-transformation-service.html">Digital
+                                                        Transformation on CLM</a></li>
+                                                <li><a href="consultation-on-clm-service.html">Consultation on CLM
+                                                        Implementation</a>
                                                 </li>
-                                                <li><a href="services-2.html">Paralegal Service</a></li>
-                                                <li><a href="services-details.html">Technology Development</a></li>
-                                                <li><a href="services-1.html">Managed Services</a></li>
-                                                <li><a href="services-2.html">Staff Augmentation</a></li>
-                                                <li><a href="services-details.html">Data Extraction as a Service</a>
+                                                <li><a href="paralegal-service.html">Paralegal Service</a></li>
+                                                <li><a href="technology-development.html">Technology Development</a>
+                                                </li>
+                                                <li><a href="managed-services.html">Managed Services</a></li>
+                                                <li><a href="staff-augmentation.html">Staff Augmentation</a></li>
+                                                <li><a href="data-extraction-service.html">Data Extraction as a
+                                                        Service</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <!-- <li class="dropdown"><a href="product-details.html">Products</a>
-                                            <ul>
-                                                <li><a href="product-details.html">Contract Diligence</a></li>
-                                                <li><a href="shop.html">CLM Resource Library</a></li>
-                                            </ul>
-                                        </li> -->
                                         <li class="dropdown"><a href="portfolio-1.html">Case Studies</a>
                                             <ul>
                                                 <li><a href="portfolio-1.html">Client Success Stories</a></li>
@@ -117,6 +124,7 @@
                                                 <li><a href="portfolio-details.html">Case Study Details</a></li>
                                             </ul>
                                         </li>
+                                        <!-- MOVED: Announcement now comes before About Us, to match the reference layout -->
                                         <li class="dropdown"><a href="blog-grid.html">Announcement</a>
                                         </li>
                                         <li class="dropdown"><a href="about.html">About Us</a>
@@ -125,15 +133,15 @@
                                                 <li><a href="team.html">Leadership Team</a></li>
                                                 <li><a href="faq.html">ISO Certified</a></li>
                                                 <li><a href="careers.html">Careers</a></li>
-                                                <li><a href="team.html">Team</a></li>
+
                                                 <li><a href="contact.html">Contact</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </div>
                             </nav>
-                            <!-- Main Menu End-->
 
+                            <!-- NEW: desktop social icon strip, right-aligned in the nav bar -->
                             <ul class="social-links clearfix">
                                 <li><a href="https://facebook.com/PROEN-108742391902817" target="_blank"
                                         rel="noopener"><span class="fab fa-facebook-f"></span></a></li>
@@ -150,24 +158,73 @@
             </div>
             <!--End Header Upper-->
 
-            <!-- Sticky Header  -->
-            <div class="sticky-header">
-                <div class="auto-container clearfix">
-                    <!--Logo-->
-                    <div class="logo pull-left">
-                        <!-- REPLACE: official PROEN logo (light/sticky variant) -->
-                        <a href="index.html" title="PROEN Consulting Services"><img src="assets/images/proen-logo.png"
-                                alt="PROEN Consulting Services logo" title="PROEN Consulting Services"></a>
+            <!-- Sticky Header -->
+            <div class="sticky-header" style="
+        background:#ffffff;
+        width:100%;
+        box-shadow:0 3px 15px rgba(0,0,0,0.08);
+     ">
+
+                <div class="auto-container" style="
+            max-width:1400px;
+            margin:0 auto;
+            padding:15px 40px;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+        ">
+
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html" title="PROEN Consulting Services">
+                            <img src="assets/images/proen-logo.png" alt="PROEN Consulting Services"
+                                style="height:48px;width:auto;">
+                        </a>
                     </div>
-                    <!--Right Col-->
-                    <div class="pull-right">
-                        <!-- Main Menu -->
+
+                    <!-- Menu -->
+                    <div style="
+                flex:1;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                margin:0 40px;
+            ">
+
                         <nav class="main-menu clearfix">
-                            <!--Keep This Empty / Menu will come through Javascript-->
-                        </nav><!-- Main Menu End-->
+                            <!-- Menu will come automatically through Javascript -->
+                        </nav>
+
                     </div>
+
+                    <!-- Contact Button -->
+                    <div>
+
+                        <a href="contact.html" style="
+                    background:#F69323;
+                    color:#ffffff;
+                    text-decoration:none;
+                    padding:12px 30px;
+                    border-radius:30px;
+                    font-size:15px;
+                    font-weight:600;
+                    transition:.3s;
+               " onmouseover="
+                    this.style.background='#17375E';
+               " onmouseout="
+                    this.style.background='#F69323';
+               ">
+
+                            Contact Us
+
+                        </a>
+
+                    </div>
+
                 </div>
-            </div><!-- End Sticky Menu -->
+
+            </div>
+            <!-- End Sticky Menu -->
 
             <!-- Mobile Menu  -->
             <div class="mobile-menu">
@@ -175,7 +232,7 @@
                 <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
                 <nav class="menu-box">
-                    <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png"
+                    <div class="nav-logo"><a href="index.html"><img src="assets/images/proen-logo.png"
                                 alt="PROEN Consulting Services logo" title="PROEN Consulting Services"></a></div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -197,7 +254,6 @@
             </div><!-- End Mobile Menu -->
         </header>
         <!-- End Main Header -->
-
 
         <!--Search Popup-->
         <div id="search-popup" class="search-popup">
@@ -237,146 +293,47 @@
                 <h1>What We Do</h1>
                 <ul class="bread-crumb clearfix">
                     <li><a href="index.html">Home</a></li>
-                    <li class="active">Services - Digital Transformation</li>
+                    <li class="active">Services - Digital Transformation On CLM</li>
                 </ul>
             </div>
 
         </section>
         <!--End Banner Section -->
 
+        <!-- Services Section -->
 
-        <!-- ============================= -->
-        <!-- Page Banner -->
-        <!-- ============================= -->
-        <section class="dt-hero">
-            <div class="auto-container">
-                <div class="dt-hero-content">
-
-                    <div class="dt-breadcrumb">
-                        <a href="index.html">Home</a>
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active">Services - Data Extraction</li>
-                    </div>
-
-                    <h1>
-                        Accelerate Your
-                        <span>Digital Transformation</span>
-                    </h1>
-
-                    <p>
-                        Empower your organization with intelligent automation,
-                        AI-driven workflows, modern enterprise applications,
-                        cloud adoption, and data-led decision making to
-                        improve productivity, reduce operational costs,
-                        and drive sustainable business growth.
-                    </p>
-
-                    <div class="dt-btns">
-                        <a href="contact.html" class="theme-btn btn-style-one">
-                            Get Started
-                        </a>
-
-                        <a href="#services" class="theme-btn btn-style-two">
-                            Explore Services
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="dt-shape shape-one"></div>
-            <div class="dt-shape shape-two"></div>
-        </section>
-
-        <!-- ============================= -->
-        <!-- Introduction -->
-        <!-- ============================= -->
-        <section class="dt-intro">
+        <!--==================================================
+DIGITAL TRANSFORMATION
+===================================================-->
+        <section class="digital-transformation-introduction">
             <div class="auto-container">
 
                 <div class="row align-items-center">
 
-                    <!-- Image -->
+                    <!-- Left Content -->
                     <div class="col-lg-6">
 
-                        <div class="intro-image">
+                        <div class="digital-transformation-header">
 
-                            <img src="assets/images/services/dt1.png" alt="Digital Transformation">
+                            <span class="digital-transformation-subtitle">
+                                DIGITAL TRANSFORMATION
+                            </span>
 
-                            <div class="experience-box">
-                                <h3>15+</h3>
-                                <span>Years of Innovation</span>
-                            </div>
+                            <h2>
+                                A comprehensive digital solution to manage your contracts
+                            </h2>
+
 
                         </div>
 
                     </div>
 
-                    <!-- Content -->
+                    <!-- Right Image -->
                     <div class="col-lg-6">
 
-                        <div class="intro-content">
+                        <div class="digital-transformation-main-image">
 
-                            <div class="sec-title">
-
-                                <span class="sub-title">
-                                    Digital Transformation
-                                </span>
-
-                                <h2>
-                                    Reimagine Business with
-                                    Intelligent Digital Solutions
-                                </h2>
-
-                            </div>
-
-                            <p>
-                                Modern enterprises require more than technology—they
-                                need connected systems, intelligent automation, and
-                                data-driven strategies that improve customer experience
-                                and operational efficiency.
-                            </p>
-
-                            <p>
-                                PROEN helps organizations modernize legacy systems,
-                                streamline workflows, integrate enterprise platforms,
-                                and adopt AI-powered solutions that enable scalable,
-                                secure, and future-ready business operations.
-                            </p>
-
-                            <div class="intro-list">
-
-                                <div class="list-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Enterprise Process Automation
-                                </div>
-
-                                <div class="list-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    AI & Machine Learning Integration
-                                </div>
-
-                                <div class="list-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Cloud Migration & Modernization
-                                </div>
-
-                                <div class="list-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Data Analytics & Business Intelligence
-                                </div>
-
-                                <div class="list-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Enterprise Application Development
-                                </div>
-
-                                <div class="list-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Digital Strategy & Consulting
-                                </div>
-
-                            </div>
+                            <img src="assets/images/services/digital1.png" alt="Digital Transformation">
 
                         </div>
 
@@ -387,48 +344,41 @@
             </div>
         </section>
 
-        <!-- ============================= -->
-        <!-- Core Capabilities -->
-        <!-- ============================= -->
-        <section class="dt-capabilities" id="services">
-
+        <!--==================================================
+DIGITAL TRANSFORMATION FEATURES
+===================================================-->
+        <section class="digital-transformation-benefits">
             <div class="auto-container">
 
-                <div class="sec-title centered">
+                <div class="digital-transformation-section-title">
 
-                    <span class="sub-title">
-                        Core Capabilities
-                    </span>
+            <h2>
+                We bring people, Business and Technology together
+            </h2>
 
-                    <h2>
-                        Comprehensive Digital Transformation Services
-                    </h2>
+            <p class="digital-transformation-section-description" style="padding: 10px; font-weight: bold;">
+                With our trusted digital transformation consulting services.
+            </p>
 
-                    <p>
-                        From strategy to implementation, PROEN delivers
-                        end-to-end digital transformation solutions that
-                        accelerate innovation and business performance.
-                    </p>
-
-                </div>
+        </div>
 
                 <div class="row">
 
                     <!-- Card 1 -->
                     <div class="col-lg-4 col-md-6">
 
-                        <div class="capability-card">
+                        <div class="digital-transformation-card">
 
-                            <div class="icon">
-                                <i class="fas fa-cloud"></i>
+                            <div class="digital-transformation-card-icon">
+                                <img src="assets/images/services/dt2.png" alt="">
                             </div>
 
-                            <h3>Cloud Transformation</h3>
+                            
+
+                            <h3>Process Automation</h3>
 
                             <p>
-                                Modernize infrastructure, migrate workloads,
-                                and improve scalability using secure cloud
-                                technologies.
+                                Our experts analyse and automate your process by leveraging digital capabilities.
                             </p>
 
                         </div>
@@ -438,18 +388,17 @@
                     <!-- Card 2 -->
                     <div class="col-lg-4 col-md-6">
 
-                        <div class="capability-card">
+                        <div class="digital-transformation-card">
 
-                            <div class="icon">
-                                <i class="fas fa-robot"></i>
+                            <div class="digital-transformation-card-icon">
+                                <img src="assets/images/services/dt3.png" alt="">
                             </div>
 
-                            <h3>AI & Automation</h3>
+                           
+                            <h3>Improve Internal Communica...</h3>
 
                             <p>
-                                Automate repetitive business processes and
-                                unlock productivity with intelligent AI-driven
-                                workflows.
+                                Leverage effective digital communication channels for customers and employees.
                             </p>
 
                         </div>
@@ -459,18 +408,18 @@
                     <!-- Card 3 -->
                     <div class="col-lg-4 col-md-6">
 
-                        <div class="capability-card">
+                        <div class="digital-transformation-card">
 
-                            <div class="icon">
-                                <i class="fas fa-chart-line"></i>
+                            <div class="digital-transformation-card-icon">
+                                <img src="assets/images/services/dt4.png" alt="">
                             </div>
 
-                            <h3>Data Intelligence</h3>
+                          
+                            <h3>Reduce Time and Cost</h3>
 
                             <p>
-                                Convert enterprise data into meaningful
-                                insights through analytics, dashboards,
-                                and reporting solutions.
+                                Improved employee productivity leads to greater saving of cost and time across all the
+                                departments.
                             </p>
 
                         </div>
@@ -480,18 +429,17 @@
                     <!-- Card 4 -->
                     <div class="col-lg-4 col-md-6">
 
-                        <div class="capability-card">
+                        <div class="digital-transformation-card">
 
-                            <div class="icon">
-                                <i class="fas fa-network-wired"></i>
+                            <div class="digital-transformation-card-icon">
+                                <img src="assets/images/services/dt5.png" alt="">
                             </div>
 
-                            <h3>Enterprise Integration</h3>
+                           
+                            <h3>Business Continuity</h3>
 
                             <p>
-                                Connect ERP, CRM, finance, HR, and third-party
-                                applications through secure APIs and seamless
-                                enterprise integrations.
+                                Adapt to changes in the dynamic business environment to stay relevant in the industry.
                             </p>
 
                         </div>
@@ -501,18 +449,19 @@
                     <!-- Card 5 -->
                     <div class="col-lg-4 col-md-6">
 
-                        <div class="capability-card">
+                        <div class="digital-transformation-card">
 
-                            <div class="icon">
-                                <i class="fas fa-laptop-code"></i>
+                            <div class="digital-transformation-card-icon">
+                                <img src="assets/images/services/dt6.png" alt="">
                             </div>
 
-                            <h3>Application Modernization</h3>
+                           
+
+                            <h3>Enhance Analytical Capabilities</h3>
 
                             <p>
-                                Upgrade legacy applications into scalable,
-                                cloud-ready platforms with enhanced user
-                                experience and performance.
+                                Digitization of business helps in the internationalization of product and service offers
+                                and increased competitiveness.
                             </p>
 
                         </div>
@@ -522,18 +471,19 @@
                     <!-- Card 6 -->
                     <div class="col-lg-4 col-md-6">
 
-                        <div class="capability-card">
+                        <div class="digital-transformation-card">
 
-                            <div class="icon">
-                                <i class="fas fa-shield-alt"></i>
+                            <div class="digital-transformation-card-icon">
+                                <img src="assets/images/services/dt7.png" alt="">
                             </div>
 
-                            <h3>Governance & Security</h3>
+                          
+
+                            <h3>Expand Your Horizons</h3>
 
                             <p>
-                                Ensure compliance, strengthen cybersecurity,
-                                and implement governance frameworks for
-                                enterprise-wide digital initiatives.
+                                Facilitate the analysis of the data with better data collection system, greater business
+                                insights, and informed decisions.
                             </p>
 
                         </div>
@@ -543,499 +493,422 @@
                 </div>
 
             </div>
-
         </section>
 
-        <!-- ================================= -->
-        <!-- Business Value Section -->
-        <!-- ================================= -->
-        <section class="dt-value">
-
+        <!--==================================================
+OUR CONSULTING SERVICES
+===================================================-->
+        <section class="digital-transformation-consulting">
             <div class="auto-container">
+
+                <div class="digital-transformation-section-title">
+
+                    
+
+                    <h2>
+                        Leverage our consulting expertise to achieve breakthrough innovation, growth, and efficiency at
+                        unprecedented speed
+                    </h2>
+
+                </div>
 
                 <div class="row align-items-center">
 
-                    <!-- Left -->
-                    <div class="col-lg-6">
+                    <!-- Left Image -->
+                    <div class="col-lg-5">
 
-                        <div class="value-content">
+                        <div class="digital-transformation-consulting-image">
 
-                            <div class="sec-title">
+                            <img src="assets/images/services/digital2.png"
+                                alt="Digital Transformation Consulting">
 
-                                <span class="sub-title">
-                                    Business Value
+                        </div>
+
+                    </div>
+
+                    <!-- Right Content -->
+                    <div class="col-lg-7">
+
+                        <div class="row">
+
+                            <!-- Service 1 -->
+                            <div class="col-md-6">
+
+                                <div class="digital-transformation-service-card">
+
+                                    <div class="digital-transformation-card-icon">
+                                        <img src="assets/images/services/dt8.png" alt="">
+                                    </div>
+
+                                    
+
+                                    <h3>Intelligent Automation</h3>
+
+                                    <p>
+                                        Eliminate repetitive tasks and processes by building new digital capabilities
+                                        and embracing innovative technologies.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                            <!-- Service 2 -->
+                            <div class="col-md-6">
+
+                                <div class="digital-transformation-service-card">
+
+                                    <div class="digital-transformation-card-icon">
+                                        <img src="assets/images/services/dt9.png" alt="">
+                                    </div>
+
+                                    
+
+                                    <h3>Governance, Risk, and Compliance</h3>
+
+                                    <p>
+                                        Transform your digital strategy while protecting your brand and customers from
+                                        security or regulatory breaches.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                            <!-- Service 3 -->
+                            <div class="col-md-6">
+
+                                <div class="digital-transformation-service-card">
+
+                                    <div class="digital-transformation-card-icon">
+                                        <img src="assets/images/services/dt10.png" alt="">
+                                    </div>
+
+
+                                    <h3>Marketing and Customer Experience</h3>
+
+                                    <p>
+                                        Discover how to reimagine and design top-notch experiences for employees,
+                                        partners, and customers.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                            <!-- Service 4 -->
+                            <div class="col-md-6">
+
+                                <div class="digital-transformation-service-card">
+
+                                    <div class="digital-transformation-card-icon">
+                                        <img src="assets/images/services/dt11.png" alt="">
+                                    </div>
+
+                                    
+                                    <h3>Digital Technology Strategy</h3>
+
+                                    <p>
+                                        Uncover new Technology and opportunities to support your digital strategy and
+                                        master new value chains for digital enablement.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                            <!-- Service 5 -->
+                            <div class="col-md-6">
+
+                                <div class="digital-transformation-service-card">
+
+                                    <div class="digital-transformation-card-icon">
+                                        <img src="assets/images/services/dt12.png" alt="">
+                                    </div>
+
+                                  
+
+                                    <h3>Business Intelligence</h3>
+
+                                    <p>
+                                        Gain better visibility by combining human judgement with data analytics and
+                                        artificial intelligence capabilities.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                            <!-- Service 6 -->
+                            <div class="col-md-6">
+
+                                <div class="digital-transformation-service-card">
+
+                                    <div class="digital-transformation-card-icon">
+                                        <img src="assets/images/services/dt13.png" alt="">
+                                    </div>
+
+
+                                    <h3>Cloud Solutions</h3>
+
+                                    <p>
+                                        Realize the success of cloud solutions to connect the data, people, technology,
+                                        and business processes.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================================================
+OUR APPROACH
+===================================================-->
+        <section class="digital-transformation-approach">
+
+            <div class="auto-container">
+
+                <div class="digital-transformation-section-title">
+
+                    <h2>Our Approach</h2>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+
+    <div style="background:#17375E;
+                border-radius:20px;
+                padding:40px 25px;
+                text-align:center;
+                height:100%;
+                box-shadow:0 15px 35px rgba(23,55,94,.18);">
+
+        <!-- Icon -->
+        <div style="width:90px;
+                    height:90px;
+                    background:#FFFFFF;
+                    border-radius:50%;
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;
+                    margin:0 auto 25px;">
+
+            <img src="assets/images/services/dt14.png"
+                 alt=""
+                 style="width:50px;
+                        height:50px;
+                        object-fit:contain;
+                        filter:brightness(0) saturate(100%) invert(23%) sepia(24%) saturate(1800%) hue-rotate(184deg) brightness(94%) contrast(95%);">
+
+        </div>
+
+        <h3 style="color:#FFFFFF;
+                   font-size:24px;
+                   font-weight:700;
+                   margin-bottom:18px;">
+            Digital Strategy
+        </h3>
+
+        <p style="color:rgba(255,255,255,.88);
+                  font-size:16px;
+                  line-height:28px;
+                  margin:0;">
+            Gain an in-depth understanding of current trends to achieve real business gains and build an ideal future state.
+        </p>
+
+    </div>
+
+</div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+
+    <div style="background:#17375E;
+                border-radius:20px;
+                padding:40px 25px;
+                text-align:center;
+                height:100%;
+                box-shadow:0 15px 35px rgba(23,55,94,.18);">
+
+        <!-- Icon -->
+        <div style="width:90px;
+                    height:90px;
+                    background:#FFFFFF;
+                    border-radius:50%;
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;
+                    margin:0 auto 25px;">
+
+            <img src="assets/images/services/dt15.png"
+                 alt=""
+                 style="width:50px;
+                        height:50px;
+                        object-fit:contain;
+                        filter:brightness(0) saturate(100%) invert(23%) sepia(24%) saturate(1800%) hue-rotate(184deg) brightness(94%) contrast(95%);">
+
+        </div>
+
+        <h3 style="color:#FFFFFF;
+                   font-size:24px;
+                   font-weight:700;
+                   margin-bottom:18px;">
+            Business Model
+        </h3>
+
+        <p style="color:rgba(255,255,255,.88);
+                  font-size:16px;
+                  line-height:28px;
+                  margin:0;">
+            Utilize digital innovation to satisfy your customers in new ways, boost efficiency, and drive out costs.
+        </p>
+
+    </div>
+
+</div>
+
+                   <div class="col-lg-3 col-md-6 mb-4">
+
+    <div style="background:#17375E;
+                border-radius:20px;
+                padding:40px 25px;
+                text-align:center;
+                height:100%;
+                box-shadow:0 15px 35px rgba(23,55,94,.18);">
+
+        <!-- Icon -->
+        <div style="width:90px;
+                    height:90px;
+                    background:#FFFFFF;
+                    border-radius:50%;
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;
+                    margin:0 auto 25px;">
+
+            <img src="assets/images/services/dt16.png"
+                 alt=""
+                 style="width:50px;
+                        height:50px;
+                        object-fit:contain;
+                        filter:brightness(0) saturate(100%) invert(23%) sepia(24%) saturate(1800%) hue-rotate(184deg) brightness(94%) contrast(95%);">
+
+        </div>
+
+        <h3 style="color:#FFFFFF;
+                   font-size:24px;
+                   font-weight:700;
+                   margin-bottom:18px;">
+           Digital Enablers
+        </h3>
+
+        <p style="color:rgba(255,255,255,.88);
+                  font-size:16px;
+                  line-height:28px;
+                  margin:0;">
+            Bring your digital transformation with new technology capabilities to support a truly digital business.
+        </p>
+
+    </div>
+
+</div>
+
+                   <div class="col-lg-3 col-md-6 mb-4">
+
+    <div style="background:#17375E;
+                border-radius:20px;
+                padding:40px 25px;
+                text-align:center;
+                height:100%;
+                box-shadow:0 15px 35px rgba(23,55,94,.18);">
+
+        <!-- Icon -->
+        <div style="width:90px;
+                    height:90px;
+                    background:#FFFFFF;
+                    border-radius:50%;
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;
+                    margin:0 auto 25px;">
+
+            <img src="assets/images/services/dt17.png"
+                 alt=""
+                 style="width:50px;
+                        height:50px;
+                        object-fit:contain;
+                        filter:brightness(0) saturate(100%) invert(23%) sepia(24%) saturate(1800%) hue-rotate(184deg) brightness(94%) contrast(95%);">
+
+        </div>
+
+        <h3 style="color:#FFFFFF;
+                   font-size:24px;
+                   font-weight:700;
+                   margin-bottom:18px;">
+            Delivery
+        </h3>
+
+        <p style="color:rgba(255,255,255,.88);
+                  font-size:16px;
+                  line-height:28px;
+                  margin:0;">
+            Orchestrate all the components of a sustainable digital transformation, and move to fully scaled deployment.
+        </p>
+
+    </div>
+
+</div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--==================================================
+LET'S TALK
+===================================================-->
+        <section class="digital-transformation-cta-section">
+
+            <div class="auto-container">
+
+                <div class="digital-transformation-cta-box">
+
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-8">
+
+                            <div class="digital-transformation-cta-content">
+
+                                <span class="digital-transformation-cta-subtitle">
+                                    Let's Talk
                                 </span>
 
-                                <h2>
-                                    Deliver Measurable Business Outcomes
-                                </h2>
-
-                            </div>
-
-                            <p>
-                                Digital transformation is not just about adopting
-                                technology—it is about creating measurable value.
-                                Our solutions improve operational efficiency,
-                                enhance customer experiences, and enable
-                                organizations to respond quickly to changing
-                                market demands.
-                            </p>
-
-                            <div class="value-list">
-
-                                <div class="value-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Increase operational efficiency
-                                </div>
-
-                                <div class="value-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Reduce manual processes
-                                </div>
-
-                                <div class="value-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Improve customer engagement
-                                </div>
-
-                                <div class="value-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Enable faster decision-making
-                                </div>
-
-                                <div class="value-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Strengthen security & compliance
-                                </div>
-
-                                <div class="value-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Accelerate business growth
-                                </div>
+                                <p>
+                                    Our expert developers, designers, data scientists, and business consultants bring
+                                    deep experience to turn your digital vision in to reality.
+                                </p>
 
                             </div>
 
                         </div>
 
-                    </div>
+                        <div class="col-lg-4 text-lg-end text-center">
 
-                    <!-- Right -->
-                    <div class="col-lg-6">
+                            <div class="digital-transformation-cta-button">
 
-                        <div class="value-image">
-
-                            <img src="assets/images/services/dt2.png" alt="Business Value">
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- ================================= -->
-        <!-- Transformation Statistics -->
-        <!-- ================================= -->
-        <section class="dt-counter">
-
-            <div class="auto-container">
-
-                <div class="row">
-
-                    <!-- Counter -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="counter-box">
-
-                            <h2>250+</h2>
-
-                            <span>
-                                Digital Projects Delivered
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Counter -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="counter-box">
-
-                            <h2>98%</h2>
-
-                            <span>
-                                Client Satisfaction
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Counter -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="counter-box">
-
-                            <h2>40%</h2>
-
-                            <span>
-                                Average Process Improvement
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Counter -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="counter-box">
-
-                            <h2>24/7</h2>
-
-                            <span>
-                                Enterprise Support
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- ================================= -->
-        <!-- Industries We Transform -->
-        <!-- ================================= -->
-        <section class="dt-industries">
-
-            <div class="auto-container">
-
-                <div class="sec-title centered">
-
-                    <span class="sub-title">
-                        Industries
-                    </span>
-
-                    <h2>
-                        Helping Every Industry Transform Digitally
-                    </h2>
-
-                    <p>
-                        We combine technology, data, automation,
-                        and domain expertise to solve complex
-                        business challenges across industries.
-                    </p>
-
-                </div>
-
-                <div class="row">
-
-                    <!-- Industry -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="industry-card">
-
-                            <i class="fas fa-university"></i>
-
-                            <h4>Banking & Finance</h4>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Industry -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="industry-card">
-
-                            <i class="fas fa-heartbeat"></i>
-
-                            <h4>Healthcare</h4>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Industry -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="industry-card">
-
-                            <i class="fas fa-industry"></i>
-
-                            <h4>Manufacturing</h4>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Industry -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="industry-card">
-
-                            <i class="fas fa-shopping-cart"></i>
-
-                            <h4>Retail & Commerce</h4>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Industry -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="industry-card">
-
-                            <i class="fas fa-truck"></i>
-
-                            <h4>Logistics & Supply Chain</h4>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Industry -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="industry-card">
-
-                            <i class="fas fa-graduation-cap"></i>
-
-                            <h4>Education</h4>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Industry -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="industry-card">
-
-                            <i class="fas fa-bolt"></i>
-
-                            <h4>Energy & Utilities</h4>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Industry -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="industry-card">
-
-                            <i class="fas fa-building"></i>
-
-                            <h4>Government & Public Sector</h4>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- ================================= -->
-        <!-- Digital Transformation Process -->
-        <!-- ================================= -->
-        <section class="dt-process">
-
-            <div class="auto-container">
-
-                <div class="sec-title centered">
-
-                    <span class="sub-title">
-                        Our Approach
-                    </span>
-
-                    <h2>
-                        A Proven Digital Transformation Framework
-                    </h2>
-
-                    <p>
-                        We follow a structured methodology that minimizes risk,
-                        accelerates adoption, and delivers measurable business
-                        value throughout your digital transformation journey.
-                    </p>
-
-                </div>
-
-                <div class="row">
-
-                    <!-- Step -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="process-card">
-
-                            <div class="step-number">01</div>
-
-                            <i class="fas fa-search"></i>
-
-                            <h3>Assess</h3>
-
-                            <p>
-                                Understand your current systems, business goals,
-                                operational challenges, and technology landscape.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Step -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="process-card">
-
-                            <div class="step-number">02</div>
-
-                            <i class="fas fa-lightbulb"></i>
-
-                            <h3>Strategize</h3>
-
-                            <p>
-                                Define a digital roadmap with clear priorities,
-                                measurable KPIs, and technology recommendations.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Step -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="process-card">
-
-                            <div class="step-number">03</div>
-
-                            <i class="fas fa-cogs"></i>
-
-                            <h3>Implement</h3>
-
-                            <p>
-                                Deploy scalable cloud, AI, automation,
-                                and enterprise integration solutions.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Step -->
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="process-card">
-
-                            <div class="step-number">04</div>
-
-                            <i class="fas fa-chart-line"></i>
-
-                            <h3>Optimize</h3>
-
-                            <p>
-                                Continuously monitor, improve, and scale
-                                digital initiatives for long-term success.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- ================================= -->
-        <!-- Why Choose PROEN -->
-        <!-- ================================= -->
-        <section class="dt-why">
-
-            <div class="auto-container">
-
-                <div class="row align-items-center">
-
-                    <!-- Left -->
-                    <div class="col-lg-6">
-
-                        <div class="why-image">
-
-                            <img src="assets/images/services/data-extract1.png" alt="Why Choose PROEN">
-
-                        </div>
-
-                    </div>
-
-                    <!-- Right -->
-                    <div class="col-lg-6">
-
-                        <div class="why-content">
-
-                            <div class="sec-title">
-
-                                <span class="sub-title">
-                                    Why PROEN
-                                </span>
-
-                                <h2>
-                                    Your Trusted Partner for
-                                    Digital Innovation
-                                </h2>
-
-                            </div>
-
-                            <p>
-                                Our team combines deep industry expertise with
-                                modern technologies to deliver scalable,
-                                secure, and future-ready digital solutions.
-                            </p>
-
-                            <div class="why-grid">
-
-                                <div class="why-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    AI & Automation Expertise
-                                </div>
-
-                                <div class="why-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Enterprise Technology Specialists
-                                </div>
-
-                                <div class="why-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Cloud-First Architecture
-                                </div>
-
-                                <div class="why-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Agile Delivery Methodology
-                                </div>
-
-                                <div class="why-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    End-to-End Digital Consulting
-                                </div>
-
-                                <div class="why-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    Long-Term Technology Partnership
-                                </div>
+                                <a href="contact.html" class="digital-transformation-btn">
+                                    Talk to an Expert
+                                </a>
 
                             </div>
 
@@ -1049,207 +922,321 @@
 
         </section>
 
-        <!-- ================================= -->
-        <!-- Call To Action -->
-        <!-- ================================= -->
-        <section class="dt-cta">
+       <footer class="main-footer proen-footer">
 
             <div class="auto-container">
 
-                <div class="cta-box">
-
-                    <span class="sub-title">
-                        Ready to Transform?
-                    </span>
-
-                    <h2>
-                        Start Your Digital Transformation Journey Today
-                    </h2>
-
-                    <p>
-                        Whether you're modernizing legacy systems, adopting AI,
-                        migrating to the cloud, or optimizing business processes,
-                        PROEN delivers innovative solutions that accelerate growth
-                        and improve business performance.
-                    </p>
-
-                    <div class="cta-buttons">
-
-                        <a href="contact.html" class="theme-btn btn-style-one">
-                            Talk to Our Experts
-                        </a>
-
-                        <a href="services.html" class="theme-btn btn-style-two">
-                            Explore Our Services
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <footer class="main-footer">
-            <div class="auto-container">
-                <!--Widgets Section-->
                 <div class="widgets-section">
+
                     <div class="row clearfix">
 
-                        <!--Column-->
-                        <div class="column col-lg-4">
-                            <div class="footer-widget logo-widget">
-                                <div class="widget-content">
-                                    <!-- REPLACE: official PROEN logo (footer/light variant) -->
-                                    <div class="footer-logo">
-                                        <a href="index.html"><img class="lazy-image" src="assets/images/proen-logo.png"
-                                                data-src="assets/images/proen-logo.png"
-                                                alt="PROEN Consulting Services logo" /></a>
-                                    </div>
-                                    <div class="text">PROEN Consulting Services delivers platform-agnostic Contract
-                                        Lifecycle Management — from digital transformation and implementation consulting
-                                        to managed services, staff augmentation and legacy data extraction.</div>
-                                    <ul class="social-links clearfix">
-                                        <li><a href="https://facebook.com/PROEN-108742391902817" target="_blank"
-                                                rel="noopener"><span class="fab fa-facebook-f"></span></a></li>
-                                        <li><a href="https://twitter.com/Proen05540198" target="_blank"
-                                                rel="noopener"><span class="fab fa-twitter"></span></a></li>
-                                        <li><a href="https://linkedin.com/company/proen-clm" target="_blank"
-                                                rel="noopener"><span class="fab fa-linkedin-in"></span></a></li>
-                                        <li><a href="https://instagram.com/proenconsultingservices" target="_blank"
-                                                rel="noopener"><span class="fab fa-instagram"></span></a></li>
-                                    </ul>
+                        <!-- Company Info -->
+                        <div class="column col-lg-4 col-md-6">
+
+                            <div class="footer-widget about-widget">
+
+                                <div class="footer-logo">
+
+                                    <a href="index.html">
+
+                                        <img src="assets/images/proen-logo.png" alt="PROEN Consulting Services">
+
+                                    </a>
+
                                 </div>
+
+                                <p>
+                                    PROEN Consulting Services is a leading AI-driven Contract Lifecycle
+                                    Management (CLM) consulting company helping enterprises accelerate
+                                    digital transformation through consulting, implementation,
+                                    managed services, AI-powered contract intelligence, staff
+                                    augmentation, and legacy contract digitization.
+                                </p>
+
+                                <div class="footer-social">
+
+                                    <a href="https://www.linkedin.com/company/proen-clm/posts/" aria-label="LinkedIn">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+
+                                    <a href="https://www.facebook.com/profile.php?id=100083807522389" aria-label="Facebook">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+
+                                    <a href="https://x.com/Proen05540198" aria-label="Twitter">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+
+                                    <a href="https://www.instagram.com/proenconsultingservices/" aria-label="Instagram">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+
+
+                                </div>
+
                             </div>
+
                         </div>
 
-                        <!--Column-->
-                        <div class="column col-lg-4">
-                            <div class="footer-widget links-widget">
-                                <div class="widget-content">
-                                    <h3>Links</h3>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <ul>
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="services-1.html">Services</a></li>
-                                                <li><a href="portfolio-1.html">Case Studies</a></li>
-                                                <li><a href="team.html">Leadership Team</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <ul>
-                                                <li><a href="blog-grid.html">Insights</a></li>
-                                                <li><a href="careers.html">Careers</a></li>
-                                                <li><a href="product-details.html">Contract Diligence</a></li>
-                                                <li><a href="faq.html">FAQs</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                        <!-- Quick Links -->
+
+                        <div class="column col-lg-2 col-md-6">
+
+                            <div class="footer-widget">
+
+                                <h3>
+                                    Quick Links
+                                </h3>
+
+                                <ul class="footer-links">
+
+                                    <li><a href="index.html">Home</a></li>
+
+                                    <li><a href="about.html">About Us</a></li>
+
+                                    <li><a href="services.html">Services</a></li>
+
+                                    <li><a href="blog-grid.html">Announcements</a></li>
+
+                                    <li><a href="careers.html">Careers</a></li>
+
+                                    <li><a href="contact.html">Contact Us</a></li>
+
+                                </ul>
+
                             </div>
+
                         </div>
 
-                        <!--Column-->
-                        <div class="column col-lg-4">
-                            <!-- REPLACE: real Instagram feed / office photos -->
-                            <div class="footer-widget instagram-widget">
-                                <h3>Follow @proenconsultingservices</h3>
-                                <div class="inner-box">
-                                    <!-- REPLACE: all 9 tiles below with real Instagram/office photos -->
-                                    <div class="wrapper-box">
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-1.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-1.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-2.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-2.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-3.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-3.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-4.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-4.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-5.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-5.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-6.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-6.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-7.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-7.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-8.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-8.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                        <div class="image">
-                                            <img class="lazy-image owl-lazy"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/gallery/gallery-9.jpg" alt="">
-                                            <div class="overlay-link"><a href="assets/images/gallery/gallery-9.jpg"
-                                                    class="lightbox-image" data-fancybox="gallery"><span
-                                                        class="fa fa-plus"></span></a></div>
-                                        </div>
-                                    </div><!-- /.gallery-wrapper -->
-                                </div>
+                        <!-- Services -->
+
+                        <div class="column col-lg-3 col-md-6">
+
+                            <div class="footer-widget">
+
+                                <h3>
+                                    Our Services
+                                </h3>
+
+                                <ul class="footer-links">
+
+                                    <li>
+                                        <a href="ai-enabled-clm.html">
+                                            AI-Powered CLM
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="consultation-on-clm-service.html">
+                                            Consultation on CLM Implementation
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="technology-development.html">
+                                            Technology Development
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="managed-services.html">
+                                            Managed Services
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="staff-augmentation.html">
+                                            Staff Augmentation
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="paralegal-service.html">
+                                            Paralegal Services
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="data-extraction-service.html">
+                                            Data Extraction as a Service
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="digital-transformation-service.html">
+                                            Digital Transformation On CLM
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+
                             </div>
+
+                        </div>
+
+                        <!-- Contact & Offices -->
+
+                        <div class="column col-lg-3 col-md-6">
+
+                            <div class="footer-widget">
+
+                                <h3>
+                                    Contact & Offices
+                                </h3>
+
+                                <div class="footer-contact">
+
+                                    <!-- Email -->
+
+                                    <div class="contact-item">
+
+                                        <i class="flaticon-email-6"></i>
+
+                                        <div>
+
+                                            <a href="mailto:contactus@proen.co.in">
+                                                contactus@proen.co.in
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Phone -->
+
+                                    <div class="contact-item">
+
+                                        <i class="flaticon-call-1"></i>
+
+                                        <div>
+
+                                            <a href="tel:+917483323205">
+                                                +91 74833 23205
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Bengaluru -->
+
+                                    <div class="contact-item">
+
+                                        <i class="flaticon-location"></i>
+
+                                        <div>
+
+                                            <strong>Head Office (Bengaluru)</strong>
+
+                                            <br>
+
+                                            878, 5th Block, 1st Stage,
+                                            HBR Layout,
+                                            Bengaluru - 560043
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Belagavi -->
+
+                                    <div class="contact-item">
+
+                                        <i class="flaticon-location"></i>
+
+                                        <div>
+
+                                            <strong>Belagavi</strong>
+
+                                            <br>
+
+                                            Panchavati Plaza,
+                                            202, Deshmukh Road,
+                                            Near 1st Railway Gate,
+                                            Belagavi - 590006
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Davanagere -->
+
+                                    <div class="contact-item">
+
+                                        <i class="flaticon-location"></i>
+
+                                        <div>
+
+                                            <strong>Davanagere</strong>
+
+                                            <br>
+
+                                            PB Road,
+                                            Near Big Bazar,
+                                            Davanagere - 577002
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
                         </div>
 
                     </div>
 
                 </div>
 
-                <!-- Footer Bottom -->
+            </div>
+
+            <!-- Footer Bottom -->
+
+            <div class="footer-bottom">
+
                 <div class="auto-container">
-                    <div class="footer-bottom">
-                        <div class="copyright">&copy; 2026 <a href="index.html">PROEN Consulting Services Pvt. Ltd</a>.
-                            All Rights Reserved.</div>
+
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+
+                            <p>
+
+                                © 2026 PROEN Consulting Services Pvt. Ltd.
+
+                                All Rights Reserved.
+
+                            </p>
+
+                        </div>
+
+                        <div class="col-lg-6 text-lg-right">
+
+                            <a href="privacy-policy.html">
+
+                                Privacy Policy
+
+                            </a>
+
+                            <span>|</span>
+
+                            <a href="terms-and-conditions.html">
+
+                                Terms & Conditions
+
+                            </a>
+
+                        </div>
+
                     </div>
+
                 </div>
+
+            </div>
+
         </footer>
+
 
     </div>
     <!--End pagewrapper-->
