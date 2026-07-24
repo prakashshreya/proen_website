@@ -59,12 +59,15 @@
                         <div class="top-middile">
                             <div class="contact-info">
                                 <div class="single-info">
-                                    <div class="icon-box"><i class="flaticon-call-1" style="color: #1B5EB8;"></i></div>
+                                    <!-- <i class="fas fa-phone" style="color: #1B5EB8; font-size: 20px;"></i> -->
+                                    <div class="icon-box"><i class="fas fa-phone"
+                                            style="color: #1B5EB8; font-size: 20px;"></i></div>
                                     <div class="text" style="color: #1B5EB8;">Phone Number</div>
                                     <h4><a href="tel:+917483323205" style="color: #1B5EB8;">+91 7483 323 205</a></h4>
                                 </div>
                                 <div class="single-info">
-                                    <div class="icon-box" style="color: #1B5EB8;"><i class="flaticon-email-4"></i></div>
+                                    <div class="icon-box" style="color: #1B5EB8; font-size: 20px;"><i
+                                            class="fas fa-envelope-open-text"></i></div>
                                     <div class="text" style="color: #1B5EB8;">Email Address</div>
                                     <h4><a href="mailto:contactus@proen.co.in"
                                             style="color: #1B5EB8;">contactus@proen.co.in</a></h4>
@@ -119,21 +122,21 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="portfolio-1.html">Case Studies</a>
+                                        <!-- <li class="dropdown"><a href="portfolio-1.html">Case Studies</a>
                                             <ul>
                                                 <li><a href="portfolio-1.html">Client Success Stories</a></li>
                                                 <li><a href="portfolio-2.html">Industries We Serve</a></li>
                                                 <li><a href="portfolio-details.html">Case Study Details</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <!-- MOVED: Announcement now comes before About Us, to match the reference layout -->
-                                        <li class="dropdown"><a href="blog-grid.html">Announcement</a>
+                                        <li><a href="announcement.html">Announcement</a>
                                         </li>
                                         <li class="dropdown"><a href="about.html">About Us</a>
                                             <ul>
                                                 <li><a href="about.html">Who We Are</a></li>
                                                 <li><a href="team.html">Leadership Team</a></li>
-                                                <li><a href="faq.html">ISO Certified</a></li>
+                                                <li><a href="iso.html">ISO Certified</a></li>
                                                 <li><a href="careers.html">Careers</a></li>
 
                                                 <li><a href="contact.html">Contact</a></li>
@@ -162,36 +165,35 @@
 
             <!-- Sticky Header -->
             <div class="sticky-header" style="
-        background:#ffffff;
-        width:100%;
-        box-shadow:0 3px 15px rgba(0,0,0,0.08);
-     ">
+    background:#ffffff;
+    width:100%;
+    box-shadow:0 2px 12px rgba(0,0,0,0.08);
+">
 
                 <div class="auto-container" style="
-            max-width:1400px;
-            margin:0 auto;
-            padding:15px 40px;
-            display:flex;
-            align-items:center;
-            justify-content:space-between;
-        ">
+        max-width:1200px;
+        padding:8px 30px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+    ">
 
                     <!-- Logo -->
                     <div class="logo">
                         <a href="index.html" title="PROEN Consulting Services">
                             <img src="assets/images/proen-logo.png" alt="PROEN Consulting Services"
-                                style="height:48px;width:auto;">
+                                style="height:42px;width:auto;">
                         </a>
                     </div>
 
                     <!-- Menu -->
                     <div style="
-                flex:1;
-                display:flex;
-                justify-content:center;
-                align-items:center;
-                margin:0 40px;
-            ">
+            flex:1;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin:0 30px;
+        ">
 
                         <nav class="main-menu clearfix">
                             <!-- Menu will come automatically through Javascript -->
@@ -203,14 +205,16 @@
                     <div>
 
                         <a href="contact.html" style="
+                    display:inline-block;
                     background:#F69323;
                     color:#ffffff;
                     text-decoration:none;
-                    padding:12px 30px;
+                    padding:10px 24px;
                     border-radius:30px;
-                    font-size:15px;
+                    font-size:14px;
                     font-weight:600;
-                    transition:.3s;
+                    transition:all .3s ease;
+                    line-height:1.2;
                " onmouseover="
                     this.style.background='#17375E';
                " onmouseout="
@@ -226,7 +230,7 @@
                 </div>
 
             </div>
-            <!-- End Sticky Menu -->
+            <!-- End Sticky Header -->
 
             <!-- Mobile Menu  -->
             <div class="mobile-menu">
@@ -409,48 +413,125 @@
         </section>
         <!--End Banner Section -->
 
-        <!-- Welcome Setion -->
-        <section class="welcome-section pt-0">
+        <!-- =========================================
+             Key Highlights of Our Offerings
+        ========================================== -->
+        <section class="welcome-section proen-offerings-section">
+
             <div class="auto-container">
-                <div class="wrapper-box">
-                    <div class="row m-0">
-                        <!-- Welcome Block One -->
-                        <div class="welcome-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms"
-                            data-wow-duration="1200ms">
-                            <div class="inner-box">
-                                <div class="icon-box"><span class="flaticon-analysis"></span></div>
-                                <h2>Digital Transformation On CLM</h2>
-                                <div class="text">Comprehensive digital transformation solutions tailored to optimize
-                                    your contract lifecycle management processes. </div>
-                                <div class="read-more"><a href="digital-transformation-service.html">Read More</a></div>
-                            </div>
-                        </div>
-                        <!-- Welcome Block One -->
-                        <!-- REPLACE: office/team photo -->
-                        <div class="welcome-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms"
-                            data-wow-duration="1200ms">
-                            <div class="inner-box" style="background-image: url(assets/images/resource/image-1.jpg);">
-                                <div class="icon-box"><span class="flaticon-tax"></span></div>
-                                <h2>Managed Services</h2>
-                                <div class="text">End-to-end support and comprehensive administrative services for every
-                                    aspect of your CLM system. </div>
-                                <div class="read-more"><a href="managed-services.html">Read More</a></div>
-                            </div>
-                        </div>
-                        <!-- Welcome Block One -->
-                        <div class="welcome-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms"
-                            data-wow-duration="1200ms">
-                            <div class="inner-box">
-                                <div class="icon-box"><span class="flaticon-work-1"></span></div>
-                                <h2>Staff Augmentation</h2>
-                                <div class="text">Skilled professionals on-demand to augment your existing team, so you
-                                    can scale your workforce at will. </div>
-                                <div class="read-more"><a href="staff-augmentation.html">Read More</a></div>
-                            </div>
-                        </div>
-                    </div>
+
+                <!-- Section Heading -->
+                <div class="proen-section-title text-center">
+                    <h2>
+                        Key Highlights of Our Offerings
+                    </h2>
+
+                    <p>
+                        Our comprehensive range of services is designed to empower your business
+                        with the necessary support to navigate through the digital age successfully.
+                    </p>
+
                 </div>
+
+                <!-- Services -->
+                <div class="wrapper-box">
+
+                    <div class="row">
+
+                        <!-- Service 1 -->
+                        <div class="welcome-block-one col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0ms"
+                            data-wow-duration="1200ms">
+
+                            <div class="inner-box">
+
+                                <div class="icon-box">
+                                    <span class="flaticon-analysis"></span>
+                                </div>
+
+                                <h2>
+                                    AI-Powered CLM
+                                </h2>
+
+                                <div class="text">
+                                    PROEN helps organizations leverage AI across the Contract Lifecycle Management (CLM)
+                                    lifecycle to automate processes, improve compliance, reduce risk, and unlock
+                                    valuable contract insights.
+                                </div>
+
+                                <div class="read-more">
+                                    <a href="ai-enabled-clm.html">
+                                        Read More
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Service 2 -->
+                        <div class="welcome-block-one col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms"
+                            data-wow-duration="1200ms">
+
+                            <div class="inner-box">
+
+                                <div class="icon-box">
+                                    <span class="flaticon-tax"></span>
+                                </div>
+
+                                <h2>
+                                    Managed Services
+                                </h2>
+
+                                <div class="text">
+                                    End-to-end support and comprehensive administrative services
+                                    for every aspect of your Contract Lifecycle Management platform.
+                                </div>
+
+                                <div class="read-more">
+                                    <a href="managed-services.html">
+                                        Read More
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Service 3 -->
+                        <div class="welcome-block-one col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms"
+                            data-wow-duration="1200ms">
+
+                            <div class="inner-box">
+
+                                <div class="icon-box">
+                                    <span class="flaticon-work-1"></span>
+                                </div>
+
+                                <h2>
+                                    Staff Augmentation
+                                </h2>
+
+                                <div class="text">
+                                    Skilled professionals on demand to seamlessly extend your team
+                                    and accelerate project delivery with confidence.
+                                </div>
+
+                                <div class="read-more">
+                                    <a href="staff-augmentation.html">
+                                        Read More
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
+
         </section>
 
         <!-- About Section -->
@@ -479,8 +560,9 @@
                     <div class="col-lg-6">
                         <div class="content-box">
                             <div class="sec-title">
-                                <div class="sub-title">About Us</div>
-                                <h2>We Work With <br>You To Address</h2>
+                                <div>
+                                    <p style="font-size: 30px; color: #1B5EB8; font-weight: bold;"> About US</p>
+                                </div>
                                 <div class="text">PROEN Consulting Services brings cutting-edge, end-to-end Contract
                                     Lifecycle Management (CLM) expertise to organizations across industries — helping
                                     you track, manage and automate every granular step of the contract lifecycle. As a
@@ -491,16 +573,17 @@
                             <div class="row">
                                 <div class="info-column col-md-6">
                                     <div class="icon-box">
-                                        <div class="icon"><img src="assets/images/icons/icon-1.png" alt=""></div>
+                                        <div class="icon"><i class="fas fa-phone" style="font-size: 25px;"></i></div>
                                         <h5>Phone Number</h5>
-                                        <h2><a href="tel:+917483323205">+91 7483 323 205</a></h2>
+                                        <h5><a href="tel:+917483323205">+91 7483 323 205</a></h5>
                                     </div>
                                 </div>
                                 <div class="info-column col-md-6">
                                     <div class="icon-box">
-                                        <div class="icon"><img src="assets/images/icons/icon-2.png" alt=""></div>
+                                        <div class="icon"><i class="fas fa-envelope-open-text"
+                                                style="font-size: 25px;"></i></div>
                                         <h5>Email Address</h5>
-                                        <h2><a href="mailto:contactus@proen.co.in">contactus@proen.co.in</a></h2>
+                                        <h5><a href="mailto:contactus@proen.co.in">contactus@proen.co.in</a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -511,136 +594,87 @@
             </div>
         </section>
 
-        <!-- Services Section -->
-        <section class="services-section">
+        <!--==============================
+            PROEN Statistics Section
+        ================================-->
+        <section class="proen-achievements">
+
             <div class="auto-container">
-                <div class="wrapper-box">
-                    <div class="left-column">
-                        <div class="services-content">
-                            <div class="sec-title light">
-                                <div class="sub-title">Our Services</div>
 
-                            </div>
-                            <div class="icon-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                <div class="icon"><img src="assets/images/icons/icon-3.png" alt=""></div>
-                                <h2>Consultation on CLM Implementation</h2>
-                                <div class="text">Specialized guidance for integrating and maximizing the benefits of
-                                    your CLM solution, from needs assessment to deployment. </div>
-                            </div>
-                            <div class="icon-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                <div class="icon"><img src="assets/images/icons/icon-4.png" alt=""></div>
-                                <h2>Paralegal Service</h2>
-                                <div class="text">Expert legal support — research, document preparation, legacy data
-                                    abstraction, template and clause creation. </div>
-                            </div>
-                            <div class="icon-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                <div class="icon"><img src="assets/images/icons/icon-5.png" alt=""></div>
-                                <h2>Technology Development</h2>
-                                <div class="text">Platform-agnostic features built around your specific needs, so you
-                                    can achieve your business goals faster. </div>
+                <div class="proen-achievements-box">
+
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="achievement-item">
+
+                                <div class="achievement-icon">
+                                    <img src="assets/images/icons/icon6.png" alt="">
+                                </div>
+
+                                <h2>
+                                    <span class="count-text" data-stop="7">0</span>+
+                                </h2>
+
+                                <p>Partners</p>
+
                             </div>
                         </div>
-                    </div>
-                    <div class="right-column">
-                        <!-- Fact Counter -->
-                        <div class="fact-counter">
-                            <div class="border-box">
-                                <div class="border_top"></div>
-                                <div class="border_bottom"></div>
-                                <div class="border_middile"></div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="achievement-item">
+
+                                <div class="achievement-icon">
+                                    <img src="assets/images/icons/icon7.png" alt="">
+                                </div>
+
+                                <h2>
+                                    <span class="count-text" data-stop="40">0</span>+
+                                </h2>
+
+                                <p>Specialists</p>
+
                             </div>
-                            <div class="row">
+                        </div>
 
-                                <!--Column-->
-                                <div class="column counter-column col-md-6">
-                                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                        <div class="content">
-                                            <div class="icon"><img src="assets/images/icons/icon-6.png" alt=""></div>
-                                            <div class="count-outer count-box">
-                                                <span class="count-text" data-speed="3000"
-                                                    data-stop="40">0</span><span>+</span>
-                                            </div>
-                                            <div class="counter-title">Partners</div>
-                                        </div>
-                                    </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="achievement-item">
+
+                                <div class="achievement-icon">
+                                    <img src="assets/images/icons/icon8.png" alt="">
                                 </div>
 
-                                <!--Column-->
-                                <div class="column counter-column col-md-6">
-                                    <div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                        <div class="content">
-                                            <div class="icon"><img src="assets/images/icons/icon-7.png" alt=""></div>
-                                            <div class="count-outer count-box">
-                                                <span class="count-text" data-speed="3000"
-                                                    data-stop="25">0</span><span>+</span>
-                                            </div>
-                                            <div class="counter-title">Specialists</div>
-                                        </div>
-                                    </div>
+                                <h2>
+                                    <span class="count-text" data-stop="5">0</span>+
+                                </h2>
+
+                                <p>Verticles</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="achievement-item">
+
+                                <div class="achievement-icon">
+                                    <img src="assets/images/icons/icon9.png" alt="">
                                 </div>
 
-                                <!--Column-->
-                                <div class="column counter-column col-md-6">
-                                    <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                        <div class="content">
-                                            <div class="icon"><img src="assets/images/icons/icon-8.png" alt=""></div>
-                                            <div class="count-outer count-box">
-                                                <span class="count-text" data-speed="3000"
-                                                    data-stop="10">0</span><span>+</span>
-                                            </div>
-                                            <div class="counter-title">Industry Verticals</div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <h2>
+                                    <span class="count-text" data-stop="20">0</span>+
+                                </h2>
 
-                                <!--Column-->
-                                <div class="column counter-column col-md-6">
-                                    <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
-                                        <div class="content">
-                                            <div class="icon"><img src="assets/images/icons/icon-9.png" alt=""></div>
-                                            <div class="count-outer count-box">
-                                                <span class="count-text" data-speed="3000"
-                                                    data-stop="100">0</span><span>+</span>
-                                            </div>
-                                            <div class="counter-title">Implementations</div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Column-->
-                                <div class="column counter-column col-md-6">
-                                    <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                        <div class="content">
-                                            <div class="icon"><img src="assets/images/icons/icon-10.png" alt=""></div>
-                                            <div class="count-outer count-box">
-                                                <span class="count-text" data-speed="3000"
-                                                    data-stop="98">0</span><span>%</span>
-                                            </div>
-                                            <div class="counter-title">Data Extraction Accuracy</div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Column-->
-                                <div class="column counter-column col-md-6">
-                                    <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
-                                        <div class="content">
-                                            <div class="icon"><img src="assets/images/icons/icon-11.png" alt=""></div>
-                                            <div class="count-outer count-box">
-                                                <span class="count-text" data-speed="3000"
-                                                    data-stop="98">0</span><span>%</span>
-                                            </div>
-                                            <div class="counter-title">Client Satisfaction</div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <p>Implementations</p>
 
                             </div>
                         </div>
 
                     </div>
+
                 </div>
+
             </div>
+
         </section>
 
         <!-- Why Choose Us Section - Simplified -->
@@ -652,8 +686,10 @@
                     <div class="col-lg-6">
                         <div class="content-box">
                             <div class="sec-title">
-                                <div class="sub-title">Why Choose Us</div>
-                                <h2>Why Should You Choose Us?</h2>
+
+                                <div>
+                                    <p style="font-size: 30px; color: #1B5EB8; font-weight: bold;">Why Choose Us</p>
+                                </div>
                             </div>
 
                             <!-- Tabs -->
@@ -731,9 +767,15 @@
 
                 </div>
                 <div class="sec-title light text-center">
-                    <!-- <div class="sub-title" style="color: white;">Company Overview</div> -->
-                    <div style="color: #F69323;">---------- Company Overview ----------</div>
-                    <h2>See How PROEN <br>Powers Modern CLM.</h2>
+
+
+                    <div>
+                        <p style="color: #F69323; font-size: 35px; padding-bottom: 20px;">One-Stop Solution for All your
+                            CLM Needs</p>
+                        <p style="color: white; ">Experience a captivating video unveiling our exclusive CLM boutique
+                            service offerings, designed to expertly guide you through the transformation of your
+                            contract management processes!</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -746,17 +788,7 @@
                 <!-- Heading -->
                 <div style="text-align:center; margin-bottom:45px;">
 
-                    <span style="
-                display:inline-block;
-                color:#F69323;
-                font-size:14px;
-                font-weight:700;
-                letter-spacing:2px;
-                text-transform:uppercase;
-                margin-bottom:10px;
-            ">
-                        TRUSTED WORLDWIDE
-                    </span>
+
 
                     <h2 style="
                 font-size:42px;
@@ -845,80 +877,22 @@
 
                 <div class="widgets-section">
 
-                    <div class="row clearfix">
-
-                        <!-- Company Info -->
-                        <div class="column col-lg-4 col-md-6">
-
-                            <div class="footer-widget about-widget">
-
-                                <div class="footer-logo">
-
-                                    <a href="index.html">
-
-                                        <img src="assets/images/proen-logo.png" alt="PROEN Consulting Services">
-
-                                    </a>
-
-                                </div>
-
-                                <p>
-                                    PROEN Consulting Services is a leading AI-driven Contract Lifecycle
-                                    Management (CLM) consulting company helping enterprises accelerate
-                                    digital transformation through consulting, implementation,
-                                    managed services, AI-powered contract intelligence, staff
-                                    augmentation, and legacy contract digitization.
-                                </p>
-
-                                <div class="footer-social">
-
-                                    <a href="https://www.linkedin.com/company/proen-clm/posts/" aria-label="LinkedIn">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-
-                                    <a href="https://www.facebook.com/profile.php?id=100083807522389" aria-label="Facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-
-                                    <a href="https://x.com/Proen05540198" aria-label="Twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-
-                                    <a href="https://www.instagram.com/proenconsultingservices/" aria-label="Instagram">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-
-
-                                </div>
-
-                            </div>
-
-                        </div>
+                    <div class="row">
 
                         <!-- Quick Links -->
-
-                        <div class="column col-lg-2 col-md-6">
+                        <div class="col-lg-3 col-md-6">
 
                             <div class="footer-widget">
 
-                                <h3>
-                                    Quick Links
-                                </h3>
+                                <h3>Quick Links</h3>
 
                                 <ul class="footer-links">
-
                                     <li><a href="index.html">Home</a></li>
-
                                     <li><a href="about.html">About Us</a></li>
-
                                     <li><a href="services.html">Services</a></li>
-
                                     <li><a href="blog-grid.html">Announcements</a></li>
-
                                     <li><a href="careers.html">Careers</a></li>
-
                                     <li><a href="contact.html">Contact Us</a></li>
-
                                 </ul>
 
                             </div>
@@ -926,64 +900,43 @@
                         </div>
 
                         <!-- Services -->
-
-                        <div class="column col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6">
 
                             <div class="footer-widget">
 
-                                <h3>
-                                    Our Services
-                                </h3>
+                                <h3>Our Services</h3>
 
                                 <ul class="footer-links">
 
-                                    <li>
-                                        <a href="ai-enabled-clm.html">
-                                            AI-Powered CLM
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="consultation-on-clm-service.html">
+                                    <li><a href="ai-enabled-clm.html">AI-Powered CLM</a></li>
+
+                                    <li><a href="consultation-on-clm-service.html">
                                             Consultation on CLM Implementation
-                                        </a>
-                                    </li>
+                                        </a></li>
 
-                                    <li>
-                                        <a href="technology-development.html">
+                                    <li><a href="technology-development.html">
                                             Technology Development
-                                        </a>
-                                    </li>
+                                        </a></li>
 
-                                    <li>
-                                        <a href="managed-services.html">
+                                    <li><a href="managed-services.html">
                                             Managed Services
-                                        </a>
-                                    </li>
+                                        </a></li>
 
-                                    <li>
-                                        <a href="staff-augmentation.html">
+                                    <li><a href="staff-augmentation.html">
                                             Staff Augmentation
-                                        </a>
-                                    </li>
+                                        </a></li>
 
-                                    <li>
-                                        <a href="paralegal-service.html">
+                                    <li><a href="paralegal-service.html">
                                             Paralegal Services
-                                        </a>
-                                    </li>
+                                        </a></li>
 
-                                    <li>
-                                        <a href="data-extraction-service.html">
+                                    <li><a href="data-extraction-service.html">
                                             Data Extraction as a Service
-                                        </a>
-                                    </li>
+                                        </a></li>
 
-                                    <li>
-                                        <a href="digital-transformation-service.html">
-                                            Digital Transformation On CLM
-                                        </a>
-                                    </li>
-
+                                    <li><a href="digital-transformation-service.html">
+                                            Digital Transformation on CLM
+                                        </a></li>
 
                                 </ul>
 
@@ -991,108 +944,102 @@
 
                         </div>
 
-                        <!-- Contact & Offices -->
-
-                        <div class="column col-lg-3 col-md-6">
+                        <!-- Branches -->
+                        <div class="col-lg-3 col-md-6">
 
                             <div class="footer-widget">
 
-                                <h3>
-                                    Contact & Offices
-                                </h3>
+                                <h3>Branches</h3>
 
-                                <div class="footer-contact">
+                                <div class="footer-office">
 
-                                    <!-- Email -->
+                                    <div class="office-item">
 
-                                    <div class="contact-item">
-
-                                        <i class="flaticon-email-6"></i>
-
-                                        <div>
-
-                                            <a href="mailto:contactus@proen.co.in">
-                                                contactus@proen.co.in
-                                            </a>
-
+                                        <div class="office-icon">
+                                            <i class="fas fa-map-marker-alt"></i>
                                         </div>
 
-                                    </div>
-
-                                    <!-- Phone -->
-
-                                    <div class="contact-item">
-
-                                        <i class="flaticon-call-1"></i>
-
                                         <div>
 
-                                            <a href="tel:+917483323205">
-                                                +91 74833 23205
-                                            </a>
+                                            <h5>Belagavi</h5>
 
-                                        </div>
 
-                                    </div>
-
-                                    <!-- Bengaluru -->
-
-                                    <div class="contact-item">
-
-                                        <i class="flaticon-location"></i>
-
-                                        <div>
-
-                                            <strong>Head Office (Bengaluru)</strong>
-
-                                            <br>
-
-                                            878, 5th Block, 1st Stage,
-                                            HBR Layout,
-                                            Bengaluru - 560043
-
-                                        </div>
-
-                                    </div>
-
-                                    <!-- Belagavi -->
-
-                                    <div class="contact-item">
-
-                                        <i class="flaticon-location"></i>
-
-                                        <div>
-
-                                            <strong>Belagavi</strong>
-
-                                            <br>
-
-                                            Panchavati Plaza,
-                                            202, Deshmukh Road,
-                                            Near 1st Railway Gate,
+                                            Panchavati Plaza,<br>
+                                            202, Deshmukh Road,<br>
+                                            Near 1st Railway Gate,<br>
                                             Belagavi - 590006
 
+
                                         </div>
 
                                     </div>
 
-                                    <!-- Davanagere -->
+                                    <div class="office-item">
 
-                                    <div class="contact-item">
-
-                                        <i class="flaticon-location"></i>
+                                        <div class="office-icon">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
 
                                         <div>
 
-                                            <strong>Davanagere</strong>
+                                            <h5>Davanagere</h5>
 
-                                            <br>
 
-                                            PB Road,
-                                            Near Big Bazar,
+                                            PB Road,<br>
+                                            Near Big Bazar,<br>
                                             Davanagere - 577002
 
+
                                         </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Head Office -->
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="footer-widget">
+
+                                <h3>Head Office</h3>
+
+                                <div class="office-item">
+
+                                    <div class="office-icon">
+                                        <i class="fas fa-building"></i>
+                                    </div>
+
+                                    <div>
+
+                                        <h5>Bengaluru</h5>
+
+
+                                        878, 5th Block,<br>
+                                        1st Stage, HBR Layout,<br>
+                                        Bengaluru - 560043
+
+
+                                    </div>
+
+                                </div>
+
+                                <div class="footer-social-area">
+
+                                    <h4>Be Part of Our Journey</h4>
+
+                                    <div class="footer-social">
+
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
 
                                     </div>
 
@@ -1108,45 +1055,17 @@
 
             </div>
 
-            <!-- Footer Bottom -->
-
             <div class="footer-bottom">
 
                 <div class="auto-container">
 
-                    <div class="row align-items-center">
+                    <p>
 
-                        <div class="col-lg-6">
+                        Copyright © 2026 PROEN Consulting Services Pvt. Ltd.
+                        Subsidiary of Carvewing Solutions.
+                        All Rights Reserved.
 
-                            <p>
-
-                                © 2026 PROEN Consulting Services Pvt. Ltd.
-
-                                All Rights Reserved.
-
-                            </p>
-
-                        </div>
-
-                        <div class="col-lg-6 text-lg-right">
-
-                            <a href="privacy-policy.html">
-
-                                Privacy Policy
-
-                            </a>
-
-                            <span>|</span>
-
-                            <a href="terms-and-conditions.html">
-
-                                Terms & Conditions
-
-                            </a>
-
-                        </div>
-
-                    </div>
+                    </p>
 
                 </div>
 
@@ -1196,6 +1115,62 @@
                 video.currentTime = 0;
             });
         })();
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const counters = document.querySelectorAll(".count-text");
+
+            const options = {
+                threshold: 0.5
+            };
+
+            const observer = new IntersectionObserver(function (entries, observer) {
+
+                entries.forEach(entry => {
+
+                    if (entry.isIntersecting) {
+
+                        const counter = entry.target;
+
+                        const target = parseInt(counter.getAttribute("data-stop"));
+                        const duration = 2000;
+
+                        let start = 0;
+                        const increment = target / (duration / 16);
+
+                        function updateCounter() {
+
+                            start += increment;
+
+                            if (start < target) {
+
+                                counter.textContent = Math.ceil(start);
+
+                                requestAnimationFrame(updateCounter);
+
+                            } else {
+
+                                counter.textContent = target;
+
+                            }
+
+                        }
+
+                        updateCounter();
+
+                        observer.unobserve(counter);
+
+                    }
+
+                });
+
+            }, options);
+
+            counters.forEach(counter => observer.observe(counter));
+
+        });
     </script>
 
 </body>

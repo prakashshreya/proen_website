@@ -58,7 +58,7 @@ body {
 	background: #ffffff;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
-	font-family: 'Roboto', sans-serif;
+	font-family: sans-serif
 }
 
 a {
@@ -480,7 +480,7 @@ img {
 }
 
 .main-header .auto-container {
-	max-width: 1360px;
+	max-width: 1200px;
 }
 
 .main-header .header-top {
@@ -501,6 +501,7 @@ img {
 	justify-content: space-between;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	
 }
 
 .main-header .header-top .top-middile {
@@ -847,6 +848,7 @@ img {
 .main-header .header-upper .inner-container {
 	position: relative;
 	min-height: 80px;
+	max-height: 1200px;
 }
 
 .main-header .header-upper .logo-box {
@@ -10912,7 +10914,7 @@ Content
 }
 
 .technology-development-content h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:40px;
     font-weight:700;
     line-height:54px;
@@ -11033,7 +11035,7 @@ Technology Development - Overview Section
 }
 
 .technology-development-overview-content h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:42px;
     font-weight:700;
     line-height:56px;
@@ -11090,7 +11092,7 @@ Technology Development Features
 }
 
 .technology-development-features-header h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:40px;
     font-weight:700;
     line-height:56px;
@@ -11142,7 +11144,7 @@ Feature Card
 }
 
 .technology-development-feature-content h3{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:24px;
     font-weight:700;
     line-height:34px;
@@ -11234,7 +11236,7 @@ Technology Development - Why Choose Section
 }
 
 .technology-development-why-choose-header h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:42px;
     font-weight:700;
     line-height:56px;
@@ -11285,7 +11287,7 @@ Why Choose Cards
 }
 
 .technology-development-why-card-content h3{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:24px;
     font-weight:700;
     margin-bottom:18px;
@@ -11353,7 +11355,7 @@ Call To Action
 
 .technology-development-cta-button:hover{
     background:#ffffff;
-    color:#17375E;
+    color:#1B5EB8;
     text-decoration:none;
 }
 
@@ -11439,7 +11441,7 @@ CSS Part 1
     font-size:42px;
     line-height:58px;
     font-weight:700;
-    color:#17375E;
+    color:#1B5EB8;
     margin:0;
 }
 
@@ -11497,7 +11499,7 @@ Managed Services Features
     font-size:40px;
     line-height:56px;
     font-weight:700;
-    color:#17375E;
+    color:#1B5EB8;
 }
 
 .managed-services-feature-card{
@@ -11546,7 +11548,7 @@ Managed Services Features
 }
 
 .managed-services-feature-card h4{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:24px;
     font-weight:700;
     margin-bottom:18px;
@@ -11654,7 +11656,7 @@ Experience Section
     font-size:42px;
     font-weight:700;
     line-height:56px;
-    color:#17375E;
+    color:#1B5EB8;
     margin-bottom:25px;
 }
 
@@ -11707,7 +11709,7 @@ Experience Section
 
 .managed-services-experience-info-content h5{
     margin:0;
-    color:#17375E;
+    color:#1B5EB8;
     font-size:22px;
     font-weight:700;
     line-height:32px;
@@ -11808,7 +11810,7 @@ CSS Part 3
 }
 
 .managed-services-why-header h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:42px;
     font-weight:700;
     line-height:56px;
@@ -11866,7 +11868,7 @@ CSS Part 3
 }
 
 .managed-services-why-details h4{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:24px;
     font-weight:700;
     margin-bottom:12px;
@@ -11935,7 +11937,7 @@ Managed Services CTA
 
 .managed-services-cta-button .theme-btn:hover{
     background:#FFFFFF;
-    color:#17375E;
+    color:#1B5EB8;
     border-color:#FFFFFF;
 }
 
@@ -12064,7 +12066,7 @@ Content
 
 
 .staff-augmentation-content h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:40px;
     font-weight:700;
     line-height:54px;
@@ -12185,7 +12187,7 @@ Staff Augmentation - Features Section
 
 
 .staff-augmentation-features-header h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:42px;
     font-weight:700;
     line-height:56px;
@@ -12275,7 +12277,7 @@ Feature Content
 
 .staff-augmentation-feature-content h3{
 
-    color:#17375E;
+    color:#1B5EB8;
 
     font-size:24px;
 
@@ -12359,7 +12361,7 @@ Consultation Section
 
 .staff-augmentation-consultation-content h2{
 
-    color:#17375E;
+    color:#1B5EB8;
 
     font-size:40px;
 
@@ -12548,7 +12550,7 @@ Staff Augmentation - Why Choose Section
 
 .staff-augmentation-why-header h2{
 
-    color:#17375E;
+    color:#1B5EB8;
 
     font-size:42px;
 
@@ -12647,7 +12649,7 @@ Why Content
 
 .staff-augmentation-why-content h3{
 
-    color:#17375E;
+    color:#1B5EB8;
 
     font-size:24px;
 
@@ -12699,7 +12701,7 @@ FAQ Accordion Section
 
 .staff-augmentation-faq-header h2{
 
-    color:#17375E;
+    color:#1B5EB8;
 
     font-size:42px;
 
@@ -12759,7 +12761,7 @@ FAQ Accordion Section
 
     text-align:left;
 
-    color:#17375E;
+    color:#1B5EB8;
 
     font-size:20px;
 
@@ -12959,7 +12961,7 @@ CTA Section
 
     background:#ffffff;
 
-    color:#17375E;
+    color:#1B5EB8;
 
     text-decoration:none;
 
@@ -13076,7 +13078,7 @@ PARALEGAL SERVICE - INTRODUCTION
 =========================================================*/
 
 .paralegal-service-introduction{
-    padding:100px 0;
+    padding:60px 0;
     background:#ffffff;
 }
 
@@ -13100,7 +13102,7 @@ PARALEGAL SERVICE - INTRODUCTION
 }
 
 .paralegal-service-header h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:42px;
     font-weight:700;
     line-height:56px;
@@ -13164,7 +13166,7 @@ CONTENT
 }
 
 .paralegal-service-content h3{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:34px;
     font-weight:700;
     line-height:46px;
@@ -13188,7 +13190,7 @@ CONTRACT CREATION
 =========================================================*/
 
 .paralegal-contract-creation{
-    padding:100px 0;
+    padding:60px 0;
     background:#F8FAFC;
 }
 
@@ -13199,7 +13201,7 @@ CONTRACT CREATION
 }
 
 .paralegal-contract-header h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:40px;
     font-weight:700;
     line-height:56px;
@@ -13256,7 +13258,7 @@ CONTRACT CREATION
 }
 
 .paralegal-contract-card h3{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:24px;
     font-weight:700;
     line-height:34px;
@@ -13275,7 +13277,7 @@ PARALEGAL SERVICE - OUR OFFERINGS
 =========================================================*/
 
 .paralegal-offerings-section{
-    padding:100px 0;
+    padding:60px 0;
     background:#ffffff;
 }
 
@@ -13299,7 +13301,7 @@ PARALEGAL SERVICE - OUR OFFERINGS
 }
 
 .paralegal-offerings-header h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:42px;
     font-weight:700;
     line-height:56px;
@@ -13346,7 +13348,7 @@ PARALEGAL SERVICE - OUR OFFERINGS
 }
 
 .paralegal-offering-content h3{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:28px;
     font-weight:700;
     line-height:40px;
@@ -13365,7 +13367,7 @@ PARALEGAL SERVICE - OUR OFFERINGS
 }
 
 .paralegal-offering-content strong{
-    color:#17375E;
+    color:#1B5EB8;
     font-weight:700;
 }
 
@@ -13424,7 +13426,7 @@ PROEN FAQ SECTION
 =========================================================*/
 
 .proen-faq-section{
-    padding:100px 0;
+    padding:60px 0;
     background:#ffffff;
 }
 
@@ -13448,7 +13450,7 @@ PROEN FAQ SECTION
 }
 
 .proen-faq-header h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:42px;
     font-weight:700;
     line-height:56px;
@@ -13490,7 +13492,7 @@ PROEN FAQ SECTION
     text-align:left;
     padding:28px 30px;
     cursor:pointer;
-    color:#17375E;
+    color:#1B5EB8;
     font-size:22px;
     font-weight:700;
 }
@@ -13539,7 +13541,7 @@ PROEN FAQ SECTION
 }
 
 .proen-faq-answer-content strong{
-    color:#17375E;
+    color:#1B5EB8;
     font-weight:700;
 }
 
@@ -13627,6 +13629,14 @@ RESPONSIVE
 
 }
 
+.paralegal-service-introduction,
+    .paralegal-contract-creation,
+    .paralegal-offerings-section,
+    .paralegal-cta-section,
+    .proen-faq-section{
+        padding:60px 0;
+    }
+
 
 /*=========================================================
 DATA EXTRACTION - INTRODUCTION
@@ -13657,7 +13667,7 @@ DATA EXTRACTION - INTRODUCTION
 }
 
 .data-extraction-header h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:42px;
     font-weight:700;
     line-height:56px;
@@ -13687,7 +13697,7 @@ KEY FEATURES & BENEFITS
 }
 
 .data-extraction-section-title h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:42px;
     font-weight:700;
     line-height:56px;
@@ -13874,7 +13884,7 @@ DATA EXTRACTION - HOW IT WORKS
 }
 
 .data-extraction-how-header h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:42px;
     font-weight:700;
     line-height:56px;
@@ -14006,7 +14016,7 @@ LET'S TALK
 
 .data-extraction-btn:hover{
     background:#ffffff;
-    color:#17375E;
+    color:#1B5EB8;
     border-color:#ffffff;
 }
 
@@ -14207,7 +14217,7 @@ DIGITAL TRANSFORMATION - INTRODUCTION
 }
 
 .digital-transformation-header h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:44px;
     font-weight:700;
     line-height:58px;
@@ -14241,7 +14251,7 @@ DIGITAL TRANSFORMATION FEATURES
 =========================================================*/
 
 .digital-transformation-benefits{
-    padding:20px 0 100px;
+    padding:60px 0 100px;
     background:#F8FAFC;
 }
 
@@ -14297,7 +14307,7 @@ DIGITAL TRANSFORMATION FEATURES
 }
 
 .digital-transformation-card h3{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:24px;
     font-weight:700;
     line-height:34px;
@@ -14340,7 +14350,7 @@ OUR CONSULTING SERVICES
 }
 
 .digital-transformation-section-title h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:42px;
     font-weight:700;
     line-height:56px;
@@ -14381,7 +14391,7 @@ OUR CONSULTING SERVICES
 }
 
 .digital-transformation-service-card h3{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:22px;
     font-weight:700;
     line-height:32px;
@@ -14427,7 +14437,7 @@ OUR APPROACH
 }
 
 .digital-transformation-approach-card h3{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:22px;
     font-weight:700;
     line-height:32px;
@@ -14531,7 +14541,7 @@ LET'S TALK
 
 .digital-transformation-btn:hover{
     background:#ffffff;
-    color:#17375E;
+    color:#1B5EB8;
     border-color:#ffffff;
 }
 
@@ -14684,7 +14694,7 @@ CLM CONSULTATION - INTRODUCTION
 }
 
 .clm-consultation-header h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:44px;
     font-weight:700;
     line-height:58px;
@@ -14729,7 +14739,7 @@ CLM CONSULTATION FEATURES
 }
 
 .clm-consultation-section-title h2{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:40px;
     font-weight:700;
     line-height:54px;
@@ -14788,7 +14798,7 @@ CLM CONSULTATION FEATURES
 }
 
 .clm-consultation-card h3{
-    color:#17375E;
+    color:#1B5EB8;
     font-size:22px;
     font-weight:700;
     line-height:32px;
@@ -15106,7 +15116,7 @@ LET'S TALK
 
 .clm-consultation-btn:hover{
     background:#ffffff;
-    color:#17375E;
+    color:#1B5EB8;
     border-color:#ffffff;
 }
 
@@ -15197,10 +15207,11 @@ AI CLM Hero Section
 }
 
 .ai-clm-hero-content h1{
-    font-size:48px;
+	margin-top: -40px;
+    font-size:44px;
     line-height:1.2;
     font-weight:700;
-    color:#17375E;
+    color:#1B5EB8;
     margin-bottom:25px;
 }
 
@@ -15228,107 +15239,7 @@ AI CLM Hero Section
 
 
 
-/*==================================================
-AI Capabilities
-==================================================*/
 
-/*==================================================
-AI Capabilities
-==================================================*/
-
-.ai-clm-capabilities-section{
-    padding:110px 0;
-    background:#ffffff;
-}
-
-.ai-clm-capabilities-section .sec-title{
-    margin-bottom:70px;
-}
-
-.ai-clm-capabilities-section .sec-title h2{
-    font-size:42px;
-    font-weight:700;
-    color:#17375E;
-    margin-bottom:15px;
-}
-
-.ai-clm-capabilities-section .sec-title p{
-    max-width:750px;
-    margin:0 auto;
-    color:#666666;
-    font-size:18px;
-    line-height:1.8;
-}
-
-.ai-clm-capabilities-section .row{
-    row-gap:30px;
-}
-
-/* Premium Card */
-
-.ai-clm-capability-card{
-    position:relative;
-    background:#ffffff;
-    border-radius:22px;
-    padding:45px 35px;
-    text-align:center;
-    height:100%;
-    overflow:hidden;
-    border:1px solid #E8EEF5;
-    box-shadow:0 15px 45px rgba(17,34,68,.08);
-    transition:all .35s ease;
-}
-
-/* Top Gradient */
-
-.ai-clm-capability-card::before{
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:5px;
-    background:#F69323;
-}
-
-.ai-clm-capability-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 25px 60px rgba(17,34,68,.18);
-}
-
-/* Icon */
-
-.ai-clm-icon{
-    width:90px;
-    height:90px;
-    margin:0 auto 30px;
-    border-radius:50%;
-    background:#EEF4FD;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:34px;
-    color:#1B5EB8;
-    transition:.35s;
-}
-
-.ai-clm-capability-card:hover .ai-clm-icon{
-    background:#1B5EB8;
-    color:#ffffff;
-    transform:rotate(-8deg) scale(1.08);
-}
-
-/* Heading */
-
-.ai-clm-capability-card h3{
-    font-size:24px;
-    font-weight:700;
-    line-height:1.5;
-    color:#17375E;
-    margin:0;
-}
-
-/* Responsive */
 
 @media(max-width:991px){
 
@@ -15452,7 +15363,7 @@ AI Across Leading CLM Platforms
 .ai-clm-platform-content h2{
     font-size:42px;
     font-weight:700;
-    color:#17375E;
+    color:#1B5EB8;
     line-height:1.3;
     margin-bottom:25px;
 }
@@ -15481,113 +15392,158 @@ AI Across Leading CLM Platforms
 Business Outcomes
 ==================================================*/
 
+
+
 /*==================================================
-Business Outcomes
+        AI CLM BUSINESS OUTCOMES
 ==================================================*/
 
 .ai-clm-business-outcomes{
-    padding:110px 0;
+    padding:90px 0;
     background:#F8FAFC;
 }
 
 .ai-clm-business-outcomes .sec-title{
-    margin-bottom:70px;
+    text-align:center;
+    margin-bottom:60px;
 }
 
 .ai-clm-business-outcomes .sec-title h2{
     font-size:42px;
     font-weight:700;
     color:#17375E;
-    margin-bottom:15px;
+    margin-bottom:18px;
+    line-height:1.3;
 }
 
 .ai-clm-business-outcomes .sec-title p{
-    font-size:18px;
-    color:#666;
-    max-width:700px;
+    max-width:760px;
     margin:0 auto;
+    font-size:17px;
+    line-height:1.8;
+    color:#6B7280;
 }
 
 .ai-clm-business-outcomes .row{
     row-gap:30px;
 }
 
-/* Card */
+/*==============================
+        Card
+==============================*/
 
 .ai-clm-outcome-card{
     position:relative;
     background:#ffffff;
-    border-radius:22px;
-    padding:45px 35px;
-    text-align:center;
+    border:1px solid #E5EAF0;
+    border-radius:12px;
+    padding:40px 35px;
     height:100%;
+    transition:.35s ease;
     overflow:hidden;
-    border:1px solid #E8EEF5;
-    box-shadow:0 15px 45px rgba(17,34,68,.08);
-    transition:all .35s ease;
 }
 
-/* Top Accent */
+/* Left Accent */
 
-.ai-clm-outcome-card::before{
+.ai-clm-outcome-card:before{
     content:"";
     position:absolute;
     top:0;
     left:0;
-    width:100%;
-    height:5px;
-    background: #F69323;
+    width:5px;
+    height:100%;
+    background:#F69323;
 }
 
 /* Hover */
 
 .ai-clm-outcome-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 25px 60px rgba(17,34,68,.18);
+    transform:translateY(-8px);
+    box-shadow:0 18px 40px rgba(15,35,60,.12);
+    border-color:#1B5EB8;
 }
 
-/* Icon */
+/*==============================
+        Icon
+==============================*/
 
 .ai-clm-outcome-icon{
-    width:90px;
-    height:90px;
-    margin:0 auto 30px;
-    border-radius:50%;
-    background:#EEF4FD;
+    width:58px;
+    height:58px;
+    border-radius:12px;
+    background:#EEF5FD;
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:34px;
     color:#1B5EB8;
-    transition:.35s;
+    font-size:24px;
+    margin-bottom:25px;
+    transition:.35s ease;
 }
 
 .ai-clm-outcome-card:hover .ai-clm-outcome-icon{
     background:#1B5EB8;
     color:#ffffff;
-    transform:rotate(-8deg) scale(1.08);
 }
 
-/* Heading */
+/*==============================
+        Title
+==============================*/
 
 .ai-clm-outcome-card h3{
-    font-size:24px;
-    line-height:1.5;
-    font-weight:700;
+    font-size:22px;
+    font-weight:600;
     color:#17375E;
-    margin:0;
+    line-height:1.5;
+    margin-bottom:15px;
 }
 
-/* Responsive */
+/*==============================
+        Description
+==============================*/
+
+.ai-clm-outcome-card p{
+    margin:0;
+    color:#6B7280;
+    font-size:15px;
+    line-height:1.8;
+}
+
+/*==============================
+        Decorative Line
+==============================*/
+
+.ai-clm-outcome-card:after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:35px;
+    width:55px;
+    height:3px;
+    background:#F69323;
+    transition:.35s;
+}
+
+.ai-clm-outcome-card:hover:after{
+    width:100px;
+}
+
+/*==============================
+        Responsive
+==============================*/
 
 @media(max-width:991px){
 
     .ai-clm-business-outcomes{
-        padding:80px 0;
+        padding:70px 0;
+    }
+
+    .ai-clm-business-outcomes .sec-title h2{
+        font-size:36px;
     }
 
     .ai-clm-outcome-card{
-        padding:40px 30px;
+        padding:35px 30px;
     }
 
 }
@@ -15599,22 +15555,26 @@ Business Outcomes
     }
 
     .ai-clm-business-outcomes .sec-title{
-        margin-bottom:45px;
+        margin-bottom:40px;
     }
 
     .ai-clm-business-outcomes .sec-title h2{
-        font-size:32px;
+        font-size:30px;
+    }
+
+    .ai-clm-business-outcomes .sec-title p{
+        font-size:16px;
     }
 
     .ai-clm-outcome-card{
-        padding:35px 25px;
+        padding:30px 25px;
     }
 
     .ai-clm-outcome-icon{
-        width:75px;
-        height:75px;
-        font-size:28px;
-        margin-bottom:25px;
+        width:52px;
+        height:52px;
+        font-size:22px;
+        margin-bottom:20px;
     }
 
     .ai-clm-outcome-card h3{
@@ -15622,7 +15582,6 @@ Business Outcomes
     }
 
 }
-
 
 /*==================================================
 Why AI + PROEN
@@ -15652,7 +15611,7 @@ Why AI + PROEN
 .ai-clm-why-content h2{
     font-size:42px;
     font-weight:700;
-    color:#17375E;
+    color:#1B5EB8;
     line-height:1.3;
     margin-bottom:25px;
 }
@@ -15722,18 +15681,27 @@ Responsive
 
 }
 
-/*==================================================
-AI Features Section
-==================================================*/
+/*=========================================================
+            AI FEATURES SECTION
+=========================================================*/
 
 .ai-clm-features-section{
-    position:relative;
-    padding:60px 0;
-    background:#F8FAFC;
+    padding:70px 0;
+    background:#ffffff;
 }
 
 .ai-clm-features-section .sec-title{
-    margin-bottom:60px;
+    margin-bottom:55px;
+}
+
+.ai-clm-features-section .sub-title{
+    display:inline-block;
+    font-size:15px;
+    font-weight:600;
+    color:#F69323;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:12px;
 }
 
 .ai-clm-features-section .sec-title h2{
@@ -15743,55 +15711,285 @@ AI Features Section
     margin-bottom:15px;
 }
 
-.ai-clm-feature-table{
-    width:100%;
-    background:#ffffff;
-    border-radius:16px;
-    overflow:hidden;
-    box-shadow:0 10px 35px rgba(0,0,0,.08);
-    border-collapse:separate;
-    border-spacing:0;
+.ai-clm-features-section .sec-title .text{
+    max-width:720px;
+    margin:0 auto;
+    color:#666;
+    font-size:17px;
+    line-height:30px;
 }
 
-.ai-clm-feature-table thead{
+/*=========================================================
+                COLUMN SPACING
+=========================================================*/
+
+.ai-clm-features-section .col-lg-6:first-child{
+    padding-right:25px;
+}
+
+.ai-clm-features-section .col-lg-6:last-child{
+    padding-left:25px;
+}
+
+.ai-feature-list{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+/*=========================================================
+                FEATURE ITEM
+=========================================================*/
+
+.ai-feature-item{
+
+    display:flex;
+    align-items:center;
+
+    background:#fff;
+
+    border:1px solid #E8EDF5;
+
+    border-left:5px solid #1B5EB8;
+
+    border-radius:10px;
+
+    padding:16px 20px;
+
+    transition:.35s;
+
+}
+
+.ai-feature-item:hover{
+
+    border-left-color:#F69323;
+
+    transform:translateX(8px);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+/*=========================================================
+                    ICON
+=========================================================*/
+
+.ai-feature-icon{
+
+    width:55px;
+    height:55px;
+
+    min-width:55px;
+
+    border-radius:50%;
+
+    background:#EEF5FF;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-right:18px;
+
+    transition:.35s;
+
+}
+
+.ai-feature-icon i{
+
+    font-size:22px;
+
+    color:#1B5EB8;
+
+}
+
+.ai-feature-item:hover .ai-feature-icon{
+
     background:#1B5EB8;
+
 }
 
-.ai-clm-feature-table thead th{
-    color:#ffffff;
-    font-size:20px;
+.ai-feature-item:hover .ai-feature-icon i{
+
+    color:#fff;
+
+}
+
+/*=========================================================
+                    TITLE
+=========================================================*/
+
+.ai-feature-title{
+
+    flex:1;
+
+}
+
+.ai-feature-title h4{
+
+    margin:0;
+
+    font-size:18px;
+
     font-weight:700;
-    padding:22px 25px;
-    border:none;
-}
 
-.ai-clm-feature-table tbody td{
-    padding:18px 25px;
-    font-size:16px;
-    color:#555555;
-    border-top:1px solid #edf2f7;
-    vertical-align:middle;
-}
-
-.ai-clm-feature-table tbody tr:nth-child(even){
-    background:#F8FAFC;
-}
-
-.ai-clm-feature-table tbody tr:hover{
-    background:#EEF4FD;
-    transition:.3s ease;
-}
-
-.ai-clm-feature-table tbody td:first-child{
-    font-weight:600;
     color:#17375E;
+
+    line-height:1.4;
+
+}
+
+/*=========================================================
+                BENEFIT
+=========================================================*/
+
+.ai-feature-benefit{
+
+    background:#F8FAFC;
+
+    color:#1B5EB8;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    padding:8px 15px;
+
+    border-radius:30px;
+
+    white-space:nowrap;
+
+    border:1px solid #E6ECF3;
+
+}
+
+/*=========================================================
+                    HOVER
+=========================================================*/
+
+.ai-feature-item:hover .ai-feature-benefit{
+
+    background:#F69323;
+
+    color:#fff;
+
+    border-color:#F69323;
+
+}
+
+/*=========================================================
+                RESPONSIVE
+=========================================================*/
+
+@media(max-width:991px){
+
+.ai-clm-features-section{
+
+    padding:60px 0;
+
+}
+
+.ai-clm-features-section .sec-title{
+
+    margin-bottom:40px;
+
+}
+
+.ai-clm-features-section .sec-title h2{
+
+    font-size:34px;
+
+}
+
+.ai-clm-features-section .col-lg-6:first-child,
+.ai-clm-features-section .col-lg-6:last-child{
+
+    padding-left:15px;
+    padding-right:15px;
+    margin-bottom:20px;
+
+}
+
+.ai-feature-item{
+
+    padding:15px;
+
+}
+
+.ai-feature-icon{
+
+    width:48px;
+    height:48px;
+    min-width:48px;
+    margin-right:15px;
+
+}
+
+.ai-feature-icon i{
+
+    font-size:20px;
+
+}
+
+.ai-feature-title h4{
+
+    font-size:16px;
+
+}
+
+.ai-feature-benefit{
+
+    font-size:13px;
+
+    padding:6px 12px;
+
+}
+
+}
+
+@media(max-width:767px){
+
+.ai-clm-features-section{
+
+    padding:50px 0;
+
+}
+
+.ai-clm-features-section .sec-title h2{
+
+    font-size:28px;
+
+}
+
+.ai-clm-features-section .sec-title .text{
+
+    font-size:15px;
+
+    line-height:28px;
+
+}
+
+.ai-feature-item{
+
+    flex-wrap:wrap;
+
+    align-items:flex-start;
+
+}
+
+.ai-feature-benefit{
+
+    margin-top:12px;
+
+    margin-left:70px;
+
+}
+
 }
 
 
-
-/*==================================================
-CTA Section
-==================================================*/
 
 /*=========================================
 AI CLM CTA Section
@@ -15881,7 +16079,7 @@ AI CLM CTA Section
 
 .ai-clm-cta-btn .theme-btn:hover{
     background:#ffffff;
-    color:#17375E;
+    color:#1B5EB8;
     border-color:#ffffff;
 }
 
@@ -15985,7 +16183,7 @@ Hero Section
     font-size:50px;
     line-height:1.2;
     font-weight:700;
-    color:#17375E;
+    color:#1B5EB8;
     margin-bottom:25px;
 }
 
@@ -16016,6 +16214,7 @@ PROEN + Icertis
     position:relative;
     padding:60px 0;
     background:#F8FAFC;
+	margin-top: 140px;
 }
 
 .icertis-announcement-partnership-content{
@@ -16026,7 +16225,7 @@ PROEN + Icertis
     font-size:42px;
     line-height:1.3;
     font-weight:700;
-    color:#17375E;
+    color:#1B5EB8;
     margin-bottom:25px;
 }
 
@@ -16082,7 +16281,7 @@ PROEN + Icertis
 
     font-size:15px;
     font-weight:600;
-    color:#17375E;
+    color:#1B5EB8;
 
     box-shadow:0 15px 35px rgba(0,0,0,.08);
 
@@ -16103,7 +16302,7 @@ PROEN + Icertis
 }
 
 .tag-two{
-    top:55%;
+    top:35%;
     right:-15px;
     animation-delay:1s;
 }
@@ -16199,7 +16398,7 @@ Why PROEN for Your Icertis Journey
     font-size:42px;
     font-weight:700;
     line-height:1.3;
-    color:#17375E;
+    color:#1B5EB8;
     margin-bottom:25px;
 }
 
@@ -16239,7 +16438,7 @@ PROEN at a Glance
 .icertis-announcement-glance-section .sec-title h2{
     font-size:42px;
     font-weight:700;
-    color:#17375E;
+    color:#1B5EB8;
 }
 
 .icertis-announcement-list{
@@ -16348,7 +16547,7 @@ Service Cards
 .icertis-announcement-service-card h3{
     font-size:24px;
     font-weight:700;
-    color:#17375E;
+    color:#1B5EB8;
     line-height:1.4;
     margin-bottom:20px;
 }
@@ -16435,7 +16634,7 @@ Business Outcomes
 .icertis-announcement-outcomes-section .sec-title h2{
     font-size:42px;
     font-weight:700;
-    color:#17375E;
+    color:#1B5EB8;
     line-height:1.3;
     margin-bottom:15px;
 }
@@ -16499,7 +16698,7 @@ Business Outcomes
 
 .icertis-announcement-outcome-card h3{
     font-size:22px;
-    color:#17375E;
+    color:#1B5EB8;
     font-weight:700;
     line-height:1.5;
     margin:0;
@@ -16524,7 +16723,7 @@ Transform Section
     font-size:42px;
     font-weight:700;
     line-height:1.3;
-    color:#17375E;
+    color:#1B5EB8;
     margin-bottom:25px;
 }
 
@@ -16541,7 +16740,7 @@ Transform Section
 
 .icertis-announcement-transform-image img{
     width:100%;
-    max-width:620px;
+    max-width:500px;
     height:auto;
 	border-radius: 20px;
 }
@@ -16603,7 +16802,7 @@ CTA
 
 .icertis-announcement-cta-btn:hover{
     background:#ffffff;
-    color:#17375E;
+    color:#1B5EB8;
     transform:translateY(-4px);
 }
 
@@ -16717,5 +16916,1471 @@ Responsive
 .icertis-announcement-cta-section .container,
 .icertis-announcement-contact-section .container,
 .icertis-announcement-comparison-section .container{
-    max-width:1300px;
+    max-width:1200px;
+}
+
+
+/*=========================================================
+    PROEN Careers - Section Heading
+=========================================================*/
+
+.proen-careers-section .sec-title{
+    position:relative;
+    text-align:center;
+    max-width:850px;
+    margin:0 auto 70px;
+}
+
+.proen-careers-section .sec-title .title{
+    display:inline-block;
+    position:relative;
+    padding:8px 22px;
+    margin-bottom:18px;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:#1B5EB8;
+    background:#EEF6FF;
+    border:1px solid #D8E8FF;
+    border-radius:30px;
+}
+
+.proen-careers-section .sec-title h2{
+    position:relative;
+    color:#1B5EB8;
+    font-size:48px;
+    font-weight:700;
+    line-height:60px;
+    margin-bottom:22px;
+}
+
+.proen-careers-section .sec-title h2::after{
+    content:"";
+    display:block;
+    width:90px;
+    height:4px;
+    background:#F69323;
+    margin:22px auto 0;
+    border-radius:10px;
+}
+
+.proen-careers-section .sec-title .text{
+    color:#6B7280;
+    font-size:18px;
+    line-height:34px;
+    max-width:760px;
+    margin:0 auto;
+}
+
+/* Optional subtle background decoration */
+
+.proen-careers-section .sec-title::before{
+    content:"";
+    position:absolute;
+    width:140px;
+    height:140px;
+    background:rgba(246,147,35,0.08);
+    border-radius:50%;
+    top:-35px;
+    left:-60px;
+    z-index:-1;
+}
+
+.proen-careers-section .sec-title::after{
+    content:"";
+    position:absolute;
+    width:110px;
+    height:110px;
+    background:rgba(27,94,184,0.08);
+    border-radius:50%;
+    bottom:-30px;
+    right:-40px;
+    z-index:-1;
+}
+
+/*====================================
+        Responsive
+====================================*/
+
+@media only screen and (max-width:991px){
+
+    .proen-careers-section .sec-title{
+        margin-bottom:55px;
+    }
+
+    .proen-careers-section .sec-title h2{
+        font-size:40px;
+        line-height:52px;
+    }
+
+    .proen-careers-section .sec-title .text{
+        font-size:17px;
+        line-height:30px;
+    }
+
+}
+
+@media only screen and (max-width:767px){
+
+    .proen-careers-section .sec-title{
+        margin-bottom:45px;
+    }
+
+    .proen-careers-section .sec-title .title{
+        font-size:12px;
+        letter-spacing:1.5px;
+        padding:7px 18px;
+    }
+
+    .proen-careers-section .sec-title h2{
+        font-size:32px;
+        line-height:42px;
+    }
+
+    .proen-careers-section .sec-title .text{
+        font-size:16px;
+        line-height:28px;
+        padding:0 10px;
+    }
+
+    .proen-careers-section .sec-title::before,
+    .proen-careers-section .sec-title::after{
+        display:none;
+    }
+
+}
+
+
+
+/*==================================================
+        PROEN Careers Job Cards
+==================================================*/
+
+.proen-job-card{
+    position:relative;
+    background:#ffffff;
+    border:1px solid #E7EEF7;
+    border-radius:18px;
+    padding:30px;
+    margin-bottom:30px;
+    box-shadow:0 12px 35px rgba(17,24,39,.06);
+    transition:all .35s ease;
+    overflow:hidden;
+}
+
+.proen-job-card:before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:5px;
+    background:#F69323;
+}
+
+.proen-job-card:hover{
+    transform:translateY(-6px);
+    border-color:#1B5EB8;
+    box-shadow:0 20px 45px rgba(27,94,184,.15);
+}
+
+.proen-job-header .proen-job-title h3 {
+	color: #1B5EB8;
+}
+
+/*==========================================
+        Header
+==========================================*/
+
+.proen-job-header{
+    margin-bottom:25px;
+    padding-bottom:18px;
+    border-bottom:1px solid #EEF2F7;
+}
+
+.proen-job-header h3{
+    color:#1B5EB8;
+    font-size:26px;
+    font-weight:700;
+    line-height:34px;
+    margin-bottom:18px;
+}
+
+/*==========================================
+        Experience & Location
+==========================================*/
+
+.proen-job-meta{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.proen-job-meta span{
+    display:inline-flex;
+    align-items:center;
+    background:#F8FAFC;
+    border:1px solid #E6EDF5;
+    border-radius:30px;
+    padding:10px 18px;
+    color:black;
+    font-size:14px;
+    font-weight:500;
+}
+
+.proen-job-meta i{
+    color:#F69323;
+    margin-right:8px;
+    font-size:15px;
+}
+
+/*==========================================
+        Footer
+==========================================*/
+
+.proen-job-footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:25px;
+}
+
+.proen-job-footer .theme-btn{
+    border-radius:40px;
+    padding:13px 28px;
+    font-size:15px;
+    font-weight:600;
+}
+
+/*==========================================
+        View Details
+==========================================*/
+
+.proen-view-details{
+    color:#1B5EB8;
+    font-weight:600;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    transition:.3s;
+}
+
+.proen-view-details:hover{
+    color:#F69323;
+    text-decoration:none;
+}
+
+.proen-view-details i{
+    width:36px;
+    height:36px;
+    line-height:36px;
+    text-align:center;
+    border-radius:50%;
+    background:#EEF6FF;
+    color:#1B5EB8;
+    margin-right:10px;
+    transition:.3s;
+}
+
+.proen-view-details:hover i{
+    background:#F69323;
+    color:#ffffff;
+    transform:rotate(90deg);
+}
+
+/*==========================================
+        Expanded Content
+==========================================*/
+
+.proen-job-details{
+    margin-top:30px;
+    padding-top:25px;
+    border-top:1px dashed #DCE6F2;
+}
+
+.proen-job-details h5{
+    color:#1B5EB8;
+    font-size:18px;
+    font-weight:700;
+    margin-bottom:12px;
+    position:relative;
+    padding-left:18px;
+}
+
+.proen-job-details h5:before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:5px;
+    width:5px;
+    height:18px;
+    background:#F69323;
+    border-radius:10px;
+}
+
+.proen-job-details p{
+    color:#666;
+    font-size:15px;
+    line-height:28px;
+    margin-bottom:20px;
+    text-align:justify;
+}
+
+/*==========================================
+        Collapse Animation
+==========================================*/
+
+.collapse{
+    transition:all .35s ease;
+}
+
+/*==========================================
+        Responsive
+==========================================*/
+
+@media(max-width:991px){
+
+.proen-job-card{
+    padding:25px;
+}
+
+}
+
+@media(max-width:767px){
+
+.proen-job-card{
+    padding:22px;
+}
+
+.proen-job-header h3{
+    font-size:22px;
+    line-height:30px;
+}
+
+.proen-job-meta{
+    flex-direction:column;
+    gap:10px;
+}
+
+.proen-job-meta span{
+    width:100%;
+}
+
+.proen-job-footer{
+    flex-direction:column;
+    align-items:stretch;
+    gap:15px;
+}
+
+.proen-job-footer .theme-btn{
+    width:100%;
+    text-align:center;
+}
+
+.proen-view-details{
+    justify-content:center;
+}
+
+.proen-job-details p{
+    text-align:left;
+}
+
+}
+/*=========================================================
+    PROEN Careers - Application Form
+=========================================================*/
+
+.proen-careers-form-section{
+    position:relative;
+    padding:80px 0px;
+    background:#ffffff;
+}
+
+/*---------------------------------------------------------
+    Left Content
+---------------------------------------------------------*/
+
+.proen-careers-content{
+    position:relative;
+    padding-right:40px;
+}
+
+.proen-careers-content p{
+    color:#666666;
+    line-height:30px;
+    margin-bottom:35px;
+}
+
+/* Benefits */
+
+.proen-careers-benefits{
+    position:relative;
+}
+
+.proen-careers-benefits .benefit-item{
+    position:relative;
+    padding-left:38px;
+    margin-bottom:22px;
+    color:#1B5EB8;
+    font-size:17px;
+    font-weight:600;
+    line-height:28px;
+}
+
+.proen-careers-benefits .benefit-item i{
+    position:absolute;
+    left:0;
+    top:4px;
+    font-size:20px;
+    color:#F69323;
+}
+
+/* Job Title */
+
+.proen-job-title{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:20px;
+    margin-bottom:18px;
+}
+
+.proen-job-title h3{
+    margin:0;
+    color:#17375E;
+    font-size:26px;
+    font-weight:700;
+    line-height:34px;
+}
+
+/* Full Time Badge */
+
+.proen-job-type{
+
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+
+    padding:8px 18px;
+
+    background:#EEF6FF;
+
+    color:black;
+
+    border:1px solid #DCEBFF;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    white-space:nowrap;
+
+}
+
+.proen-job-type i{
+
+    color:#F69323;
+
+    font-size:13px;
+
+}
+
+@media(max-width:767px){
+
+.proen-job-title{
+
+display:block;
+
+}
+
+.proen-job-type{
+
+margin-top:15px;
+
+display:inline-flex;
+
+}
+
+}
+
+.proen-job-footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:25px;
+}
+
+.proen-job-apply{
+    display:block;
+}
+
+.proen-job-apply .txt {
+	background: #F69323;
+	padding: 10px 40px;
+	border-radius: 20px;
+	border: 1px transparent;
+}
+
+.proen-job-apply .theme-btn{
+    display:inline-block !important;
+    visibility:visible !important;
+    opacity:1 !important;
+}
+
+/*---------------------------------------------------------
+    Form Box
+---------------------------------------------------------*/
+
+.proen-careers-form-box{
+    position:relative;
+    background:#F8FAFC;
+    padding:45px;
+    border-radius:12px;
+    border:1px solid #e9ecef;
+    box-shadow:0px 12px 35px rgba(0,0,0,0.08);
+}
+
+/*---------------------------------------------------------
+    Form Groups
+---------------------------------------------------------*/
+
+.proen-careers-form-box .form-group{
+    position:relative;
+    margin-bottom:25px;
+}
+
+.proen-careers-form-box label{
+    display:block;
+    font-size:15px;
+    font-weight:600;
+    color:#1B5EB8;
+    margin-bottom:10px;
+}
+
+/*---------------------------------------------------------
+    Input Fields
+---------------------------------------------------------*/
+
+.proen-careers-form-box input[type="text"],
+.proen-careers-form-box input[type="email"],
+.proen-careers-form-box input[type="url"],
+.proen-careers-form-box input[type="file"],
+.proen-careers-form-box select,
+.proen-careers-form-box textarea{
+
+    position:relative;
+    width:100%;
+    height:58px;
+    border:1px solid #d9e2ec;
+    background:#ffffff;
+    border-radius:8px;
+    padding:0px 18px;
+    color:#555555;
+    font-size:15px;
+    transition:all .3s ease;
+}
+
+/* Textarea */
+
+.proen-careers-form-box textarea{
+    height:150px;
+    resize:none;
+    padding-top:16px;
+}
+
+/* Focus */
+
+.proen-careers-form-box input:focus,
+.proen-careers-form-box select:focus,
+.proen-careers-form-box textarea:focus{
+
+    border-color:#1B5EB8;
+    box-shadow:0 0 10px rgba(27,94,184,.15);
+    outline:none;
+}
+
+/*---------------------------------------------------------
+    Placeholder
+---------------------------------------------------------*/
+
+.proen-careers-form-box input::placeholder,
+.proen-careers-form-box textarea::placeholder{
+    color:#9a9a9a;
+}
+
+/*---------------------------------------------------------
+    File Upload
+---------------------------------------------------------*/
+
+.proen-careers-form-box input[type="file"]{
+    padding:14px;
+    height:auto;
+    cursor:pointer;
+}
+
+.proen-careers-form-box small{
+    display:block;
+    margin-top:10px;
+    color:#888888;
+    font-size:13px;
+}
+
+/*---------------------------------------------------------
+    Select Box
+---------------------------------------------------------*/
+
+.proen-careers-form-box select{
+    cursor:pointer;
+}
+
+/*---------------------------------------------------------
+    Google reCAPTCHA
+---------------------------------------------------------*/
+
+.g-recaptcha{
+    margin-top:10px;
+}
+
+/*---------------------------------------------------------
+    Submit Button
+---------------------------------------------------------*/
+
+.proen-careers-form-box .theme-btn{
+    width:100%;
+    text-align:center;
+    border-radius:8px;
+    padding:16px 25px;
+    font-size:16px;
+    font-weight:600;
+}
+
+/*---------------------------------------------------------
+    Button Hover
+---------------------------------------------------------*/
+
+.proen-careers-form-box .theme-btn:hover{
+    transform:translateY(-2px);
+}
+
+/*---------------------------------------------------------
+    Responsive
+---------------------------------------------------------*/
+
+@media only screen and (max-width:991px){
+
+    .proen-careers-form-section{
+        padding:90px 0px;
+    }
+
+    .proen-careers-content{
+        padding-right:0;
+        margin-bottom:50px;
+    }
+
+    .proen-careers-form-box{
+        padding:35px;
+    }
+
+}
+
+@media only screen and (max-width:767px){
+
+    .proen-careers-form-section{
+        padding:70px 0px;
+    }
+
+    .proen-careers-form-box{
+        padding:25px;
+    }
+
+    .proen-careers-form-box input[type="text"],
+    .proen-careers-form-box input[type="email"],
+    .proen-careers-form-box input[type="url"],
+    .proen-careers-form-box input[type="file"],
+    .proen-careers-form-box select,
+    .proen-careers-form-box textarea{
+
+        font-size:14px;
+    }
+
+    .proen-careers-benefits .benefit-item{
+        font-size:15px;
+    }
+
+}
+
+/*=========================================================
+    PROEN Careers - Hiring Process & CTA
+=========================================================*/
+
+/*---------------------------------------------------------
+    Hiring Process Section
+---------------------------------------------------------*/
+
+.proen-careers-process-section{
+    position:relative;
+    padding:110px 0px 90px;
+    background:#F8FAFC;
+}
+
+.proen-careers-process-section .sec-title{
+    margin-bottom:70px;
+}
+
+/* Process Box */
+
+.proen-careers-process-box{
+    position:relative;
+    background:#ffffff;
+    padding:35px 25px;
+    text-align:center;
+    border-radius:12px;
+    margin-bottom:30px;
+    border:1px solid #e9ecef;
+    transition:all .35s ease;
+    box-shadow:0px 10px 30px rgba(0,0,0,.05);
+}
+
+.proen-careers-process-box:hover{
+    transform:translateY(-8px);
+    border-color:#1B5EB8;
+    box-shadow:0px 18px 40px rgba(27,94,184,.15);
+}
+
+/* Icon */
+
+.proen-careers-process-box .process-icon{
+    width:80px;
+    height:80px;
+    line-height:80px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:#EEF5FF;
+    transition:all .35s ease;
+}
+
+.proen-careers-process-box .process-icon i{
+    font-size:34px;
+    color:#1B5EB8;
+    transition:all .35s ease;
+}
+
+.proen-careers-process-box:hover .process-icon{
+    background:#1B5EB8;
+}
+
+.proen-careers-process-box:hover .process-icon i{
+    color:#ffffff;
+}
+
+.proen-careers-process-box h5{
+    color:#1B5EB8;
+    font-size:20px;
+    font-weight:700;
+    margin-bottom:12px;
+}
+
+.proen-careers-process-box p{
+    color:#666666;
+    line-height:28px;
+    margin:0;
+}
+
+/*---------------------------------------------------------
+    Benefits Section
+---------------------------------------------------------*/
+
+.proen-careers-benefits-section{
+    position:relative;
+    padding:60px 0px 90px;
+    background:#ffffff;
+}
+
+.proen-careers-benefits-section .sec-title{
+    margin-bottom:60px;
+}
+
+.proen-careers-benefit-card{
+    position:relative;
+    background:#ffffff;
+    text-align:center;
+    padding:40px 25px;
+    border-radius:12px;
+    border:1px solid #e9ecef;
+    margin-bottom:30px;
+    transition:all .35s ease;
+    box-shadow:0px 10px 30px rgba(0,0,0,.05);
+}
+
+.proen-careers-benefit-card:hover{
+    transform:translateY(-8px);
+    border-color:#F69323;
+    box-shadow:0px 18px 40px rgba(246,147,35,.18);
+}
+
+.proen-careers-benefit-card i{
+    font-size:48px;
+    color:#F69323;
+    margin-bottom:25px;
+    transition:all .35s ease;
+}
+
+.proen-careers-benefit-card:hover i{
+    transform:scale(1.08);
+}
+
+.proen-careers-benefit-card h4{
+    color:#1B5EB8;
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.proen-careers-benefit-card p{
+    color:#666666;
+    line-height:28px;
+    margin:0;
+}
+
+/*---------------------------------------------------------
+    CTA Section
+---------------------------------------------------------*/
+
+.proen-careers-cta-section{
+    position:relative;
+    padding:60px 0px;
+    background:white;
+}
+
+.proen-careers-cta-box{
+    position:relative;
+    text-align:center;
+    max-width:900px;
+    margin:0 auto;
+}
+
+.proen-careers-cta-box h2{
+    color:black;
+    font-size:42px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.proen-careers-cta-box p{
+    color:black;
+    font-size:18px;
+    line-height:34px;
+    margin-bottom:35px;
+}
+
+.proen-careers-contact h4{
+    color:#F69323;
+    font-size:28px;
+    font-weight:600;
+    margin-bottom:30px;
+}
+
+.proen-careers-contact h4 i{
+    margin-right:10px;
+}
+
+.proen-careers-contact .theme-btn{
+	background-color: #1B5EB8;
+    border-radius:8px;
+    padding:16px 40px;
+}
+
+/*---------------------------------------------------------
+    Responsive
+---------------------------------------------------------*/
+
+@media only screen and (max-width:991px){
+
+    .proen-careers-process-section,
+    .proen-careers-benefits-section,
+    .proen-careers-cta-section{
+        padding:90px 0px 70px;
+    }
+
+    .proen-careers-cta-box h2{
+        font-size:34px;
+    }
+
+}
+
+@media only screen and (max-width:767px){
+
+    .proen-careers-process-section,
+    .proen-careers-benefits-section,
+    .proen-careers-cta-section{
+        padding:70px 0px 50px;
+    }
+
+    .proen-careers-cta-box h2{
+        font-size:28px;
+        line-height:40px;
+    }
+
+    .proen-careers-cta-box p{
+        font-size:16px;
+        line-height:30px;
+    }
+
+    .proen-careers-contact h4{
+        font-size:22px;
+    }
+
+    .proen-careers-process-box,
+    .proen-careers-benefit-card{
+        padding:30px 20px;
+    }
+
+    .proen-careers-benefit-card i{
+        font-size:40px;
+    }
+
+}
+
+/*==================================================
+        PROEN ENTERPRISE FOOTER
+==================================================*/
+
+.main-footer.proen-footer{
+    margin-top:25px !important;
+    padding-top:0 !important;
+}
+
+.main-footer.proen-footer{
+    background:#17375E;
+    color:#d8e3f0;
+    font-size:15px;
+    line-height:1.7;
+    overflow:hidden;
+}
+
+/*==============================
+        Main Section
+===============================*/
+
+.main-footer.proen-footer .widgets-section{
+    padding:55px 0 35px;
+}
+
+.main-footer.proen-footer .footer-widget{
+    margin-bottom:5px;
+}
+
+/*==============================
+        Heading
+===============================*/
+
+.main-footer.proen-footer .footer-widget h3{
+    color:#ffffff;
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:28px;
+    position:relative;
+    padding-bottom:12px;
+}
+
+.main-footer.proen-footer .footer-widget h3:after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:55px;
+    height:3px;
+    background:#F69323;
+    border-radius:30px;
+}
+
+/*==============================
+        Footer Links
+===============================*/
+
+.footer-links{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.footer-links li{
+    margin-bottom:12px;
+}
+
+.footer-links li:last-child{
+    margin-bottom:0;
+}
+
+.footer-links a{
+    color:#d8e3f0;
+    text-decoration:none;
+    font-size:15px;
+    transition:.3s ease;
+    position:relative;
+    padding-left:18px;
+}
+
+.footer-links a:before{
+    content:"›";
+    position:absolute;
+    left:0;
+    color:#F69323;
+    font-weight:700;
+}
+
+.footer-links a:hover{
+    color:#F69323;
+    padding-left:24px;
+}
+
+/*==============================
+        Office Section
+===============================*/
+
+.footer-office{
+    display:flex;
+    flex-direction:column;
+    gap:22px;
+}
+
+.office-item{
+    display:flex;
+    align-items:flex-start;
+}
+
+.office-icon{
+    width:42px;
+    height:42px;
+    min-width:42px;
+    border-radius:50%;
+    background:rgba(246,147,35,.15);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#F69323;
+    margin-right:15px;
+    font-size:16px;
+}
+
+.office-item h5{
+    color:#ffffff;
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:6px;
+}
+
+.office-item p{
+    margin:0;
+    color:#d8e3f0;
+    font-size:15px;
+    line-height:1.7;
+}
+
+/*==============================
+        Social
+===============================*/
+
+.footer-social-area{
+    margin-top:35px;
+    padding-top:25px;
+    border-top:1px solid rgba(255,255,255,.10);
+}
+
+.footer-social-area h4{
+    color:#ffffff;
+    font-size:17px;
+    font-weight:600;
+    margin-bottom:18px;
+}
+
+.footer-social{
+    display:flex;
+    gap:12px;
+}
+
+.footer-social a{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:rgba(255,255,255,.08);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#ffffff;
+    text-decoration:none;
+    transition:.35s;
+    font-size:17px;
+}
+
+.footer-social a:hover{
+    background:#F69323;
+    transform:translateY(-4px);
+    box-shadow:0 10px 20px rgba(246,147,35,.35);
+}
+
+/*==============================
+        Bottom
+===============================*/
+
+.footer-bottom{
+    background:#143252;
+    border-top:1px solid rgba(255,255,255,.08);
+    padding:18px 0;
+}
+
+.footer-bottom p{
+    margin:0;
+    text-align:center;
+    color:#d8e3f0;
+    font-size:15px;
+    letter-spacing:.2px;
+}
+
+/*==============================
+        Hover Animation
+===============================*/
+
+.footer-widget{
+    transition:.3s;
+}
+
+.footer-widget:hover{
+    transform:translateY(-3px);
+}
+
+/*==============================
+        Responsive
+===============================*/
+
+@media (max-width:991px){
+
+.main-footer.proen-footer .widgets-section{
+    padding:45px 0 20px;
+}
+
+.main-footer.proen-footer .footer-widget{
+    margin-bottom:40px;
+}
+
+.footer-social{
+    justify-content:flex-start;
+}
+
+.footer-bottom{
+    padding:15px 0;
+}
+
+}
+
+@media (max-width:767px){
+
+.main-footer.proen-footer{
+    text-align:left;
+}
+
+.main-footer.proen-footer .widgets-section{
+    padding:35px 0 15px;
+}
+
+.main-footer.proen-footer .footer-widget h3{
+    font-size:20px;
+}
+
+.footer-links li{
+    margin-bottom:10px;
+}
+
+.office-item{
+    align-items:flex-start;
+}
+
+.office-icon{
+    width:38px;
+    height:38px;
+    min-width:38px;
+    font-size:15px;
+}
+
+.footer-social a{
+    width:40px;
+    height:40px;
+    font-size:16px;
+}
+
+.footer-bottom p{
+    font-size:14px;
+    line-height:1.8;
+}
+
+}
+
+
+/*==================================================
+        PROEN OFFERINGS SECTION
+==================================================*/
+
+.proen-offerings-section{
+	margin-top: -220px;
+    padding:110px 0 90px;
+    background:#fff;
+}
+
+.proen-section-title{
+    max-width:850px;
+    margin:0 auto 70px;
+}
+
+.proen-section-tag{
+    display:inline-block;
+    padding:8px 22px;
+    background:rgba(246,147,35,.12);
+    color:#F69323;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    border-radius:30px;
+    margin-bottom:20px;
+}
+
+.proen-section-title h2{
+    font-size:44px;
+    font-weight:700;
+    color:#1B5EB8;
+    margin-bottom:22px;
+    line-height:1.25;
+}
+
+.proen-section-title p{
+    font-size:18px;
+    line-height:1.9;
+    color:#666;
+    max-width:760px;
+    margin:0 auto;
+}
+
+/* spacing between heading and cards */
+.proen-offerings-section .wrapper-box{
+    margin-top:20px;
+}
+
+@media(max-width:991px){
+
+    .proen-offerings-section{
+        padding:80px 0 60px;
+    }
+
+    .proen-section-title{
+        margin-bottom:50px;
+    }
+
+    .proen-section-title h2{
+        font-size:34px;
+    }
+
+    .proen-section-title p{
+        font-size:16px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .proen-section-title h2{
+        font-size:28px;
+    }
+
+    .proen-section-tag{
+        font-size:12px;
+        letter-spacing:1px;
+    }
+
+}
+
+
+
+
+.auto-container{max-width:1200px!important;width:100%!important;margin:0 auto!important;padding:0 15px!important;}
+
+/*==========================================
+        PROEN ACHIEVEMENTS
+==========================================*/
+
+.proen-achievements{
+    padding: 0;
+    background:white;
+}
+
+.proen-achievements-box{
+    background:#6B7280;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 20px 60px rgba(0,0,0,.12);
+}
+
+.achievement-item{
+    text-align:center;
+    padding:30px 20px;
+    position:relative;
+    transition:.35s;
+}
+
+
+.col-lg-3:last-child .achievement-item::after{
+    display:none;
+}
+
+.achievement-icon{
+    width:90px;
+    height:90px;
+    margin:0 auto 25px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.achievement-icon i{
+    color:#fff;
+    font-size:30px;
+}
+
+.achievement-item h2{
+    color:#F69323;
+    font-size:60px;
+    font-weight:800;
+    margin-bottom:12px;
+}
+
+.achievement-item h2 span{
+    color:#F69323;
+}
+
+.achievement-item p{
+    margin:0;
+    color:#d7e3ef;
+    font-size:20px;
+    font-weight:600;
+    letter-spacing:.3px;
+}
+
+@media(max-width:991px){
+
+.achievement-item::after{
+    display:none;
+}
+
+.achievement-item{
+    padding:45px 20px;
+}
+
+}
+
+@media(max-width:767px){
+
+.proen-achievements{
+    padding:60px 0;
+}
+
+.proen-achievements-box{
+    border-radius:15px;
+}
+
+.achievement-icon{
+    width:70px;
+    height:70px;
+}
+
+.achievement-icon i{
+    font-size:30px;
+}
+
+.achievement-item h2{
+    font-size:46px;
+}
+
+.achievement-item p{
+    font-size:18px;
+}
+
+}
+
+
+
+
+/*==================================================
+        PROEN WHAT WE DO BANNER
+==================================================*/
+
+.proen-what-we-do-banner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;
+    margin-top: 160px;
+    padding: 0;
+}
+
+.proen-what-we-do-banner .proen-banner-image{
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+    transition: transform .6s ease;
+}
+
+/* Optional Hover Effect */
+.proen-what-we-do-banner:hover .proen-banner-image{
+    transform: scale(1.02);
+}
+
+/* Large Desktop */
+@media (min-width:1400px){
+
+    .proen-what-we-do-banner .proen-banner-image{
+        height: 520px;
+    }
+
+}
+
+/* Laptop */
+@media (max-width:1199px){
+
+    .proen-what-we-do-banner .proen-banner-image{
+        height: 400px;
+    }
+
+}
+
+/* Tablet */
+@media (max-width:991px){
+
+    .proen-what-we-do-banner .proen-banner-image{
+        height: 320px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width:767px){
+
+    .proen-what-we-do-banner .proen-banner-image{
+        height: 220px;
+    }
+
+}
+
+/* Small Mobile */
+@media (max-width:480px){
+
+    .proen-what-we-do-banner .proen-banner-image{
+        height: 180px;
+    }
+
 }

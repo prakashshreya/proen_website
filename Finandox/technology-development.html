@@ -24,6 +24,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+    <style>
+        .technology-development-section-one .container {
+            max-width: 1200px;
+        }
+
+        .technology-development-features .container {
+            max-width: 1200px;
+        }
+
+        .technology-development-why-choose .container {
+            max-width: 1200px;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,7 +53,7 @@
             <div class="layer layer-three"><span class="overlay"></span></div>
         </div>
 
-         <!-- Main Header -->
+        <!-- Main Header -->
         <header class="main-header">
             <!-- Header Top -->
             <div class="header-top" style="background-color: #FFFFFF; border-bottom: 1px solid #E5E5E5;">
@@ -57,19 +71,21 @@
                         <div class="top-middile">
                             <div class="contact-info">
                                 <div class="single-info">
-                                    <div class="icon-box"><i class="flaticon-call-1" style="color: #1B5EB8;"></i></div>
+                                    <!-- <i class="fas fa-phone" style="color: #1B5EB8; font-size: 20px;"></i> -->
+                                    <div class="icon-box"><i class="fas fa-phone"
+                                            style="color: #1B5EB8; font-size: 20px;"></i></div>
                                     <div class="text" style="color: #1B5EB8;">Phone Number</div>
                                     <h4><a href="tel:+917483323205" style="color: #1B5EB8;">+91 7483 323 205</a></h4>
                                 </div>
                                 <div class="single-info">
-                                    <div class="icon-box" style="color: #1B5EB8;"><i class="flaticon-email-4"></i></div>
+                                    <div class="icon-box" style="color: #1B5EB8; font-size: 20px;"><i
+                                            class="fas fa-envelope-open-text"></i></div>
                                     <div class="text" style="color: #1B5EB8;">Email Address</div>
                                     <h4><a href="mailto:contactus@proen.co.in"
                                             style="color: #1B5EB8;">contactus@proen.co.in</a></h4>
                                 </div>
                             </div>
                         </div>
-
                         <div class="top-right">
                             <a href="contact.html" class="theme-btn btn-style-two" style="
           background-color: transparent;
@@ -117,21 +133,21 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="portfolio-1.html">Case Studies</a>
+                                        <!-- <li class="dropdown"><a href="portfolio-1.html">Case Studies</a>
                                             <ul>
                                                 <li><a href="portfolio-1.html">Client Success Stories</a></li>
                                                 <li><a href="portfolio-2.html">Industries We Serve</a></li>
                                                 <li><a href="portfolio-details.html">Case Study Details</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <!-- MOVED: Announcement now comes before About Us, to match the reference layout -->
-                                        <li class="dropdown"><a href="blog-grid.html">Announcement</a>
+                                        <li><a href="announcement.html">Announcement</a>
                                         </li>
                                         <li class="dropdown"><a href="about.html">About Us</a>
                                             <ul>
                                                 <li><a href="about.html">Who We Are</a></li>
                                                 <li><a href="team.html">Leadership Team</a></li>
-                                                <li><a href="faq.html">ISO Certified</a></li>
+                                                <li><a href="iso.html">ISO Certified</a></li>
                                                 <li><a href="careers.html">Careers</a></li>
 
                                                 <li><a href="contact.html">Contact</a></li>
@@ -285,21 +301,7 @@
         </div>
 
 
-        <!-- Page Banner Section -->
-        <section class="page-banner">
-            <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
-            <div class="bottom-rotten-curve alternate"></div>
 
-            <div class="auto-container">
-                <h1>What We Do</h1>
-                <ul class="bread-crumb clearfix">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active">Services - Technology Development</li>
-                </ul>
-            </div>
-
-        </section>
-        <!--End Banner Section -->
 
         <!-- Services Section -->
 
@@ -308,12 +310,12 @@
         <!-- Part 1 -->
         <!-- ===================================================== -->
 
-        <div class="technology-development-page">
+        <div class="technology-development-page" style="margin-top: 120px;">
 
 
             <section class="technology-development-section-one">
 
-                <div class="container" style="max-width:1300px;">
+                <div class="container">
 
                     <div class="row align-items-center">
 
@@ -321,13 +323,25 @@
 
                             <div class="technology-development-content">
 
-                                <span class="technology-development-subtitle">
-                                    Technology Development
-                                </span>
 
-                                <h2>
-                                    Feature/Service Technology Development for Platform-Agnostic Solutions
+
+                                <h2 style="font-size:50px;
+                    line-height:1.2;
+                    color:#1B5EB8;
+                    font-weight:700;
+                    margin-bottom:25px;">
+                                    Technology Development
+
                                 </h2>
+
+                                <h3 style="font-size:26px;
+           font-weight:700;
+           color:#666;
+           line-height:32px;
+           margin-bottom:25px;
+           letter-spacing:-0.5px;">
+                                    Unlock the potential of your business with our cutting edge
+                                </h3>
 
                                 <p>
                                     We offer platform-agnostic features and feature/service development, enabling you to
@@ -343,8 +357,7 @@
 
                             <div class="technology-development-image">
 
-                                <img src="assets/images/services/td1.png"
-                                    alt="Technology Development">
+                                <img src="assets/images/services/td1.png" alt="Technology Development">
 
                             </div>
 
@@ -358,7 +371,7 @@
 
             <section class="technology-development-section-two">
 
-                <div class="container" style="max-width:1300px;">
+                <div class="container" style="max-width:1200px;">
 
                     <div class="row align-items-center">
 
@@ -376,7 +389,7 @@
 
                             <div class="technology-development-content">
 
-                                
+
 
                                 <h2>
                                     AI/ML Module for Legacy Data Abstraction
@@ -400,7 +413,7 @@
 
             <section class="technology-development-section-three">
 
-                <div class="container" style="max-width:1300px;">
+                <div class="container" style="max-width:1200px;">
 
                     <div class="row align-items-center">
 
@@ -408,7 +421,7 @@
 
                             <div class="technology-development-content">
 
-                               
+
 
                                 <h2>
                                     Data Analytics for Data-Driven Decision-Making
@@ -447,11 +460,11 @@
 
             <section class="technology-development-features">
 
-                <div class="container" style="max-width:1300px;">
+                <div class="container">
 
                     <div class="technology-development-features-header">
 
-                        
+
 
                         <h2>
                             Streamline Contract Management with Expertise, Customization, Integration, and Automation:
@@ -568,7 +581,7 @@
 
                     <div class="technology-development-why-choose-header">
 
-                        
+
 
                         <h2>
                             Why Choose Our Technology Development Services?
@@ -790,7 +803,7 @@
                             <div class="col-lg-4 text-lg-end text-center">
 
                                 <a href="contact.html" class="technology-development-cta-button">
-                                    Talk to an Expert
+                                    Contact Us
                                 </a>
 
                             </div>
@@ -805,86 +818,28 @@
 
         </div>
 
-      <footer class="main-footer proen-footer">
+        <footer class="main-footer proen-footer">
 
             <div class="auto-container">
 
                 <div class="widgets-section">
 
-                    <div class="row clearfix">
-
-                        <!-- Company Info -->
-                        <div class="column col-lg-4 col-md-6">
-
-                            <div class="footer-widget about-widget">
-
-                                <div class="footer-logo">
-
-                                    <a href="index.html">
-
-                                        <img src="assets/images/proen-logo.png" alt="PROEN Consulting Services">
-
-                                    </a>
-
-                                </div>
-
-                                <p>
-                                    PROEN Consulting Services is a leading AI-driven Contract Lifecycle
-                                    Management (CLM) consulting company helping enterprises accelerate
-                                    digital transformation through consulting, implementation,
-                                    managed services, AI-powered contract intelligence, staff
-                                    augmentation, and legacy contract digitization.
-                                </p>
-
-                                <div class="footer-social">
-
-                                    <a href="https://www.linkedin.com/company/proen-clm/posts/" aria-label="LinkedIn">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-
-                                    <a href="https://www.facebook.com/profile.php?id=100083807522389" aria-label="Facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-
-                                    <a href="https://x.com/Proen05540198" aria-label="Twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-
-                                    <a href="https://www.instagram.com/proenconsultingservices/" aria-label="Instagram">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-
-
-                                </div>
-
-                            </div>
-
-                        </div>
+                    <div class="row">
 
                         <!-- Quick Links -->
-
-                        <div class="column col-lg-2 col-md-6">
+                        <div class="col-lg-3 col-md-6">
 
                             <div class="footer-widget">
 
-                                <h3>
-                                    Quick Links
-                                </h3>
+                                <h3>Quick Links</h3>
 
                                 <ul class="footer-links">
-
                                     <li><a href="index.html">Home</a></li>
-
                                     <li><a href="about.html">About Us</a></li>
-
                                     <li><a href="services.html">Services</a></li>
-
                                     <li><a href="blog-grid.html">Announcements</a></li>
-
                                     <li><a href="careers.html">Careers</a></li>
-
                                     <li><a href="contact.html">Contact Us</a></li>
-
                                 </ul>
 
                             </div>
@@ -892,64 +847,43 @@
                         </div>
 
                         <!-- Services -->
-
-                        <div class="column col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6">
 
                             <div class="footer-widget">
 
-                                <h3>
-                                    Our Services
-                                </h3>
+                                <h3>Our Services</h3>
 
                                 <ul class="footer-links">
 
-                                    <li>
-                                        <a href="ai-enabled-clm.html">
-                                            AI-Powered CLM
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="consultation-on-clm-service.html">
+                                    <li><a href="ai-enabled-clm.html">AI-Powered CLM</a></li>
+
+                                    <li><a href="consultation-on-clm-service.html">
                                             Consultation on CLM Implementation
-                                        </a>
-                                    </li>
+                                        </a></li>
 
-                                    <li>
-                                        <a href="technology-development.html">
+                                    <li><a href="technology-development.html">
                                             Technology Development
-                                        </a>
-                                    </li>
+                                        </a></li>
 
-                                    <li>
-                                        <a href="managed-services.html">
+                                    <li><a href="managed-services.html">
                                             Managed Services
-                                        </a>
-                                    </li>
+                                        </a></li>
 
-                                    <li>
-                                        <a href="staff-augmentation.html">
+                                    <li><a href="staff-augmentation.html">
                                             Staff Augmentation
-                                        </a>
-                                    </li>
+                                        </a></li>
 
-                                    <li>
-                                        <a href="paralegal-service.html">
+                                    <li><a href="paralegal-service.html">
                                             Paralegal Services
-                                        </a>
-                                    </li>
+                                        </a></li>
 
-                                    <li>
-                                        <a href="data-extraction-service.html">
+                                    <li><a href="data-extraction-service.html">
                                             Data Extraction as a Service
-                                        </a>
-                                    </li>
+                                        </a></li>
 
-                                    <li>
-                                        <a href="digital-transformation-service.html">
-                                            Digital Transformation On CLM
-                                        </a>
-                                    </li>
-
+                                    <li><a href="digital-transformation-service.html">
+                                            Digital Transformation on CLM
+                                        </a></li>
 
                                 </ul>
 
@@ -957,108 +891,102 @@
 
                         </div>
 
-                        <!-- Contact & Offices -->
-
-                        <div class="column col-lg-3 col-md-6">
+                        <!-- Branches -->
+                        <div class="col-lg-3 col-md-6">
 
                             <div class="footer-widget">
 
-                                <h3>
-                                    Contact & Offices
-                                </h3>
+                                <h3>Branches</h3>
 
-                                <div class="footer-contact">
+                                <div class="footer-office">
 
-                                    <!-- Email -->
+                                    <div class="office-item">
 
-                                    <div class="contact-item">
-
-                                        <i class="flaticon-email-6"></i>
-
-                                        <div>
-
-                                            <a href="mailto:contactus@proen.co.in">
-                                                contactus@proen.co.in
-                                            </a>
-
+                                        <div class="office-icon">
+                                            <i class="fas fa-map-marker-alt"></i>
                                         </div>
 
-                                    </div>
-
-                                    <!-- Phone -->
-
-                                    <div class="contact-item">
-
-                                        <i class="flaticon-call-1"></i>
-
                                         <div>
 
-                                            <a href="tel:+917483323205">
-                                                +91 74833 23205
-                                            </a>
+                                            <h5>Belagavi</h5>
 
-                                        </div>
 
-                                    </div>
-
-                                    <!-- Bengaluru -->
-
-                                    <div class="contact-item">
-
-                                        <i class="flaticon-location"></i>
-
-                                        <div>
-
-                                            <strong>Head Office (Bengaluru)</strong>
-
-                                            <br>
-
-                                            878, 5th Block, 1st Stage,
-                                            HBR Layout,
-                                            Bengaluru - 560043
-
-                                        </div>
-
-                                    </div>
-
-                                    <!-- Belagavi -->
-
-                                    <div class="contact-item">
-
-                                        <i class="flaticon-location"></i>
-
-                                        <div>
-
-                                            <strong>Belagavi</strong>
-
-                                            <br>
-
-                                            Panchavati Plaza,
-                                            202, Deshmukh Road,
-                                            Near 1st Railway Gate,
+                                            Panchavati Plaza,<br>
+                                            202, Deshmukh Road,<br>
+                                            Near 1st Railway Gate,<br>
                                             Belagavi - 590006
 
+
                                         </div>
 
                                     </div>
 
-                                    <!-- Davanagere -->
+                                    <div class="office-item">
 
-                                    <div class="contact-item">
-
-                                        <i class="flaticon-location"></i>
+                                        <div class="office-icon">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
 
                                         <div>
 
-                                            <strong>Davanagere</strong>
+                                            <h5>Davanagere</h5>
 
-                                            <br>
 
-                                            PB Road,
-                                            Near Big Bazar,
+                                            PB Road,<br>
+                                            Near Big Bazar,<br>
                                             Davanagere - 577002
 
+
                                         </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Head Office -->
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="footer-widget">
+
+                                <h3>Head Office</h3>
+
+                                <div class="office-item">
+
+                                    <div class="office-icon">
+                                        <i class="fas fa-building"></i>
+                                    </div>
+
+                                    <div>
+
+                                        <h5>Bengaluru</h5>
+
+
+                                        878, 5th Block,<br>
+                                        1st Stage, HBR Layout,<br>
+                                        Bengaluru - 560043
+
+
+                                    </div>
+
+                                </div>
+
+                                <div class="footer-social-area">
+
+                                    <h4>Be Part of Our Journey</h4>
+
+                                    <div class="footer-social">
+
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
 
                                     </div>
 
@@ -1074,45 +1002,17 @@
 
             </div>
 
-            <!-- Footer Bottom -->
-
             <div class="footer-bottom">
 
                 <div class="auto-container">
 
-                    <div class="row align-items-center">
+                    <p>
 
-                        <div class="col-lg-6">
+                        Copyright © 2026 PROEN Consulting Services Pvt. Ltd.
+                        Subsidiary of Carvewing Solutions.
+                        All Rights Reserved.
 
-                            <p>
-
-                                © 2026 PROEN Consulting Services Pvt. Ltd.
-
-                                All Rights Reserved.
-
-                            </p>
-
-                        </div>
-
-                        <div class="col-lg-6 text-lg-right">
-
-                            <a href="privacy-policy.html">
-
-                                Privacy Policy
-
-                            </a>
-
-                            <span>|</span>
-
-                            <a href="terms-and-conditions.html">
-
-                                Terms & Conditions
-
-                            </a>
-
-                        </div>
-
-                    </div>
+                    </p>
 
                 </div>
 
