@@ -16297,12 +16297,12 @@ PROEN + Icertis
 }
 
 .tag-one{
-    top:12%;
+    top:27%;
     left:0;
 }
 
 .tag-two{
-    top:35%;
+    top:53%;
     right:-15px;
     animation-delay:1s;
 }
@@ -18382,5 +18382,631 @@ display:inline-flex;
     .proen-what-we-do-banner .proen-banner-image{
         height: 180px;
     }
+
+}
+
+
+/*==================================================
+  PROEN Journey Section
+==================================================*/
+
+.proen-journey-section{
+    background:#ffffff;
+    padding:100px 0;
+}
+
+.proen-journey-subtitle{
+    display:inline-block;
+    color:#F69323;
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    margin-bottom:12px;
+}
+
+.proen-journey-title{
+    color:#1B5EB8;
+    font-size:42px;
+    font-weight:700;
+    line-height:1.2;
+    margin-bottom:0;
+}
+
+.proen-journey-image img{
+    width:100%;
+    max-width:1150px;
+    border-radius:18px;
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
+    border:1px solid #E7EEF7;
+}
+
+.proen-journey-content{
+    background:#fff;
+    border:1px solid #E7EEF7;
+    border-radius:18px;
+    padding:45px;
+    box-shadow:0 15px 45px rgba(0,0,0,.06);
+}
+
+.proen-journey-content p{
+    color:#4E5A68;
+    font-size:18px;
+    line-height:1.9;
+    margin-bottom:24px;
+}
+
+@media (max-width:991px){
+
+    .proen-journey-section{
+        padding:80px 0;
+    }
+
+    .proen-journey-title{
+        font-size:34px;
+    }
+
+    .proen-journey-content{
+        padding:35px;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .proen-journey-title{
+        font-size:28px;
+    }
+
+    .proen-journey-content{
+        padding:25px;
+    }
+
+    .proen-journey-content p{
+        font-size:16px;
+        line-height:1.8;
+    }
+
+}
+
+
+/*==============================
+    LIFE AT PROEN GALLERY
+===============================*/
+
+.gallery-section{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.gallery-section .container{
+    width:90%;
+    max-width:1320px;
+    margin:auto;
+}
+
+/* Heading */
+
+.heading{
+    text-align:center;
+    max-width:850px;
+    margin:0 auto 60px;
+}
+
+.gallery-badge{
+    display:inline-block;
+    padding:8px 20px;
+    background:#E8F1FF;
+    color:#F69323;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.heading h2{
+    font-size:42px;
+    font-weight:700;
+    color:#1B5EB8;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.heading p{
+    font-size:17px;
+    color:#6B7280;
+    line-height:1.8;
+}
+
+/*==============================
+        GALLERY
+===============================*/
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:28px;
+}
+
+.gallery-item{
+    display:none;
+    border-radius:20px;
+    overflow:hidden;
+    background:#fff;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.4s ease;
+}
+
+.gallery-item.show{
+    display:block;
+}
+
+.gallery-item img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    display:block;
+    transition:transform .6s ease;
+}
+
+.gallery-item:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+}
+
+.gallery-item:hover img{
+    transform:scale(1.08);
+}
+
+/*==============================
+        BUTTON
+===============================*/
+
+.btn-area{
+    text-align:center;
+    margin-top:60px;
+}
+
+#loadMore{
+    background:#2563EB;
+    color:#fff;
+    border:none;
+    padding:15px 36px;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s ease;
+}
+
+#loadMore:hover{
+    background:#1D4ED8;
+    transform:translateY(-2px);
+}
+
+/*==============================
+        RESPONSIVE
+===============================*/
+
+@media(max-width:992px){
+
+.gallery-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.heading h2{
+font-size:34px;
+}
+
+.gallery-item img{
+height:280px;
+}
+
+}
+
+@media(max-width:768px){
+
+.gallery-grid{
+grid-template-columns:1fr;
+}
+
+.heading h2{
+font-size:28px;
+}
+
+.heading p{
+font-size:16px;
+}
+
+.gallery-item img{
+height:250px;
+}
+
+#loadMore{
+width:100%;
+max-width:260px;
+}
+
+}
+
+
+/* ===================================================
+Blog CSS 
+====================================================== */
+
+/*==========================================
+        BLOG LAYOUT
+==========================================*/
+
+.blog-layout{
+    display:grid;
+    grid-template-columns:2.1fr 340px;
+    gap:40px;
+    align-items:flex-start;
+}
+
+.blog-main{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+
+/*==========================================
+        BLOG CARD
+==========================================*/
+
+.blog-item{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    background:#ffffff;
+    border:1px solid #e7edf5;
+    border-radius:12px;
+    padding:16px;
+    transition:all .35s ease;
+    overflow:hidden;
+}
+
+.blog-item:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(23,55,94,.10);
+    border-color:#d9e5f4;
+}
+
+.blog-image{
+    width:220px;
+    flex-shrink:0;
+}
+
+.blog-image img{
+    width:100%;
+    height:145px;
+    object-fit:cover;
+    border-radius:10px;
+    display:block;
+}
+
+.blog-content{
+    flex:1;
+}
+
+.blog-content h3{
+    margin:0;
+    font-size:20px;
+    font-weight:600;
+    line-height:1.5;
+}
+
+.blog-content h3 a{
+    text-decoration:none;
+    color:#1B5EB8;
+    transition:.3s;
+}
+
+.blog-content h3 a:hover{
+    color:#1b1b1b;
+}
+
+.blog-meta{
+    display:flex;
+    flex-wrap:wrap;
+    gap:18px;
+    margin:12px 0 15px;
+    font-size:14px;
+    color:#7d8794;
+}
+
+.blog-meta span{
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+
+.blog-meta i{
+    color:#F69323;
+}
+
+.read-more{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    font-size:15px;
+    font-weight:600;
+    color:#F69323;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.read-more:hover{
+    color:#17375E;
+}
+
+.read-more i{
+    transition:.3s;
+}
+
+.read-more:hover i{
+    transform:translateX(5px);
+}
+
+
+/*==========================================
+        SIDEBAR
+==========================================*/
+
+.blog-sidebar{
+    position:sticky;
+    top:110px;
+}
+
+.sidebar-widget{
+    background:#ffffff;
+    border:1px solid #e8edf5;
+    border-radius:12px;
+    padding:24px;
+    margin-bottom:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+}
+
+.sidebar-widget h3{
+    margin:0 0 18px;
+    color:#1B5EB8;
+    font-size:20px;
+    font-weight:600;
+    position:relative;
+    padding-bottom:10px;
+}
+
+.sidebar-widget h3::after{
+    content:"";
+    width:45px;
+    height:3px;
+    background:#F69323;
+    position:absolute;
+    left:0;
+    bottom:0;
+    border-radius:20px;
+}
+
+
+/*==========================================
+        SEARCH BOX
+==========================================*/
+
+.sidebar-widget form{
+    display:flex;
+}
+
+.sidebar-widget input{
+    flex:1;
+    height:48px;
+    padding:0 16px;
+    font-size:14px;
+    border:1px solid #d7dfe9;
+    border-right:none;
+    border-radius:8px 0 0 8px;
+    outline:none;
+    transition:.3s;
+}
+
+.sidebar-widget input:focus{
+    border-color:#17375E;
+}
+
+.sidebar-widget button{
+    width:55px;
+    border:none;
+    background:#17375E;
+    color:#fff;
+    cursor:pointer;
+    border-radius:0 8px 8px 0;
+    transition:.3s;
+}
+
+.sidebar-widget button:hover{
+    background:#F69323;
+}
+
+
+/*==========================================
+        RECENT BLOGS
+==========================================*/
+
+.recent-posts{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.recent-posts li{
+    border-bottom:1px solid #edf1f6;
+}
+
+.recent-posts li:last-child{
+    border-bottom:none;
+}
+
+.recent-posts a{
+    display:block;
+    padding:15px 0;
+    color:#5c6470;
+    font-size:15px;
+    line-height:1.6;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.recent-posts a:hover{
+    color:#F69323;
+    padding-left:6px;
+}
+
+
+/*==========================================
+        PAGINATION
+==========================================*/
+
+.pagination{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+.page-btn,
+.page-number{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-width:46px;
+    height:46px;
+    padding:0 18px;
+    border:1px solid #d8e2ed;
+    border-radius:8px;
+    background:#ffffff;
+    color:#17375E;
+    text-decoration:none;
+    font-weight:600;
+    font-size:15px;
+    transition:.3s;
+}
+
+.page-number.active{
+    background:#17375E;
+    border-color:#17375E;
+    color:#fff;
+}
+
+.page-btn:hover,
+.page-number:hover{
+    background:#F69323;
+    border-color:#F69323;
+    color:#fff;
+}
+
+
+/*==========================================
+        RESPONSIVE
+==========================================*/
+
+@media (max-width:992px){
+
+.blog-layout{
+    grid-template-columns:1fr;
+}
+
+.blog-sidebar{
+    position:static;
+    margin-top:10px;
+}
+
+}
+
+@media (max-width:768px){
+
+.blog-item{
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.blog-image{
+    width:100%;
+}
+
+.blog-image img{
+    width:100%;
+    height:220px;
+}
+
+.blog-content h3{
+    font-size:18px;
+}
+
+.blog-meta{
+    flex-direction:column;
+    gap:8px;
+    margin:10px 0;
+}
+
+.sidebar-widget{
+    padding:20px;
+}
+
+.sidebar-widget h3{
+    font-size:18px;
+}
+
+}
+
+@media (max-width:576px){
+
+.blog-layout{
+    gap:25px;
+}
+
+.blog-item{
+    padding:14px;
+}
+
+.blog-image img{
+    height:200px;
+}
+
+.blog-content h3{
+    font-size:17px;
+    line-height:1.5;
+}
+
+.blog-meta{
+    font-size:13px;
+}
+
+.read-more{
+    font-size:14px;
+}
+
+.page-btn,
+.page-number{
+    min-width:40px;
+    height:40px;
+    font-size:14px;
+    padding:0 14px;
+}
+
+.sidebar-widget{
+    padding:18px;
+}
+
+.sidebar-widget input{
+    height:44px;
+}
+
+.sidebar-widget button{
+    height:44px;
+    width:50px;
+}
 
 }

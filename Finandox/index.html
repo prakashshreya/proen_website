@@ -132,6 +132,7 @@
                                         <!-- MOVED: Announcement now comes before About Us, to match the reference layout -->
                                         <li><a href="announcement.html">Announcement</a>
                                         </li>
+                                        <li><a href="blog.html">Blogs</a></li>
                                         <li class="dropdown"><a href="about.html">About Us</a>
                                             <ul>
                                                 <li><a href="about.html">Who We Are</a></li>
@@ -140,6 +141,8 @@
                                                 <li><a href="careers.html">Careers</a></li>
 
                                                 <li><a href="contact.html">Contact</a></li>
+
+                                                <li><a href="meet-the-team.html">Meet The Team</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -561,7 +564,8 @@
                         <div class="content-box">
                             <div class="sec-title">
                                 <div>
-                                    <p style="font-size: 30px; color: #1B5EB8; font-weight: bold;"> About US</p>
+                                    <p style="font-size: 30px; color: #1B5EB8; font-weight: bold;"> Your Trusted CLM
+                                        Partner</p>
                                 </div>
                                 <div class="text">PROEN Consulting Services brings cutting-edge, end-to-end Contract
                                     Lifecycle Management (CLM) expertise to organizations across industries — helping
@@ -688,40 +692,83 @@
                             <div class="sec-title">
 
                                 <div>
-                                    <p style="font-size: 30px; color: #1B5EB8; font-weight: bold;">Why Choose Us</p>
+                                    <p style="font-size: 30px; color: #1B5EB8; font-weight: bold;">Our Vision, Mission &
+                                        Values</p>
                                 </div>
                             </div>
 
                             <!-- Tabs -->
                             <ul class="nav nav-tabs tab-btn-style-one" role="tablist">
+
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="tab-one-area" data-toggle="tab" href="#tab-one"
-                                        role="tab" aria-selected="true">
+                                    <a class="nav-link active" id="mission-tab" data-toggle="tab" href="#mission"
+                                        role="tab" aria-controls="mission" aria-selected="true">
                                         Our Mission
                                     </a>
                                 </li>
+
                                 <li class="nav-item">
-                                    <a class="nav-link" id="tab-two-area" data-toggle="tab" href="#tab-two" role="tab"
-                                        aria-selected="false">
+                                    <a class="nav-link" id="vision-tab" data-toggle="tab" href="#vision" role="tab"
+                                        aria-controls="vision" aria-selected="false">
                                         Our Vision
                                     </a>
                                 </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" id="values-tab" data-toggle="tab" href="#values" role="tab"
+                                        aria-controls="values" aria-selected="false">
+                                        Our Values
+                                    </a>
+                                </li>
+
                             </ul>
+                            <div class="tab-content mt-4">
 
-                            <!-- Tab Content -->
-                            <div class="tab-content">
+                                <!-- Mission -->
+                                <div class="tab-pane fade show active" id="mission" role="tabpanel"
+                                    aria-labelledby="mission-tab">
 
-                                <div class="tab-pane active" id="tab-one" role="tabpanel"
-                                    aria-labelledby="tab-one-area">
-                                    <p>To empower, support, and grow everyone in the value chain of the contracting
-                                        solution by providing "Quality" service offerings that help reduce risk, improve
-                                        compliance, and let organizations react to the market swiftly.</p>
+                                    <p>
+                                        To empower, support, and grow everyone in the value chain of the
+                                        contracting solution by providing <strong>"Quality"</strong> service
+                                        offerings that help reduce risk, improve compliance, and let
+                                        organizations react to the market swiftly. We strive to build
+                                        long-term partnerships by delivering innovation, expertise, and
+                                        measurable business value.
+                                    </p>
 
                                 </div>
 
-                                <div class="tab-pane" id="tab-two" role="tabpanel" aria-labelledby="tab-two-area">
-                                    <p>To become the most recognized and trusted service provider in contract management
-                                        across all industry verticals.</p>
+                                <!-- Vision -->
+                                <div class="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="vision-tab">
+
+                                    <p>
+                                        To become the most recognized and trusted service provider in
+                                        contract management across all industry verticals. We aspire to set
+                                        the benchmark for innovation, excellence, and customer success in
+                                        the global CLM ecosystem.
+                                    </p>
+
+                                </div>
+
+                                <!-- Values -->
+                                <div class="tab-pane fade" id="values" role="tabpanel" aria-labelledby="values-tab">
+
+                                    <div class="value-item">
+                                        <p>Teamwork</p>
+                                    </div>
+
+                                    <div class="value-item">
+                                        <p>Customer Focus</p>
+                                    </div>
+
+                                    <div class="value-item">
+                                        <p>Accountability</p>
+                                    </div>
+
+                                    <div class="value-item">
+                                        <p>Change Champion</p>
+                                    </div>
 
                                 </div>
 
@@ -890,9 +937,10 @@
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About Us</a></li>
                                     <li><a href="services.html">Services</a></li>
-                                    <li><a href="blog-grid.html">Announcements</a></li>
+                                    <li><a href="announcement.html">Announcements</a></li>
                                     <li><a href="careers.html">Careers</a></li>
                                     <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="blog.html">Blogs</a></li>
                                 </ul>
 
                             </div>
@@ -930,9 +978,7 @@
                                             Paralegal Services
                                         </a></li>
 
-                                    <li><a href="data-extraction-service.html">
-                                            Data Extraction as a Service
-                                        </a></li>
+
 
                                     <li><a href="digital-transformation-service.html">
                                             Digital Transformation on CLM
@@ -1033,13 +1079,16 @@
 
                                     <div class="footer-social">
 
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://linkedin.com/company/proen-clm"><i
+                                                class="fab fa-linkedin-in"></i></a>
 
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://facebook.com/PROEN-108742391902817"><i
+                                                class="fab fa-facebook-f"></i></a>
 
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://twitter.com/Proen05540198"><i class="fab fa-twitter"></i></a>
 
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://instagram.com/proenconsultingservices"><i
+                                                class="fab fa-instagram"></i></a>
 
                                     </div>
 
