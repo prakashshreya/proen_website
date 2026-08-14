@@ -32,19 +32,357 @@ blockquote{margin:30px 0;padding:24px;border-left:4px solid #F69323;background:#
 .contact-cta{margin:45px 0;padding:45px;background:linear-gradient(135deg,#17375E,#1B5EB8);border-radius:16px;text-align:center;color:#fff}
 .cta-btn{display:inline-block;margin-top:18px;padding:14px 28px;background:#F69323;color:#fff;text-decoration:none;border-radius:8px;font-weight:600}
 .blog-sources a{color:#1B5EB8}
-.post-navigation{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:50px 0}
-.post-card{background:#fff;border:1px solid #e5e7eb;padding:24px;border-radius:12px;text-decoration:none}
-.post-card h4{font-size:18px;color:#17375E}
-.comment-section{margin-top:60px}
-.form-row{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.form-group{margin-bottom:18px}
-.comment-form input,.comment-form textarea{width:100%;padding:14px;border:1px solid #d1d5db;border-radius:8px;font-size:15px}
-.comment-form input:focus,.comment-form textarea:focus{outline:none;border-color:#1B5EB8}
-.comment-btn{background:#17375E;color:#fff;border:0;padding:14px 30px;border-radius:8px;cursor:pointer}
-.comment-btn:hover{background:#F69323}
+
+
+/*==========================================
+        COMPACT POST NAVIGATION
+==========================================*/
+
+.post-navigation{
+    display:flex;
+    gap:18px;
+    margin:40px 0;
+}
+
+.post-card{
+    flex:1;
+    padding:18px 22px;
+    background:#fff;
+    border:1px solid #e8edf5;
+    border-radius:12px;
+    text-decoration:none;
+    transition:.3s;
+    min-height:95px;
+    position:relative;
+    overflow:hidden;
+    
+}
+
+.post-card::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background:#F69323;
+}
+
+.post-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    border-color:#17375E;
+}
+
+.post-card span{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    font-size:15px;
+    font-weight:600;
+    text-transform:uppercase;
+    color:#F69323;
+    margin-bottom:8px;
+    letter-spacing:.5px;
+}
+
+.post-card h4{
+    margin:0;
+    font-size:16px;
+    line-height:1.5;
+    font-weight:600;
+    color:#17375E;
+    transition:.3s;
+}
+
+.post-card:hover h4{
+    color:#1B5EB8;
+}
+
+.post-card.prev{
+    text-align:left;
+}
+
+.post-card.next{
+    text-align:right;
+}
+
+@media(max-width:768px){
+
+    .post-navigation{
+        flex-direction:column;
+    }
+
+    .post-card.next{
+        text-align:left;
+    }
+
+}
+
+
+/*==========================================
+        COMMENT SECTION
+==========================================*/
+
+.comment-section{
+    margin-top:70px;
+    padding:40px;
+    background:#ffffff;
+    border:1px solid #e8edf5;
+    border-radius:18px;
+    box-shadow:0 10px 35px rgba(0,0,0,.06);
+}
+
+.comment-section h3{
+    font-size:28px;
+    color:#17375E;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.comment-section p{
+    color:#6b7280;
+    margin-bottom:30px;
+    font-size:15px;
+    line-height:1.7;
+}
+
+
+/*==========================================
+        FORM LAYOUT
+==========================================*/
+
+.form-row{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:24px;
+}
+
+.form-group{
+    margin-bottom:22px;
+}
+
+.form-group.full-width{
+    grid-column:1 / -1;
+}
+
+
+/*==========================================
+        INPUTS
+==========================================*/
+
+.comment-form input,
+.comment-form textarea{
+
+    width:100%;
+
+    padding:15px 18px;
+
+    border:1px solid #dbe4ef;
+
+    border-radius:12px;
+
+    background:#f9fbfd;
+
+    color:#17375E;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+.comment-form textarea{
+
+    min-height:180px;
+
+    resize:vertical;
+
+}
+
+.comment-form input::placeholder,
+.comment-form textarea::placeholder{
+
+    color:#94a3b8;
+
+}
+
+.comment-form input:focus,
+.comment-form textarea:focus{
+
+    outline:none;
+
+    border-color:#1B5EB8;
+
+    background:#ffffff;
+
+    box-shadow:0 0 0 4px rgba(27,94,184,.10);
+
+}
+
+
+/*==========================================
+        BUTTON
+==========================================*/
+
+.comment-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    padding:15px 32px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#17375E;
+
+    color:#ffffff;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.comment-btn:hover{
+
+    background:#F69323;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(246,147,35,.30);
+
+}
+
+
+/*==========================================
+        MOBILE
+==========================================*/
+
+@media(max-width:768px){
+
+    .comment-section{
+
+        padding:25px;
+
+    }
+
+    .form-row{
+
+        grid-template-columns:1fr;
+
+        gap:18px;
+
+    }
+
+    .form-group.full-width{
+
+        grid-column:auto;
+
+    }
+
+    .comment-btn{
+
+        width:100%;
+
+    }
+
+}
 @media(max-width:768px){
 .blog-header h1{font-size:30px}
 .blog-content{padding:25px}
 .post-navigation,.form-row{grid-template-columns:1fr}
 .meta{flex-direction:column;gap:8px}
+}
+
+
+
+/*==========================================
+        CHECKBOX GROUP
+==========================================*/
+
+.checkbox-group{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    margin:25px 0 30px;
+}
+
+.checkbox-group input[type="checkbox"]{
+    width:18px;
+    height:18px;
+    margin-top:3px;
+    cursor:pointer;
+    accent-color:#17375E;
+    flex-shrink:0;
+}
+
+.checkbox-group label{
+    font-size:15px;
+    line-height:1.7;
+    color:#5c6470;
+    cursor:pointer;
+    user-select:none;
+}
+
+
+/*==========================================
+        COMMENT BUTTON
+==========================================*/
+
+.comment-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:14px 30px;
+    background:#17375E;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .3s ease;
+    box-shadow:0 8px 20px rgba(23,55,94,.15);
+}
+
+.comment-btn:hover{
+    background:#F69323;
+    transform:translateY(-2px);
+    box-shadow:0 12px 28px rgba(246,147,35,.25);
+}
+
+
+/*==========================================
+        MOBILE
+==========================================*/
+
+@media (max-width:768px){
+
+    .checkbox-group{
+        align-items:flex-start;
+        gap:10px;
+    }
+
+    .checkbox-group label{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .comment-btn{
+        width:100%;
+        justify-content:center;
+    }
+
 }

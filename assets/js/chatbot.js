@@ -642,7 +642,7 @@ function sendMessage() {
                 throw new Error("Server Error : " + response.status);
 
             }
-
+            
             return response.json();
 
         })

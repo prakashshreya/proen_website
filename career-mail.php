@@ -416,7 +416,7 @@ Cover Letter / Message
 <h3>Resume Attached</h3>
 
 <p>
-The candidate''s resume has been attached to this email for your review.
+The candidate\'s resume has been attached to this email for your review.
 </p>
 
 </div>

@@ -3,6 +3,11 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
+$dotenv->safeLoad();
+
 require_once __DIR__.'/../PHPMailer/src/Exception.php';
 require_once __DIR__.'/../PHPMailer/src/PHPMailer.php';
 require_once __DIR__.'/../PHPMailer/src/SMTP.php';
@@ -33,30 +38,17 @@ function sendLeadEmail($lead)
     $mail->isSMTP();
 
 
-    // PROEN SMTP Server
-    $mail->Host = "smtp.gmail.com";
+    $mail->Host = $_ENV['SMTP_HOST'];
 
-
-    // Enable SMTP Authentication
     $mail->SMTPAuth = true;
 
+    $mail->Username = $_ENV['SMTP_USERNAME'];
 
+    $mail->Password = $_ENV['SMTP_PASSWORD'];
 
-    // Your PROEN Email ID
-    $mail->Username = "darshanardarshanar@gmail.com";
-
-
-    // Your Email Password / App Password
-    $mail->Password = "xfqw ibuk frfq bant";
-
-
-
-    // Encryption
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 
-
-    // SMTP Port
-    $mail->Port = 587;
+    $mail->Port = (int) $_ENV['SMTP_PORT'];
 
 
 
@@ -68,11 +60,8 @@ function sendLeadEmail($lead)
 
 
     $mail->setFrom(
-
-        "darshanardarshanar@gmail.com",
-
-        "PROEN Website Enquiry"
-
+        $_ENV['MAIL_FROM'],
+        $_ENV['MAIL_FROM_NAME']
     );
 
 
@@ -85,11 +74,8 @@ function sendLeadEmail($lead)
 
 
     $mail->addAddress(
-
-        "darshanardarshanar@gmail.com",
-
-        "PROEN Consulting Services"
-
+        $_ENV['MAIL_TO'],
+        $_ENV['MAIL_TO_NAME']
     );
 
 
@@ -523,7 +509,9 @@ function sendLeadEmail($lead)
     */
 
 
-    $mail->send();
+    if (!$mail->send()) {
+        throw new Exception($mail->ErrorInfo);
+    }
 
     return true;
 }
